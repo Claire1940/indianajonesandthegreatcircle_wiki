@@ -35,25 +35,25 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['beginner guide', 'base camp', 'exploration', 'osmium', 'frost pick'],
+  lucidBlocksApotheosisCrafting: ['adventure progression', 'fusion', 'journal', 'crafting', 'azrael'],
+  lucidBlocksToolsAndWeapons: ['tools and weapons', 'tendril rapier', 'hookshot', 'bee glider', 'explosives'],
+  lucidBlocksStorageAndInventory: ['storage', 'inventory', 'cache cube', 'cabinet', 'journal tracking'],
+  lucidBlocksQualiaAndBaseBuilding: ['adventure books', 'punch out', 'lucky hat', 'moxie', 'shaping up'],
+  lucidBlocksWorldRegions: ['trophies', 'achievements', 'playstation', 'xbox', 'archivist'],
+  lucidBlocksCreaturesAndEnemies: ['order of giants', 'dlc', 'vatican', 'villa pia', 'mysteries'],
+  lucidBlocksMobilityGear: ['platforms', 'pc requirements', 'game pass', 'steam', 'switch 2', 'ray tracing'],
+  lucidBlocksFarmingAndGrowth: ['farming', 'seed progression', 'mercury capsule', 'slimes', 'tendrils'],
+  lucidBlocksBestEarlyUnlocks: ['best early unlocks', 'base camp', 'cache cube', 'hookshot', 'glider glove'],
+  lucidBlocksAchievementTracker: ['steam achievements', 'exploration', 'crafting', 'mobility', 'combat'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['singleplayer', 'multiplayer', 'co-op', 'price', 'translations'],
+  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton 9 0 4', 'keyboard and mouse'],
+  lucidBlocksSettingsAndAccessibility: ['settings', 'accessibility', 'vulkan', 'display', 'language support'],
+  lucidBlocksUpdatesAndPatchNotes: ['patch notes', 'update 2 8 2', 'hotfix', 'start-up crashes'],
+  lucidBlocksCrashFixAndTroubleshooting: ['crash fix', 'troubleshooting', 'vulkan support', 'proton', 'crash logs'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['indiana', 'jones', 'great', 'circle', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,10 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of game name variants)
+  const gameNameRegex = /(?:indiana jones and (?:the )?great circle|indiana jones|great circle)\s*/g
+  const strippedQuery = normalizedQuery.replace(gameNameRegex, '').trim()
+  const strippedTitle = normalizedTitle.replace(gameNameRegex, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
