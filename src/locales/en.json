@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Indiana Jones and the Great Circle Wiki - Walkthrough, Puzzles & Collectibles",
+      "description": "Indiana Jones and the Great Circle Wiki with story walkthroughs, safe codes, puzzle solutions, relic maps, achievement tracking, and DLC preparation guides.",
+      "keywords": "Indiana Jones and the Great Circle, walkthrough, safe codes, puzzle solutions, relics, achievements, DLC",
+      "ogTitle": "Indiana Jones and the Great Circle Wiki - Walkthrough, Puzzles & Collectibles",
+      "ogDescription": "Indiana Jones and the Great Circle Wiki with story walkthroughs, safe codes, puzzle solutions, relic maps, achievement tracking, and DLC preparation guides.",
+      "twitterTitle": "Indiana Jones and the Great Circle Wiki - Walkthrough, Puzzles & Collectibles",
+      "twitterDescription": "Indiana Jones and the Great Circle Wiki for walkthrough routes, puzzle answers, relic maps, and safe code references."
     }
   },
   "nav": {},
@@ -52,109 +52,109 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Indiana Jones and the Great Circle Gameplay",
+    "description": "Follow cinematic exploration, puzzle-solving, stealth, and whip traversal across Vatican, Gizeh, Himalayas, Shanghai, and Sukhothai."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Indiana Jones and the Great Circle",
+    "titleHighlight": "Module Navigation",
+    "subtitle": "Jump to every Indiana Jones and the Great Circle homepage module",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Indiana Jones and the Great Circle Walkthrough",
+        "description": "Main story route, chapter order, and completion flow."
       },
       {
         "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "title": "Indiana Jones and the Great Circle Safe Codes",
+        "description": "Fast access to safes, chests, and lock combinations."
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Indiana Jones and the Great Circle Puzzle Solutions",
+        "description": "Quick solutions for major puzzle blockers by region."
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Indiana Jones and the Great Circle Collectibles",
+        "description": "Track relics, notes, books, and key cleanup categories."
       },
       {
         "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "title": "Indiana Jones and the Great Circle Adventure Books",
+        "description": "Upgrade book locations and best progression picks."
       },
       {
         "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "title": "Indiana Jones and the Great Circle World Regions",
+        "description": "Area overviews for Vatican, Gizeh, and Sukhothai routes."
       },
       {
         "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "title": "Indiana Jones and the Great Circle Combat Guide",
+        "description": "Whip, stealth, and encounter fundamentals."
       },
       {
         "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
+        "title": "Indiana Jones and the Great Circle Mobility Guide",
+        "description": "Boat routes, traversal options, and movement tips."
       },
       {
         "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Indiana Jones and the Great Circle Resource Farming",
+        "description": "Efficient money and material collection routes."
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Indiana Jones and the Great Circle Early Priorities",
+        "description": "Best first unlocks and practical early-game choices."
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "title": "Indiana Jones and the Great Circle Achievement Tracker",
+        "description": "Structured checklist for Steam and platform progress."
       },
       {
         "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Indiana Jones and the Great Circle FAQ",
+        "description": "Core answers for editions, access, and progression."
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Indiana Jones and the Great Circle Controller Guide",
+        "description": "Controller setup and platform input expectations."
       },
       {
         "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "title": "Indiana Jones and the Great Circle Settings Guide",
+        "description": "Practical settings and troubleshooting checkpoints."
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "title": "Indiana Jones and the Great Circle Updates",
+        "description": "Patch highlights, fixes, and current update notes."
       },
       {
         "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Indiana Jones and the Great Circle Stability Guide",
+        "description": "Crash triage and performance troubleshooting flow."
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+      "title": "Indiana Jones and the Great Circle Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Start by learning how exploration, fusion, and progression connect. Indiana Jones and the Great Circle rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal base camp.",
       "steps": [
         {
           "title": "Explore Before You Commit",
           "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Unlock Your Personal base camp Early",
+          "description": "Your personal base camp is one of the most important early milestones. It gives you a reliable place to regroup and build around."
         },
         {
           "title": "Use Osmium for Fast Early Progress",
@@ -162,24 +162,24 @@
         },
         {
           "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "description": "Keep track of successful combinations in your journal. Indiana Jones and the Great Circle has many possible fusion paths, so writing down useful results saves a lot of time."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
+        "Adventure Progression does not require a fixed recipe list.",
         "Infinite world generation means moving higher or deeper can reveal completely different materials.",
         "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
         "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+      "title": "Indiana Jones and the Great Circle Adventure Progression Crafting",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Adventure Progression is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
       "cards": [
         {
           "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "description": "Adventure Progression lets you fuse together different items without needing to follow a fixed recipe list."
         },
         {
           "name": "Multiple Useful Outcomes",
@@ -187,7 +187,7 @@
         },
         {
           "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "description": "The best way to learn Adventure Progression is to track your successful combinations. Your journal quickly becomes your own crafting reference."
         },
         {
           "name": "Community-Tested Early Fusions",
@@ -201,9 +201,9 @@
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
+      "title": "Indiana Jones and the Great Circle Tools and Weapons",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "Indiana Jones and the Great Circle mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
       "items": [
         {
           "name": "Frost Pick",
@@ -248,9 +248,9 @@
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
+      "title": "Indiana Jones and the Great Circle Storage and Inventory",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Inventory pressure starts early in Indiana Jones and the Great Circle, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
       "solutions": [
         {
           "name": "Cache Cube",
@@ -263,9 +263,9 @@
           "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
         },
         {
-          "name": "Personal Qualia",
+          "name": "Personal base camp",
           "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "description": "Once unlocked, your personal base camp becomes a natural place to organize materials, craft in peace, and expand your base setup."
         },
         {
           "name": "Journal Tracking",
@@ -275,27 +275,27 @@
       ],
       "managementTips": [
         "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
+        "Build around your personal base camp once it becomes available.",
         "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
         "Use your journal as part of inventory management, not just crafting discovery."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
+      "title": "Indiana Jones and the Great Circle base camp and Base Building",
       "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "base camp is one of the most important progression milestones in Indiana Jones and the Great Circle. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
       "cards": [
         {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Personal base camp",
+          "description": "Unlocking a base camp is an early milestone that gives you a more reliable place to return to while exploring the wider world."
         },
         {
           "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
+          "description": "Many players start using their base camp as a storage hub before turning it into a larger base with organized crafting and building space."
         },
         {
           "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
+          "description": "Indiana Jones and the Great Circle supports creative building, and players are already using base camp spaces to make houses and personalized layouts."
         },
         {
           "name": "Progression Hub",
@@ -310,9 +310,9 @@
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
+      "title": "Indiana Jones and the Great Circle World Regions",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Indiana Jones and the Great Circle uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
       "regions": [
         {
           "name": "Fog Meadow",
@@ -337,9 +337,9 @@
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
+      "title": "Indiana Jones and the Great Circle Creatures and Enemies",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "Indiana Jones and the Great Circle mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
       "creatures": [
         {
           "name": "Manikins",
@@ -379,9 +379,9 @@
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
+      "title": "Indiana Jones and the Great Circle Mobility Gear",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Indiana Jones and the Great Circle. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
       "items": [
         {
           "name": "Hookshot",
@@ -422,9 +422,9 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
+      "title": "Indiana Jones and the Great Circle Farming and Growth",
       "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
+      "intro": "Growth is part of real progression in Indiana Jones and the Great Circle. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
       "sections": [
         {
           "name": "Seed Progression",
@@ -451,14 +451,14 @@
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
+      "title": "Indiana Jones and the Great Circle Best Early Unlocks",
       "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
+      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Indiana Jones and the Great Circle, a few practical upgrades can make the entire rest of the game much smoother.",
       "priorities": [
         {
-          "name": "Personal Qualia",
+          "name": "Personal base camp",
           "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "description": "As soon as you get access to your personal base camp, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
         },
         {
           "name": "Frost Pick",
@@ -488,9 +488,9 @@
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
+      "title": "Indiana Jones and the Great Circle Achievement Tracker",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+      "intro": "Indiana Jones and the Great Circle currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
       "groups": [
         {
           "name": "Exploration",
@@ -517,15 +517,15 @@
           "name": "Crafting and Summoning",
           "achievements": [
             {
-              "title": "Apotheosis α",
+              "title": "Adventure Progression α",
               "description": "Fuse an item."
             },
             {
-              "title": "Apotheosis β",
+              "title": "Adventure Progression β",
               "description": "Fuse a vermin."
             },
             {
-              "title": "Apotheosis γ",
+              "title": "Adventure Progression γ",
               "description": "Fuse a divine artifact."
             },
             {
@@ -596,36 +596,36 @@
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+      "title": "Indiana Jones and the Great Circle Singleplayer and Platform FAQ",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "These are the core platform and access questions players keep asking before buying Indiana Jones and the Great Circle.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "Is Indiana Jones and the Great Circle singleplayer?",
+          "answer": "Yes. Indiana Jones and the Great Circle is a singleplayer game."
         },
         {
           "question": "Is multiplayer or co-op planned?",
           "answer": "No. Multiplayer is not planned for release or future updates."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
+          "question": "Where can I play Indiana Jones and the Great Circle?",
           "answer": "It is currently available on Steam for Windows."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
+          "question": "How much does Indiana Jones and the Great Circle cost?",
           "answer": "$9.99 on Steam."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does Indiana Jones and the Great Circle support controllers?",
           "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does Indiana Jones and the Great Circle work on Steam Deck?",
           "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
+          "question": "Does Indiana Jones and the Great Circle work on Linux?",
           "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
         },
         {
@@ -633,22 +633,22 @@
           "answer": "They may be supported in the future, but they are not current launch platforms."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
+          "question": "Does Indiana Jones and the Great Circle have translations?",
           "answer": "No. There are currently no translations planned."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
+          "question": "Will Indiana Jones and the Great Circle keep getting updates?",
           "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
+      "title": "Indiana Jones and the Great Circle Steam Deck and Controller",
       "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
+      "intro": "Indiana Jones and the Great Circle can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
       "faqs": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
+          "question": "Does Indiana Jones and the Great Circle work on Steam Deck?",
           "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
         },
         {
@@ -656,7 +656,7 @@
           "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
+          "question": "Does Indiana Jones and the Great Circle support controllers?",
           "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
         },
         {
@@ -670,9 +670,9 @@
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
+      "title": "Indiana Jones and the Great Circle Settings and Accessibility",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
+      "intro": "Indiana Jones and the Great Circle already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
       "settings": [
         {
           "name": "Display Settings",
@@ -697,9 +697,9 @@
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
+      "title": "Indiana Jones and the Great Circle Updates and Patch Notes",
       "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+      "intro": "Indiana Jones and the Great Circle is already receiving quick post-launch fixes and small usability updates.",
       "entries": [
         {
           "title": "Update 2.8.2",
@@ -719,7 +719,7 @@
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+      "title": "Indiana Jones and the Great Circle Crash Fix and Troubleshooting",
       "displayType": "steps",
       "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
       "steps": [
@@ -729,7 +729,7 @@
         },
         {
           "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "description": "Indiana Jones and the Great Circle requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
         },
         {
           "title": "Use Proton 9.0.4 on Steam Deck",
@@ -749,30 +749,30 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Indiana Jones and the Great Circle",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "Is Indiana Jones and the Great Circle a singleplayer game?",
+        "answer": "Yes. Indiana Jones and the Great Circle is a singleplayer-only game with no multiplayer or co-op planned."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is the Adventure Progression system in Indiana Jones and the Great Circle?",
+        "answer": "Adventure Progression is Indiana Jones and the Great Circle' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play Indiana Jones and the Great Circle?",
+        "answer": "Indiana Jones and the Great Circle is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How much does Indiana Jones and the Great Circle cost?",
+        "answer": "Indiana Jones and the Great Circle costs $9.99 on Steam."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
+        "question": "Does Indiana Jones and the Great Circle support controllers?",
         "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
+        "question": "Will Indiana Jones and the Great Circle receive updates?",
         "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
       }
     ]
@@ -802,17 +802,17 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Indiana Jones and the Great Circle Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced Adventure Progression strategies. Master survival and crafting.",
+      "metaTitle": "Indiana Jones and the Great Circle Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Indiana Jones and the Great Circle guides covering beginner tips, Adventure Progression system, survival strategies, and expert tactics for mastering the adventure.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Adventure Progression crafting system. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the Adventure Progression system and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
         "step2Description": "Follow proven paths to survive and thrive in the surreal world",
         "step3Title": "Master Strategies",
@@ -822,13 +822,13 @@
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "title": "Indiana Jones and the Great Circle Crafting",
+      "description": "Master the Adventure Progression fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
+      "metaTitle": "Indiana Jones and the Great Circle Crafting - Adventure Progression System & Recipes",
+      "metaDescription": "Master Indiana Jones and the Great Circle Adventure Progression crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
+      "whatIsDescription": "The Adventure Progression system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
       "why": "Why master crafting?",
       "whySteps": {
         "step1Title": "Unlock Powerful Items",
@@ -842,17 +842,17 @@
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
+      "title": "Indiana Jones and the Great Circle Items",
       "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "metaTitle": "Indiana Jones and the Great Circle Items - Tools, Weapons & Gear Guide",
+      "metaDescription": "Complete item database for Indiana Jones and the Great Circle including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
       "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
       "why": "Why check item guides?",
       "whySteps": {
         "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Description": "Discover how to craft essential tools and weapons using Adventure Progression",
         "step2Title": "Optimize Equipment",
         "step2Description": "Choose the best items for your playstyle and progression stage",
         "step3Title": "Improve Survival",
@@ -862,10 +862,10 @@
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
+      "title": "Indiana Jones and the Great Circle Biomes",
       "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
+      "metaTitle": "Indiana Jones and the Great Circle Biomes - World Regions & Exploration",
+      "metaDescription": "Explore Indiana Jones and the Great Circle biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
       "categoryLabel": "WORLD REGIONS",
       "whatIs": "What are Biomes?",
       "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
@@ -882,30 +882,30 @@
       "all": "All Biomes"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
+      "title": "Indiana Jones and the Great Circle Building",
+      "description": "Master base camp personal dimensions, base building, storage management, and creative construction techniques.",
+      "metaTitle": "Indiana Jones and the Great Circle Building - base camp & Base Construction",
+      "metaDescription": "Master Indiana Jones and the Great Circle building with base camp personal dimensions, base construction, storage solutions, and creative building techniques.",
       "categoryLabel": "BUILDING & BASES",
       "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
+      "whatIsDescription": "Guides to the base camp personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
       "why": "Why build bases?",
       "whySteps": {
         "step1Title": "Create Safe Spaces",
         "step1Description": "Establish secure bases for storage and crafting operations",
         "step2Title": "Manage Resources",
         "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
+        "step3Title": "Unlock base camp",
         "step3Description": "Access personal pocket dimensions for ultimate convenience"
       },
       "featured": "Featured & Essential",
       "all": "All Building Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
+      "title": "Indiana Jones and the Great Circle Support",
       "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "metaTitle": "Indiana Jones and the Great Circle Support - Technical Help & Fixes",
+      "metaDescription": "Get technical support for Indiana Jones and the Great Circle including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
       "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",

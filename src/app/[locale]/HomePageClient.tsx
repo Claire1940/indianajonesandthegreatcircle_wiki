@@ -57,19 +57,9 @@ function LinkedTitle({
   className?: string;
   locale: string;
 }) {
-  if (linkData) {
-    const href = locale === "en" ? linkData.url : `/${locale}${linkData.url}`;
-    return (
-      <Link
-        href={href}
-        className={`${className || ""} hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors`}
-        title={linkData.title}
-      >
-        {children}
-      </Link>
-    );
-  }
-  return <>{children}</>;
+  void linkData;
+  void locale;
+  return <span className={className}>{children}</span>;
 }
 
 interface HomePageClientProps {
@@ -267,6 +257,13 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* Latest Updates Section */}
+      <LatestGuidesAccordion
+        articles={latestArticles}
+        locale={locale}
+        max={12}
+      />
+
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-4xl">
@@ -337,6 +334,16 @@ export default function HomePageClient({
               );
             })}
           </div>
+          <div className="sr-only">
+            <a href="#beginner-guide">Indiana Jones and the Great Circle Walkthrough</a>
+            <a href="#tools-weapons">Indiana Jones and the Great Circle Puzzle Solutions</a>
+            <a href="#world-regions">Indiana Jones and the Great Circle World Regions</a>
+            <a href="#mobility-gear">Indiana Jones and the Great Circle Mobility Guide</a>
+            <a href="#farming-growth">Indiana Jones and the Great Circle Resource Farming</a>
+            <a href="#achievement-tracker">Indiana Jones and the Great Circle Achievement Tracker</a>
+            <a href="#steam-deck-controller">Indiana Jones and the Great Circle Controller Guide</a>
+            <a href="#updates-patch-notes">Indiana Jones and the Great Circle Updates</a>
+          </div>
         </div>
       </section>
 
@@ -355,13 +362,6 @@ export default function HomePageClient({
           </div>
         </div>
       </section>
-
-      {/* Latest Updates Section */}
-      <LatestGuidesAccordion
-        articles={latestArticles}
-        locale={locale}
-        max={12}
-      />
 
       {/* 广告位 3: 移动端优先使用方形，桌面端保留横幅 */}
       <AdBanner
