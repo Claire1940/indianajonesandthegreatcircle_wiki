@@ -3,56 +3,37 @@
   "api_base_url": "https://api.apifast.tech/v1",
   "model": "gemini-2.5-flash",
   "group": "default",
-
   "temperature": 0.1,
   "max_tokens": 32768,
   "timeout": 120,
   "retry_attempts": 3,
   "retry_delay": 5,
-
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["de", "es", "fr"],
   "default_language": "en",
   "output_dir": "src/locales/",
-
   "use_value_extraction": false,
-
   "protected_terms": {
-    "game_names": ["Lucid Blocks"],
+    "game_names": ["Indiana Jones and the Great Circle"],
     "character_names": [],
     "technical_terms": [
-      "Apotheosis",
       "Steam",
-      "Steam Deck",
-      "Vulkan",
-      "Fog Meadow",
-      "Heaven",
-      "Bubblebear",
-      "Angel",
-      "Hookshot",
-      "Bee Glider",
-      "Psychedelic",
-      "Surreal"
+      "Xbox",
+      "PlayStation",
+      "Bethesda",
+      "MachineGames",
+      "Lucasfilm",
+      "Great Circle"
     ]
   },
-
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Indiana Jones and the Great Circle",
+    "de": "Indiana Jones und der Große Kreis",
+    "es": "Indiana Jones y el Gran Círculo",
+    "fr": "Indiana Jones et le Cercle Ancien"
   },
-
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
     "de": "German",
-    "es": "Spanish (Latin America)",
-    "ja": "Japanese",
-    "ko": "Korean",
+    "es": "Spanish",
     "fr": "French"
   }
 }
