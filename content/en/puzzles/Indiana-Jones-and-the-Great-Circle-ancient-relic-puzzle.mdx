@@ -1,0 +1,148 @@
+import { Map, Target, Trophy, Shield, Sparkles, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle ancient relic puzzle: 2026 Guide",
+  description: "Master the Indiana Jones and the Great Circle ancient relic puzzle with our comprehensive 2026 guide. Learn how to collect all 50 relics and solve the final door.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Ancient+Relic+Puzzle+Guide",
+  date: "2026-05-13",
+  author: "Indiana Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Indiana Jones and the Great Circle ancient relic puzzle** requires collecting 50 total relics.
+- Turning relics **right** fills horizontal and vertical lines on the puzzle wall.
+- Turning relics **left** fills a 3x3 grid centered on the chosen slot.
+- You can place relics into already filled positions to manipulate the grid patterns.
+- Locating the final 50th relic at **Voss's tent** is essential for the completion achievement.
+</Callout>
+
+Venturing through the treacherous paths of the game, players will inevitably encounter the complex challenges surrounding the ancient artifacts. The Indiana Jones and the Great Circle ancient relic puzzle stands out as one of the most intellectually demanding segments of your journey, requiring both careful exploration and strategic placement of your hard-earned collection. To successfully unlock the path forward, you must account for all 50 relics hidden throughout the world, with the final piece often eluding even the most observant explorers. In this guide, we will break down the mechanics of the puzzle interface and provide the necessary steps to align your relics correctly. Whether you are struggling with the grid logic or simply hunting for that last missing artifact, our comprehensive walkthrough ensures you can conquer the ancient relic puzzle with confidence and precision in 2026.
+
+<Section icon={Map} title="Understanding the Puzzle Mechanics">
+
+Solving the grid requires a firm grasp of how each relic interacts with the wall. Because you are limited to 50 items, efficiency is key to avoiding unnecessary restarts.
+
+**Video Highlights:**
+- Demonstrating the interaction between left and right turns.
+- Visualizing the 3x3 grid pattern versus the cross pattern.
+- Locating the final relic at the specific tent site.
+
+<YouTubeEmbed videoId="wOCRXJoj3c8" title="Big Ancient Relic Puzzle Door Solution - Indiana Jones and the Great Circle" />
+
+The puzzle interface operates on a simple but strict rule set. Understanding these interactions is the difference between a quick solution and a frustrating trial-and-error loop.
+
+| Action | Pattern Created | Best Use Case |
+| :--- | :--- | :--- |
+| Turn Right | Horizontal and Vertical lines | Clearing large center gaps |
+| Turn Left | 3x3 Grid pattern | Filling dense corners/clusters |
+| Overlap | Fills existing slots | Correcting previous mistakes |
+
+<Callout type="tip" title="Strategic Planning">
+Always freeze frame your progress when following visual guides. Since you have a finite number of relics, plan your placements before committing to a turn.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="The Relic Collection Process">
+
+Before you can even touch the puzzle, you need to ensure your inventory is fully stocked. Missing a single relic will prevent you from completing the final door.
+
+<Steps>
+  <Step num="1" title="Gather Initial Relics">
+    Explore the main game regions to collect the first 49 ancient relics scattered throughout the environment.
+  </Step>
+  <Step num="2" title="Locate the Final Piece">
+    Travel back to Voss’s tent to retrieve the 50th relic, which is necessary to trigger the final puzzle sequence.
+  </Step>
+  <Step num="3" title="Initiate the Puzzle">
+    Approach the ancient wall and interact with the slots to begin placing your collected items.
+  </Step>
+  <Step num="4" title="Execute the Solution">
+    Follow the specific orientation patterns (Left/Right) to fill the grid completely.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Inventory Check">
+Ensure you have exactly 50 relics in your backpack before starting the final interaction. You cannot complete the puzzle with a deficit.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Puzzle Efficiency Data">
+
+Efficiency is vital when dealing with limited resources. The following table summarizes the difficulty and requirements for the various stages of the relic alignment.
+
+| Stage | Difficulty | Requirement |
+| :--- | :--- | :--- |
+| Early Stages | Easy | Standard placement |
+| Mid-Game | Moderate | Strategic 3x3 usage |
+| Final Door | Hard | Full 50-relic count |
+
+<CardGrid cols={3}>
+  <Card title="Right Turn Logic">
+    - **Vertical/Horizontal focus**
+    - Best for row clearing
+    - High precision needed
+  </Card>
+  <Card title="Left Turn Logic">
+    - **3x3 grid coverage**
+    - High density filling
+    - Essential for corners
+  </Card>
+  <Card title="Optimal Strategy">
+    - **Plan ahead**
+    - Use overlaps wisely
+    - Track relic count
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Pro Achievement Tip">
+Collecting all 50 relics not only solves the puzzle but also grants you a unique achievement. Check your inventory menu regularly to track your progress.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Completion">
+
+Use this checklist to ensure you have covered all requirements for solving the Indiana Jones and the Great Circle ancient relic puzzle.
+
+<Checklist
+  id="relic-puzzle-goals"
+  title="Final Preparation Checklist:"
+  items={[
+    "Verify 49 relics collected in main regions",
+    "Retrieve 50th relic from Voss's tent",
+    "Confirm backpack contains 50/50 relics",
+    "Freeze frame puzzle guide for reference",
+    "Unlock the final ancient door"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many relics do I need for the Indiana Jones and the Great Circle ancient relic puzzle?",
+    answer: "You need a total of 50 relics. 49 are found throughout the game world, and the 50th is located at Voss's tent."
+  },
+  {
+    question: "What happens if I run out of relics while solving the puzzle?",
+    answer: "The puzzle is designed to be solved with exactly 50. If you run out, it means you have placed them incorrectly; you may need to reset your approach."
+  },
+  {
+    question: "Is there a specific order to place the relics?",
+    answer: "While the order is flexible, you must follow the specific Left/Right turn requirements to ensure the grid fills correctly without wasting your limited inventory."
+  }
+]} />
+
+</Section>

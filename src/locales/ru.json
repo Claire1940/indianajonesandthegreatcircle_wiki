@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Guide",
+    "platforms": "Platforms",
+    "review": "Review",
+    "dlc": "Dlc",
+    "codes": "Codes",
+    "puzzles": "Puzzles",
+    "collectibles": "Collectibles",
+    "technical": "Technical"
   },
   "common": {
     "home": "Главная",

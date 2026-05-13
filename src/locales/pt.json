@@ -11,12 +11,14 @@
     }
   },
   "nav": {
-    "guides": "Guias",
-    "crafting": "Criação",
-    "items": "Itens",
-    "biomes": "Biomas",
-    "building": "Construção",
-    "support": "Suporte"
+    "guide": "Guide",
+    "platforms": "Platforms",
+    "review": "Review",
+    "dlc": "Dlc",
+    "codes": "Codes",
+    "puzzles": "Puzzles",
+    "collectibles": "Collectibles",
+    "technical": "Technical"
   },
   "common": {
     "home": "Início",

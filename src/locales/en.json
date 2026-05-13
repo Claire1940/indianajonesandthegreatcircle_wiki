@@ -10,7 +10,16 @@
       "twitterDescription": "Indiana Jones and the Great Circle Wiki for walkthrough routes, puzzle answers, relic maps, and safe code references."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "platforms": "Platforms",
+    "review": "Review",
+    "dlc": "Dlc",
+    "codes": "Codes",
+    "puzzles": "Puzzles",
+    "collectibles": "Collectibles",
+    "technical": "Technical"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -801,125 +810,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Indiana Jones and the Great Circle Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Adventure Progression strategies. Master survival and crafting.",
-      "metaTitle": "Indiana Jones and the Great Circle Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Indiana Jones and the Great Circle guides covering beginner tips, Adventure Progression system, survival strategies, and expert tactics for mastering the adventure.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Adventure Progression crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Indiana Jones and the Great Circle Guide",
+      "description": "Walkthrough routes, mission order, stealth planning, and completion tips for every major chapter.",
+      "metaTitle": "Indiana Jones and the Great Circle Guide - Walkthrough, Missions, and Tips",
+      "metaDescription": "Use this Indiana Jones and the Great Circle guide hub for chapter walkthroughs, mission flow, stealth tips, and 100% planning.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Guide category?",
+      "whatIsDescription": "This category collects chapter routes, objective order, puzzle context, and progression tips so you can clear the main adventure with fewer backtracks.",
+      "why": "Why read this category?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Adventure Progression system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Follow Clean Mission Flow",
+        "step1Description": "Get chapter-by-chapter structure so story progress and side objectives stay efficient.",
+        "step2Title": "Reduce Missed Opportunities",
+        "step2Description": "See key checkpoints and revisit windows before moving too far in the campaign.",
+        "step3Title": "Finish Faster",
+        "step3Description": "Use practical route decisions that lower repetition and cleanup time."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Guide Articles"
     },
-    "crafting": {
-      "title": "Indiana Jones and the Great Circle Crafting",
-      "description": "Master the Adventure Progression fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Indiana Jones and the Great Circle Crafting - Adventure Progression System & Recipes",
-      "metaDescription": "Master Indiana Jones and the Great Circle Adventure Progression crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Adventure Progression system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "platforms": {
+      "title": "Indiana Jones and the Great Circle Platforms",
+      "description": "Platform availability, edition differences, release timing, and PC hardware requirements in one place.",
+      "metaTitle": "Indiana Jones and the Great Circle Platforms - PC, Console, and Requirements",
+      "metaDescription": "Compare Indiana Jones and the Great Circle platform options, edition content, release timing, and PC specs before you buy.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What is the Platforms category?",
+      "whatIsDescription": "This category explains where to play, which editions include extra content, and what hardware tiers are needed for stable performance.",
+      "why": "Why read this category?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Choose the Right Edition",
+        "step1Description": "Understand standard versus premium value before purchase.",
+        "step2Title": "Plan Hardware Early",
+        "step2Description": "Check GPU, CPU, SSD, and ray tracing expectations in advance.",
+        "step3Title": "Avoid Setup Friction",
+        "step3Description": "Match your platform to your preferred controls, ecosystem, and access model."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Platforms Articles"
     },
-    "items": {
-      "title": "Indiana Jones and the Great Circle Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Indiana Jones and the Great Circle Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Indiana Jones and the Great Circle including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "review": {
+      "title": "Indiana Jones and the Great Circle Review",
+      "description": "Critical reception, player impressions, and purchase-focused analysis across major review sources.",
+      "metaTitle": "Indiana Jones and the Great Circle Review - Scores, Impressions, and Verdicts",
+      "metaDescription": "Read Indiana Jones and the Great Circle review coverage, score trends, and player feedback to decide if it fits your playstyle.",
+      "categoryLabel": "REVIEW",
+      "whatIs": "What is the Review category?",
+      "whatIsDescription": "This category tracks critic summaries and player sentiment, including strengths, weaknesses, and value expectations over time.",
+      "why": "Why read this category?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Adventure Progression",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "See Consensus Quickly",
+        "step1Description": "Get a fast view of what reviewers and players agree on most.",
+        "step2Title": "Match Expectations",
+        "step2Description": "Compare pacing, combat, and puzzle density with your own preferences.",
+        "step3Title": "Buy with Context",
+        "step3Description": "Use score trends and long-term impressions to reduce buyer regret."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Review Articles"
     },
-    "biomes": {
-      "title": "Indiana Jones and the Great Circle Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Indiana Jones and the Great Circle Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Indiana Jones and the Great Circle biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "dlc": {
+      "title": "Indiana Jones and the Great Circle Dlc",
+      "description": "Order of Giants DLC access steps, progression requirements, mission flow, and completion checklists.",
+      "metaTitle": "Indiana Jones and the Great Circle Dlc - Order of Giants Guide Hub",
+      "metaDescription": "Track Indiana Jones and the Great Circle DLC preparation, launch details, mission sequence, and cleanup requirements.",
+      "categoryLabel": "DLC",
+      "whatIs": "What is the Dlc category?",
+      "whatIsDescription": "This category focuses on downloadable story content, including unlock conditions, route planning, and full completion priorities.",
+      "why": "Why read this category?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Start DLC Correctly",
+        "step1Description": "Confirm ownership and story prerequisites before entering new missions.",
+        "step2Title": "Navigate New Areas",
+        "step2Description": "Use objective sequencing to clear Rome and related puzzle routes efficiently.",
+        "step3Title": "Complete DLC Faster",
+        "step3Description": "Track journals, mysteries, and artifacts without repeated re-runs."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Dlc Articles"
     },
-    "building": {
-      "title": "Indiana Jones and the Great Circle Building",
-      "description": "Master base camp personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Indiana Jones and the Great Circle Building - base camp & Base Construction",
-      "metaDescription": "Master Indiana Jones and the Great Circle building with base camp personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the base camp personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "codes": {
+      "title": "Indiana Jones and the Great Circle Codes",
+      "description": "Safe code references and lock-combination solutions organized by region and mission context.",
+      "metaTitle": "Indiana Jones and the Great Circle Codes - Safe and Lock Combinations",
+      "metaDescription": "Find Indiana Jones and the Great Circle codes for safes and locks with quick region-based navigation and puzzle context.",
+      "categoryLabel": "CODES",
+      "whatIs": "What is the Codes category?",
+      "whatIsDescription": "This category centralizes safe combinations, lock inputs, and clue mapping so you can solve code-gated progression points immediately.",
+      "why": "Why read this category?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock base camp",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Unlock Progress Paths",
+        "step1Description": "Open safes and doors tied to side quests, relic routes, and story flow.",
+        "step2Title": "Resolve Puzzle Blocks",
+        "step2Description": "Use direct code references when clue chains become unclear.",
+        "step3Title": "Save Exploration Time",
+        "step3Description": "Avoid repeated backtracking by resolving lock points on first visit."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Codes Articles"
     },
-    "support": {
-      "title": "Indiana Jones and the Great Circle Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Indiana Jones and the Great Circle Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Indiana Jones and the Great Circle including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "puzzles": {
+      "title": "Indiana Jones and the Great Circle Puzzles",
+      "description": "Step-by-step puzzle answers, logic breakdowns, and sequence fixes for story and side content.",
+      "metaTitle": "Indiana Jones and the Great Circle Puzzles - Solutions and Logic Guides",
+      "metaDescription": "Solve Indiana Jones and the Great Circle puzzles with clear sequence explanations, clue links, and fail-safe recovery steps.",
+      "categoryLabel": "PUZZLES",
+      "whatIs": "What is the Puzzles category?",
+      "whatIsDescription": "This category explains puzzle logic and completion sequences for tombs, safes, relic trails, and mission-critical challenge rooms.",
+      "why": "Why read this category?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Fix Stalled Objectives",
+        "step1Description": "Use direct solutions when mission progress is blocked by one puzzle node.",
+        "step2Title": "Understand the Logic",
+        "step2Description": "Review clue relationships so similar puzzle types become easier later.",
+        "step3Title": "Prevent Repeat Mistakes",
+        "step3Description": "Apply sequence notes to avoid resets and missed trigger conditions."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Puzzles Articles"
+    },
+    "collectibles": {
+      "title": "Indiana Jones and the Great Circle Collectibles",
+      "description": "Artifact maps, journal-note routes, and completion checklists for each major region.",
+      "metaTitle": "Indiana Jones and the Great Circle Collectibles - Artifacts, Notes, and Maps",
+      "metaDescription": "Track Indiana Jones and the Great Circle collectibles with region-based routes for relics, notes, and completion cleanup.",
+      "categoryLabel": "COLLECTIBLES",
+      "whatIs": "What is the Collectibles category?",
+      "whatIsDescription": "This category tracks artifacts, notes, books, photos, and other completion items with practical route order by area.",
+      "why": "Why read this category?",
+      "whySteps": {
+        "step1Title": "Track 100% Progress",
+        "step1Description": "Use complete checklists for regional collectible sets and journal completion.",
+        "step2Title": "Route by Area",
+        "step2Description": "Follow optimized map flow to gather multiple item types in one pass.",
+        "step3Title": "Clean Up Efficiently",
+        "step3Description": "Finish remaining entries quickly after story milestones unlock access."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Collectibles Articles"
+    },
+    "technical": {
+      "title": "Indiana Jones and the Great Circle Technical",
+      "description": "Performance tuning, crash fixes, compatibility checks, and settings recommendations for stable play.",
+      "metaTitle": "Indiana Jones and the Great Circle Technical - Performance and Fix Guides",
+      "metaDescription": "Use Indiana Jones and the Great Circle technical guides for crash troubleshooting, optimization settings, and compatibility fixes.",
+      "categoryLabel": "TECHNICAL",
+      "whatIs": "What is the Technical category?",
+      "whatIsDescription": "This category covers setup stability, performance profiles, compatibility requirements, and practical troubleshooting workflows.",
+      "why": "Why read this category?",
+      "whySteps": {
+        "step1Title": "Solve Launch Problems",
+        "step1Description": "Address startup crashes and broken configuration issues quickly.",
+        "step2Title": "Improve Frame Stability",
+        "step2Description": "Tune settings based on platform limits and workload-heavy scenes.",
+        "step3Title": "Keep Long Sessions Stable",
+        "step3Description": "Apply repeatable checks that reduce crashes and input/device conflicts."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Technical Articles"
     }
   }
 }

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Optimized Settings: Performance Guide 2026",
+  description: "Maximize your FPS in Indiana Jones and the Great Circle with our comprehensive 2026 PC optimization guide, covering VRAM management and RTGI settings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b4513/fff?text=Indiana+Jones+Optimized+Settings",
+  date: "2026-05-13",
+  author: "Indiana Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Keyword**: Mastering **Indiana Jones and the Great Circle optimized settings** requires focusing on VRAM allocation rather than raw shading power.
+- **VRAM Sensitivity**: The "Texture Streaming Cache" is the most critical setting; exceeding your GPU's memory leads to massive stuttering.
+- **Ray Tracing**: Hardware Ray Tracing (RTGI) is mandatory; there is no fallback to traditional rasterized lighting.
+- **8GB GPU Warning**: Users with 8GB cards must use Medium Shadows and Low Hair settings to avoid performance crashes at 1440p.
+- **Visual Bug**: Avoid the "Supreme" Texture setting at 1080p resolution, as it currently causes broken graphical artifacts.
+</Callout>
+
+Indiana Jones and the Great Circle represents a significant technical milestone for Machine Games, utilizing a highly advanced version of the idTech engine that mandates hardware-accelerated Ray Tracing. Unlike many modern AAA releases, the game is remarkably polished on PC, featuring zero shader compilation stutter and no obtrusive traversal hitches. However, its heavy reliance on Ray Traced Global Illumination (RTGI) and high-resolution textures means that finding the right **Indiana Jones and the Great Circle optimized settings** is essential for maintaining a fluid 60 FPS experience. 
+
+In this guide, we will break down how the game handles memory, why the console versions differ so drastically from PC, and which specific settings you should toggle to ensure Indy's latest adventure runs smoothly on your hardware. Whether you are rocking a high-end RTX 40-series card or a modest 8GB budget GPU, these optimizations will help you balance visual fidelity with consistent performance throughout the 2026 gaming season.
+
+<Section icon={Sparkles} title="Technical Foundation and Console Comparisons">
+
+The PC version of Indiana Jones and the Great Circle is built with the future in mind, embracing full hardware ray tracing for its global illumination. This system handles all indirect lighting and shadowing, ensuring that light bounces naturally off surfaces to illuminate dark corners. Interestingly, the Xbox Series X version achieves its 1800p/60FPS target by utilizing settings that are often lower than the PC's "Low" preset, particularly in vegetation density and RTGI precision.
+
+**Video Highlights:**
+- **No Stuttering**: The game is free of common PC port issues like shader compilation lag.
+- **RTGI Requirement**: Hardware ray tracing is a core requirement, not an optional toggle.
+- **Console Compromises**: Xbox uses Variable Rate Shading (VRS) and lower-than-low RTGI to maintain performance.
+- **VRAM Focus**: Performance issues on PC are almost always tied to VRAM overflow rather than GPU compute limits.
+
+<YouTubeEmbed videoId="xbvxohT032E" title="Indiana Jones and the Great Circle PC Tech Review" />
+
+<Callout type="tip" title="Visual Advantage">
+Even at the lowest possible settings, the PC version offers superior lighting accuracy compared to the Xbox Series X. If you have a modern GPU, you are already seeing a more "correct" version of the game's lighting than console players.
+</Callout>
+
+| Feature | Xbox Series X | PC (Low) | PC (Ultra/Supreme) |
+| :--- | :--- | :--- | :--- |
+| **Resolution** | 1800p (Dynamic) | Native/Upscaled | Native/DLAA |
+| **RTGI Quality** | Lower than Low | Accurate Occlusion | Maximum Precision |
+| **Shadow Maps** | Medium Equivalent | High Quality | Ultra (High Geometry) |
+| **Anisotropic Filtering** | Medium (VRS affected) | High/Ultra | Maximum |
+| **Vegetation RT** | Missing many objects | Most objects included | All objects included |
+
+</Section>
+
+<Section icon={Shield} title="The VRAM Hierarchy: Texture Streaming Cache">
+
+The single most impactful setting for performance in Indiana Jones and the Great Circle is the **Texture Streaming Cache**. This setting dictates how much VRAM is reserved for streaming high-quality assets. If this setting exceeds your available memory, the frame rate will collapse into single digits as the system attempts to swap data between VRAM and slower system RAM.
+
+Machine Games has provided a recommended spec sheet, but it lacks the necessary nuance for specific resolutions. Based on extensive testing, the following table represents the "Golden Rules" for texture settings in 2026.
+
+| GPU VRAM | 1080p Setting | 1440p Setting | 4K Setting |
+| :--- | :--- | :--- | :--- |
+| **8 GB** | Medium | Low | Not Recommended |
+| **10 GB** | High | High | Medium |
+| **12 GB** | High (Bug Alert) | Supreme | Ultra |
+| **16 GB+** | Supreme | Supreme | Supreme |
+
+<Callout type="warning" title="1080p Supreme Bug">
+Do not use the "Supreme" Texture setting at 1080p, even if you have 24GB of VRAM. There is currently a bug that causes the graphics to break entirely at this resolution when Supreme is selected. Stick to "High" for 1080p displays.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimized Settings for All GPUs">
+
+Most settings in Indiana Jones and the Great Circle are surprisingly light on the GPU's shading units. Once you have sorted your VRAM/Texture Cache, you can leave most other settings at High or Ultra. However, for those on mid-range hardware looking for that perfect 60 FPS lock, these are the **Indiana Jones and the Great Circle optimized settings** to use.
+
+<CardGrid cols={2}>
+  <Card title="Lighting & Shadows">
+    - **RTGI Quality**: High (Low for 8GB cards)
+    - **Shadow Quality**: Medium (Essential for 8GB VRAM)
+    - **Reflection Quality**: High
+    - **Volumetrics**: High
+  </Card>
+  <Card title="Post-Processing & Detail">
+    - **Hair Quality**: Medium (Low for 1440p on 8GB cards)
+    - **Anisotropic Filtering**: 16x
+    - **Depth of Field**: Personal Preference
+    - **Motion Blur**: Personal Preference
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+The difference between Medium and Ultra shadows is primarily the amount of geometry that casts shadows, rather than the resolution of the shadow maps themselves. Medium is the "sweet spot" for performance.
+</Callout>
+
+| Setting | Recommended Value | Performance Impact | Visual Impact |
+| :--- | :--- | :--- | :--- |
+| **Texture Cache** | Per VRAM Table | Extreme (if overfilled) | High |
+| **RTGI Quality** | High | Moderate | High |
+| **Shadow Quality** | Medium | Low-Moderate | Moderate |
+| **Hair Quality** | Medium | Low (VRAM heavy) | Low |
+| **Volumetrics** | High | Low | Moderate |
+| **Reflections** | High | Low | Moderate |
+
+</Section>
+
+<Section icon={Map} title="Special Considerations for 8GB Graphics Cards">
+
+If you are running an RTX 3060 Ti, RTX 4060, or an older 8GB card, you must be surgical with your settings to avoid VRAM-related stutters. At 1440p, the game is particularly punishing on memory. Follow these specific steps to ensure a stable experience.
+
+<Steps>
+  <Step num="1" title="Lower Texture Cache">
+    Set Texture Streaming Cache to **Low** or **Medium**. This prevents the "memory cliff" where FPS drops from 60 to 10 instantly.
+  </Step>
+  <Step num="2" title="Adjust Shadow Geometry">
+    Keep **Shadow Quality at Medium**. Settings above Medium add more objects to the shadow pass, which consumes additional VRAM that 8GB cards cannot spare.
+  </Step>
+  <Step num="3" title="Hair Quality Tweak">
+    At 1440p, set **Hair Quality to Low**. This is crucial for scenes with many NPCs (like the Vatican), as hair assets are surprisingly memory-intensive.
+  </Step>
+  <Step num="4" title="Enable Upscaling">
+    Use **DLSS Balanced** or **Performance** mode. This reduces the base internal resolution, further saving a small but vital amount of VRAM.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Performance Result">
+By following these 8GB-specific tweaks, an RTX 4060 can achieve a stable 60 FPS at 1440p with nearly all other settings maxed out, providing a high-end visual experience on budget hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Advanced Tweaks and Future Fixes">
+
+While the game is well-optimized, there are a few areas where enthusiasts might want to push the engine further. One common complaint is the aggressive Level of Detail (LOD) popping, where objects visibly change shape as you walk toward them. This can be mitigated using the developer console.
+
+**LOD Enhancement Command:**
+If you have a high-end GPU (16GB+ VRAM), you can open the console and use the following command to reduce geometric popping:
+`image_lodbias -5` (Note: Default is usually 0 or 1).
+
+<Checklist
+  id="future-patch-wishlist"
+  title="What to Watch for in Future Patches:"
+  items={[
+    "Full Path Tracing support (expected late 2026/early 2027)",
+    "FSR 3 and XeSS integration for non-Nvidia users",
+    "Fix for 30FPS animation caps in certain cutscenes",
+    "Dynamic Resolution support for DLSS (currently TAA only)",
+    "Fix for camera-cut frame time spikes"
+  ]}
+/>
+
+<Callout type="warning" title="Checkpoint Stutter">
+The game triggers "Hat" icon saves frequently. In dense areas like the Vatican, these can cause minor frame-time blips. This is an engine-level behavior and cannot be fixed by settings alone.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion: The Final Verdict on Optimization">
+
+Indiana Jones and the Great Circle is a rare example of a modern AAA game that respects the PC platform. By focusing almost entirely on VRAM management rather than lowering every setting to "Low," you can maintain a stunning visual presentation. The key takeaway for **Indiana Jones and the Great Circle optimized settings** is to treat your Texture Cache as a hard budget—stay within it, and the game will reward you with a smooth, cinematic experience.
+
+<FAQ items={[
+  {
+    question: "Why does my game stutter even though I have a high FPS?",
+    answer: "This is likely due to your Texture Streaming Cache being set too high for your GPU's VRAM. Lower this setting by one tier and restart the game."
+  },
+  {
+    question: "Does the game support FSR or XeSS?",
+    answer: "As of mid-2026, the game only officially supports DLSS and TAA. Users on AMD or Intel hardware must rely on TAA or wait for a community mod/official patch."
+  },
+  {
+    question: "What is the most demanding setting after Texture Cache?",
+    answer: "RTGI (Ray Traced Global Illumination) is the most compute-heavy setting. If your GPU is struggling despite having enough VRAM, lowering RTGI to 'Low' will provide the biggest performance boost."
+  },
+  {
+    question: "Is there a way to fix the 30FPS cutscenes?",
+    answer: "Currently, some animations in cutscenes are hard-coded to 30FPS. This is a known issue that Machine Games is expected to address in a future technical patch."
+  }
+]} />
+
+</Section>
