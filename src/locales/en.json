@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "First-Person Adventure Puzzle Game",
+    "title": "Indiana Jones and the Great Circle Wiki",
+    "description": "Explore a cinematic Indiana Jones adventure with story walkthroughs, puzzle routes, relic locations, outfits, DLC missions, combat tips, and platform guides.",
+    "getFreeCodesCTA": "View Walkthrough",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Very Positive",
+        "label": "Steam Reviews"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "4.55/5",
+        "label": "PS5 Rating"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "55",
+        "label": "Steam Achievements"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "May 12, 2026",
+        "label": "Switch 2 Release"
       }
     }
   },
@@ -785,18 +785,18 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready for Indiana Jones and the Great Circle?",
+    "description": "Follow official channels for updates, DLC news, and community guides for Indiana Jones and the Great Circle.",
+    "joinCommunity": "Join Bethesda Discord",
+    "joinGame": "Play Indiana Jones on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Indiana Jones and the Great Circle Wiki",
+    "description": "Your complete resource hub for Indiana Jones and the Great Circle walkthroughs, puzzle solutions, relic locations, and DLC guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Bethesda Discord",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Indiana Jones and the Great Circle Wiki. Not affiliated with Bethesda, Lucasfilm Games, or MachineGames.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
