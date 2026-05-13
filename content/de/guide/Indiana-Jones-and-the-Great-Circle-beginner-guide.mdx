@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Indiana Jones und der Große Kreis: Erkundungs-Leitfaden für Anfänger 2026",
+  description: "Meistern Sie Indiana Jones und der Große Kreis mit unserem Anfänger-Leitfaden 2026. Lernen Sie Peitschenkampf, Rätsellösungen, Abenteuerbuch-Upgrades und Stealth-Tipps.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/3e2723/fff?text=Beginner+Survival+Guide",
+  date: "2026-05-13",
+  author: "Indiana Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Indiana Jones und der Große Kreis Anfänger-Leitfaden**: Konzentrieren Sie sich auf die **Peitsche** sowohl für die Fortbewegung als auch für heimliche Ausschaltungen.
+- **Journal-Meisterschaft**: Verwenden Sie immer Ihre **Kamera** bei neuen Sehenswürdigkeiten; Fotos sind der primäre Weg, um **Abenteuerpunkte (AP)** zu verdienen.
+- **Fortschrittspriorität**: Schalten Sie frühzeitig die Fertigkeiten **Glückshut** und **Elan** frei, um die Überlebensfähigkeit und die Ausdauerregeneration zu erhöhen.
+- **Stealth zuerst**: Verwenden Sie **Verkleidungen** im Vatikan und in Gizeh, um Wachen zu umgehen, ohne schwierige Boxkämpfe auszulösen.
+- **Tipp für Perfektionisten**: Kaufen Sie **Regionale Erkundungsbücher** bei Händlern, um Sammelobjekte automatisch auf Ihrer Karte zu markieren.
+</Callout>
+
+Indiana Jones kehrt in einem riesigen First-Person-Abenteuer zurück, das cineastisches Storytelling mit komplexer mechanischer Tiefe verbindet. Dieser **Indiana Jones und der Große Kreis Anfänger-Leitfaden** soll Ihnen helfen, die Weltreise von den altehrwürdigen Hallen des Marshall College bis zu den sonnenverwöhnten Pyramiden von Gizeh zu meistern. Im Gegensatz zu traditionellen Shootern priorisiert dieses Erlebnis die Interaktion mit der Umgebung, das geschickte Lösen von Rätseln und den kreativen Einsatz von Indys ikonischen Werkzeugen. In diesem **Indiana Jones und der Große Kreis Anfänger-Leitfaden** werden wir die wesentlichen Systeme aufschlüsseln, die Sie beherrschen müssen, einschließlich des Upgrade-Baums des Abenteuerbuchs, der Nuancen der Peitschen-basierten Fortbewegung und der Stealth-Taktiken, die erforderlich sind, um Nazi-kontrollierte Ausgrabungsstätten zu infiltrieren. Egal, ob Sie ein Veteran der Filme oder ein Neuling im Franchise sind, das Verständnis, wie Sie Ihr Journal und Ihre Kamera nutzen, wird den Unterschied ausmachen, ob Sie in einem staubigen Grab stecken bleiben oder die größten Geheimnisse der Welt lüften.
+
+<Section icon={Map} title="Indys Kernwerkzeuge meistern">
+
+Die Grundlage des Gameplays liegt in drei Gegenständen: der Peitsche, der Kamera und dem Journal. Diese frühzeitig zu beherrschen, ist entscheidend für die Navigation in offenen Gebieten wie dem Vatikan und Sukhothai. Die Peitsche ist nicht nur eine Waffe; sie ist Ihr primäres Mittel, um hohe Vorsprünge zu erreichen und über tödliche Abgründe zu schwingen.
+
+| Werkzeug | Primäre Verwendung | Profi-Tipp für Anfänger |
+| :--- | :--- | :--- |
+| **Peitsche** | Fortbewegung und Kampf | Setzen Sie sie ein, um Feinde zu stolpern oder sie für einen Stealth-Griff heranzuziehen. |
+| **Kamera** | AP verdienen/Hinweise | Fotografieren Sie alles; wenn das Symbol erscheint, gibt es Punkte. |
+| **Journal** | Karten und Codes | Überprüfen Sie es oft auf Safe-Kombinationen und Rätselhinweise. |
+| **Feuerzeug** | Beleuchtung und Rätsel | Unverzichtbar für dunkle Gräber und das Aktivieren von lichtbasierten Fallen. |
+
+Die Kamera ist wohl Ihr wichtigstes Werkzeug für den Fortschritt. Jedes Foto, das Sie von einem Wahrzeichen, einem verdächtigen Dokument oder einer alten Inschrift machen, fügt Ihrem Journal eine Notiz hinzu und gewährt Abenteuerpunkte. Diese Punkte sind die Währung, mit der Sie mächtige neue Fähigkeiten freischalten können.
+
+<Callout type="success" title="Die Macht der Linse">
+Wenn Sie bei einem Rätsel stecken bleiben, zücken Sie Ihre Kamera. Oft werden beim Blick durch die Linse interaktive Objekte hervorgehoben oder Indy gibt durch seinen inneren Monolog einen Hinweis, der Sie zur Lösung führt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Abenteuerbücher und Fortschritt">
+
+Der Fortschritt in Indiana Jones und der Große Kreis ist an **Abenteuerbücher** gebunden. Dies sind physische Gegenstände, die in der Welt gefunden oder bei Händlern gekauft werden können. Sobald sie gefunden wurden, müssen Sie Abenteuerpunkte (AP) oder Medizinische Flaschen ausgeben, um die dauerhaften Vorteile zu aktivieren, die sie bieten.
+
+<CardGrid cols={3}>
+  <Card title="Glückshut I">
+    - **Kosten**: 125 AP
+    - **Effekt**: Erhalten Sie eine zweite Chance im Kampf, indem Sie Ihren gefallenen Hut aufheben.
+    - **Priorität**: Unverzichtbar für frühe Kämpfe.
+  </Card>
+  <Card title="Elan I">
+    - **Kosten**: 275 AP
+    - **Effekt**: Erhöht die Ausdauerregeneration erheblich.
+    - **Priorität**: Wesentlich für Klettern und Boxen.
+  </Card>
+  <Card title="K.O. I">
+    - **Kosten**: 25 AP
+    - **Effekt**: Stellt Ausdauer wieder her, wenn ein Feind ausgeschaltet wird.
+    - **Priorität**: Bester Wert für frühe Schlägereien.
+  </Card>
+</CardGrid>
+
+Neben AP werden Sie auf **Medizinische Flaschen** stoßen. Dies sind seltene regionale Sammelobjekte, die speziell zur Freischaltung von "Moxie" (Ausdauer) und "In Form kommen" (Gesundheit) Upgrades verwendet werden. Diese sind gestuft, was bedeutet, dass Sie für jede weitere Stufe mehr Flaschen benötigen.
+
+| Upgrade-Stufe | Kosten für Medizinische Flaschen | Dauerhafte Belohnung |
+| :--- | :--- | :--- |
+| **Moxie I** | 5 Flaschen | Kleine Verlängerung der Ausdauerleiste |
+| **Moxie II** | 10 Flaschen | Mittlere Verlängerung der Ausdauerleiste |
+| **In Form kommen I** | 5 Flaschen | Zusätzliche Gesundheitsreserveleiste |
+| **In Form kommen III** | 15 Flaschen | Maximale Gesundheitskapazität |
+
+<Callout type="tip" title="Ausdauer ist König">
+Priorisieren Sie die Ausdauerregeneration (Elan) und die Ausdauerverlängerung (Moxie). Fast jede Aktion – Klettern, Sprinten und Boxen – zehrt an Ihrer Ausdauer. Ein größerer Pool ermöglicht es Ihnen, freier zu erkunden, ohne ständige Pausen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stealth- und Kampfstrategien">
+
+Der Kampf ist aufgeteilt in heimliche Ausschaltungen und packendes First-Person-Boxen. Obwohl Indy Schusswaffen verwenden kann, ist Munition extrem knapp, und das Abfeuern einer Waffe wird sofort jede Wache in der Umgebung alarmieren. Stealth ist in Sperrzonen fast immer der bevorzugte Ansatz.
+
+<Steps>
+  <Step num="1" title="Verkleidungen nutzen">
+    In Regionen wie dem Vatikan oder dem Nazi-Komplex von Gizeh können Sie mit einer Verkleidung (wie einer Priesterrobe oder einer Arbeiteruniform) durch Sperrgebiete gehen, ohne sofort angegriffen zu werden.
+  </Step>
+  <Step num="2" title="Ablenkungstaktiken">
+    Werfen Sie Flaschen oder benutzen Sie Ihre Peitsche, um auf Metallobjekte zu schlagen. Dies lockt Wachen von ihren Posten weg, sodass Sie vorbeischleichen oder eine lautlose Ausschaltung von hinten durchführen können.
+  </Step>
+  <Step num="3" title="Parieren meistern">
+    Wenn Sie zu einem Faustkampf gezwungen werden, drücken Sie nicht einfach wild auf den Angriffsknopf. Achten Sie auf die Markierung des Gegners und parieren Sie seine Schläge. Ein erfolgreiches Parieren öffnet ihn für einen Gegenangriff mit hohem Schaden.
+  </Step>
+  <Step num="4" title="Peitschenkontrolle">
+    Nutzen Sie die Fertigkeit **Drossel**, sobald sie freigeschaltet ist. Dies ermöglicht es Ihnen, Feinde für einen schnellen K.O. zu sich heranzuziehen, wodurch die Begegnung leise und effizient bleibt.
+  </Step>
+</Steps>
+
+| Gegnertyp | Beste Vorgehensweise | Schwäche |
+| :--- | :--- | :--- |
+| **Leichte Infanterie** | Stealth-Ausschaltung | Geringe Gesundheit, leicht abzulenken. |
+| **Schwere Soldaten** | Peitschen-Stolperer + Boxen | Anfällig für Bein-Sweeps mit der Peitsche. |
+| **Offiziere** | Verkleidung / Lautlose Ausschaltung | Tragen normalerweise Schlüssel, die für den Fortschritt benötigt werden. |
+| **Box-Champions** | Parieren und Kontern | Sehr vorhersehbare Angriffsmuster. |
+
+<Callout type="warning" title="Vermeiden Sie die Alarme">
+Wenn eine Wache eine Alarmglocke erreicht, werden Verstärkungen zu Ihrem Standort strömen. Priorisieren Sie immer die Ausschaltung von Wachen in der Nähe von Alarmstationen zuerst, oder verwenden Sie Ihre Peitsche, um die Glocken zu sabotieren, bevor Sie einen Kampf beginnen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Erkundung und Rätsellösung">
+
+Das Spiel bietet mehrere große Hub-Gebiete, insbesondere den Vatikan, Gizeh und Sukhothai. Diese Gebiete sind nicht-linear und voller Nebenquests, bekannt als **Feldarbeit** und **Mysterien**. Das Abschließen dieser ist der beste Weg, um die AP zu verdienen, die für Upgrades im späteren Spielverlauf benötigt werden.
+
+**Wichtige Rätseltypen, die Sie erwarten können:**
+- **Lichtbrechung**: Verwenden Sie Spiegel und Indys Feuerzeug, um Lichtstrahlen in antike Sensoren zu lenken (üblich in Gizeh).
+- **Gewichtsplatten**: Platzieren Sie Objekte oder Kanopenkrüge in einer bestimmten Reihenfolge, um versteckte Türen auszulösen.
+- **Umwelträtsel**: Lesen Sie Ihre Journalnotizen, um Hinweise auf Heiligenstatuen oder historische Daten zu finden, die als Safe-Codes dienen.
+
+<Checklist
+  id="exploration-checklist"
+  title="Regionale Aufräum-Checkliste:"
+  items={[
+    "Fotografieren Sie alle Inschriften für Antonio im Vatikan",
+    "Sammeln Sie alle 10 Stelen in der Wüste von Gizeh",
+    "Finden Sie die 10 Khmer-Zahnräder in Sukhothai",
+    "Kaufen Sie das Buch 'Vatikanische Relikte' von Ernesto, um Kartensymbole anzuzeigen",
+    "Stimmen Sie alle 8 Radiofrequenzen für Gina ab"
+  ]}
+/>
+
+<Callout type="info" title="Kartendeckungs-Tipp">
+Händler in jedem Hub verkaufen "Erkundungsbücher" (z.B. Gizeh-Mysterien, Sukhothai-Relikte). Der Kauf dieser Bücher sollte Ihre erste Priorität sein, wenn Sie in einer neuen Region ankommen, da sie Symbole für alle fehlenden Sammelobjekte direkt auf Ihrer Karte platzieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="100% Abschluss erreichen">
+
+Für Spieler, die die Platin-Trophäe oder 100% Steam-Erfolge anstreben, ist die Trophäe **Archivist** Ihr Endziel. Dies erfordert das Sammeln jeder einzelnen Journalnotiz im Spiel – insgesamt 497 Einträge. 
+
+| Erfolgstyp | Anforderung | Geschätzte Zeit |
+| :--- | :--- | :--- |
+| **Story-Trophäen** | Schließe alle 10 Hauptabenteuer ab | 15-20 Stunden |
+| **Feldarbeit** | Schließe alle regionalen Nebenquests ab | 10-15 Stunden |
+| **Bücherwurm** | Schalte alle 55 Abenteuerbuch-Fähigkeiten frei | 30+ Stunden |
+| **100% Aufräumen** | Sammle alle Relikte, Artefakte und Notizen | 45-55 Stunden |
+
+Wenn Sie während Ihres ersten Durchgangs etwas verpasst haben, machen Sie sich keine Sorgen. Nach Abschluss des letzten Story-Kapitels im Irak können Sie den Tab **Reisen** in Ihrem Journal verwenden, um zu jedem vorherigen Hub zurückzukehren. All Ihr Fortschritt, Ihre Upgrades und Sammelobjekte werden übernommen, was das Aufräumen nach dem Spiel wesentlich einfacher macht.
+
+<Callout type="tip" title="DLC-bereit">
+Wenn Sie die Premium Edition besitzen, können Sie auf **Die Ordnung der Riesen DLC** zugreifen. Dieser schickt Indy nach Rom, um den Mithras-Kult zu untersuchen. Wir empfehlen, zuerst die Hauptstory abzuschließen, da der DLC einige der komplexesten Rätsel und schwierigsten Kampfbegegnungen des Spiels enthält.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo finde ich Safe-Codes in Indiana Jones und der Große Kreis?",
+    answer: "Safe-Codes sind niemals zufällig. Sie sind immer in Notizen, Dokumenten oder Umwelthinweisen in der Nähe versteckt. Wenn Sie einen verschlossenen Safe finden, überprüfen Sie Ihr Journal auf kürzlich fotografierte Briefe oder Versanddaten."
+  },
+  {
+    question: "Wie erhalte ich schnell mehr Abenteuerpunkte (AP)?",
+    answer: "Der schnellste Weg, AP zu verdienen, ist das Abschließen von 'Mysterien' und 'Feldarbeit' in den großen Hub-Gebieten. Halten Sie außerdem immer Ihre Kamera bereit; das Fotografieren einzigartiger Wahrzeichen und Feinde liefert einen stetigen Strom von AP."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, meine Abenteuerbuch-Fähigkeiten zurückzusetzen?",
+    answer: "Nein, Fähigkeitenentscheidungen sind dauerhaft. Es gibt jedoch genügend Abenteuerpunkte im Spiel, um schließlich jede einzelne Fähigkeit freizuschalten, sodass Sie Ihren Build nicht dauerhaft ruinieren können."
+  },
+  {
+    question: "Kann ich das Spiel komplett ohne Waffen spielen?",
+    answer: "Meistens ja. Obwohl einige geskriptete Sequenzen Kämpfe erfordern können, kann der Großteil des Spiels mit Stealth, der Peitsche und Indys Fäusten abgeschlossen werden. Waffen werden als 'letztes Mittel' behandelt."
+  }
+]} />
+
+</Section>

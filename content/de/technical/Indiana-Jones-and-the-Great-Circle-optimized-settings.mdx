@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Optimierte Einstellungen für Indiana Jones und der Große Kreis: Performance-Guide 2026",
+  description: "Maximiere deine FPS in Indiana Jones und der Große Kreis mit unserem umfassenden PC-Optimierungs-Guide 2026, der VRAM-Management und RTGI-Einstellungen abdeckt.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b4513/fff?text=Indiana+Jones+Optimized+Settings",
+  date: "2026-05-13",
+  author: "Indiana Wiki Team",
+  keywords: "Indiana Jones und der Große Kreis, optimierte Einstellungen, PC Performance, VRAM, Raytracing, Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Haupt-Keyword**: Das Meistern der **optimierten Einstellungen für Indiana Jones und der Große Kreis** erfordert einen Fokus auf die VRAM-Zuweisung anstatt auf die reine Shading-Leistung.
+- **VRAM-Empfindlichkeit**: Der „Texture Streaming Cache“ ist die kritischste Einstellung; das Überschreiten des Speichers Ihrer GPU führt zu massivem Ruckeln.
+- **Raytracing**: Hardware-Raytracing (RTGI) ist obligatorisch; es gibt keinen Rückfall auf traditionelle gerasterte Beleuchtung.
+- **8-GB-GPU-Warnung**: Nutzer mit 8-GB-Karten müssen mittlere Schatten und niedrige Haareinstellungen verwenden, um Performance-Abstürze bei 1440p zu vermeiden.
+- **Grafik-Bug**: Vermeiden Sie die Textureinstellung „Supreme“ bei einer Auflösung von 1080p, da diese derzeit Grafikfehler verursacht.
+</Callout>
+
+Indiana Jones und der Große Kreis stellt einen bedeutenden technischen Meilenstein für Machine Games dar. Das Spiel nutzt eine hochmoderne Version der idTech-Engine, die hardwarebeschleunigtes Raytracing voraussetzt. Im Gegensatz zu vielen modernen AAA-Veröffentlichungen ist das Spiel auf dem PC bemerkenswert ausgereift und bietet weder Shader-Kompilierungs-Ruckler noch störende Übergangsprobleme. Aufgrund der starken Abhängigkeit von Ray Traced Global Illumination (RTGI) und hochauflösenden Texturen ist es jedoch unerlässlich, die richtigen **optimierten Einstellungen für Indiana Jones und der Große Kreis** zu finden, um ein flüssiges 60-FPS-Erlebnis zu gewährleisten.
+
+In diesem Guide zeigen wir auf, wie das Spiel mit dem Speicher umgeht, warum sich die Konsolenversionen so drastisch von der PC-Version unterscheiden und welche spezifischen Einstellungen Sie anpassen sollten, damit Indys neuestes Abenteuer auf Ihrer Hardware reibungslos läuft. Egal, ob Sie eine High-End-Karte der RTX 40-Serie oder eine bescheidene 8-GB-Budget-GPU besitzen – diese Optimierungen helfen Ihnen, die visuelle Qualität mit einer konstanten Performance in der Gaming-Saison 2026 in Einklang zu bringen.
+
+<Section icon={Sparkles} title="Technische Grundlagen und Konsolenvergleiche">
+
+Die PC-Version von Indiana Jones und der Große Kreis wurde mit Blick auf die Zukunft entwickelt und setzt auf volles Hardware-Raytracing für die globale Beleuchtung. Dieses System übernimmt die gesamte indirekte Beleuchtung und Schattierung und sorgt dafür, dass Licht natürlich von Oberflächen abprallt, um dunkle Ecken zu erhellen. Interessanterweise erreicht die Xbox Series X-Version ihr Ziel von 1800p/60FPS durch Einstellungen, die oft niedriger sind als die „Niedrig“-Voreinstellung des PCs, insbesondere bei der Vegetationsdichte und der RTGI-Präzision.
+
+**Video-Highlights:**
+- **Kein Ruckeln**: Das Spiel ist frei von typischen PC-Portierungsproblemen wie Shader-Kompilierungs-Verzögerungen.
+- **RTGI-Anforderung**: Hardware-Raytracing ist eine Kernanforderung, keine optionale Einstellung.
+- **Konsolen-Kompromisse**: Die Xbox nutzt Variable Rate Shading (VRS) und ein RTGI unterhalb der PC-Stufe „Niedrig“, um die Performance zu halten.
+- **VRAM-Fokus**: Performance-Probleme am PC hängen fast immer mit VRAM-Überlauf zusammen und nicht mit den Rechenlimits der GPU.
+
+<YouTubeEmbed videoId="xbvxohT032E" title="Indiana Jones and the Great Circle PC Tech Review" />
+
+<Callout type="tip" title="Visueller Vorteil">
+Selbst bei den niedrigsten Einstellungen bietet die PC-Version eine überlegene Beleuchtungsgenauigkeit im Vergleich zur Xbox Series X. Wenn Sie eine moderne GPU besitzen, sehen Sie bereits eine „korrektere“ Version der Spielbeleuchtung als Konsolenspieler.
+</Callout>
+
+| Feature | Xbox Series X | PC (Niedrig) | PC (Ultra/Supreme) |
+| :--- | :--- | :--- | :--- |
+| **Auflösung** | 1800p (Dynamisch) | Nativ/Upscaled | Nativ/DLAA |
+| **RTGI-Qualität** | Niedriger als Niedrig | Präzise Okklusion | Maximale Präzision |
+| **Schatten-Maps** | Entspricht Mittel | Hohe Qualität | Ultra (Hohe Geometrie) |
+| **Anisotrope Filterung** | Mittel (VRS-beeinflusst) | Hoch/Ultra | Maximum |
+| **Vegetations-RT** | Viele Objekte fehlen | Die meisten Objekte enthalten | Alle Objekte enthalten |
+
+</Section>
+
+<Section icon={Shield} title="Die VRAM-Hierarchie: Texture Streaming Cache">
+
+Die mit Abstand wichtigste Einstellung für die Performance in Indiana Jones und der Große Kreis ist der **Texture Streaming Cache**. Diese Einstellung legt fest, wie viel VRAM für das Streaming hochwertiger Assets reserviert wird. Wenn diese Einstellung Ihren verfügbaren Speicher übersteigt, bricht die Bildrate in den einstelligen Bereich ein, da das System versucht, Daten zwischen VRAM und dem langsameren System-RAM auszutauschen.
+
+Machine Games hat ein empfohlenes Spezifikationsblatt bereitgestellt, dem es jedoch an Nuancen für spezifische Auflösungen mangelt. Basierend auf umfangreichen Tests stellt die folgende Tabelle die „goldenen Regeln“ für Textureinstellungen im Jahr 2026 dar.
+
+| GPU VRAM | 1080p Einstellung | 1440p Einstellung | 4K Einstellung |
+| :--- | :--- | :--- | :--- |
+| **8 GB** | Mittel | Niedrig | Nicht empfohlen |
+| **10 GB** | Hoch | Hoch | Mittel |
+| **12 GB** | Hoch (Bug-Warnung) | Supreme | Ultra |
+| **16 GB+** | Supreme | Supreme | Supreme |
+
+<Callout type="warning" title="1080p Supreme-Bug">
+Verwenden Sie die Textureinstellung „Supreme“ nicht bei 1080p, selbst wenn Sie 24 GB VRAM haben. Es gibt derzeit einen Bug, der die Grafik bei dieser Auflösung komplett zerstört, wenn „Supreme“ ausgewählt ist. Bleiben Sie bei 1080p-Displays bei „Hoch“.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Optimierte Einstellungen für alle GPUs">
+
+Die meisten Einstellungen in Indiana Jones und der Große Kreis belasten die Shading-Einheiten der GPU überraschend wenig. Sobald Sie Ihren VRAM/Textur-Cache konfiguriert haben, können Sie die meisten anderen Einstellungen auf „Hoch“ oder „Ultra“ belassen. Für diejenigen mit Mittelklasse-Hardware, die eine stabile 60-FPS-Rate anstreben, sind dies die zu verwendenden **optimierten Einstellungen für Indiana Jones und der Große Kreis**.
+
+<CardGrid cols={2}>
+  <Card title="Beleuchtung & Schatten">
+    - **RTGI-Qualität**: Hoch (Niedrig für 8-GB-Karten)
+    - **Schattenqualität**: Mittel (Essenziell für 8 GB VRAM)
+    - **Reflexionsqualität**: Hoch
+    - **Volumetrische Effekte**: Hoch
+  </Card>
+  <Card title="Post-Processing & Details">
+    - **Haarqualität**: Mittel (Niedrig für 1440p auf 8-GB-Karten)
+    - **Anisotrope Filterung**: 16x
+    - **Tiefenschärfe**: Persönliche Vorliebe
+    - **Bewegungsunschärfe**: Persönliche Vorliebe
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Der Unterschied zwischen mittleren und ultra-hohen Schatten liegt primär in der Menge der Geometrie, die Schatten wirft, und nicht in der Auflösung der Schatten-Maps selbst. „Mittel“ ist der „Sweet Spot“ für die Performance.
+</Callout>
+
+| Einstellung | Empfohlener Wert | Performance-Auswirkung | Visuelle Auswirkung |
+| :--- | :--- | :--- | :--- |
+| **Textur-Cache** | Laut VRAM-Tabelle | Extrem (bei Überfüllung) | Hoch |
+| **RTGI-Qualität** | Hoch | Moderat | Hoch |
+| **Schattenqualität** | Mittel | Gering-Moderat | Moderat |
+| **Haarqualität** | Mittel | Gering (VRAM-intensiv) | Gering |
+| **Volumetrie** | Hoch | Gering | Moderat |
+| **Reflexionen** | Hoch | Gering | Moderat |
+
+</Section>
+
+<Section icon={Map} title="Besondere Überlegungen für 8-GB-Grafikkarten">
+
+Wenn Sie eine RTX 3060 Ti, RTX 4060 oder eine ältere 8-GB-Karte verwenden, müssen Sie bei Ihren Einstellungen chirurgisch vorgehen, um VRAM-bedingte Ruckler zu vermeiden. Bei 1440p ist das Spiel besonders speicherintensiv. Befolgen Sie diese spezifischen Schritte, um ein stabiles Erlebnis zu gewährleisten.
+
+<Steps>
+  <Step num="1" title="Textur-Cache senken">
+    Stellen Sie den Texture Streaming Cache auf **Niedrig** oder **Mittel**. Dies verhindert die „Speicher-Klippe“, bei der die FPS sofort von 60 auf 10 abfallen.
+  </Step>
+  <Step num="2" title="Schattengeometrie anpassen">
+    Belassen Sie die **Schattenqualität auf Mittel**. Einstellungen über Mittel fügen dem Schatten-Pass mehr Objekte hinzu, was zusätzlichen VRAM verbraucht, den 8-GB-Karten nicht übrig haben.
+  </Step>
+  <Step num="3" title="Haarqualität anpassen">
+    Stellen Sie bei 1440p die **Haarqualität auf Niedrig**. Dies ist entscheidend für Szenen mit vielen NPCs (wie im Vatikan), da Haar-Assets überraschend speicherintensiv sind.
+  </Step>
+  <Step num="4" title="Upscaling aktivieren">
+    Verwenden Sie den **DLSS Balanced** oder **Performance** Modus. Dies reduziert die interne Basisauflösung und spart so eine kleine, aber lebenswichtige Menge an VRAM.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Performance-Ergebnis">
+Durch diese 8-GB-spezifischen Optimierungen kann eine RTX 4060 stabile 60 FPS bei 1440p erreichen, wobei fast alle anderen Einstellungen maximiert sind, was ein High-End-Visuelles Erlebnis auf Budget-Hardware ermöglicht.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fortgeschrittene Tweaks und zukünftige Fixes">
+
+Obwohl das Spiel gut optimiert ist, gibt es einige Bereiche, in denen Enthusiasten die Engine noch weiter pushen möchten. Eine häufige Beschwerde ist das aggressive Level of Detail (LOD) Popping, bei dem Objekte sichtbar ihre Form ändern, wenn man auf sie zugeht. Dies kann über die Entwicklerkonsole gemildert werden.
+
+**Befehl zur LOD-Verbesserung:**
+Wenn Sie eine High-End-GPU (16 GB+ VRAM) haben, können Sie die Konsole öffnen und den folgenden Befehl verwenden, um geometrisches Popping zu reduzieren:
+`image_lodbias -5` (Hinweis: Standard ist normalerweise 0 oder 1).
+
+<Checklist
+  id="future-patch-wishlist"
+  title="Worauf in zukünftigen Patches zu achten ist:"
+  items={[
+    "Volle Path-Tracing-Unterstützung (erwartet Ende 2026/Anfang 2027)",
+    "FSR 3 und XeSS Integration für Nicht-Nvidia-Nutzer",
+    "Fix für das 30-FPS-Animationslimit in bestimmten Zwischensequenzen",
+    "Dynamic Resolution Support für DLSS (derzeit nur TAA)",
+    "Fix für Frametime-Spitzen bei Kamerawechseln"
+  ]}
+/>
+
+<Callout type="warning" title="Checkpoint-Ruckeln">
+Das Spiel löst häufig Speichervorgänge mit einem „Hut“-Symbol aus. In dichten Gebieten wie dem Vatikan können diese kurze Frametime-Ausschläge verursachen. Dies ist ein Verhalten auf Engine-Ebene und kann nicht allein durch Einstellungen behoben werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fazit: Das endgültige Urteil zur Optimierung">
+
+Indiana Jones und der Große Kreis ist ein seltenes Beispiel für ein modernes AAA-Spiel, das die PC-Plattform respektiert. Indem Sie sich fast ausschließlich auf das VRAM-Management konzentrieren, anstatt jede Einstellung auf „Niedrig“ zu setzen, können Sie eine atemberaubende visuelle Präsentation beibehalten. Die wichtigste Erkenntnis für **optimierte Einstellungen in Indiana Jones und der Große Kreis** ist, Ihren Textur-Cache als festes Budget zu betrachten – bleiben Sie innerhalb dieses Budgets, und das Spiel wird Sie mit einem flüssigen, kinoreifen Erlebnis belohnen.
+
+<FAQ items={[
+  {
+    question: "Warum ruckelt mein Spiel, obwohl ich hohe FPS habe?",
+    answer: "Dies liegt höchstwahrscheinlich daran, dass Ihr Texture Streaming Cache zu hoch für den VRAM Ihrer GPU eingestellt ist. Senken Sie diese Einstellung um eine Stufe und starten Sie das Spiel neu."
+  },
+  {
+    question: "Unterstützt das Spiel FSR oder XeSS?",
+    answer: "Stand Mitte 2026 unterstützt das Spiel offiziell nur DLSS und TAA. Nutzer von AMD- oder Intel-Hardware müssen auf TAA zurückgreifen oder auf eine Community-Mod bzw. einen offiziellen Patch warten."
+  },
+  {
+    question: "Was ist die anspruchsvollste Einstellung nach dem Textur-Cache?",
+    answer: "RTGI (Ray Traced Global Illumination) ist die rechenintensivste Einstellung. Wenn Ihre GPU trotz ausreichendem VRAM kämpft, bringt das Senken von RTGI auf 'Niedrig' den größten Performance-Schub."
+  },
+  {
+    question: "Gibt es eine Möglichkeit, die 30-FPS-Zwischensequenzen zu fixen?",
+    answer: "Derzeit sind einige Animationen in Zwischensequenzen fest auf 30 FPS codiert. Dies ist ein bekanntes Problem, das Machine Games voraussichtlich in einem zukünftigen technischen Patch beheben wird."
+  }
+]} />
+
+</Section>

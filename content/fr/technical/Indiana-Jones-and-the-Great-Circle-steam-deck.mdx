@@ -1,0 +1,129 @@
+import { Map, Shield, Trophy, Target, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Indiana Jones et le Grand Cercle sur Steam Deck : Guide de Performance 2026",
+  description: "Optimisez votre expérience Indiana Jones et le Grand Cercle sur Steam Deck grâce à nos réglages de performance 2026, nos conseils de batterie et notre guide de compatibilité.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/78350f/fff?text=Steam+Deck+Optimization",
+  date: "2026-05-13",
+  author: "Équipe Wiki Indiana"
+}
+
+<Callout type="info" title="Guide Rapide">
+- La performance d'**Indiana Jones et le Grand Cercle sur Steam Deck** nécessite des ajustements graphiques spécifiques pour maintenir la stabilité.
+- Le **ray tracing matériel** est une exigence de base, rendant le jeu exigeant pour le matériel portable.
+- Utilisez le **FSR 3.0** et des préréglages plus bas pour atteindre une expérience constante de 30-40 FPS en déplacement.
+- Gardez toujours votre **SteamOS** à jour avec la dernière version stable pour le meilleur support des pilotes.
+</Callout>
+
+Explorer des ruines antiques et découvrir des mystères historiques est un voyage cinématographique, et jouer à Indiana Jones et le Grand Cercle sur le Steam Deck vous permet d'emporter cette aventure partout. En tant qu'aventure à la première personne haute fidélité, le jeu propose des environnements complexes et des énigmes basées sur la lumière qui exercent une pression significative sur le matériel mobile. Pour obtenir la meilleure expérience, vous devez équilibrer la clarté visuelle et la performance. Ce guide présente les paramètres essentiels pour Indiana Jones et le Grand Cercle sur Steam Deck, garantissant que votre appareil portable offre une quête archéologique fluide et immersive tout au long de 2026.
+
+<Section icon={Settings} title="Paramètres de Performance Optimisés">
+
+Atteindre un taux de rafraîchissement jouable nécessite une approche stratégique du menu graphique du jeu. Étant donné que le titre repose fortement sur le ray tracing matériel, vous devez privilégier les préréglages plus bas tout en utilisant les technologies de mise à l'échelle pour maintenir la qualité d'image.
+
+| Paramètre | Recommandation | Raison |
+| :--- | :--- | :--- |
+| Résolution | 1280x800 | Résolution native du Deck |
+| Préréglage graphique | Bas | Réduit la charge GPU |
+| Mise à l'échelle | FSR 3.0 / Équilibré | Essentiel pour la stabilité des images |
+| Ray Tracing | Bas/Désactivé | Fort impact sur les performances |
+| Qualité des textures | Moyenne | Maintient la fidélité visuelle |
+
+<Callout type="tip" title="Conseil de Pro">
+Si vous remarquez des saccades lors de combats intenses ou de traversées de temples complexes, verrouillez le taux de rafraîchissement de votre Steam Deck à 30 FPS. Cela offre une expérience beaucoup plus stable qu'un taux de 40-50 FPS fluctuant.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Compatibilité et Configuration du Steam Deck">
+
+La conception du jeu, qui met l'accent sur l'exploration et la furtivité, se prête bien à la disposition des commandes du Steam Deck. Cependant, comme le titre est exigeant, la gestion de vos ressources est vitale pour une session fluide.
+
+<CardGrid cols={3}>
+  <Card title="Besoins en Stockage">
+    - **Installation de base de 126 Go**
+    - +9 Go pour le contenu DLC
+    - Utilisez un SSD haute vitesse
+  </Card>
+  <Card title="Autonomie de la Batterie">
+    - 1,5 à 2 heures en moyenne
+    - Limitez le TDP à 15W
+    - Réduisez la luminosité de l'écran
+  </Card>
+  <Card title="Schéma de Contrôle">
+    - Support natif de la manette
+    - Utilisez les trackpads pour la visée
+    - Reconfigurez les commandes du fouet
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Note Importante">
+Assurez-vous toujours que votre Steam Deck exécute le dernier firmware stable. Les titres Bethesda reçoivent souvent des optimisations qui dépendent des récentes mises à jour de Proton pour une meilleure compatibilité.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Étapes d'Installation et de Maintenance">
+
+Suivez ces étapes pour garantir une installation propre et des performances optimales pour votre aventure à travers le monde.
+
+<Steps>
+  <Step num="1" title="Vérifier le Stockage">
+    Assurez-vous d'avoir au moins 140 Go d'espace libre sur votre SSD interne. L'installation sur une carte microSD peut entraîner des problèmes de streaming de textures.
+  </Step>
+  <Step num="2" title="Lancer et Configurer">
+    Lancez le jeu et accédez immédiatement au menu Graphiques pour appliquer le préréglage Bas avant de commencer la campagne principale.
+  </Step>
+  <Step num="3" title="Activer la Mise à l'échelle">
+    Accédez aux paramètres d'affichage et basculez FSR 3.0 sur 'Équilibré' pour équilibrer la netteté visuelle et le taux de rafraîchissement.
+  </Step>
+  <Step num="4" title="Gestion des Sauvegardes">
+    Utilisez le Steam Cloud pour synchroniser votre progression, surtout si vous passez du Steam Deck à un PC de bureau.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Liste de Contrôle Technique">
+
+Utilisez cette liste de contrôle pour suivre la progression de votre configuration et vous assurer que vous êtes prêt pour l'expérience complète.
+
+<Checklist
+  id="deck-setup"
+  title="Liste de Contrôle de Préparation du Steam Deck :"
+  items={[
+    "SteamOS mis à jour à la dernière version",
+    "Préréglage graphique réglé sur Bas",
+    "FSR 3.0 activé pour la performance",
+    "Stockage SSD vérifié (140 Go+ libres)",
+    "Sauvegardes cloud activées pour le cross-platform"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Puis-je faire tourner Indiana Jones et le Grand Cercle sur Steam Deck à 60 FPS ?",
+    answer: "Maintenir un 60 FPS constant n'est pas recommandé en raison de la forte dépendance du jeu au ray tracing. Une cible de 30 FPS ou 40 FPS verrouillée est l'équilibre idéal pour une expérience fluide."
+  },
+  {
+    question: "Le jeu prend-il en charge le jeu hors ligne sur Steam Deck ?",
+    answer: "Oui, une fois les fichiers initiaux téléchargés et le jeu vérifié, vous pouvez jouer à la campagne solo hors ligne."
+  },
+  {
+    question: "Pourquoi l'exigence de stockage est-elle si élevée ?",
+    answer: "Le jeu contient des textures haute résolution et des éléments cinématiques qui nécessitent un espace significatif. Assurez-vous d'avoir 126 Go pour le jeu de base plus de l'espace supplémentaire pour les mises à jour."
+  }
+]} />
+
+</Section>

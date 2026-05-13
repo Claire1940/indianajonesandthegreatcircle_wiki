@@ -1,0 +1,129 @@
+import { Map, Shield, Trophy, Target, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Steam Deck: Leistungsleitfaden 2026",
+  description: "Optimieren Sie Ihr Indiana Jones and the Great Circle-Erlebnis auf dem Steam Deck mit unseren Leistungseinstellungen, Akkutipps und Kompatibilitätshandbuch für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/78350f/fff?text=Steam+Deck+Optimization",
+  date: "2026-05-13",
+  author: "Indiana Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die Leistung von **Indiana Jones and the Great Circle Steam Deck** erfordert spezielle grafische Anpassungen, um die Stabilität zu gewährleisten.
+- **Hardware-Raytracing** ist eine Grundvoraussetzung, was das Spiel für Handheld-Hardware anspruchsvoll macht.
+- Verwenden Sie **FSR 3.0** und niedrigere Voreinstellungen, um ein konstantes 30-40 FPS-Erlebnis unterwegs zu erzielen.
+- Halten Sie Ihr **SteamOS** immer auf dem neuesten stabilen Stand, um die beste Treiberunterstützung zu erhalten.
+</Callout>
+
+Alte Ruinen zu erkunden und historische Geheimnisse zu lüften ist eine filmische Reise, und Indiana Jones and the Great Circle auf dem Steam Deck zu spielen, ermöglicht es Ihnen, dieses Abenteuer überallhin mitzunehmen. Als hochauflösendes Ego-Abenteuer bietet das Spiel komplexe Umgebungen und lichtbasierte Rätsel, die mobile Hardware erheblich belasten. Um das beste Erlebnis zu erzielen, müssen Sie visuelle Klarheit mit Leistung in Einklang bringen. Dieser Leitfaden erläutert die wesentlichen Einstellungen für Indiana Jones and the Great Circle auf dem Steam Deck und stellt sicher, dass Ihr Handheld-Gerät während des gesamten Jahres 2026 eine reibungslose und immersive archäologische Suche bietet.
+
+<Section icon={Settings} title="Optimierte Leistungseinstellungen">
+
+Das Erreichen einer spielbaren Bildrate erfordert einen strategischen Ansatz für das Grafikmenü des Spiels. Da der Titel stark auf Hardware-Raytracing angewiesen ist, sollten Sie niedrigere Voreinstellungen priorisieren, während Sie Upscaling-Technologien nutzen, um die Bildqualität zu erhalten.
+
+| Einstellung | Empfehlung | Grund |
+| :--- | :--- | :--- |
+| Auflösung | 1280x800 | Native Deck-Auflösung |
+| Grafik-Voreinstellung | Niedrig | Reduziert die GPU-Belastung |
+| Upscaling | FSR 3.0 / Ausgeglichen | Essentiell für Bildstabilität |
+| Raytracing | Niedrig/Aus | Hohe Auswirkung auf die Leistung |
+| Texturqualität | Mittel | Erhält die visuelle Wiedergabetreue |
+
+<Callout type="tip" title="Pro-Tipp">
+Wenn Sie während intensiver Kämpfe oder komplexer Tempeldurchquerungen Stottern bemerken, sperren Sie die Bildrate Ihres Steam Decks auf 30 FPS. Dies bietet ein viel stabileres Erlebnis als schwankende 40-50 FPS.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Steam Deck Kompatibilität & Einrichtung">
+
+Das Spieldesign, das Erkundung und Schleichen betont, lässt sich gut auf das Controller-Layout des Steam Decks übertragen. Da der Titel jedoch anspruchsvoll ist, ist die Verwaltung Ihrer Ressourcen für eine reibungslose Sitzung von entscheidender Bedeutung.
+
+<CardGrid cols={3}>
+  <Card title="Speicherbedarf">
+    - **126 GB Basisinstallation**
+    - +9 GB für DLC-Inhalte
+    - Verwenden Sie eine Hochgeschwindigkeits-SSD
+  </Card>
+  <Card title="Akkulaufzeit">
+    - Durchschnittlich 1,5 bis 2 Stunden
+    - 15 W TDP-Limit verwenden
+    - Bildschirmhelligkeit reduzieren
+  </Card>
+  <Card title="Steuerungsschema">
+    - Native Controller-Unterstützung
+    - Trackpads zum Zielen verwenden
+    - Peitschensteuerung neu belegen
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Wichtiger Hinweis">
+Stellen Sie immer sicher, dass Ihr Steam Deck die neueste stabile Firmware verwendet. Bethesda-Titel erhalten oft Optimierungen, die auf aktuelle Proton-Updates für eine bessere Kompatibilität angewiesen sind.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Installations- & Wartungsschritte">
+
+Befolgen Sie diese Schritte, um eine saubere Installation und optimale Leistung für Ihr Abenteuer rund um den Globus zu gewährleisten.
+
+<Steps>
+  <Step num="1" title="Speicher überprüfen">
+    Stellen Sie sicher, dass Sie mindestens 140 GB freien Speicherplatz auf Ihrer internen SSD haben. Die Installation auf einer microSD-Karte kann zu Problemen beim Textur-Streaming führen.
+  </Step>
+  <Step num="2" title="Starten & Konfigurieren">
+    Starten Sie das Spiel und rufen Sie sofort das Grafikmenü auf, um die Voreinstellung "Niedrig" anzuwenden, bevor Sie die Hauptkampagne starten.
+  </Step>
+  <Step num="3" title="Upscaling aktivieren">
+    Navigieren Sie zu den Anzeigeeinstellungen und schalten Sie FSR 3.0 auf "Ausgeglichen", um ein Gleichgewicht zwischen visueller Schärfe und Bildrate zu finden.
+  </Step>
+  <Step num="4" title="Speicherverwaltung">
+    Verwenden Sie die Steam Cloud, um Ihren Fortschritt zu synchronisieren, insbesondere wenn Sie zwischen dem Steam Deck und einem Desktop-PC wechseln.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Technische Checkliste">
+
+Verwenden Sie diese Checkliste, um Ihren Einrichtungsfortschritt zu verfolgen und sicherzustellen, dass Sie für das volle Erlebnis bereit sind.
+
+<Checklist
+  id="deck-setup"
+  title="Steam Deck Bereitschaftscheckliste:"
+  items={[
+    "SteamOS auf die neueste Version aktualisiert",
+    "Grafik-Voreinstellung auf Niedrig gesetzt",
+    "FSR 3.0 für Leistung aktiviert",
+    "SSD-Speicher überprüft (140 GB+ frei)",
+    "Cloud-Speicher für plattformübergreifende Nutzung aktiviert"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Kann ich Indiana Jones and the Great Circle auf dem Steam Deck mit 60 FPS spielen?",
+    answer: "Ein konstantes 60-FPS-Erlebnis wird aufgrund der starken Abhängigkeit des Spiels von Raytracing nicht empfohlen. Ein festes Ziel von 30 FPS oder 40 FPS ist das ideale Gleichgewicht für ein reibungsloses Erlebnis."
+  },
+  {
+    question: "Unterstützt das Spiel Offline-Spielen auf dem Steam Deck?",
+    answer: "Ja, sobald die anfänglichen Dateien heruntergeladen und das Spiel verifiziert wurde, können Sie die Einzelspieler-Kampagne offline spielen."
+  },
+  {
+    question: "Warum ist der Speicherbedarf so hoch?",
+    answer: "Das Spiel enthält hochauflösende Texturen und filmische Assets, die viel Platz benötigen. Stellen Sie sicher, dass Sie 126 GB für das Basisspiel plus zusätzlichen Speicherplatz für Updates haben."
+  }
+]} />
+
+</Section>

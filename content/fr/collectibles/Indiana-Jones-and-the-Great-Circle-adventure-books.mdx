@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Livres d'aventure Indiana Jones et le Cercle Ancien : Guide complet 2026",
+  description: "Débloquez tout le potentiel d'Indy avec notre guide des 55 livres d'aventure d'Indiana Jones et le Cercle Ancien. Découvrez les emplacements, les coûts et les améliorations prioritaires.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3e2723/fff?text=Adventure+Books+Guide",
+  date: "2026-05-13",
+  author: "L'équipe Wiki Indiana Jones"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mécanique de base** : Trouver les **livres d'aventure d'Indiana Jones et le Cercle Ancien** est le seul moyen de débloquer des compétences permanentes et des améliorations de statistiques.
+- **Dépenser des points** : Une fois qu'un livre est trouvé, vous devez dépenser des **Points d'Aventure (PA)** ou des **Bouteilles de médicament** pour activer son effet.
+- **Choix prioritaire** : Donnez toujours la priorité à **Chapeau chanceux I** et **Entrain I** en début de jeu pour une meilleure survie et une récupération d'endurance accrue.
+- **Livres d'exploration** : Les livres de cartes régionales (Livres, Mystères, Reliques) révèlent l'emplacement des objets de collection sur votre carte — achetez-les auprès des vendeurs dès que possible.
+- **Objectif de succès** : Vous devez trouver les **55 livres de capacité** pour obtenir le trophée/succès **Rat de bibliothèque**.
+</Callout>
+
+Dans le monde de l'archéologie, le savoir est tout aussi dangereux qu'un revolver chargé. Dans Indiana Jones et le Cercle Ancien, votre progression est directement liée à la découverte de textes anciens et de manuels de terrain. Ces **livres d'aventure d'Indiana Jones et le Cercle Ancien** constituent la colonne vertébrale du système RPG-lite du jeu, permettant aux joueurs de personnaliser les prouesses au combat, les capacités de discrétion et l'endurance physique d'Indy. Contrairement aux systèmes de progression traditionnels, vous ne gagnerez pas en puissance simplement en battant des ennemis ; vous devez explorer chaque recoin du Vatican, de Gizeh et de Sukhothaï pour dénicher ces volumes cachés. Ce guide propose une analyse complète des emplacements des livres d'aventure les plus percutants, de la gestion de vos Points d'Aventure et des compétences qui feront de vous un explorateur légendaire dans le paysage vidéoludique de 2026.
+
+<Section icon={BookOpen} title="Comprendre les mécaniques des livres d'aventure">
+
+Avant de plonger dans les emplacements spécifiques, il est vital de comprendre le fonctionnement de la boucle d'amélioration. Trouver un livre n'est que la première moitié du processus. Une fois qu'un volume est ajouté à votre collection, il apparaît dans l'onglet « Livres » de votre Journal. De là, vous devez « acheter » l'amélioration en utilisant la devise que vous avez gagnée grâce à l'exploration.
+
+| Devise d'amélioration | Source principale | Utilisation |
+| :--- | :--- | :--- |
+| **Points d'Aventure (PA)** | Trouver des reliques, prendre des photos, résoudre des mystères | Débloque les compétences de combat, de discrétion et de forme physique |
+| **Bouteilles de médicament** | Cachées dans les hubs régionaux (Vatican, Gizeh, etc.) | Utilisées spécifiquement pour **Cran** et **Remise en forme** |
+
+<Callout type="tip" title="Maximiser le gain de PA">
+Des Points d'Aventure sont accordés pour presque chaque action « archéologique ». Pour vous assurer d'avoir assez de points pour débloquer chaque livre trouvé, gardez votre appareil photo à portée de main. Photographier des inscriptions et des monuments est le moyen le plus rapide de farmer des PA en début de jeu.
+</Callout>
+
+Le jeu propose 55 livres de capacité uniques au total. Bien que certains vous soient remis pendant l'histoire principale, la grande majorité est cachée derrière des énigmes environnementales, des coffres-forts verrouillés ou vendue par des vendeurs régionaux spécifiques comme Ernesto au Vatican ou Tongdang à Sukhothaï.
+
+</Section>
+
+<Section icon={Target} title="Cité du Vatican : Livres essentiels de début de jeu">
+
+Le Vatican constitue votre premier grand hub en zone ouverte, et il regorge de **livres d'aventure Indiana Jones et le Cercle Ancien** fondamentaux. Ces livres se concentrent sur la « Bagarre » et la « Forme physique », essentiels puisque vous n'aurez pas un grand arsenal d'armes à feu au début.
+
+<CardGrid cols={3}>
+  <Card title="Chapeau chanceux I">
+    - **Emplacement** : Chambre du capitaine du Vatican
+    - **Coût** : 125 PA
+    - **Effet** : Obtenez une seconde chance dans un combat en ramassant votre fedora tombé.
+  </Card>
+  <Card title="K.O. I">
+    - **Emplacement** : Château Saint-Ange
+    - **Coût** : 25 PA
+    - **Effet** : Restaure immédiatement l'endurance après avoir mis un ennemi K.O.
+  </Card>
+  <Card title="Entrain I">
+    - **Emplacement** : Cour du Belvédère
+    - **Coût** : 275 PA
+    - **Effet** : Augmente considérablement votre vitesse de récupération d'endurance de base.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="La méta de la discrétion">
+Si vous préférez une approche silencieuse, cherchez le livre **Étranglement** dans les cours Borgia. Il coûte 200 PA et permet à Indy de neutraliser les ennemis légers et moyens non alertés d'un seul coup de fouet, facilitant grandement la navigation dans les sections gardées du Vatican.
+</Callout>
+
+Au-delà du combat, le Vatican introduit également les « Livres d'exploration ». Ceux-ci sont uniques car ils ne donnent pas de nouveau mouvement à Indy ; au lieu de cela, ils mettent à jour votre carte avec des marqueurs pour d'autres objets de collection.
+
+| Livre d'exploration | Comment l'obtenir | Effet sur la carte |
+| :--- | :--- | :--- |
+| **Livres du Vatican** | Acheté auprès d'Ernesto | Révèle tous les emplacements des livres d'aventure au Vatican |
+| **Mystères du Vatican** | Obtenu via des énigmes | Marque tous les emplacements de mystères sur la carte |
+| **Reliques du Vatican** | Trouvé dans le Palais Apostolique | Met en évidence les reliques anciennes pour le 100 % |
+
+</Section>
+
+<Section icon={Map} title="Gizeh et les améliorations du désert">
+
+Alors que vous passez au hub de Gizeh, les **livres d'aventure Indiana Jones et le Cercle Ancien** commencent à se concentrer sur le « Combat » et la « Survie » contre des forces nazies plus coriaces. La verticalité des pyramides et le désert ouvert nécessitent de meilleures compétences de traversée et de contrôle de foule.
+
+<Steps>
+  <Step num="1" title="Acquérir le briquet">
+    De nombreux livres à Gizeh sont cachés dans les recoins sombres des tombes. Vous devez progresser dans l'histoire jusqu'à obtenir le briquet pour explorer ces zones efficacement.
+  </Step>
+  <Step num="2" title="Localiser le Lasso Jumbo">
+    Rendez-vous à la **Tombe de Khentkawes**. Ce livre coûte 325 PA et change la donne, vous permettant d'attirer les ennemis lourds avec le fouet pour une saisie.
+  </Step>
+  <Step num="3" title="Résoudre l'Atlas des Nuages">
+    Visitez la station météorologique. En faisant correspondre les dates aux types de nuages, vous pouvez débloquer le livre **Médecine de Gizeh**, nécessaire pour dépenser des bouteilles de médicament dans cette région.
+  </Step>
+  <Step num="4" title="Visiter la zone de loisirs nazie">
+    Vérifiez les tentes de loisirs et les bureaux. Vous y trouverez des livres de cartes régionales révélant l'emplacement des 10 stèles requises pour le trophée « Sa place est dans un musée ».
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Devises régionales">
+N'oubliez pas que chaque région majeure utilise sa propre monnaie locale pour les achats auprès des vendeurs. Ne conservez pas vos lires du Vatican ; dépensez-les avant de partir, car elles ne vous aideront pas à acheter des livres de cartes dans le désert égyptien.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Le système de bouteilles de médicament : Cran et Remise en forme">
+
+Contrairement aux compétences standard, vos barres de Santé et d'Endurance réelles sont améliorées via un ensemble spécifique de **livres d'aventure Indiana Jones et le Cercle Ancien** trouvés dans des huttes médicales ou des bureaux de poste. Ces améliorations sont progressives (I, II et III) et nécessitent des **Bouteilles de médicament** au lieu de PA.
+
+| Nom du livre | Niveau | Condition | Bonus permanent |
+| :--- | :--- | :--- | :--- |
+| **Cran** | I | 5 Bouteilles | Extension initiale de la barre d'endurance |
+| **Cran** | II | 10 Bouteilles | Deuxième extension de la barre d'endurance |
+| **Cran** | III | 15 Bouteilles | Capacité d'endurance maximale |
+| **Remise en forme** | I | 5 Bouteilles | Première barre de réserve de santé supplémentaire |
+| **Remise en forme** | II | 10 Bouteilles | Deuxième barre de réserve de santé supplémentaire |
+| **Remise en forme** | III | 15 Bouteilles | Réserves de santé maximales |
+
+<Callout type="info" title="Où dépenser les bouteilles">
+Vous pouvez rapporter vos bouteilles au **Bureau de poste du Vatican**, à la **Zone des travailleurs de Gizeh** ou à la **Hutte médicale de Sukhothaï**. Chaque emplacement dispose d'un médecin ou d'un préposé qui facilite ces améliorations spécifiques.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sukhothaï : Livres de maîtrise de haut niveau">
+
+Le dernier hub majeur, Sukhothaï, contient les **livres d'aventure Indiana Jones et le Cercle Ancien** les plus chers et les plus puissants. À ce stade, vous devriez avoir un surplus de PA grâce aux nombreuses reliques cachées dans la jungle.
+
+<Checklist
+  id="sukhothai-books"
+  title="Meilleurs livres de capacité de Sukhothaï :"
+  items={[
+    "Poigne Jumbo : Trouvé près de la hutte de Tongdang (nécessite le code du coffre-fort du Sentier des Tigres 2480)",
+    "Bagarreur de rue III : Trouvé dans la tente du Wat Mahathat (nécessite le code 4134)",
+    "Médecine de Sukhothaï : Trouvé au Wat Chana Songkhram (nécessite le code 59404)",
+    "Expert en rouages khmers : Obtenu en complétant les 10 énigmes de rouages"
+  ]}
+/>
+
+<Callout type="tip" title="Stratégie de nettoyage à 100 %">
+Avant de tenter de terminer l'histoire en Irak, retournez à Sukhothaï et achetez les guides **Livres de Sukhothaï**, **Mystères** et **Reliques** auprès de Tongdang. Cela vous garantira de ne manquer aucun des derniers volumes nécessaires pour le succès **Rat de bibliothèque**.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Résumé des emplacements des livres d'aventure">
+
+Pour vous aider à suivre votre progression vers l'objectif des 55 livres, utilisez le tableau suivant pour vérifier que vous avez atteint les totaux majeurs pour chaque région.
+
+| Région | Total des livres de capacité | Vendeur clé | Focus principal des compétences |
+| :--- | :--- | :--- | :--- |
+| **Le Vatican** | 12 | Ernesto | Bagarre et Discrétion |
+| **Gizeh** | 15 | Camps du désert | Combat et Traversée |
+| **Sukhothaï** | 18 | Tongdang | Combat avancé |
+| **Niveaux linéaires** | 10 | N/A (Trouvés dans l'histoire) | Mécaniques de base |
+
+</Section>
+
+<Section icon={Swords} title="FAQ sur les livres d'aventure">
+
+<FAQ items={[
+  {
+    question: "Puis-je débloquer toutes les compétences en une seule partie ?",
+    answer: "Oui. Si vous collectez consciencieusement les reliques anciennes et prenez des photos, vous gagnerez suffisamment de Points d'Aventure pour débloquer les 55 livres avant la mission finale."
+  },
+  {
+    question: "Est-ce que je perds mes améliorations en New Game Plus ?",
+    answer: "Le jeu permet de terminer l'exploration librement après l'histoire. La plupart des améliorations et de la progression des livres sont conservées, mais vous devriez viser à terminer le trophée 'Rat de bibliothèque' sur votre sauvegarde principale."
+  },
+  {
+    question: "Que se passe-t-il si je trouve un livre mais que je n'ai pas assez de PA ?",
+    answer: "Le livre reste définitivement dans votre Journal. Vous pouvez retourner dans n'importe quelle hutte médicale ou bureau de poste plus tard pour dépenser vos points une fois que vous les aurez gagnés."
+  },
+  {
+    question: "Y a-t-il des livres d'aventure manquables ?",
+    answer: "Selon les principaux guides de complétion, il n'y a aucun trophée manquable. Vous pouvez utiliser l'onglet 'Voyages' de votre Journal pour revenir dans n'importe quel hub et trouver les livres manquants."
+  }
+]} />
+
+</Section>

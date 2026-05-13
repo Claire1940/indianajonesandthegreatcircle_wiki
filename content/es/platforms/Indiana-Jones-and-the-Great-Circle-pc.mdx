@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle pc: Guía de Mejores Ajustes y Optimización 2026",
+  description: "Domina los mejores ajustes para PC de Indiana Jones and the Great Circle. Optimiza la VRAM, corrige errores de textura y logra 60 FPS con nuestra guía completa de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Indiana+Jones+PC+Optimization",
+  date: "2026-05-13",
+  author: "Equipo Wiki de Indiana Jones"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Requisito Principal**: El Ray Tracing por hardware es obligatorio; no hay alternativa por software o rasterizada.
+- **Gestión de VRAM**: El **Caché de Texturas en Streaming** es la configuración más crítica para la estabilidad.
+- **Solución para GPU de 8GB**: Mantén las Sombras en **Medio** y el Pelo en **Bajo** para evitar caídas masivas de fotogramas.
+- **Bug a 1080p**: Evita el ajuste de textura **Supreme** a resolución 1080p, ya que causa corrupción visual.
+- **Comando de Consola**: Usa `r_lodScale 5` para reducir significativamente el pop-in geométrico en sistemas de gama alta.
+</Callout>
+
+Indiana Jones and the Great Circle para PC representa un hito importante para MachineGames, utilizando la última iteración del motor idTech para ofrecer una experiencia cinematográfica de acción y aventura. A diferencia de muchos títulos AAA recientes que sufren de tirones por compilación de shaders o problemas de desplazamiento, este título ofrece una experiencia notablemente fluida en la plataforma. Sin embargo, su gran dependencia del Ray Tracing acelerado por hardware y las altas demandas de VRAM significan que los jugadores deben ser estratégicos con sus configuraciones gráficas.
+
+En esta guía, exploraremos los matices del rendimiento del juego, comparándolo con sus contrapartes de consola y proporcionando un conjunto definitivo de ajustes optimizados. Ya sea que tengas una tarjeta RTX de la serie 40 de gama alta o una GPU más modesta de 8GB, comprender cómo Indiana Jones and the Great Circle para PC maneja la iluminación y el streaming de texturas es esencial para una experiencia fluida a 60 FPS. Desglosaremos los niveles específicos de VRAM y los comandos de consola ocultos que pueden llevar los gráficos más allá de los ajustes ultra estándar.
+
+<Section icon={Map} title="Visión General Técnica y Rendimiento Base">
+
+Indiana Jones and the Great Circle para PC es uno de los pocos títulos modernos que adopta completamente el trazado de rayos por hardware como requisito fundamental. El juego utiliza la Iluminación Global con Trazado de Rayos (RTGI) para manejar toda la iluminación indirecta y las sombras, asegurando que la luz rebote de forma natural en las superficies y que los objetos estén correctamente ocluidos en el entorno. Esto crea un aspecto mucho más realista y fundamentado en comparación con la versión de Xbox Series X, que a menudo utiliza configuraciones inferiores al preajuste "Bajo" de PC para mantener el rendimiento.
+
+**Aspectos Destacados del Video:**
+- Análisis de la Iluminación Global con Trazado de Rayos y su impacto en los entornos de la jungla.
+- Comparación entre los ajustes "Bajos" de PC y la versión de Xbox Series X.
+- Explicación de por qué el juego está limitado por la VRAM en lugar de por el sombreado.
+- Desglose detallado del sistema de caché de texturas en el motor idTech.
+
+<YouTubeEmbed videoId="xbvxohT032E" title="Indiana Jones and the Great Circle - PC Tech Review" />
+
+En PC, incluso la configuración RTGI más baja proporciona una iluminación más precisa que la versión de consola. Por ejemplo, en escenas interiores complejas, los objetos en PC exhiben sombras de contacto adecuadas y luz de rebote, mientras que en Xbox, ciertos activos pueden parecer "flotar" debido a la falta de objetos en el paso de GI.
+
+| Característica | PC Baja/Media | Xbox Series X | PC Suprema/Ultra |
+|----------------|---------------|---------------|------------------|
+| **Ray Tracing** | RTGI por Hardware (Alta Precisión) | RTGI Reducido (Objetos Faltantes) | Trazado de Trayectorias Completo (Post-Lanzamiento) |
+| **Filtrado de Texturas** | Anisotrópico 16x | Equivalente a Medio/Tasa Variable | Anisotrópico 16x |
+| **Calidad de Sombra** | Mapas de Alta Resolución | Híbrido Medio/Bajo | Mapas de Ultra Alta Resolución |
+| **Volumétricos** | Rayos Estables | Bajo Detalle (Propenso a Parpadeo) | Rayos de Alta Densidad |
+
+<Callout type="tip" title="Secreto de Optimización">
+El juego es sorprendentemente ligero en las unidades de sombreado de la CPU y la GPU. La mayoría de los problemas de rendimiento son causados por desbordamientos de VRAM. Si tienes suficiente memoria, es probable que puedas maximizar la mayoría de los ajustes sin una penalización significativa en la velocidad de fotogramas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El Factor VRAM: Gestión del Caché de Texturas">
+
+La configuración más importante para Indiana Jones and the Great Circle para PC es el **Tamaño del Caché de Streaming**. Esta configuración dicta cuánta VRAM de tu GPU se dedica a almacenar texturas. Si esta configuración excede tu memoria disponible, el juego experimentará tirones severos y caídas masivas de fotogramas mientras intenta intercambiar datos entre la GPU y la RAM del sistema.
+
+MachineGames ha proporcionado una tabla de recomendaciones, pero carece del contexto necesario para diferentes resoluciones. Basándonos en pruebas exhaustivas, hemos categorizado los ajustes óptimos de textura según la capacidad de VRAM de tu hardware.
+
+| VRAM de GPU | Ajuste 1080p | Ajuste 1440p | Ajuste 4K |
+|-------------|---------------|---------------|------------|
+| **8 GB** | Medio | Medio | Bajo (No Recomendado) |
+| **10 GB** | Alto | Alto | Medio |
+| **12 GB** | Ultra | Supreme | Ultra |
+| **16 GB+** | Supreme | Supreme | Supreme |
+
+<Callout type="warning" title="Bug Supreme a 1080p">
+Existe un error gráfico conocido al usar la configuración de textura **Supreme** a una resolución de 1080p. Esto hace que las texturas se rompan y aparezcan corruptas, independientemente de la capacidad de tu VRAM. Mantente en **Ultra** a 1080p hasta que se lance un parche.
+</Callout>
+
+Cuando el caché se establece demasiado bajo, es posible que notes que las texturas de cerca aparecen borrosas o tardan varios segundos en "aparecer" en alta resolución durante las escenas. Por el contrario, configurarlo demasiado alto en una tarjeta de 8GB como la RTX 4060 resultará en un rendimiento injugable.
+
+</Section>
+
+<Section icon={Target} title="Configuraciones Optimizadas para GPUs de 8GB y Gama Media">
+
+Para los jugadores con GPUs de 8GB, lograr 60 FPS estables en Indiana Jones and the Great Circle para PC requiere ajustes específicos más allá del caché de texturas. Otras dos configuraciones —**Sombras** y **Pelo**— son sorprendentemente pesadas en VRAM y pueden causar bloqueos o ralentizaciones en áreas concurridas como el Vaticano.
+
+<Steps>
+  <Step num="1" title="Establecer Línea Base de Texturas">
+    Identifica tu VRAM. Para tarjetas de 8GB, establece el **Tamaño del Caché de Streaming** en **Medio**. Esto asegura que el motor no asigne demasiada memoria.
+  </Step>
+  <Step num="2" title="Ajustar Geometría de Sombra">
+    Mantén las **Sombras** en **Medio**. Aunque la diferencia visual entre Medio y Ultra es sutil, el costo de VRAM para la geometría adicional en los mapas de sombras es significativo en hardware de gama baja.
+  </Step>
+  <Step num="3" title="Configurar Detalle de Personajes">
+    Establece el **Pelo** en **Bajo**, especialmente si juegas a 1440p. Esto previene el desbordamiento de VRAM en escenas con muchos NPC, que es un punto común de fallo para tarjetas de 8GB.
+  </Step>
+  <Step num="4" title="Habilitar Escalado">
+    Usa **DLSS** o **TAA**. Ten en cuenta que el juego actualmente no es compatible con FSR o XeSS, y la Resolución Dinámica solo funciona con TAA.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="Perfil de GPU de 8GB">
+    - **Texturas**: Medio
+    - **Sombras**: Medio
+    - **Pelo**: Bajo
+    - **Escalado**: DLSS Equilibrado
+  </Card>
+  <Card title="Perfil de GPU de 12GB">
+    - **Texturas**: Ultra/Supreme
+    - **Sombras**: Ultra
+    - **Pelo**: Alto
+    - **Escalado**: DLSS Calidad
+  </Card>
+  <Card title="Perfil de Gama Alta">
+    - **Texturas**: Supreme
+    - **Sombras**: Ultra
+    - **LOD**: Ajuste de Consola (r_lodScale 5)
+    - **Escalado**: DLSS Calidad/DLAA
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ganancia de Rendimiento">
+Siguiendo el perfil de 8GB, los usuarios de una RTX 4060 pueden lograr un rendimiento constante de 60 FPS a 1440p usando DLSS Equilibrado, con casi todas las demás configuraciones en sus valores máximos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Ajustes Visuales Avanzados y Correcciones de LOD">
+
+Una de las pocas críticas a la versión de PC son las agresivas transiciones de Nivel de Detalle (LOD). Incluso en configuraciones "Ultra", los jugadores pueden notar objetos y follaje apareciendo muy cerca de la cámara. Esto es probablemente una herencia de la optimización de consola para mantener una alta tasa de fotogramas.
+
+Afortunadamente, Indiana Jones and the Great Circle para PC permite anulaciones de comandos de consola. Abriendo la consola de desarrollador (normalmente la tecla tilde `~`), puedes aumentar manualmente la distancia del LOD.
+
+**Ajuste Esencial de Consola:**
+`r_lodScale 5`
+
+El valor predeterminado es `1`. Aumentarlo a `5` elimina virtualmente el pop-in geométrico, haciendo que el mundo se sienta mucho más sólido e inmersivo. Ten en cuenta que esto conlleva un costo de GPU y memoria, por lo que solo se recomienda para usuarios con 12GB de VRAM o más.
+
+| Configuración | Valor Predeterminado | Recomendado (Gama Alta) | Impacto Visual |
+|---------------|----------------------|-------------------------|----------------|
+| **r_lodScale** | 1 | 5 | Elimina el pop-in geométrico |
+| **Mapas de Sombras** | Ultra | Ultra | Alto (Todavía sufre de paginación) |
+| **RTGI** | Ultra | Ultra | Masivo (Iluminación indirecta) |
+
+<Callout type="info" title="Futuras Actualizaciones">
+MachineGames ha anunciado que el **Trazado de Trayectorias Completo** (renderizado de todos los efectos de iluminación a través del trazado de rayos) se añadirá en una futura actualización. Esto probablemente hará que los mapas de sombras tradicionales sean redundantes, pero requerirá hardware de primera línea.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación Final y Problemas Conocidos">
+
+Antes de embarcarte en tu aventura, asegúrate de que tu sistema esté completamente preparado. Indiana Jones and the Great Circle para PC es una experiencia pulida, pero hay algunas molestias menores de las que debes estar al tanto, particularmente con respecto a las escenas y los puntos de guardado.
+
+<Checklist
+  id="pc-readiness"
+  title="Lista de Verificación de Configuración Final:"
+  items={[
+    "Verifica que los controladores de la GPU estén actualizados para las versiones de 2026",
+    "Establece el Caché de Texturas según la capacidad de VRAM (8GB/10GB/12GB)",
+    "Deshabilita las texturas Supreme si juegas a 1080p",
+    "Habilita DLSS si usas una tarjeta NVIDIA para un mejor rendimiento de RT",
+    "Monitorea el uso de VRAM en el área del Vaticano para asegurar que no haya desbordamiento"
+  ]}
+/>
+
+**Problemas Técnicos Conocidos:**
+- **Animaciones de Escenas**: Algunas animaciones en las escenas están limitadas a 30 FPS, lo que provoca un aspecto entrecortado a pesar de una alta tasa de fotogramas general.
+- **Cambios de Cámara**: Cambiar entre ángulos de cámara en las escenas puede causar picos breves en el tiempo de fotogramas (hasta 100ms).
+- **Tartamudeo en Puntos de Control**: El icono del "Sombrero" que indica un guardado puede causar un pequeño tirón, especialmente en el Vaticano.
+- **Resolución Dinámica**: Actualmente incompatible con DLSS; solo funciona con TAA.
+
+<Callout type="warning" title="Retraso en el Punto de Guardado">
+Si experimentas pequeños tirones frecuentes en mapas grandes, es probable que se deba al agresivo sistema de autoguardado del juego. Actualmente no hay forma de deshabilitar estos puntos de control menores, pero instalar el juego en un SSD NVMe rápido minimiza el impacto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Indiana Jones and the Great Circle para PC requiere un SSD?",
+    answer: "Sí, se recomienda encarecidamente un SSD debido al agresivo sistema de streaming de texturas. Usar un HDD probablemente causará un significativo pop-in de texturas y tirones a medida que se actualice el caché."
+  },
+  {
+    question: "¿Puedo ejecutar el juego sin una GPU compatible con Ray Tracing?",
+    answer: "No. El juego requiere Ray Tracing por hardware para su sistema de Iluminación Global. Las GPUs sin núcleos RT no podrán renderizar la iluminación correctamente o podrían no iniciar el juego."
+  },
+  {
+    question: "¿Por qué mi juego se bloquea en el área del Vaticano?",
+    answer: "Esto suele ser un desbordamiento de VRAM. Si tienes una tarjeta de 8GB, asegúrate de que tu configuración de Pelo esté en Bajo y las Sombras en Medio para liberar memoria para la gran cantidad de NPC en esa área."
+  },
+  {
+    question: "¿Qué escalador es mejor para este juego?",
+    answer: "Actualmente, DLSS es la opción superior para los usuarios de NVIDIA. El juego carece de FSR y XeSS en el lanzamiento, por lo que los usuarios que no son de NVIDIA deben depender del TAA incorporado o del escalado espacial."
+  }
+]} />
+
+</Section>

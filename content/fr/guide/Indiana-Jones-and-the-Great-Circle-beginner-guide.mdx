@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guide du débutant Indiana Jones et le Grand Cercle : Maîtriser l'exploration 2026",
+  description: "Maîtrisez Indiana Jones et le Grand Cercle avec notre guide du débutant 2026. Apprenez le combat au fouet, les solutions d'énigmes, les améliorations du livre d'aventure et les astuces de furtivité.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3e2723/fff?text=Beginner+Survival+Guide",
+  date: "2026-05-13",
+  author: "Équipe Wiki Indiana"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Guide du débutant Indiana Jones et le Grand Cercle** : Concentrez-vous sur le **Fouet** pour la traversée et les éliminations furtives.
+- **Maîtrise du Journal** : Utilisez toujours votre **Appareil photo** sur les nouveaux points de repère ; les photos sont le principal moyen de gagner des **Points d'Aventure (PA)**.
+- **Priorité de progression** : Débloquez rapidement les compétences **Chapeau porte-bonheur** et **Peps** pour augmenter la survivabilité et la récupération d'endurance.
+- **Furtivité d'abord** : Utilisez les **Déguisements** au Vatican et à Gizeh pour contourner les gardes sans déclencher de combats de boxe difficiles.
+- **Astuce du complétionniste** : Achetez des **Livres d'exploration régionale** auprès des vendeurs pour marquer automatiquement les objets à collectionner sur votre carte.
+</Callout>
+
+Indiana Jones revient dans une immense aventure à la première personne qui mélange une narration cinématographique avec une profondeur mécanique complexe. Ce **guide du débutant Indiana Jones et le Grand Cercle** est conçu pour vous aider à naviguer dans ce voyage autour du globe, des salles sacrées du Marshall College aux pyramides ensoleillées de Gizeh. Contrairement aux jeux de tir traditionnels, cette expérience privilégie l'interaction environnementale, la résolution astucieuse d'énigmes et l'utilisation créative des outils emblématiques d'Indy. Dans ce **guide du débutant Indiana Jones et le Grand Cercle**, nous allons détailler les systèmes essentiels que vous devez maîtriser, y compris l'arbre d'améliorations du Livre d'aventure, les nuances de la traversée au fouet et les tactiques furtives nécessaires pour infiltrer les sites de fouilles contrôlés par les nazis. Que vous soyez un vétéran des films ou un nouveau venu dans la franchise, comprendre comment exploiter votre Journal et votre Appareil photo fera la différence entre rester coincé dans un tombeau poussiéreux et découvrir les plus grands mystères du monde.
+
+<Section icon={Map} title="Maîtriser les outils principaux d'Indy">
+
+La base du gameplay repose sur trois objets : le Fouet, l'Appareil photo et le Journal. Les maîtriser tôt est essentiel pour naviguer dans les zones ouvertes comme le Vatican et Sukhothaï. Le fouet n'est pas seulement une arme ; c'est votre principal moyen d'atteindre des corniches élevées et de traverser des gouffres mortels.
+
+| Outil | Utilisation principale | Astuce de pro pour les débutants |
+| :--- | :--- | :--- |
+| **Fouet** | Traversée et Combat | Utilisez-le pour faire trébucher les ennemis ou les attirer pour une prise furtive. |
+| **Appareil photo** | Gagner des PA/Indices | Photographiez tout ; si l'icône apparaît, cela vaut des points. |
+| **Journal** | Cartes et Codes | Consultez-le souvent pour les combinaisons de coffres et les indices d'énigmes. |
+| **Briquet** | Éclairage et Énigmes | Essentiel pour les tombes sombres et l'activation de pièges basés sur la lumière. |
+
+L'appareil photo est sans doute votre outil le plus important pour la progression. Chaque photo que vous prenez d'un point de repère, d'un document suspect ou d'une inscription ancienne ajoute une note à votre Journal et vous accorde des Points d'Aventure. Ces points sont la monnaie utilisée pour débloquer de puissantes nouvelles capacités.
+
+<Callout type="success" title="Le pouvoir de l'objectif">
+Si vous êtes bloqué sur une énigme, sortez votre appareil photo. Souvent, regarder à travers l'objectif mettra en évidence des objets interactifs ou fournira un indice via le monologue interne d'Indy, vous guidant vers la solution.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Livres d'aventure et progression">
+
+La progression dans Indiana Jones et le Grand Cercle est liée aux **Livres d'aventure**. Ce sont des objets physiques trouvés dans le monde ou achetés auprès des vendeurs. Une fois trouvés, vous devez dépenser des Points d'Aventure (PA) ou des Flacons de médecine pour activer les avantages permanents qu'ils procurent.
+
+<CardGrid cols={3}>
+  <Card title="Chapeau porte-bonheur I">
+    - **Coût** : 125 PA
+    - **Effet** : Obtenez une seconde chance au combat en ramassant votre chapeau tombé.
+    - **Priorité** : Indispensable pour les premiers combats.
+  </Card>
+  <Card title="Peps I">
+    - **Coût** : 275 PA
+    - **Effet** : Augmente considérablement la vitesse de récupération d'endurance.
+    - **Priorité** : Essentiel pour l'escalade et la boxe.
+  </Card>
+  <Card title="Coup de poing I">
+    - **Coût** : 25 PA
+    - **Effet** : Restaure l'endurance en assommant un ennemi.
+    - **Priorité** : Meilleur rapport qualité-prix pour les premières bagarres.
+  </Card>
+</CardGrid>
+
+Au-delà des PA, vous rencontrerez des **Flacons de médecine**. Ce sont de rares objets de collection régionaux utilisés spécifiquement pour débloquer les améliorations "Moxie" (Endurance) et "En forme" (Santé). Celles-ci sont échelonnées, ce qui signifie que vous aurez besoin de plus de flacons pour chaque niveau suivant.
+
+| Niveau d'amélioration | Coût en flacons de médecine | Récompense permanente |
+| :--- | :--- | :--- |
+| **Moxie I** | 5 Flacons | Petite extension de la barre d'endurance |
+| **Moxie II** | 10 Flacons | Extension moyenne de la barre d'endurance |
+| **En forme I** | 5 Flacons | Barre de réserve de santé supplémentaire |
+| **En forme III** | 15 Flacons | Capacité maximale de santé |
+
+<Callout type="tip" title="L'endurance est reine">
+Priorisez la récupération d'endurance (Peps) et l'extension d'endurance (Moxie). Presque toutes les actions – escalade, sprint et boxe – épuisent votre endurance. Avoir une plus grande réserve vous permet d'explorer plus librement sans pauses constantes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stratégies de furtivité et de combat">
+
+Le combat est divisé entre les éliminations furtives et la boxe viscérale à la première personne. Bien qu'Indy puisse utiliser des armes à feu, les munitions sont extrêmement rares, et tirer un coup de feu alertera immédiatement chaque garde à proximité. La furtivité est presque toujours l'approche préférée dans les zones restreintes.
+
+<Steps>
+  <Step num="1" title="Utiliser les déguisements">
+    Dans des régions comme le Vatican ou le complexe nazi de Gizeh, trouver un déguisement (comme une soutane de prêtre ou un uniforme d'ouvrier) vous permet de traverser des zones restreintes sans être attaqué à vue.
+  </Step>
+  <Step num="2" title="Tactiques de diversion">
+    Lancez des bouteilles ou utilisez votre fouet pour frapper des objets métalliques. Cela éloigne les gardes de leurs postes, vous permettant de passer furtivement ou d'effectuer une élimination silencieuse par derrière.
+  </Step>
+  <Step num="3" title="Maîtriser la parade">
+    Lorsque vous êtes forcé à un combat au poing, ne vous contentez pas de marteler le bouton d'attaque. Observez la mise en évidence de l'ennemi et parez ses coups. Une parade réussie l'ouvre à une contre-attaque à dégâts élevés.
+  </Step>
+  <Step num="4" title="Contrôle du fouet">
+    Utilisez la compétence **Accélération** une fois débloquée. Cela vous permet d'attirer les ennemis vers vous pour un KO rapide, gardant la rencontre silencieuse et efficace.
+  </Step>
+</Steps>
+
+| Type d'ennemi | Meilleure approche | Faiblesse |
+| :--- | :--- | :--- |
+| **Infanterie légère** | Élimination furtive | Faible santé, facilement distrait. |
+| **Soldats lourds** | Coup de fouet + Boxe | Vulnérable aux balayages de jambes avec le fouet. |
+| **Officiers** | Déguisement / Élimination silencieuse | Portent généralement les clés nécessaires à la progression. |
+| **Champions de boxe** | Parade et contre-attaque | Schémas d'attaque très prévisibles. |
+
+<Callout type="warning" title="Éviter les alarmes">
+Si un garde atteint une cloche d'alarme, des renforts afflueront à votre emplacement. Priorisez toujours l'élimination des gardes près des postes d'alarme en premier, ou utilisez votre fouet pour saboter les cloches avant de commencer un combat.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Exploration et résolution d'énigmes">
+
+Le jeu présente plusieurs grandes zones centrales, notamment le Vatican, Gizeh et Sukhothaï. Ces zones sont non linéaires et remplies de contenu secondaire appelé **Travaux pratiques** et **Mystères**. Les compléter est le meilleur moyen de gagner les PA nécessaires aux améliorations de fin de jeu.
+
+**Types d'énigmes clés à attendre :**
+- **Réfraction de la lumière** : Utilisez des miroirs et le briquet d'Indy pour guider des faisceaux lumineux vers des capteurs anciens (fréquent à Gizeh).
+- **Plaques de poids** : Placez des objets ou des vases canopes dans un ordre spécifique pour déclencher des portes cachées.
+- **Énigmes environnementales** : Lisez vos notes de journal pour trouver des indices sur les statues de saints ou les dates historiques qui servent de codes de coffre-fort.
+
+<Checklist
+  id="exploration-checklist"
+  title="Liste de contrôle de nettoyage régional :"
+  items={[
+    "Photographiez toutes les inscriptions pour Antonio au Vatican",
+    "Collectez les 10 stèles dans le désert de Gizeh",
+    "Trouvez les 10 engrenages khmers à Sukhothaï",
+    "Achetez le livre 'Reliques du Vatican' auprès d'Ernesto pour révéler les icônes de la carte",
+    "Syntonisez les 8 fréquences radio pour Gina"
+  ]}
+/>
+
+<Callout type="info" title="Astuce pour la révélation de la carte">
+Les vendeurs de chaque zone vendent des "Livres d'exploration" (par exemple, Mystères de Gizeh, Reliques de Sukhothaï). L'achat de ceux-ci devrait être votre première priorité lorsque vous arrivez dans une nouvelle région, car ils placent des icônes pour tous les objets de collection manquants directement sur votre carte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Obtenir 100 % de la complétion">
+
+Pour les joueurs qui visent le trophée Platine ou les 100 % des succès Steam, le trophée **Archiviste** est votre objectif final. Cela nécessite de collecter chaque note de Journal du jeu, soit un total de 497 entrées.
+
+| Type de succès | Exigence | Temps estimé |
+| :--- | :--- | :--- |
+| **Trophées d'histoire** | Terminer les 10 aventures principales | 15-20 heures |
+| **Travaux pratiques** | Terminer toutes les quêtes secondaires régionales | 10-15 heures |
+| **Bibliothécaire** | Débloquer les 55 compétences du Livre d'aventure | 30+ heures |
+| **Nettoyage à 100 %** | Collecter toutes les reliques, artefacts et notes | 45-55 heures |
+
+Si vous avez manqué quelque chose lors de votre première partie, ne vous inquiétez pas. Après avoir terminé le dernier chapitre de l'histoire en Irak, vous pouvez utiliser l'onglet **Voyages** de votre Journal pour retourner à n'importe quelle zone précédente. Toute votre progression, vos améliorations et vos objets de collection sont conservés, ce qui facilite grandement le nettoyage post-jeu.
+
+<Callout type="tip" title="Prêt pour le DLC">
+Si vous possédez l'Édition Premium, vous pouvez accéder au **DLC L'Ordre des Géants**. Cela envoie Indy à Rome pour enquêter sur le Culte de Mithras. Nous vous recommandons de terminer d'abord l'histoire principale, car le DLC présente certaines des énigmes les plus complexes et des rencontres de combat les plus difficiles du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Questions fréquemment posées">
+
+<FAQ items={[
+  {
+    question: "Où puis-je trouver les codes de coffre-fort dans Indiana Jones et le Grand Cercle ?",
+    answer: "Les codes de coffre-fort ne sont jamais aléatoires. Ils sont toujours cachés dans des notes, des documents ou des indices environnementaux à proximité. Si vous trouvez un coffre-fort verrouillé, vérifiez votre Journal pour toute lettre ou date d'expédition récemment photographiée."
+  },
+  {
+    question: "Comment puis-je obtenir plus de Points d'Aventure (PA) rapidement ?",
+    answer: "Le moyen le plus rapide de gagner des PA est de compléter les 'Mystères' et les 'Travaux pratiques' dans les grandes zones centrales. De plus, gardez toujours votre appareil photo sorti ; photographier des points de repère et des ennemis uniques fournit un flux constant de PA."
+  },
+  {
+    question: "Existe-t-il un moyen de réinitialiser mes compétences du Livre d'aventure ?",
+    answer: "Non, les choix de compétences sont permanents. Cependant, il y a suffisamment de Points d'Aventure dans le jeu pour débloquer éventuellement chaque capacité, vous ne pouvez donc pas ruiner définitivement votre construction."
+  },
+  {
+    question: "Puis-je jouer au jeu entièrement sans utiliser d'armes à feu ?",
+    answer: "En grande partie, oui. Bien que certaines séquences scriptées puissent nécessiter un combat, la grande majorité du jeu peut être complétée en utilisant la furtivité, le fouet et les poings d'Indy. Les armes à feu sont traitées comme un outil de 'dernier recours'."
+  }
+]} />
+
+</Section>

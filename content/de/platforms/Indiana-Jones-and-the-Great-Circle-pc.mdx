@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones und der Große Kreis PC: Beste Einstellungen & Optimierungs-Guide 2026",
+  description: "Meistern Sie die besten PC-Einstellungen für Indiana Jones und der Große Kreis. Optimieren Sie VRAM, beheben Sie Textur-Fehler und erreichen Sie 60 FPS mit unserem umfassenden Guide für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Indiana+Jones+PC+Optimization",
+  date: "2026-05-13",
+  author: "Indiana Jones Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Hauptanforderung**: Hardware-Raytracing ist zwingend erforderlich; es gibt keinen Software- oder Raster-Fallback.
+- **VRAM-Management**: Der **Textur-Streaming-Cache** ist die wichtigste Einstellung für die Stabilität.
+- **Fix für 8GB-GPUs**: Stellen Sie Schatten auf **Mittel** und Haare auf **Niedrig**, um massive Frame-Einbrüche zu vermeiden.
+- **1080p-Fehler**: Vermeiden Sie die Textureinstellung **Höchste** (Supreme) bei einer 1080p-Auflösung, da dies zu Grafikfehlern führt.
+- **Konsolenbefehl**: Verwenden Sie `r_lodScale 5`, um das geometrische Aufploppen (Pop-in) auf High-End-Systemen deutlich zu reduzieren.
+</Callout>
+
+Indiana Jones und der Große Kreis für PC stellt einen bedeutenden Meilenstein für MachineGames dar und nutzt die neueste Iteration der idTech-Engine, um ein kinoreifes Action-Adventure-Erlebnis zu bieten. Im Gegensatz zu vielen aktuellen AAA-Titeln, die mit Shader-Kompilierungs-Rucklern oder Traversierungs-Hängern zu kämpfen haben, bietet dieser Titel ein bemerkenswert flüssiges Erlebnis auf der Plattform. Die starke Abhängigkeit von hardwarebeschleunigtem Raytracing und die hohen VRAM-Anforderungen bedeuten jedoch, dass Spieler bei ihren Grafikkonfigurationen strategisch vorgehen müssen.
+
+In diesem Guide untersuchen wir die Nuancen der Performance des Spiels, vergleichen sie mit den Konsolen-Pendants und bieten einen definitiven Satz optimierter Einstellungen. Egal, ob Sie eine High-End-Karte der RTX 40-Serie oder eine bescheidenere 8GB-GPU besitzen: Zu verstehen, wie Indiana Jones und der Große Kreis für PC Beleuchtung und Textur-Streaming handhabt, ist entscheidend für ein flüssiges 60-FPS-Erlebnis. Wir werden die spezifischen VRAM-Stufen und versteckten Konsolenbefehle aufschlüsseln, die die Grafik über die Standard-Ultra-Presets hinausheben können.
+
+<Section icon={Map} title="Technischer Überblick und Performance-Basis">
+
+Indiana Jones und der Große Kreis für PC ist einer der wenigen modernen Titel, die Hardware-Raytracing als Grundvoraussetzung voll akzeptieren. Das Spiel nutzt Ray Traced Global Illumination (RTGI), um die gesamte indirekte Beleuchtung und Schattierung zu steuern und sicherzustellen, dass Licht natürlich von Oberflächen abprallt und Objekte korrekt in der Umgebung verdeckt werden. Dies schafft einen viel realistischeren Look im Vergleich zur Xbox Series X-Version, die oft Einstellungen unter dem PC-Preset "Niedrig" verwendet, um die Performance zu halten.
+
+**Video-Highlights:**
+- Analyse von Ray Traced Global Illumination und dessen Auswirkungen auf Dschungelumgebungen.
+- Vergleich zwischen den PC-Einstellungen "Niedrig" und der Xbox Series X-Version.
+- Erklärung, warum das Spiel eher VRAM-gebunden als Shading-gebunden ist.
+- Detaillierte Aufschlüsselung des Textur-Cache-Systems in der idTech-Engine.
+
+<YouTubeEmbed videoId="xbvxohT032E" title="Indiana Jones and the Great Circle - PC Tech Review" />
+
+Auf dem PC bietet selbst die niedrigste RTGI-Einstellung eine präzisere Beleuchtung als die Konsolenversion. In komplexen Innenräumen weisen Objekte auf dem PC beispielsweise korrekte Kontaktschatten und indirektes Licht auf, während auf der Xbox bestimmte Assets aufgrund fehlender Objekte im GI-Pass zu "schweben" scheinen.
+
+| Feature | PC Niedrig/Mittel | Xbox Series X | PC Höchste/Ultra |
+|---------|---------------|---------------|------------------|
+| **Raytracing** | Hardware RTGI (Hohe Präzision) | Reduziertes RTGI (Fehlende Objekte) | Volles Path Tracing (Post-Launch) |
+| **Texturfilterung** | Anisotrop 16x | Entspricht Mittel/Variable Rate | Anisotrop 16x |
+| **Schattenqualität** | Hochauflösende Maps | Mittel/Niedrig Hybrid | Ultra-hochauflösende Maps |
+| **Volumetrie** | Stabile Lichtstrahlen | Niedrige Details (Flimmeranfällig) | Hohe Dichte der Strahlen |
+
+<Callout type="tip" title="Optimierungs-Geheimnis">
+Das Spiel ist überraschend leicht für die CPU- und GPU-Shading-Einheiten. Die meisten Performance-Probleme werden durch VRAM-Überläufe verursacht. Wenn Sie über genügend Speicher verfügen, können Sie wahrscheinlich die meisten Einstellungen maximieren, ohne einen signifikanten Frame-Verlust zu erleiden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Der VRAM-Faktor: Management des Textur-Caches">
+
+Die wichtigste Einstellung für Indiana Jones und der Große Kreis auf dem PC ist die **Größe des Streaming-Caches**. Diese Einstellung legt fest, wie viel VRAM Ihrer GPU für das Speichern von Texturen reserviert wird. Wenn diese Einstellung Ihren verfügbaren Speicher übersteigt, wird das Spiel schwere Ruckler und massive Einbrüche der Bildrate erleben, da es versucht, Daten zwischen der GPU und dem Systemspeicher (RAM) hin- und herzuschieben.
+
+MachineGames hat eine Empfehlungstabelle bereitgestellt, der jedoch der Kontext für verschiedene Auflösungen fehlt. Basierend auf umfangreichen Tests haben wir die optimalen Textureinstellungen basierend auf der VRAM-Kapazität Ihrer Hardware kategorisiert.
+
+| GPU VRAM | 1080p Einstellung | 1440p Einstellung | 4K Einstellung |
+|----------|---------------|---------------|------------|
+| **8 GB** | Mittel | Mittel | Niedrig (Nicht empfohlen) |
+| **10 GB** | Hoch | Hoch | Mittel |
+| **12 GB** | Ultra | Höchste (Supreme) | Ultra |
+| **16 GB+** | Höchste (Supreme) | Höchste (Supreme) | Höchste (Supreme) |
+
+<Callout type="warning" title="1080p Supreme-Fehler">
+Es gibt einen bekannten Grafikfehler bei Verwendung der Textureinstellung **Höchste** (Supreme) bei einer 1080p-Auflösung. Dies führt dazu, dass Texturen fehlerhaft oder korrupt dargestellt werden, unabhängig von Ihrer VRAM-Kapazität. Bleiben Sie bei 1080p bei **Ultra**, bis ein Patch veröffentlicht wird.
+</Callout>
+
+Wenn der Cache zu niedrig eingestellt ist, bemerken Sie möglicherweise, dass Texturen aus der Nähe verschwommen erscheinen oder mehrere Sekunden benötigen, um in Zwischensequenzen in hoher Auflösung "aufzuploppen". Umgekehrt führt eine zu hohe Einstellung auf einer 8GB-Karte wie der RTX 4060 zu einer unspielbaren Performance.
+
+</Section>
+
+<Section icon={Target} title="Optimierte Einstellungen für 8GB- und Mittelklasse-GPUs">
+
+Für Spieler mit 8GB-GPUs erfordert das Erreichen stabiler 60 FPS in Indiana Jones und der Große Kreis spezifische Anpassungen über den Textur-Cache hinaus. Zwei weitere Einstellungen – **Schatten** und **Haare** – belasten den VRAM überraschend stark und können in belebten Bereichen wie dem Vatikan zu Abstürzen oder Verlangsamungen führen.
+
+<Steps>
+  <Step num="1" title="Textur-Basis festlegen">
+    Identifizieren Sie Ihren VRAM. Stellen Sie bei 8GB-Karten die **Größe des Streaming-Caches** auf **Mittel**. Dies stellt sicher, dass die Engine den Speicher nicht überbelegt.
+  </Step>
+  <Step num="2" title="Schatten-Geometrie anpassen">
+    Belassen Sie die **Schatten** auf **Mittel**. Während der visuelle Unterschied zwischen Mittel und Ultra subtil ist, sind die VRAM-Kosten für die zusätzliche Geometrie in den Schatten-Maps auf schwächerer Hardware erheblich.
+  </Step>
+  <Step num="3" title="Charakterdetails konfigurieren">
+    Stellen Sie **Haare** auf **Niedrig**, insbesondere wenn Sie in 1440p spielen. Dies verhindert VRAM-Überläufe in Szenen mit vielen NPCs, was ein häufiger Fehlerpunkt für 8GB-Karten ist.
+  </Step>
+  <Step num="4" title="Upscaling aktivieren">
+    Verwenden Sie **DLSS** oder **TAA**. Beachten Sie, dass das Spiel derzeit kein FSR oder XeSS unterstützt und die dynamische Auflösung nur mit TAA funktioniert.
+  </Step>
+</Steps>
+
+<CardGrid cols={3}>
+  <Card title="8GB GPU Profil">
+    - **Texturen**: Mittel
+    - **Schatten**: Mittel
+    - **Haare**: Niedrig
+    - **Upscaling**: DLSS Balanced
+  </Card>
+  <Card title="12GB GPU Profil">
+    - **Texturen**: Ultra/Höchste
+    - **Schatten**: Ultra
+    - **Haare**: Hoch
+    - **Upscaling**: DLSS Quality
+  </Card>
+  <Card title="High-End Profil">
+    - **Texturen**: Höchste
+    - **Schatten**: Ultra
+    - **LOD**: Konsolen-Tweak (r_lodScale 5)
+    - **Upscaling**: DLSS Quality/DLAA
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Performance-Gewinn">
+Durch Befolgen des 8GB-Profils können Nutzer einer RTX 4060 konstante 60 FPS bei 1440p mit DLSS Balanced erreichen, wobei fast alle anderen Einstellungen auf ihren Maximalwerten bleiben.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortgeschrittene visuelle Anpassungen und LOD-Fixes">
+
+Einer der wenigen Kritikpunkte an der PC-Version sind die aggressiven Übergänge beim Level of Detail (LOD). Selbst auf der Einstellung "Ultra" bemerken Spieler möglicherweise, dass Objekte und Vegetation sehr nah an der Kamera ins Bild ploppen. Dies ist wahrscheinlich ein Überbleibsel der Konsolenoptimierung, um die Bildrate hochzuhalten.
+
+Glücklicherweise erlaubt Indiana Jones und der Große Kreis das Überschreiben von Konsolenbefehlen. Durch Öffnen der Entwicklerkonsole (normalerweise die Tilde-Taste `~`) können Sie die LOD-Distanz manuell erhöhen.
+
+**Essentieller Konsolen-Tweak:**
+`r_lodScale 5`
+
+Der Standardwert ist `1`. Eine Erhöhung auf `5` eliminiert geometrisches Aufploppen fast vollständig, wodurch sich die Welt viel solider und immersiver anfühlt. Beachten Sie, dass dies mit GPU- und Speicherkosten verbunden ist und daher nur für Nutzer mit 12GB VRAM oder mehr empfohlen wird.
+
+| Einstellung | Standardwert | Empfohlen (High-End) | Visuelle Auswirkung |
+|---------|---------------|------------------------|---------------|
+| **r_lodScale** | 1 | 5 | Eliminiert geometrisches Pop-in |
+| **Shadow Maps** | Ultra | Ultra | Hoch (Leidet weiterhin unter Paging) |
+| **RTGI** | Ultra | Ultra | Massiv (Indirekte Beleuchtung) |
+
+<Callout type="info" title="Zukünftige Updates">
+MachineGames hat angekündigt, dass **Full Path Tracing** (Berechnung aller Lichteffekte via Raytracing) in einem zukünftigen Update hinzugefügt wird. Dies wird herkömmliche Schatten-Maps wahrscheinlich überflüssig machen, erfordert aber absolute High-End-Hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Abschluss-Checkliste und bekannte Probleme">
+
+Bevor Sie sich in Ihr Abenteuer stürzen, stellen Sie sicher, dass Ihr System vollständig vorbereitet ist. Indiana Jones und der Große Kreis auf dem PC ist ein geschliffenes Erlebnis, aber es gibt ein paar kleinere Ärgernisse, die man beachten sollte, insbesondere bei Zwischensequenzen und Speicherpunkten.
+
+<Checklist
+  id="pc-readiness"
+  title="Checkliste für das finale Setup:"
+  items={[
+    "Überprüfen Sie, ob die GPU-Treiber für die Veröffentlichungen von 2026 aktualisiert sind",
+    "Stellen Sie den Textur-Cache entsprechend der VRAM-Kapazität ein (8GB/10GB/12GB)",
+    "Deaktivieren Sie Supreme-Texturen, wenn Sie in 1080p spielen",
+    "Aktivieren Sie DLSS, wenn Sie eine NVIDIA-Karte für bessere RT-Performance nutzen",
+    "Überwachen Sie die VRAM-Auslastung im Vatikan-Bereich, um Überläufe zu vermeiden"
+  ]}
+/>
+
+**Bekannte technische Probleme:**
+- **Zwischensequenz-Animationen**: Einige Animationen in Zwischensequenzen sind auf 30 FPS begrenzt, was trotz einer hohen Gesamtframerate zu einem ruckeligen Look führt.
+- **Kameraschnitte**: Das Umschalten zwischen Kamerawinkeln in Zwischensequenzen kann kurze Frametime-Spitzen (bis zu 100 ms) verursachen.
+- **Speicherpunkt-Ruckler**: Das "Hut"-Symbol, das einen Speichervorgang anzeigt, kann einen kleinen Hänger verursachen, besonders im Vatikan.
+- **Dynamische Auflösung**: Derzeit inkompatibel mit DLSS; funktioniert nur mit TAA.
+
+<Callout type="warning" title="Speicherpunkt-Verzögerung">
+Wenn Sie in großen Karten häufige kleine Ruckler bemerken, liegt das wahrscheinlich am aggressiven Auto-Save-System des Spiels. Es gibt derzeit keine Möglichkeit, diese kleinen Checkpoints zu deaktivieren, aber die Installation des Spiels auf einer schnellen NVMe-SSD minimiert die Auswirkungen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Benötigt Indiana Jones und der Große Kreis auf dem PC eine SSD?",
+    answer: "Ja, eine SSD wird aufgrund des aggressiven Textur-Streaming-Systems dringend empfohlen. Die Verwendung einer HDD wird wahrscheinlich zu erheblichem Textur-Pop-in und Rucklern führen, wenn der Cache aktualisiert wird."
+  },
+  {
+    question: "Kann ich das Spiel ohne eine Raytracing-fähige GPU spielen?",
+    answer: "Nein. Das Spiel erfordert Hardware-Raytracing für sein Global Illumination-System. GPUs ohne RT-Kerne können die Beleuchtung nicht korrekt darstellen oder das Spiel startet erst gar nicht."
+  },
+  {
+    question: "Warum stürzt mein Spiel im Vatikan-Bereich ab?",
+    answer: "Dies ist normalerweise ein VRAM-Überlauf. Wenn Sie eine 8GB-Karte verwenden, stellen Sie sicher, dass die Haare auf Niedrig und die Schatten auf Mittel eingestellt sind, um Speicher für die hohe NPC-Anzahl in diesem Bereich freizugeben."
+  },
+  {
+    question: "Welcher Upscaler ist der beste für dieses Spiel?",
+    answer: "Derzeit ist DLSS die überlegene Wahl für NVIDIA-Nutzer. Dem Spiel fehlen zum Launch FSR und XeSS, sodass Nicht-NVIDIA-Nutzer auf das integrierte TAA oder räumliches Upscaling angewiesen sind."
+  }
+]} />
+
+</Section>

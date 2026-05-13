@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Indiana Jones und der Große Kreis Abenteuerbücher: Kompletter Leitfaden 2026",
+  description: "Entfesseln Sie Indys volles Potenzial mit unserem Leitfaden zu allen 55 Indiana Jones und der Große Kreis Abenteuerbüchern. Erfahren Sie Standorte, Kosten und Prioritäts-Upgrades.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/3e2723/fff?text=Adventure+Books+Guide",
+  date: "2026-05-13",
+  author: "Indiana Jones Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernmechanik**: Das Finden von **Indiana Jones und der Große Kreis Abenteuerbüchern** ist der einzige Weg, um permanente Fertigkeiten und Stat-Upgrades freizuschalten.
+- **Punkte ausgeben**: Sobald ein Buch gefunden wurde, müssen Sie **Abenteuerpunkte (AP)** oder **Medizinische Flaschen** ausgeben, um dessen Effekt zu aktivieren.
+- **Priorität**: Priorisieren Sie im frühen Spiel immer **Glückshut I** und **Pep I** für bessere Überlebensfähigkeit und Ausdauerregeneration.
+- **Erkundungsbücher**: Regionale Kartenbücher (Bücher, Mysterien, Relikte) zeigen Sammelobjekt-Standorte auf Ihrer Karte an – kaufen Sie diese so schnell wie möglich bei Händlern.
+- **Erfolgsziel**: Sie müssen alle **55 Fähigkeitsbücher** finden, um die Trophäe/den Erfolg **Bücherwurm** zu erhalten.
+</Callout>
+
+In der Welt der Archäologie ist Wissen genauso gefährlich wie ein geladener Revolver. In Indiana Jones und der Große Kreis ist Ihr Fortschritt direkt an die Entdeckung antiker Texte und Feldbücher gebunden. Diese **Indiana Jones und der Große Kreis Abenteuerbücher** dienen als Rückgrat des RPG-Lite-Systems des Spiels und ermöglichen es den Spielern, Indys Kampffähigkeiten, Tarnfähigkeiten und körperliche Ausdauer anzupassen. Im Gegensatz zu traditionellen Levelsystemen gewinnen Sie nicht einfach an Macht, indem Sie Feinde besiegen; Sie müssen jeden Winkel des Vatikans, Gizehs und Sukhothais erkunden, um diese versteckten Bände zu finden. Dieser Leitfaden bietet eine umfassende Aufschlüsselung, wo die wirkungsvollsten Abenteuerbücher zu finden sind, wie Sie Ihre Abenteuerpunkte verwalten und welche Fähigkeiten Sie in der Gaming-Landschaft 2026 zu einem legendären Entdecker machen werden.
+
+<Section icon={BookOpen} title="Verständnis der Abenteuerbuch-Mechanik">
+
+Bevor Sie in spezifische Orte eintauchen, ist es wichtig zu verstehen, wie der Upgrade-Kreislauf funktioniert. Ein Buch zu finden ist nur die erste Hälfte des Prozesses. Sobald ein Band Ihrer Sammlung hinzugefügt wurde, erscheint er im Reiter „Bücher“ Ihres Journals. Von dort müssen Sie das Upgrade mit der Währung „kaufen“, die Sie durch Erkundung verdient haben.
+
+| Upgrade-Währung | Primäre Quelle | Verwendung |
+| :--- | :--- | :--- |
+| **Abenteuerpunkte (AP)** | Finden von Relikten, Fotografieren, Lösen von Mysterien | Schaltet Kampf-, Tarn- und Fitnessfähigkeiten frei |
+| **Medizinische Flaschen** | Versteckt in regionalen Hubs (Vatikan, Gizeh usw.) | Speziell für **Moxie** und **Shaping Up** verwendet |
+
+<Callout type="tip" title="AP-Gewinn maximieren">
+Abenteuerpunkte werden für fast jede „archäologische“ Aktion vergeben. Um sicherzustellen, dass Sie genügend Punkte haben, um jedes Buch freizuschalten, das Sie finden, halten Sie Ihre Kamera bereit. Das Fotografieren von Inschriften und Wahrzeichen ist der schnellste Weg, AP früh im Spiel zu farmen.
+</Callout>
+
+Das Spiel enthält insgesamt 55 einzigartige Fähigkeitsbücher. Während einige Ihnen während der Hauptgeschichte überreicht werden, sind die meisten hinter Umwelt-Rätseln, verschlossenen Safes versteckt oder werden von bestimmten regionalen Händlern wie Ernesto im Vatikan oder Tongdang in Sukhothai verkauft.
+
+</Section>
+
+<Section icon={Target} title="Vatikanstadt: Wesentliche Bücher für das frühe Spiel">
+
+Der Vatikan fungiert als Ihr erster großer Open-Area-Hub und ist vollgepackt mit grundlegenden **Indiana Jones und der Große Kreis Abenteuerbüchern**. Diese Bücher konzentrieren sich auf „Raufen“ und „Fitness“, was unerlässlich ist, da Sie anfangs kein großes Waffenarsenal haben werden.
+
+<CardGrid cols={3}>
+  <Card title="Glückshut I">
+    - **Ort**: Zimmer des Vatikan-Hauptmanns
+    - **Kosten**: 125 AP
+    - **Effekt**: Erhalten Sie eine zweite Chance in einem Kampf, indem Sie Ihren gefallenen Fedora aufheben.
+  </Card>
+  <Card title="Ausschalten I">
+    - **Ort**: Engelsburg
+    - **Kosten**: 25 AP
+    - **Effekt**: Stellt die Ausdauer sofort wieder her, nachdem ein Feind ausgeschaltet wurde.
+  </Card>
+  <Card title="Schwung I">
+    - **Ort**: Belvedere-Hof
+    - **Kosten**: 275 AP
+    - **Effekt**: Erhöht Ihre grundlegende Ausdauerregeneration erheblich.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Die Stealth-Meta">
+Wenn Sie einen leisen Ansatz bevorzugen, suchen Sie nach dem Buch **Drossel** in den Borgia-Höfen. Es kostet 200 AP und ermöglicht es Indy, unaufmerksame leichte und mittelschwere Feinde mit einem einzigen Peitschenzug auszuschalten, was bewachte Vatikanabschnitte viel einfacher zu navigieren macht.
+</Callout>
+
+Neben dem Kampf führt der Vatikan auch „Erkundungsbücher“ ein. Diese sind einzigartig, da sie Indy keine neue Bewegung geben; stattdessen aktualisieren sie Ihre Karte mit Markierungen für andere Sammelobjekte.
+
+| Erkundungsbuch | Wie zu erhalten | Karteneffekt |
+| :--- | :--- | :--- |
+| **Vatikanische Bücher** | Gekauft von Ernesto | Zeigt alle Standorte der Abenteuerbücher im Vatikan an |
+| **Vatikanische Mysterien** | Durch Rätsel verdient | Markiert alle Mysterien-Standorte auf der Karte |
+| **Vatikanische Relikte** | Gefunden im Apostolischen Palast | Hebt antike Relikte für 100% Abschluss hervor |
+
+</Section>
+
+<Section icon={Map} title="Gizeh und die Wüsten-Upgrades">
+
+Wenn Sie zum Gizeh-Hub übergehen, konzentrieren sich die **Indiana Jones und der Große Kreis Abenteuerbücher** auf „Kampf“ und „Überleben“ gegen härtere Nazi-Kräfte. Die Vertikalität der Pyramiden und die offene Wüste erfordern bessere Fortbewegungs- und Massenkontrollfähigkeiten.
+
+<Steps>
+  <Step num="1" title="Das Feuerzeug erwerben">
+    Viele Bücher in Gizeh sind in dunklen Grabecken versteckt. Sie müssen die Geschichte vorantreiben, bis Sie das Feuerzeug erhalten, um diese Bereiche effektiv zu erkunden.
+  </Step>
+  <Step num="2" title="Jumbo Lasso finden">
+    Begeben Sie sich zum **Grab der Chentkaus I**. Dieses Buch kostet 325 AP und ist ein Game-Changer, da es Ihnen ermöglicht, schwere Feinde mit der Peitsche in einen Griff zu ziehen.
+  </Step>
+  <Step num="3" title="Den Wolkenatlas lösen">
+    Besuchen Sie die Meteorologische Station. Durch das Abgleichen von Daten mit Wolkentypen können Sie das Buch **Gizeh-Medizin** freischalten, das erforderlich ist, um Medizinische Flaschen in dieser Region auszugeben.
+  </Step>
+  <Step num="4" title="Die Nazi-Erholungszone besuchen">
+    Überprüfen Sie die Freizeitzelte und Büros. Hier finden Sie regionale Kartenbücher, die die Standorte der 10 Stelen enthüllen, die für die Trophäe „Es gehört in ein Museum“ benötigt werden.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Regionale Währungen">
+Denken Sie daran, dass jede größere Region ihre eigene lokale Währung für Händlerkäufe verwendet. Horten Sie Ihre Vatikan-Lira nicht; geben Sie sie aus, bevor Sie gehen, da sie Ihnen nicht helfen wird, Kartenbücher in der ägyptischen Wüste zu kaufen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Das Medizinische Flaschen-System: Moxie und Shaping Up">
+
+Im Gegensatz zu Standardfähigkeiten werden Ihre tatsächlichen Gesundheits- und Ausdauerleisten durch eine spezifische Reihe von **Indiana Jones und der Große Kreis Abenteuerbüchern** verbessert, die in medizinischen Hütten oder Postämtern gefunden werden. Diese Upgrades sind gestaffelt (I, II und III) und erfordern **Medizinische Flaschen** anstelle von AP.
+
+| Buchname | Stufe | Anforderung | Permanenter Bonus |
+| :--- | :--- | :--- | :--- |
+| **Moxie** | I | 5 Flaschen | Erste Verlängerung der Ausdauerleiste |
+| **Moxie** | II | 10 Flaschen | Zweite Verlängerung der Ausdauerleiste |
+| **Moxie** | III | 15 Flaschen | Maximale Ausdauerkapazität |
+| **Shaping Up** | I | 5 Flaschen | Erste zusätzliche Gesundheitsreserveleiste |
+| **Shaping Up** | II | 10 Flaschen | Zweite zusätzliche Gesundheitsreserveleiste |
+| **Shaping Up** | III | 15 Flaschen | Maximale Gesundheitsreserven |
+
+<Callout type="info" title="Wo Flaschen ausgeben">
+Sie können Ihre Flaschen im **Vatikanischen Postamt**, im **Gizeh Arbeiterbereich** oder in der **Sukhothai Medizinischen Hütte** abgeben. Jeder Ort hat einen Arzt oder Betreuer, der diese spezifischen Upgrades ermöglicht.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Sukhothai: Hochstufige Meisterbücher">
+
+Der letzte große Hub, Sukhothai, enthält die teuersten und mächtigsten **Indiana Jones und der Große Kreis Abenteuerbücher**. Zu diesem Zeitpunkt sollten Sie einen Überschuss an AP haben, da Sie die vielen in der Dschungel versteckten Relikte gefunden haben.
+
+<Checklist
+  id="sukhothai-books"
+  title="Top Sukhothai Fähigkeitsbücher:"
+  items={[
+    "Jumbo Grip: Gefunden in der Nähe von Tongdangs Hütte (erfordert den Safe-Code 2480 von Pfad der Tiger)",
+    "Straßenkämpfer III: Gefunden im Wat Mahathat Zelt (erfordert Code 4134)",
+    "Sukhothai Medizin: Gefunden im Wat Chana Songkhram (erfordert Code 59404)",
+    "Khmer Zahnrad-Kopf: Verdient durch das Abschließen aller 10 Zahnrad-Rätsel"
+  ]}
+/>
+
+<Callout type="tip" title="Die 100%-Aufräumstrategie">
+Bevor Sie versuchen, die Geschichte im Irak zu beenden, kehren Sie nach Sukhothai zurück und kaufen Sie die Führer **Sukhothai Bücher**, **Mysterien** und **Relikte** von Tongdang. Diese stellen sicher, dass Sie die letzten Bände nicht verpassen, die für den Erfolg „Bücherwurm“ benötigt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Zusammenfassung der Abenteuerbuch-Standorte">
+
+Um Ihnen zu helfen, Ihren Fortschritt in Richtung des 55-Bücher-Ziels zu verfolgen, verwenden Sie die folgende Tabelle, um zu überprüfen, ob Sie die wichtigsten Gesamtzahlen für jede Region erreicht haben.
+
+| Region | Gesamtzahl der Fähigkeitsbücher | Hauptanbieter | Hauptfertigkeitsschwerpunkt |
+| :--- | :--- | :--- | :--- |
+| **Der Vatikan** | 12 | Ernesto | Raufen & Tarnung |
+| **Gizeh** | 15 | Wüstencamps | Kampf & Fortbewegung |
+| **Sukhothai** | 18 | Tongdang | Fortgeschrittener Kampf |
+| **Lineare Levels** | 10 | N/A (In der Geschichte gefunden) | Grundlegende Mechanik |
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen zu Abenteuerbüchern">
+
+<FAQ items={[
+  {
+    question: "Kann ich jede Fähigkeit in einem einzigen Spieldurchlauf freischalten?",
+    answer: "Ja. Wenn Sie fleißig antike Relikte sammeln und Fotos machen, werden Sie genügend Abenteuerpunkte verdienen, um alle 55 Bücher vor der letzten Mission freizuschalten."
+  },
+  {
+    question: "Verliere ich meine Upgrades in New Game Plus?",
+    answer: "Das Spiel ermöglicht ein freies Aufräumen nach der Geschichte. Die meisten Upgrades und Buchfortschritte werden übernommen, aber Sie sollten darauf abzielen, die Trophäe 'Bücherwurm' in Ihrem Hauptspeicherstand abzuschließen."
+  },
+  {
+    question: "Was passiert, wenn ich ein Buch finde, aber nicht genügend AP habe?",
+    answer: "Das Buch bleibt dauerhaft in Ihrem Journal. Sie können später zu jeder medizinischen Hütte oder Postfiliale zurückkehren, um Ihre Punkte auszugeben, sobald Sie sie verdient haben."
+  },
+  {
+    question: "Gibt es verpassbare Abenteuerbücher?",
+    answer: "Laut großen Completionist-Roadmaps gibt es keine verpassbaren Trophäen. Sie können den Reiter 'Reisen' in Ihrem Journal verwenden, um zu jedem Hub zurückzukehren und fehlende Bücher zu finden."
+  }
+]} />
+
+</Section>

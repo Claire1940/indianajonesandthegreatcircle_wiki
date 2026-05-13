@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Paramètres optimisés pour Indiana Jones et le Cercle Ancien : Guide de performance 2026",
+  description: "Maximisez vos FPS dans Indiana Jones et le Cercle Ancien avec notre guide complet d'optimisation PC 2026, couvrant la gestion de la VRAM et les paramètres RTGI.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b4513/fff?text=Indiana+Jones+Optimized+Settings",
+  date: "2026-05-13",
+  author: "L'équipe Wiki Indiana"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Mot-clé principal** : Maîtriser les **paramètres optimisés d'Indiana Jones et le Cercle Ancien** nécessite de se concentrer sur l'allocation de la VRAM plutôt que sur la puissance brute de calcul.
+- **Sensibilité à la VRAM** : Le "Cache de streaming des textures" est le paramètre le plus critique ; dépasser la mémoire de votre GPU entraîne des saccades massives.
+- **Ray Tracing** : Le Ray Tracing matériel (RTGI) est obligatoire ; il n'y a pas de solution de repli vers l'éclairage traditionnel par rastérisation.
+- **Avertissement GPU 8 Go** : Les utilisateurs de cartes 8 Go doivent utiliser les paramètres Ombres Moyennes et Cheveux Bas pour éviter les chutes de performance en 1440p.
+- **Bug Visuel** : Évitez le réglage de texture "Suprême" en résolution 1080p, car il provoque actuellement des artefacts graphiques.
+</Callout>
+
+Indiana Jones et le Cercle Ancien représente une étape technique majeure pour Machine Games, utilisant une version hautement avancée du moteur idTech qui impose le Ray Tracing accéléré par le matériel. Contrairement à de nombreuses sorties AAA modernes, le jeu est remarquablement peaufiné sur PC, ne présentant aucune saccade de compilation de shaders ni de problèmes de fluidité lors des déplacements. Cependant, sa forte dépendance à l'illumination globale par lancer de rayons (RTGI) et aux textures haute résolution signifie que trouver les bons **paramètres optimisés pour Indiana Jones et le Cercle Ancien** est essentiel pour maintenir une expérience fluide à 60 FPS.
+
+Dans ce guide, nous détaillerons comment le jeu gère la mémoire, pourquoi les versions consoles diffèrent radicalement de la version PC, et quels paramètres spécifiques vous devez ajuster pour garantir que la dernière aventure d'Indy tourne parfaitement sur votre matériel. Que vous possédiez une carte haut de gamme de la série RTX 40 ou un GPU modeste de 8 Go, ces optimisations vous aideront à équilibrer fidélité visuelle et performances constantes tout au long de la saison de jeu 2026.
+
+<Section icon={Sparkles} title="Fondations Techniques et Comparaisons Consoles">
+
+La version PC d'Indiana Jones et le Cercle Ancien est conçue pour l'avenir, adoptant le ray tracing matériel complet pour son illumination globale. Ce système gère tout l'éclairage indirect et les ombres, garantissant que la lumière rebondit naturellement sur les surfaces pour éclairer les coins sombres. Curieusement, la version Xbox Series X atteint son objectif de 1800p/60FPS en utilisant des réglages souvent inférieurs au préréglage "Bas" du PC, particulièrement pour la densité de la végétation et la précision du RTGI.
+
+**Points forts de la vidéo :**
+- **Pas de saccades** : Le jeu est exempt des problèmes courants des portages PC comme le lag de compilation des shaders.
+- **Exigence RTGI** : Le ray tracing matériel est une exigence de base, pas une option activable.
+- **Compromis Consoles** : La Xbox utilise le Variable Rate Shading (VRS) et un RTGI inférieur au niveau "Bas" pour maintenir les performances.
+- **Focus VRAM** : Les problèmes de performance sur PC sont presque toujours liés à un débordement de la VRAM plutôt qu'aux limites de calcul du GPU.
+
+<YouTubeEmbed videoId="xbvxohT032E" title="Revue Technique PC d'Indiana Jones et le Cercle Ancien" />
+
+<Callout type="tip" title="Avantage Visuel">
+Même avec les réglages les plus bas possibles, la version PC offre une précision d'éclairage supérieure à celle de la Xbox Series X. Si vous avez un GPU moderne, vous voyez déjà une version plus "correcte" de l'éclairage du jeu que les joueurs sur console.
+</Callout>
+
+| Fonctionnalité | Xbox Series X | PC (Bas) | PC (Ultra/Suprême) |
+| :--- | :--- | :--- | :--- |
+| **Résolution** | 1800p (Dynamique) | Native/Upscalée | Native/DLAA |
+| **Qualité RTGI** | Inférieure à Bas | Occlusion précise | Précision maximale |
+| **Cartes d'ombres** | Équivalent Moyen | Haute qualité | Ultra (Géométrie élevée) |
+| **Filtrage anisotrope** | Moyen (affecté par le VRS) | Haut/Ultra | Maximum |
+| **RT Végétation** | Manque de nombreux objets | La plupart des objets inclus | Tous les objets inclus |
+
+</Section>
+
+<Section icon={Shield} title="La Hiérarchie VRAM : Cache de Streaming des Textures">
+
+Le paramètre ayant le plus d'impact sur les performances dans Indiana Jones et le Cercle Ancien est le **Cache de streaming des textures**. Ce réglage dicte la quantité de VRAM réservée au chargement des éléments de haute qualité. Si ce paramètre dépasse votre mémoire disponible, le taux de rafraîchissement s'effondrera à des chiffres uniques, le système tentant d'échanger des données entre la VRAM et la RAM système, beaucoup plus lente.
+
+Machine Games a fourni une fiche de spécifications recommandées, mais elle manque de nuance pour les résolutions spécifiques. Basé sur des tests approfondis, le tableau suivant représente les "Règles d'Or" pour les réglages de texture en 2026.
+
+| VRAM du GPU | Réglage 1080p | Réglage 1440p | Réglage 4K |
+| :--- | :--- | :--- | :--- |
+| **8 Go** | Moyen | Bas | Non recommandé |
+| **10 Go** | Haut | Haut | Moyen |
+| **12 Go** | Haut (Alerte Bug) | Suprême | Ultra |
+| **16 Go+** | Suprême | Suprême | Suprême |
+
+<Callout type="warning" title="Bug Suprême en 1080p">
+N'utilisez pas le réglage de texture "Suprême" en 1080p, même si vous avez 24 Go de VRAM. Il existe actuellement un bug qui casse entièrement les graphismes à cette résolution lorsque Suprême est sélectionné. Restez sur "Haut" pour les écrans 1080p.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paramètres Optimisés pour tous les GPU">
+
+La plupart des paramètres d'Indiana Jones et le Cercle Ancien sont étonnamment légers pour les unités de shading du GPU. Une fois que vous avez réglé votre VRAM/Cache de texture, vous pouvez laisser la plupart des autres paramètres sur Haut ou Ultra. Cependant, pour ceux qui possèdent un matériel de milieu de gamme et cherchent un verrouillage parfait à 60 FPS, voici les **paramètres optimisés pour Indiana Jones et le Cercle Ancien** à utiliser.
+
+<CardGrid cols={2}>
+  <Card title="Éclairage et Ombres">
+    - **Qualité RTGI** : Haut (Bas pour les cartes 8 Go)
+    - **Qualité des ombres** : Moyen (Essentiel pour la VRAM 8 Go)
+    - **Qualité des reflets** : Haut
+    - **Volumétrie** : Haut
+  </Card>
+  <Card title="Post-traitement et Détails">
+    - **Qualité des cheveux** : Moyen (Bas pour le 1440p sur cartes 8 Go)
+    - **Filtrage anisotrope** : 16x
+    - **Profondeur de champ** : Préférence personnelle
+    - **Flou de mouvement** : Préférence personnelle
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+La différence entre les ombres Moyennes et Ultra réside principalement dans la quantité de géométrie qui projette des ombres, plutôt que dans la résolution des cartes d'ombres elles-mêmes. "Moyen" est le point d'équilibre idéal pour la performance.
+</Callout>
+
+| Paramètre | Valeur recommandée | Impact performance | Impact visuel |
+| :--- | :--- | :--- | :--- |
+| **Cache de texture** | Selon tableau VRAM | Extrême (si surchargé) | Élevé |
+| **Qualité RTGI** | Haut | Modéré | Élevé |
+| **Qualité des ombres** | Moyen | Faible-Modéré | Modéré |
+| **Qualité des cheveux** | Moyen | Faible (lourd en VRAM) | Faible |
+| **Volumétrie** | Haut | Faible | Modéré |
+| **Reflets** | Haut | Faible | Modéré |
+
+</Section>
+
+<Section icon={Map} title="Considérations Spéciales pour les Cartes Graphiques de 8 Go">
+
+Si vous utilisez une RTX 3060 Ti, une RTX 4060 ou une carte plus ancienne de 8 Go, vous devez être chirurgical avec vos réglages pour éviter les saccades liées à la VRAM. En 1440p, le jeu est particulièrement punitif pour la mémoire. Suivez ces étapes spécifiques pour garantir une expérience stable.
+
+<Steps>
+  <Step num="1" title="Réduire le Cache de Texture">
+    Réglez le Cache de streaming des textures sur **Bas** ou **Moyen**. Cela évite la "chute de mémoire" où les FPS passent instantanément de 60 à 10.
+  </Step>
+  <Step num="2" title="Ajuster la Géométrie des Ombres">
+    Gardez la **Qualité des ombres sur Moyen**. Les réglages supérieurs à Moyen ajoutent plus d'objets au passage des ombres, ce qui consomme de la VRAM supplémentaire que les cartes de 8 Go ne peuvent pas se permettre.
+  </Step>
+  <Step num="3" title="Ajustement de la Qualité des Cheveux">
+    En 1440p, réglez la **Qualité des cheveux sur Bas**. C'est crucial pour les scènes avec de nombreux PNJ (comme au Vatican), car les éléments capillaires sont étonnamment gourmands en mémoire.
+  </Step>
+  <Step num="4" title="Activer l'Upscaling">
+    Utilisez le mode **DLSS Équilibré** ou **Performance**. Cela réduit la résolution interne de base, économisant ainsi une quantité petite mais vitale de VRAM.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Résultat de Performance">
+En suivant ces ajustements spécifiques pour 8 Go, une RTX 4060 peut atteindre un 60 FPS stable en 1440p avec presque tous les autres réglages au maximum, offrant une expérience visuelle haut de gamme sur du matériel économique.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ajustements Avancés et Correctifs Futurs">
+
+Bien que le jeu soit bien optimisé, il existe quelques domaines où les passionnés pourraient vouloir pousser le moteur plus loin. Une plainte courante est l'apparition agressive du niveau de détail (LOD), où les objets changent visiblement de forme à mesure que vous vous en approchez. Cela peut être atténué en utilisant la console développeur.
+
+**Commande d'amélioration du LOD :**
+Si vous avez un GPU haut de gamme (16 Go+ de VRAM), vous pouvez ouvrir la console et utiliser la commande suivante pour réduire le popping géométrique :
+`image_lodbias -5` (Note : La valeur par défaut est généralement 0 ou 1).
+
+<Checklist
+  id="future-patch-wishlist"
+  title="Ce qu'il faut surveiller dans les futurs patchs :"
+  items={[
+    "Support complet du Path Tracing (attendu fin 2026/début 2027)",
+    "Intégration de FSR 3 et XeSS pour les utilisateurs non-Nvidia",
+    "Correction du cap à 30 FPS pour les animations dans certaines cinématiques",
+    "Support de la Résolution Dynamique pour le DLSS (actuellement TAA uniquement)",
+    "Correction des pics de temps de trame lors des changements de caméra"
+  ]}
+/>
+
+<Callout type="warning" title="Saccades de Point de Passage">
+Le jeu déclenche fréquemment des sauvegardes avec l'icône "Chapeau". Dans les zones denses comme le Vatican, cela peut provoquer de légers sauts de temps de trame. Il s'agit d'un comportement lié au moteur qui ne peut pas être corrigé uniquement par les réglages.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusion : Le Verdict Final sur l'Optimisation">
+
+Indiana Jones et le Cercle Ancien est un exemple rare de jeu AAA moderne qui respecte la plateforme PC. En vous concentrant presque entièrement sur la gestion de la VRAM plutôt qu'en abaissant chaque paramètre sur "Bas", vous pouvez maintenir une présentation visuelle époustouflante. Le point clé à retenir pour les **paramètres optimisés d'Indiana Jones et le Cercle Ancien** est de traiter votre cache de texture comme un budget strict : respectez-le, et le jeu vous récompensera par une expérience cinématographique fluide.
+
+<FAQ items={[
+  {
+    question: "Pourquoi mon jeu saccade-t-il alors que j'ai un FPS élevé ?",
+    answer: "C'est probablement parce que votre Cache de streaming des textures est réglé trop haut pour la VRAM de votre GPU. Baissez ce réglage d'un cran et redémarrez le jeu."
+  },
+  {
+    question: "Le jeu supporte-t-il le FSR ou le XeSS ?",
+    answer: "À la mi-2026, le jeu ne supporte officiellement que le DLSS et le TAA. Les utilisateurs de matériel AMD ou Intel doivent s'appuyer sur le TAA ou attendre un mod communautaire ou un patch officiel."
+  },
+  {
+    question: "Quel est le paramètre le plus exigeant après le Cache de Texture ?",
+    answer: "Le RTGI (Ray Traced Global Illumination) est le paramètre le plus gourmand en calcul. Si votre GPU peine malgré une VRAM suffisante, baisser le RTGI sur 'Bas' offrira le plus grand gain de performance."
+  },
+  {
+    question: "Y a-t-il un moyen de corriger les cinématiques à 30 FPS ?",
+    answer: "Actuellement, certaines animations dans les cinématiques sont codées en dur à 30 FPS. C'est un problème connu que Machine Games devrait corriger dans un futur patch technique."
+  }
+]} />
+
+</Section>

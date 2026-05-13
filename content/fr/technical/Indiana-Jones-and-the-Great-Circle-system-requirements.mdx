@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Configuration système requise pour Indiana Jones and the Great Circle : Guide PC 2026",
+  description: "Découvrez l'intégralité des exigences système d'Indiana Jones and the Great Circle. Apprenez-en davantage sur le ray tracing matériel obligatoire, les spécifications du path tracing et l'optimisation PC.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Indiana+Jones+System+Requirements",
+  date: "2026-05-13",
+  author: "Équipe Wiki Indiana"
+}
+
+<Callout type="info" title="Guide Rapide">
+- **Ray Tracing Obligatoire** : Contrairement à la plupart des titres, les exigences système d'Indiana Jones and the Great Circle stipulent que le Ray Tracing Matériel est requis même pour les paramètres minimaux.
+- **Base de 60 FPS** : Les spécifications officielles visent une expérience fluide à 60 FPS sur tous les niveaux, plutôt que la norme industrielle de 30 FPS minimum.
+- **SSD Essentiel** : Un SSD rapide avec 120 Go d'espace libre est non négociable pour charger les environnements denses du moteur idTech.
+- **Sensibilité de la VRAM** : Les exigences minimales pour le GPU spécifient des cartes de 8 Go, car le ray tracing augmente considérablement la consommation de mémoire vidéo.
+- **Mode Path Tracing** : Pour l'expérience visuelle ultime, le "Full Ray Tracing" nécessite le matériel RTX 40-series le plus récent et la Génération de Cadres.
+</Callout>
+
+Indiana Jones and the Great Circle représente une étape importante dans la technologie des jeux PC, repoussant les limites de ce que nous attendons du matériel moderne. Développé sur un moteur idTech fortement modifié — la même lignée connue pour les performances fulgurantes des titres Doom récents — cette aventure exige un niveau spécifique de sophistication graphique. La révélation la plus frappante dans les exigences système d'Indiana Jones and the Great Circle est l'absence d'un système de repli logiciel pour l'éclairage ; le ray tracing au niveau matériel est une exigence stricte dès le départ. Ce guide fournit une analyse complète du matériel dont vous aurez besoin pour vous mettre dans la peau de l'archéologue le plus célèbre du monde, couvrant tout, des configurations d'entrée de gamme 1080p aux exigences punitives du path tracing 4K. Que vous vérifiiez si votre équipement actuel peut supporter la chaleur ou que vous planifiez une mise à niveau en 2026, nous avons analysé chaque niveau de performance pour garantir que votre voyage reste sans accroc.
+
+<Section icon={Sparkles} title="La Nouvelle Norme : Ray Tracing Matériel Obligatoire">
+
+Le paysage du jeu PC a changé, et Indiana Jones and the Great Circle mène la charge en rendant le Ray Tracing Matériel obligatoire. Alors que des titres précédents comme Star Wars Outlaws ou Avatar: Frontiers of Pandora utilisaient l'illumination globale par ray tracing, ils incluaient souvent des systèmes de repli logiciel pour les anciens GPU. Ce jeu supprime ce filet de sécurité, exigeant des cœurs RT dédiés pour même lancer l'application. Cette décision permet aux développeurs de se concentrer entièrement sur un système d'éclairage unifié, résultant en des ombres et des réflexions plus réalistes qui réagissent dynamiquement à l'environnement d'Indy.
+
+**Points forts de la vidéo :**
+- **Analyse de l'exigence RT** : Pourquoi c'est le premier jeu à lister le RT Matériel comme un minimum obligatoire.
+- **Performance du moteur** : Comment le moteur idTech s'adapte aux différentes catégories de matériel.
+- **Comparaisons de GPU** : Un aperçu de la façon dont les cartes de milieu de gamme gèrent la cible native 1080p.
+- **Aperçu du Path Tracing** : Les exigences extrêmes pour le mode équivalent "RT Overdrive".
+
+<YouTubeEmbed videoId="hULpfjs5qj8" title="Analyse des exigences système PC d'Indiana Jones and the Great Circle" />
+
+<Callout type="warning" title="Compatibilité Matérielle">
+Si vous utilisez une carte de la série GTX plus ancienne ou une carte Radeon antérieure à la série RX 6000, vous ne pourrez probablement pas exécuter ce jeu. Le moteur est construit autour d'une architecture moderne qui nécessite des processeurs de ray tracing dédiés.
+</Callout>
+
+| Type d'exigence | Détail de la spécification |
+| :--- | :--- |
+| **Moteur** | idTech modifié (optimisé pour le RT) |
+| **Version DirectX** | DirectX 12 Agility SDK |
+| **Repli RT** | Aucun (RT Matériel Obligatoire) |
+| **Date de sortie** | 9 décembre |
+| **Technologies clés** | DLSS 3.5, FSR 3, Path Tracing |
+
+</Section>
+
+<Section icon={Shield} title="Configuration Minimale Requise : 1080p à 60 FPS">
+
+Un aspect rafraîchissant des exigences système d'Indiana Jones and the Great Circle est la fréquence d'images cible. La plupart des développeurs listent des spécifications minimales pour 30 FPS, mais ici, la base est un solide 60 FPS à 1080p en utilisant le préréglage Bas. Fait intéressant, cette cible est atteinte en **Résolution Native**, ce qui signifie que vous n'avez pas besoin de compter sur l'upscaling (DLSS/FSR) pour atteindre des vitesses jouables sur le matériel moderne d'entrée de gamme.
+
+Le seuil du GPU est fixé à la RTX 2060 Super ou à la RX 6600. Il est vital de noter la désignation "Super" pour Nvidia ; la RTX 2060 standard avec 6 Go de VRAM pourrait avoir des difficultés en raison de la surcharge de mémoire élevée des ressources avec ray tracing. Le jeu nécessite 8 Go de VRAM comme base stricte pour la stabilité.
+
+| Composant | Spécification Minimale (1080p/60) |
+| :--- | :--- |
+| **OS** | Windows 10/11 (64 bits) |
+| **CPU** | Ryzen 5 3600 / Intel Core i7-10700K |
+| **RAM** | 16 Go |
+| **GPU (Nvidia)** | RTX 2060 Super (8 Go) |
+| **GPU (AMD)** | Radeon RX 6600 (8 Go) |
+| **Stockage** | 120 Go SSD |
+
+<Callout type="tip" title="Gestion de la VRAM">
+Si vous avez une carte de 8 Go, évitez d'exécuter des applications en arrière-plan comme Chrome ou Discord avec l'accélération matérielle activée, car cela peut consommer la VRAM nécessaire aux calculs de ray tracing du jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Spécifications Recommandées et Ultra pour 1440p et 4K">
+
+Pour les joueurs souhaitant augmenter la résolution et la fidélité visuelle, les exigences font un bond significatif. Le niveau Recommandé cible 1440p à 60 FPS avec le préréglage Élevé, tandis que le niveau Ultra vise 4K à 60 FPS. Les deux niveaux spécifient toujours la **Résolution Native**, ce qui témoigne de l'optimisation du moteur idTech, bien que la plupart des joueurs utiliseront probablement le DLSS ou le FSR pour obtenir encore plus de marge.
+
+L'exigence CPU augmente considérablement au niveau Recommandé, passant d'un Ryzen 3600 à un Ryzen 7700 ou i7-12700K. Cela suggère que des préréglages graphiques plus élevés ou des environnements plus denses imposent une charge beaucoup plus lourde sur la capacité du processeur à gérer les appels de rendu et les structures BVH RT.
+
+<CardGrid cols={2}>
+  <Card title="Recommandé (1440p)">
+    - **Cible** : 1440p / 60 FPS / Élevé
+    - **GPU** : RTX 3080 Ti / RX 7700 XT
+    - **RAM** : 32 Go
+    - **CPU** : i7-12700K / Ryzen 7 7700
+  </Card>
+  <Card title="Ultra (4K)">
+    - **Cible** : 4K / 60 FPS / Ultra
+    - **GPU** : RTX 4080 / RX 7900 XT
+    - **RAM** : 32 Go
+    - **CPU** : i7-12700K / Ryzen 7 7700
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Note sur les performances AMD">
+Il est intéressant de noter que les exigences GPU d'AMD sont légèrement inférieures à celles de leurs homologues Nvidia en termes de puissance de rastérisation brute. Cela suggère que le jeu est bien optimisé pour l'architecture RDNA que l'on trouve dans les consoles modernes.
+</Callout>
+
+| Fonctionnalité | Recommandé | Ultra |
+| :--- | :--- | :--- |
+| **Résolution** | 1440p | 2160p (4K) |
+| **Préréglage** | Élevé | Ultra |
+| **Cible VRAM** | 12 Go+ | 16 Go+ |
+| **Upscaling** | Facultatif | Fortement Recommandé |
+
+</Section>
+
+<Section icon={Target} title="L'Expérience Complète du Ray Tracing (Path Tracing)">
+
+Pour l'enthousiaste qui souhaite que chaque rebond de lumière soit calculé en temps réel, le mode "Full Ray Tracing" — souvent appelé Path Tracing — est disponible. Ce mode est incroyablement exigeant et est conçu en tenant compte des fonctionnalités de la série 40 de Nvidia, plus précisément la Génération de Cadres et le DLSS 3.5 Ray Reconstruction.
+
+Pour atteindre 60 FPS dans ce mode, les développeurs supposent l'utilisation de la Super Résolution et de la Génération de Cadres. Sans ces technologies, même une RTX 4090 pourrait avoir du mal à maintenir une fréquence d'images constante en 4K.
+
+<Steps>
+  <Step num="1" title="Vérifier le Matériel">
+    Assurez-vous de disposer d'un GPU RTX de la série 40 pour utiliser la Génération de Cadres, essentielle pour les cibles Full RT.
+  </Step>
+  <Step num="2" title="Activer DLSS/FSR">
+    Réglez la Super Résolution sur 'Qualité' pour 1080p ou 'Performance' pour 4K afin d'équilibrer la charge du path tracing.
+  </Step>
+  <Step num="3" title="Activer la Génération de Cadres">
+    Activez la Génération de Cadres dans le menu des paramètres pour combler l'écart et obtenir une sortie visuelle à 60 FPS.
+  </Step>
+  <Step num="4" title="Reconstruction Rayon">
+    Activez le DLSS 3.5 Ray Reconstruction pour améliorer la clarté des réflexions et de l'illumination globale.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Exigences Full RT">
+Le mode Full RT 4K vise 60 FPS en utilisant le **Mode Performance DLSS** et la **Génération de Cadres** sur une RTX 4090. C'est le préréglage le plus exigeant actuellement disponible dans les jeux modernes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Liste de Contrôle des Mises à Niveau PC pour 2026">
+
+Si votre PC actuel ne répond pas aux exigences système d'Indiana Jones and the Great Circle, 2026 est une excellente période pour explorer les marchés du matériel neuf et d'occasion. Basé sur notre analyse, voici les mises à niveau prioritaires que vous devriez envisager pour garantir une expérience fluide.
+
+<Checklist
+  id="upgrade-path"
+  title="Liste de Priorité du Matériel :"
+  items={[
+    "Mettre à niveau vers un GPU avec au moins 8 Go de VRAM (RTX 3060 ou RX 6600 XT)",
+    "Installer un SSD NVMe avec au moins 120 Go d'espace libre",
+    "Augmenter la RAM système à 32 Go pour les paramètres Recommandés/Ultra",
+    "Assurez-vous que votre CPU possède au moins 6 cœurs / 12 threads (Ryzen 5600 ou mieux)",
+    "Vérifiez que votre alimentation peut gérer les pics de puissance des séries 30 ou 40"
+  ]}
+/>
+
+| Niveau de Budget | GPU Recommandé | Performance Attendue |
+| :--- | :--- | :--- |
+| **Valeur** | RTX 2070 (Occasion) | 1080p / 60 FPS / Moyen-Élevé |
+| **Milieu de Gamme** | RX 7700 XT | 1440p / 60 FPS / Élevé |
+| **Haut de Gamme** | RTX 4080 Super | 4K / 60 FPS / Ultra |
+| **Enthousiaste** | RTX 4090 | 4K / Path Tracing / 60+ FPS |
+
+<Callout type="tip" title="Économies d'Occasion">
+Une RTX 2070 peut souvent être trouvée sur les marchés d'occasion pour moins de 200 $ et offre environ 30 % de meilleures performances que la RTX 3050 8 Go minimale requise, ce qui en fait un excellent choix économique pour ce titre.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Foire Aux Questions">
+
+<FAQ items={[
+  {
+    question: "Puis-je jouer à Indiana Jones and the Great Circle sans GPU Ray Tracing ?",
+    answer: "Non. Les exigences système officielles spécifient que le Ray Tracing Matériel est une exigence obligatoire. Le jeu ne dispose pas d'un système de repli logiciel, donc les anciennes cartes GTX ou non-RT ne pourront pas rendre l'éclairage correctement ou pourraient ne pas se lancer du tout."
+  },
+  {
+    question: "Un SSD est-il strictement requis pour ce jeu ?",
+    answer: "Oui. Le jeu nécessite 120 Go d'espace SSD. L'utilisation d'un HDD traditionnel entraînera des saccades importantes, de longs temps de chargement et des problèmes potentiels de streaming d'actifs étant donné la haute fidélité du moteur idTech."
+  },
+  {
+    question: "Pourquoi y a-t-il un si grand bond dans les exigences CPU pour le niveau Recommandé ?",
+    answer: "Le passage à un i7-12700K ou un Ryzen 7700 est probablement dû à la complexité accrue des calculs de ray tracing et des appels de rendu aux réglages Élevés en 1440p. Des réglages plus élevés augmentent souvent le nombre d'objets que le CPU doit suivre pour la structure BVH RT."
+  },
+  {
+    question: "Le jeu prend-il en charge la Génération de Cadres pour les utilisateurs AMD ?",
+    answer: "Bien que les spécifications se concentrent sur le DLSS 3 de Nvidia, le jeu devrait prendre en charge la Génération de Cadres FSR 3, ce qui permettra aux utilisateurs de cartes des séries RX 6000 et 7000 d'atteindre des fréquences d'images perçues plus élevées."
+  }
+]} />
+
+</Section>

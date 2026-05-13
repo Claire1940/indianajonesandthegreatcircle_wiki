@@ -1,0 +1,130 @@
+import { Map, Shield, Trophy, Target, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Steam Deck: Guía de Rendimiento 2026",
+  description: "Optimiza tu experiencia en Indiana Jones and the Great Circle en Steam Deck con nuestros ajustes de rendimiento, consejos de batería y guía de compatibilidad para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/78350f/fff?text=Steam+Deck+Optimization",
+  date: "2026-05-13",
+  author: "Equipo de Indiana Wiki",
+  keywords: "Indiana Jones, Great Circle, Steam Deck, rendimiento, configuración, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El rendimiento de **Indiana Jones and the Great Circle en Steam Deck** requiere ajustes gráficos específicos para mantener la estabilidad.
+- El **trazado de rayos por hardware** es un requisito base, lo que hace que el juego sea exigente para el hardware portátil.
+- Usa **FSR 3.0** y ajustes preestablecidos bajos para lograr una experiencia constante de 30-40 FPS sobre la marcha.
+- Mantén siempre tu **SteamOS** actualizado a la última versión estable para obtener el mejor soporte de controladores.
+</Callout>
+
+Explorar ruinas antiguas y descubrir misterios históricos es un viaje cinematográfico, y jugar a Indiana Jones and the Great Circle en la Steam Deck te permite llevar esta aventura a cualquier lugar. Como una aventura en primera persona de alta fidelidad, el juego presenta entornos complejos y acertijos basados en la luz que ejercen una presión significativa sobre el hardware móvil. Para obtener la mejor experiencia, debes equilibrar la claridad visual con el rendimiento. Esta guía detalla los ajustes esenciales para Indiana Jones and the Great Circle en Steam Deck, asegurando que tu dispositivo portátil ofrezca una búsqueda arqueológica fluida e inmersiva durante todo el 2026.
+
+<Section icon={Settings} title="Ajustes de Rendimiento Optimizados">
+
+Lograr una tasa de fotogramas jugable requiere un enfoque estratégico en el menú de gráficos del juego. Debido a que el título depende en gran medida del trazado de rayos por hardware, debes priorizar los ajustes preestablecidos más bajos mientras utilizas tecnologías de reescalado para mantener la calidad de la imagen.
+
+| Ajuste | Recomendación | Razón |
+| :--- | :--- | :--- |
+| Resolución | 1280x800 | Resolución nativa de la Deck |
+| Preajuste Gráfico | Bajo | Reduce la carga de la GPU |
+| Reescalado | FSR 3.0 / Equilibrado | Esencial para la estabilidad de fotogramas |
+| Trazado de Rayos | Bajo/Apagado | Gran impacto en el rendimiento |
+| Calidad de Texturas | Medio | Mantiene la fidelidad visual intacta |
+
+<Callout type="tip" title="Consejo Profesional">
+Si notas tirones durante combates intensos o travesías complejas por templos, bloquea la tasa de fotogramas de tu Steam Deck a 30 FPS. Esto proporciona una experiencia mucho más estable que unos 40-50 FPS fluctuantes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Compatibilidad y Configuración de Steam Deck">
+
+El diseño del juego, que enfatiza la exploración y el sigilo, se adapta bien al diseño del controlador de la Steam Deck. Sin embargo, debido a que el título es exigente, gestionar tus recursos es vital para una sesión fluida.
+
+<CardGrid cols={3}>
+  <Card title="Almacenamiento">
+    - **126GB instalación base**
+    - +9GB para contenido DLC
+    - Usa SSD de alta velocidad
+  </Card>
+  <Card title="Vida de Batería">
+    - 1.5 a 2 horas promedio
+    - Límite de TDP de 15W
+    - Reducir brillo de pantalla
+  </Card>
+  <Card title="Controles">
+    - Soporte nativo de mando
+    - Trackpads para apuntar
+    - Remapear controles del látigo
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Nota Importante">
+Asegúrate siempre de que tu Steam Deck ejecute el firmware estable más reciente. Los títulos de Bethesda a menudo reciben optimizaciones que dependen de actualizaciones recientes de Proton para una mejor compatibilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pasos de Instalación y Mantenimiento">
+
+Sigue estos pasos para asegurar una instalación limpia y un rendimiento óptimo para tu aventura por todo el mundo.
+
+<Steps>
+  <Step num="1" title="Verificar Almacenamiento">
+    Asegúrate de tener al menos 140GB de espacio libre en tu SSD interno. Instalarlo en una tarjeta microSD puede causar problemas de transmisión de texturas.
+  </Step>
+  <Step num="2" title="Lanzar y Configurar">
+    Inicia el juego y entra inmediatamente al menú de Gráficos para aplicar el preajuste Bajo antes de comenzar la campaña principal.
+  </Step>
+  <Step num="3" title="Habilitar Reescalado">
+    Navega a los ajustes de Pantalla y activa FSR 3.0 en 'Equilibrado' para balancear la nitidez visual y la tasa de fotogramas.
+  </Step>
+  <Step num="4" title="Gestión de Guardado">
+    Usa Steam Cloud para sincronizar tu progreso, especialmente si cambias entre la Steam Deck y un PC de escritorio.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación Técnica">
+
+Usa esta lista para seguir el progreso de tu configuración y asegurarte de que estás listo para la experiencia completa.
+
+<Checklist
+  id="deck-setup"
+  title="Lista de Preparación para Steam Deck:"
+  items={[
+    "SteamOS actualizado a la última versión",
+    "Preajuste gráfico configurado en Bajo",
+    "FSR 3.0 habilitado para rendimiento",
+    "Almacenamiento SSD verificado (140GB+ libres)",
+    "Guardado en la nube habilitado para multiplataforma"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo ejecutar Indiana Jones and the Great Circle en Steam Deck a 60 FPS?",
+    answer: "Mantener unos 60 FPS constantes no es recomendable debido a la gran dependencia del juego del trazado de rayos. Un objetivo bloqueado de 30 FPS o 40 FPS es el equilibrio ideal para una experiencia fluida."
+  },
+  {
+    question: "¿El juego admite el juego sin conexión en Steam Deck?",
+    answer: "Sí, una vez que se descargan los archivos iniciales y se verifica el juego, puedes jugar la campaña para un solo jugador sin conexión."
+  },
+  {
+    question: "¿Por qué el requisito de almacenamiento es tan alto?",
+    answer: "El juego cuenta con texturas de alta resolución y activos cinematográficos que requieren un espacio significativo. Asegúrate de tener 126GB para el juego base más espacio adicional para actualizaciones."
+  }
+]} />
+
+</Section>

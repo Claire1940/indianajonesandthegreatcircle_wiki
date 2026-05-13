@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para principiantes de Indiana Jones and the Great Circle: Domina la exploración 2026",
+  description: "Domina Indiana Jones and the Great Circle con nuestra guía para principiantes de 2026. Aprende combate con látigo, soluciones de puzles, mejoras del libro de aventuras y consejos de sigilo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3e2723/fff?text=Beginner+Survival+Guide",
+  date: "2026-05-13",
+  author: "Equipo de Wiki de Indiana"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía para principiantes de Indiana Jones and the Great Circle**: Concéntrate en el **Látigo** tanto para el desplazamiento como para las eliminaciones sigilosas.
+- **Dominio del Diario**: Siempre usa tu **Cámara** en nuevos puntos de referencia; las fotos son la forma principal de ganar **Puntos de Aventura (PA)**.
+- **Prioridad de Progresión**: Desbloquea las habilidades **Sombrero de la Suerte** y **Ánimo** temprano para aumentar la supervivencia y la recuperación de resistencia.
+- **Sigilo Primero**: Usa **Disfraces** en el Vaticano y Gizeh para eludir a los guardias sin desencadenar difíciles encuentros de boxeo.
+- **Consejo para Completistas**: Compra **Libros de Exploración Regional** a los vendedores para marcar los coleccionables en tu mapa automáticamente.
+</Callout>
+
+Indiana Jones regresa en una masiva aventura en primera persona que combina narración cinematográfica con una intrincada profundidad mecánica. Esta **guía para principiantes de Indiana Jones and the Great Circle** está diseñada para ayudarte a navegar por el viaje trotamundos desde los sagrados pasillos del Marshall College hasta las pirámides bañadas por el sol de Gizeh. A diferencia de los shooters tradicionales, esta experiencia prioriza la interacción ambiental, la resolución inteligente de puzles y el uso creativo de las herramientas icónicas de Indy. En esta **guía para principiantes de Indiana Jones and the Great Circle**, desglosaremos los sistemas esenciales que necesitas dominar, incluyendo el árbol de mejoras del Libro de Aventuras, los matices del desplazamiento basado en el látigo y las tácticas de sigilo necesarias para infiltrarse en los sitios de excavación controlados por los nazis. Ya seas un veterano de las películas o un recién llegado a la franquicia, entender cómo aprovechar tu Diario y tu Cámara será la diferencia entre quedarte atascado en una tumba polvorienta y descubrir los mayores misterios del mundo.
+
+<Section icon={Map} title="Dominando las Herramientas Principales de Indy">
+
+La base del juego reside en tres elementos: el Látigo, la Cámara y el Diario. Dominarlos temprano es esencial para navegar por los centros de área abierta como el Vaticano y Sukhothai. El látigo no es solo un arma; es tu principal medio para alcanzar salientes altos y balancearte a través de abismos mortales.
+
+| Herramienta | Uso Principal | Consejo Pro para Principiantes |
+| :--- | :--- | :--- |
+| **Látigo** | Desplazamiento y Combate | Úsalo para hacer tropezar enemigos o atraerlos para un agarre sigiloso. |
+| **Cámara** | Ganar PA/Pistas | Fotografía todo; si aparece el icono, vale puntos. |
+| **Diario** | Mapas y Códigos | Revísalo a menudo para combinaciones de cajas fuertes y pistas de puzles. |
+| **Mechero** | Iluminación y Puzles | Esencial para tumbas oscuras y activar trampas basadas en luz. |
+
+La cámara es, posiblemente, tu herramienta más importante para la progresión. Cada fotografía que tomas de un punto de referencia, un documento sospechoso o una inscripción antigua añade una nota a tu Diario y otorga Puntos de Aventura. Estos puntos son la moneda utilizada para desbloquear nuevas y poderosas habilidades.
+
+<Callout type="success" title="El Poder de la Lente">
+Si te encuentras atascado en un puzle, saca tu cámara. A menudo, mirar a través de la lente resaltará objetos interactivos o proporcionará una pista a través del monólogo interno de Indy, guiándote hacia la solución.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Libros de Aventura y Progresión">
+
+La progresión en Indiana Jones and the Great Circle está ligada a los **Libros de Aventura**. Estos son objetos físicos que se encuentran en todo el mundo o se compran a los vendedores. Una vez encontrados, debes gastar Puntos de Aventura (PA) o Botellas de Medicina para activar los beneficios permanentes que ofrecen.
+
+<CardGrid cols={3}>
+  <Card title="Sombrero de la Suerte I">
+    - **Costo**: 125 PA
+    - **Efecto**: Obtén una segunda oportunidad en combate recogiendo tu sombrero caído.
+    - **Prioridad**: Imprescindible para el combate temprano.
+  </Card>
+  <Card title="Ánimo I">
+    - **Costo**: 275 PA
+    - **Efecto**: Aumenta significativamente la velocidad de recuperación de resistencia.
+    - **Prioridad**: Esencial para escalar y boxear.
+  </Card>
+  <Card title="Nocaut I">
+    - **Costo**: 25 PA
+    - **Efecto**: Restaura la resistencia al noquear a un enemigo.
+    - **Prioridad**: Mejor valor para las peleas tempranas.
+  </Card>
+</CardGrid>
+
+Más allá de los PA, encontrarás **Botellas de Medicina**. Estos son coleccionables regionales raros que se utilizan específicamente para desbloquear las mejoras de "Moxie" (Resistencia) y "Ponerse en Forma" (Salud). Estas son por niveles, lo que significa que necesitarás más botellas para cada nivel posterior.
+
+| Nivel de Mejora | Costo de Botellas de Medicina | Recompensa Permanente |
+| :--- | :--- | :--- |
+| **Moxie I** | 5 Botellas | Pequeña extensión de la barra de resistencia |
+| **Moxie II** | 10 Botellas | Extensión mediana de la barra de resistencia |
+| **Ponerse en Forma I** | 5 Botellas | Barra de reserva de salud extra |
+| **Ponerse en Forma III** | 15 Botellas | Capacidad máxima de salud |
+
+<Callout type="tip" title="La Resistencia es Clave">
+Prioriza la recuperación de resistencia (Ánimo) y la extensión de resistencia (Moxie). Casi todas las acciones (escalar, correr y boxear) agotan tu resistencia. Tener una reserva más grande te permite explorar más libremente sin pausas constantes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de Sigilo y Combate">
+
+El combate se divide entre eliminaciones sigilosas y boxeo visceral en primera persona. Aunque Indy puede usar armas de fuego, la munición es extremadamente escasa, y disparar un arma alertará inmediatamente a todos los guardias de las cercanías. El sigilo es casi siempre el enfoque preferido en zonas restringidas.
+
+<Steps>
+  <Step num="1" title="Utiliza Disfraces">
+    En regiones como el Vaticano o el Complejo Nazi de Gizeh, encontrar un disfraz (como una sotana de sacerdote o un uniforme de trabajador) te permite caminar por áreas restringidas sin ser atacado a la vista.
+  </Step>
+  <Step num="2" title="Tácticas de Distracción">
+    Lanza botellas o usa tu látigo para golpear objetos metálicos. Esto aleja a los guardias de sus puestos, permitiéndote pasar sigilosamente o realizar una eliminación silenciosa por la espalda.
+  </Step>
+  <Step num="3" title="Domina la Parada">
+    Cuando te veas obligado a una pelea a puñetazos, no te limites a aporrear el botón de ataque. Observa el resaltado del enemigo y para sus golpes. Una parada exitosa los deja abiertos para un contraataque de alto daño.
+  </Step>
+  <Step num="4" title="Control del Látigo">
+    Usa la habilidad **Acelerar** una vez desbloqueada. Esto te permite atraer a los enemigos hacia ti para un nocaut rápido, manteniendo el encuentro silencioso y eficiente.
+  </Step>
+</Steps>
+
+| Tipo de Enemigo | Mejor Enfoque | Debilidad |
+| :--- | :--- | :--- |
+| **Infantería Ligera** | Eliminación Sigilosa | Poca salud, fácilmente distraíble. |
+| **Soldados Pesados** | Tropezar con Látigo + Boxeo | Vulnerables a barridos de piernas con el látigo. |
+| **Oficiales** | Disfraz / Eliminación Silenciosa | Suelen llevar llaves necesarias para la progresión. |
+| **Campeones de Boxeo** | Parar y Contraatacar | Patrones de ataque altamente predecibles. |
+
+<Callout type="warning" title="Evita las Alarmas">
+Si un guardia llega a una campana de alarma, los refuerzos invadirán tu ubicación. Prioriza siempre eliminar a los guardias cerca de las estaciones de alarma primero, o usa tu látigo para sabotear las campanas antes de iniciar una pelea.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Exploración y Resolución de Puzles">
+
+El juego presenta varias áreas centrales grandes, destacando el Vaticano, Gizeh y Sukhothai. Estas áreas no son lineales y están llenas de contenido secundario conocido como **Trabajo de Campo** y **Misterios**. Completarlos es la mejor manera de ganar los PA necesarios para las mejoras de final de juego.
+
+**Tipos Clave de Puzles a Esperar:**
+- **Refracción de Luz**: Usa espejos y el mechero de Indy para guiar haces de luz hacia sensores antiguos (común en Gizeh).
+- **Placas de Peso**: Coloca objetos o vasijas canópicas en un orden específico para activar puertas ocultas.
+- **Acertijos Ambientales**: Lee las notas de tu Diario para encontrar pistas sobre estatuas de santos o fechas históricas que sirven como códigos de cajas fuertes.
+
+<Checklist
+  id="exploration-checklist"
+  title="Lista de Verificación de Limpieza Regional:"
+  items={[
+    "Fotografía todas las inscripciones para Antonio en el Vaticano",
+    "Recoge las 10 Estelas en el desierto de Gizeh",
+    "Encuentra las 10 Ruedas Dentadas Jemer en Sukhothai",
+    "Compra el libro 'Reliquias del Vaticano' a Ernesto para revelar los iconos del mapa",
+    "Sintoniza las 8 Frecuencias de Radio para Gina"
+  ]}
+/>
+
+<Callout type="info" title="Consejo para Revelar el Mapa">
+Los vendedores en cada centro venden "Libros de Exploración" (por ejemplo, Misterios de Gizeh, Reliquias de Sukhothai). Comprarlos debería ser tu primera prioridad al llegar a una nueva región, ya que colocan iconos para todos los coleccionables faltantes directamente en tu mapa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Logrando el 100% de Completación">
+
+Para los jugadores que buscan el trofeo de Platino o los logros de Steam al 100%, el trofeo **Archivista** es tu objetivo final. Esto requiere recolectar cada nota del Diario en el juego, un total de 497 entradas.
+
+| Tipo de Logro | Requisito | Tiempo Estimado |
+| :--- | :--- | :--- |
+| **Trofeos de Historia** | Completa las 10 Aventuras principales | 15-20 Horas |
+| **Trabajo de Campo** | Completa todas las misiones secundarias regionales | 10-15 Horas |
+| **Bibliotecario** | Desbloquea las 55 habilidades del Libro de Aventura | 30+ Horas |
+| **Limpieza al 100%** | Recoge todas las Reliquias, Artefactos y Notas | 45-55 Horas |
+
+Si te perdiste algo durante tu primera partida, no te preocupes. Después de completar el capítulo final de la historia en Irak, puedes usar la pestaña **Viajes** en tu Diario para regresar a cualquier centro anterior. Todo tu progreso, mejoras y coleccionables se transfieren, lo que facilita mucho la limpieza post-juego.
+
+<Callout type="tip" title="DLC Listo">
+Si posees la Edición Premium, puedes acceder al **DLC La Orden de los Gigantes**. Esto envía a Indy a Roma para investigar el Culto de Mitra. Recomendamos terminar la historia principal primero, ya que el DLC presenta algunos de los puzles más complejos y los encuentros de combate más difíciles del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar códigos de cajas fuertes en Indiana Jones and the Great Circle?",
+    answer: "Los códigos de las cajas fuertes nunca son aleatorios. Siempre están ocultos en notas, documentos o pistas ambientales cercanas. Si encuentras una caja fuerte bloqueada, revisa tu Diario en busca de cartas o fechas de envío fotografiadas recientemente."
+  },
+  {
+    question: "¿Cómo consigo más Puntos de Aventura (PA) rápidamente?",
+    answer: "La forma más rápida de ganar PA es completando 'Misterios' y 'Trabajo de Campo' en las grandes áreas centrales. Además, ten siempre tu cámara a mano; fotografiar puntos de referencia y enemigos únicos proporciona un flujo constante de PA."
+  },
+  {
+    question: "¿Hay alguna forma de restablecer mis habilidades del Libro de Aventura?",
+    answer: "No, las elecciones de habilidades son permanentes. Sin embargo, hay suficientes Puntos de Aventura en el juego para desbloquear eventualmente todas las habilidades, por lo que no puedes arruinar permanentemente tu construcción."
+  },
+  {
+    question: "¿Puedo jugar el juego completamente sin usar armas?",
+    answer: "En su mayor parte, sí. Aunque algunas secuencias guionizadas pueden requerir combate, la gran mayoría del juego se puede completar usando sigilo, el látigo y los puños de Indy. Las armas se tratan como una herramienta de 'último recurso'."
+  }
+]} />
+
+</Section>
