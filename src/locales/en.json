@@ -83,22 +83,22 @@
       {
         "icon": "Home",
         "title": "Indiana Jones and the Great Circle Adventure Books",
-        "description": "Upgrade book locations and best progression picks."
+        "description": "Best skill books, upgrade costs, and top unlock priorities."
       },
       {
         "icon": "Eye",
-        "title": "Indiana Jones and the Great Circle World Regions",
-        "description": "Area overviews for Vatican, Gizeh, and Sukhothai routes."
+        "title": "Indiana Jones and the Great Circle Trophies and Achievements",
+        "description": "Roadmap for Platinum, Gamerscore, and full completion cleanup."
       },
       {
         "icon": "AlertTriangle",
-        "title": "Indiana Jones and the Great Circle Combat Guide",
-        "description": "Whip, stealth, and encounter fundamentals."
+        "title": "Indiana Jones and the Great Circle The Order of Giants DLC",
+        "description": "Access steps, Rome route, and DLC collectible checklist."
       },
       {
         "icon": "ArrowRight",
-        "title": "Indiana Jones and the Great Circle Mobility Guide",
-        "description": "Boat routes, traversal options, and movement tips."
+        "title": "Indiana Jones and the Great Circle Platforms and PC Requirements",
+        "description": "Platform support, editions, and hardware requirement tiers."
       },
       {
         "icon": "TrendingUp",
@@ -281,144 +281,144 @@
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Indiana Jones and the Great Circle base camp and Base Building",
+      "title": "Indiana Jones and the Great Circle Adventure Books",
       "displayType": "cards",
-      "intro": "base camp is one of the most important progression milestones in Indiana Jones and the Great Circle. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
+      "intro": "Adventure Books are the core long-term upgrade system in Indiana Jones and the Great Circle. Track high-value unlocks early, then use map reveal books to speed up collectible cleanup in each major region.",
       "cards": [
         {
-          "name": "Personal base camp",
-          "description": "Unlocking a base camp is an early milestone that gives you a more reliable place to return to while exploring the wider world."
+          "name": "Punch Out I",
+          "description": "Region: The Vatican, Castel Sant'Angelo. Cost: 25 AP. Effect: restores stamina after a knockout. Priority: unlock early."
         },
         {
-          "name": "Storage-First Building",
-          "description": "Many players start using their base camp as a storage hub before turning it into a larger base with organized crafting and building space."
+          "name": "Lucky Hat I",
+          "description": "Region: The Vatican, Captain's Room. Cost: 125 AP. Effect: second-chance recovery after getting knocked out."
         },
         {
-          "name": "Creative Home Building",
-          "description": "Indiana Jones and the Great Circle supports creative building, and players are already using base camp spaces to make houses and personalized layouts."
+          "name": "Moxie I, II, III",
+          "description": "Regions: Vatican, Gizeh, Sukhothai. Cost: 5/10/15 Medicine Bottles. Effect: extends stamina bar for exploration and combat."
         },
         {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
+          "name": "Shaping Up I, II, III",
+          "description": "Regions: Vatican, Gizeh, Sukhothai. Cost: 5/10/15 Medicine Bottles. Effect: adds extra health reserve bars."
         }
       ],
       "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
+        "Climbing Ace I and Pep I are strong early stamina picks for route efficiency.",
+        "Throttle and Jumbo Lasso improve stealth and heavy-enemy control in tougher encounters.",
+        "Fruit Bag is a practical sustain option when staying in the field longer.",
+        "Use Vatican, Gizeh, and Sukhothai map books before 100% cleanup."
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Indiana Jones and the Great Circle World Regions",
+      "title": "Indiana Jones and the Great Circle Trophies and Achievements",
       "displayType": "regionCards",
-      "intro": "Indiana Jones and the Great Circle uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
+      "intro": "Use this roadmap to plan a one-playthrough base-game completion route, then finish The Order of Giants DLC cleanup for full platform completion totals.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
+          "name": "Base PlayStation Trophies",
+          "type": "46 Trophies",
+          "description": "Includes 1 Platinum, 2 Gold, 15 Silver, and 28 Bronze. Typical completion time: 40-50 hours."
         },
         {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
+          "name": "Base Xbox Achievements",
+          "type": "45 Achievements / 1,000 GS",
+          "description": "Follows the same route as Steam completion: story progress, Fieldwork, Mysteries, collectibles, and Adventure Books."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
+          "name": "Missables and Difficulty",
+          "type": "0 Missables in Main Roadmap",
+          "description": "Difficulty does not gate the listed trophies, and free-roam cleanup remains available after story completion."
         },
         {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "name": "Hardest Completion Check",
+          "type": "Archivist",
+          "description": "Requires all Journal notes and effectively represents full base-game completion discipline."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Indiana Jones and the Great Circle Creatures and Enemies",
+      "title": "Indiana Jones and the Great Circle The Order of Giants DLC",
       "displayType": "creatureCards",
-      "intro": "Indiana Jones and the Great Circle mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
+      "intro": "The Order of Giants is a Rome-focused story DLC. Follow this sequence to unlock it correctly, clear the chapter efficiently, and complete the DLC collectible set.",
       "creatures": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "name": "Step 1: Check DLC Access",
+          "role": "Release and Ownership",
+          "description": "Released September 4, 2025. Included with Premium Edition/Upgrade and Collector bundles; base game required."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "name": "Step 2: Reach Required Story Point",
+          "role": "Base Game Progress",
+          "description": "Advance main story until Vatican progress allows DLC start, including the related progression objective checkpoint."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "name": "Step 3: Start A Mystery Begins",
+          "role": "Quest Trigger",
+          "description": "Meet Father Ricci near the Vatican Fountain of Confession to begin the DLC route."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "name": "Step 4: Enter Villa Pia Route",
+          "role": "Early DLC Path",
+          "description": "Follow Pio, access Ricci's office, collect key items, and push into the Casina/Villa Pia objective chain."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "name": "Step 5: Clear Rome Chapter",
+          "role": "Main Mission Flow",
+          "description": "Complete the connected Rome story thread across underground routes, chambers, and puzzle-heavy segments."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
+          "name": "Step 6: Collect DLC Completion Set",
+          "role": "100% Cleanup",
+          "description": "Collect 118 Journal Notes, 7 Mithraic Artifacts, and complete all Rome Mysteries plus book abilities."
         },
         {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "name": "Step 7: Finish Trophy/Achievement Targets",
+          "role": "Final Checklist",
+          "description": "Wrap story completion, remaining mysteries, artifact checks, and the optional cat interaction objective."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Indiana Jones and the Great Circle Mobility Gear",
+      "title": "Indiana Jones and the Great Circle Platforms and PC Requirements",
       "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Indiana Jones and the Great Circle. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+      "intro": "Before buying or installing, check platform availability, edition benefits, Game Pass coverage, and PC hardware tiers including ray tracing requirements.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "name": "Xbox Series X|S",
+          "type": "Platform",
+          "description": "Available with Xbox ecosystem support and Play Anywhere benefits when purchased through Xbox."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "name": "Steam and PlayStation 5",
+          "type": "Platform",
+          "description": "Steam supports PC requirements and achievements; PS5 supports the full trophy route including Platinum."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "name": "Nintendo Switch 2",
+          "type": "Platform",
+          "description": "Listed as available with release date May 12, 2026 for portable play coverage."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "name": "Game Pass Access",
+          "type": "Subscription",
+          "description": "Available through Game Pass options for Xbox Series X|S, Xbox PC, and cloud-supported play paths."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "name": "Standard vs Premium",
+          "type": "Edition",
+          "description": "Standard includes the base game; Premium adds The Order of Giants DLC and bundled digital extras."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "name": "PC Requirements",
+          "type": "Specs",
+          "description": "Minimum 1080p tier starts at RTX 2060 SUPER / RX 6600 class; higher tiers target 1440p and 4K with stronger ray tracing GPUs."
         }
       ],
       "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+        "Check hardware ray tracing support before install.",
+        "Confirm SSD capacity: 126 GB plus additional DLC space.",
+        "Match edition choice to DLC and bonus content goals.",
+        "Use platform-specific ecosystem features to reduce total cost."
       ]
     },
     "lucidBlocksFarmingAndGrowth": {

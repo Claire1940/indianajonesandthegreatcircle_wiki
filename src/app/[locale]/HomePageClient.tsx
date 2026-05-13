@@ -336,13 +336,13 @@ export default function HomePageClient({
           </div>
           <div className="sr-only">
             <a href="#beginner-guide">Indiana Jones and the Great Circle Walkthrough</a>
+            <a href="#apotheosis-crafting">Indiana Jones and the Great Circle Safe Codes</a>
             <a href="#tools-weapons">Indiana Jones and the Great Circle Puzzle Solutions</a>
-            <a href="#world-regions">Indiana Jones and the Great Circle World Regions</a>
-            <a href="#mobility-gear">Indiana Jones and the Great Circle Mobility Guide</a>
-            <a href="#farming-growth">Indiana Jones and the Great Circle Resource Farming</a>
-            <a href="#achievement-tracker">Indiana Jones and the Great Circle Achievement Tracker</a>
-            <a href="#steam-deck-controller">Indiana Jones and the Great Circle Controller Guide</a>
-            <a href="#updates-patch-notes">Indiana Jones and the Great Circle Updates</a>
+            <a href="#storage-inventory">Indiana Jones and the Great Circle Collectibles</a>
+            <a href="#qualia-base-building">Indiana Jones and the Great Circle Adventure Books</a>
+            <a href="#world-regions">Indiana Jones and the Great Circle Trophies and Achievements</a>
+            <a href="#creatures-enemies">Indiana Jones and the Great Circle The Order of Giants DLC</a>
+            <a href="#mobility-gear">Indiana Jones and the Great Circle Platforms and PC Requirements</a>
           </div>
         </div>
       </section>
