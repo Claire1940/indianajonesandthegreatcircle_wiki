@@ -1,790 +1,756 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Indiana Jones and the Great Circle Wiki - Komplettlösung, Rätsel & Sammelobjekte",
+      "description": "Indiana Jones and the Great Circle Wiki mit Story-Komplettlösungen, Safe-Codes, Rätsellösungen, Reliktkarten, Erfolgsverfolgung und DLC-Vorbereitungsleitfäden.",
+      "keywords": "Indiana Jones and the Great Circle, Komplettlösung, Safe-Codes, Rätsellösungen, Relikte, Erfolge, DLC",
+      "ogTitle": "Indiana Jones and the Great Circle Wiki - Komplettlösung, Rätsel & Sammelobjekte",
+      "ogDescription": "Indiana Jones and the Great Circle Wiki mit Story-Komplettlösungen, Safe-Codes, Rätsellösungen, Reliktkarten, Erfolgsverfolgung und DLC-Vorbereitungsleitfäden.",
+      "twitterTitle": "Indiana Jones and the Great Circle Wiki - Komplettlösung, Rätsel & Sammelobjekte",
+      "twitterDescription": "Indiana Jones and the Great Circle Wiki für Komplettlösungen, Rätselantworten, Reliktkarten und Safe-Code-Referenzen."
     }
   },
   "nav": {
-    "guide": "Guide",
-    "platforms": "Platforms",
-    "review": "Review",
-    "dlc": "Dlc",
+    "guide": "Leitfaden",
+    "platforms": "Plattformen",
+    "review": "Rezension",
+    "dlc": "DLC",
     "codes": "Codes",
-    "puzzles": "Puzzles",
-    "collectibles": "Collectibles",
-    "technical": "Technical"
+    "puzzles": "Rätsel",
+    "collectibles": "Sammelobjekte",
+    "technical": "Technisch"
   },
   "common": {
     "home": "Startseite",
     "more": "Mehr",
-    "playNow": "Demo herunterladen",
+    "playNow": "Auf Steam spielen",
     "switchLanguage": "Sprache wechseln",
     "switchTheme": "Design wechseln",
     "lightMode": "Heller Modus",
     "darkMode": "Dunkler Modus",
     "notFound": "Seite nicht gefunden",
-    "notFoundDescription": "Die Seite, die du suchst, existiert nicht.",
+    "notFoundDescription": "Die gesuchte Seite existiert nicht.",
     "backToHome": "Zurück zur Startseite",
-    "relatedArticles": "Ähnliche Artikel",
+    "relatedArticles": "Verwandte Artikel",
     "readMore": "Mehr lesen",
-    "articlesComingSoon": "Artikel folgen bald"
+    "articlesComingSoon": "Artikel folgen in Kürze"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "First-Person Abenteuer-Rätselspiel",
+    "title": "Indiana Jones and the Great Circle Wiki",
+    "description": "Erlebe ein filmisches Indiana Jones-Abenteuer mit Story-Komplettlösungen, Rätselrouten, Reliktstandorten, Outfits, DLC-Missionen, Kampftipps und Plattform-Guides.",
+    "getFreeCodesCTA": "Komplettlösung ansehen",
+    "playOnSteamCTA": "Auf Steam spielen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "Sehr positiv",
+        "label": "Steam-Bewertungen"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "4.55/5",
+        "label": "PS5-Bewertung"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "55",
+        "label": "Steam-Errungenschaften"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "12. Mai 2026",
+        "label": "Switch 2 Veröffentlichung"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Indiana Jones and the Great Circle Gameplay",
+    "description": "Erlebe filmische Erkundung, Rätsellösung, Schleichen und Peitschen-Traversal im Vatikan, Gizeh, Himalaya, Shanghai und Sukhothai."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Ressourcen",
-    "subtitle": "Alles, was du brauchst, um Raubzüge und Koop-Stealth zu meistern",
+    "title": "Indiana Jones and the Great Circle",
+    "titleHighlight": "Modulnavigation",
+    "subtitle": "Springe zu jedem Indiana Jones and the Great Circle Homepage-Modul",
     "cards": [
       {
-        "icon": "Herunterladen",
-        "title": "Demo-Download",
-        "description": "Hol dir die kostenlose Steam-Demo"
+        "icon": "BookOpen",
+        "title": "Indiana Jones and the Great Circle Komplettlösung",
+        "description": "Hauptstory-Route, Kapitelreihenfolge und Abschlussablauf."
       },
       {
-        "icon": "Buch offen",
-        "title": "Anfängerleitfaden",
-        "description": "Kernschleife und häufige Fallstricke"
-      },
-      {
-        "icon": "Benutzer",
-        "title": "Koop-Leitfaden",
-        "description": "6-Spieler-Rollen und Rettungstaktiken"
-      },
-      {
-        "icon": "Klemmbrett-Check",
-        "title": "Aufgaben & Ziele",
-        "description": "Was High-Gnome von dir will"
-      },
-      {
-        "icon": "Tastatur",
-        "title": "Steuerung & Tastenbelegung",
-        "description": "Standardtasten und wie man sie ändert"
-      },
-      {
-        "icon": "Schild",
-        "title": "Inhaltseinstellungen",
-        "description": "Inhalte für Erwachsene und Umschaltoptionen"
+        "icon": "Sparkles",
+        "title": "Indiana Jones and the Great Circle Safe-Codes",
+        "description": "Schneller Zugriff auf Safes, Truhen und Schlosskombinationen."
       },
       {
         "icon": "Hammer",
-        "title": "Crafting & Ausrüstung",
-        "description": "Rüste dich mit gestohlenen Materialien aus"
+        "title": "Indiana Jones and the Great Circle Rätsellösungen",
+        "description": "Schnelle Lösungen für große Rätselblockaden nach Region."
       },
       {
-        "icon": "Paket",
-        "title": "Beute & Gegenstände",
-        "description": "Was man stehlen sollte und Trage-Tipps"
+        "icon": "Package",
+        "title": "Indiana Jones and the Great Circle Sammelobjekte",
+        "description": "Verfolge Relikte, Notizen, Bücher und wichtige Bereinigungskategorien."
       },
       {
-        "icon": "Warndreieck",
-        "title": "Gegner & Gefahren",
-        "description": "Bedrohungen und wie man mit ihnen umgeht"
+        "icon": "Home",
+        "title": "Indiana Jones and the Great Circle Abenteuerbücher",
+        "description": "Beste Skill-Bücher, Upgrade-Kosten und Top-Freischaltprioritäten."
       },
       {
-        "icon": "Auge",
-        "title": "Stealth & Flucht",
-        "description": "Bleib versteckt und extrahiere sicher"
+        "icon": "Eye",
+        "title": "Indiana Jones and the Great Circle Trophäen und Erfolge",
+        "description": "Roadmap für Platin, Gamerscore und vollständige Abschlussbereinigung."
       },
       {
-        "icon": "Startseite",
-        "title": "Haus-Upgrades",
-        "description": "Verbessere deine schwebende Inselbasis"
+        "icon": "AlertTriangle",
+        "title": "Indiana Jones and the Great Circle The Order of Giants DLC",
+        "description": "Zugangsschritte, Rom-Route und DLC-Sammelobjekt-Checkliste."
       },
       {
-        "icon": "Sprechblase",
-        "title": "Community & Discord",
-        "description": "Offizielle Links und Gruppensuche"
-      },
-      {
-        "icon": "Einstellungen",
-        "title": "Mods & BepInEx",
-        "description": "Installiere Framework und Mod-Setup"
-      },
-      {
-        "icon": "Stern",
-        "title": "Beliebte Mods",
-        "description": "Top-Community-Auswahlen und -Funktionen"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controller-Unterstützung",
-        "description": "Volle Gamepad-Steuerung mit UI-Cursor"
+        "icon": "ArrowRight",
+        "title": "Indiana Jones and the Great Circle Plattformen und PC-Anforderungen",
+        "description": "Plattformunterstützung, Editionen und Hardware-Anforderungsstufen."
       },
       {
         "icon": "TrendingUp",
-        "title": "Spielerzahl & Trend",
-        "description": "Live-Statistiken und Peak-Tracking"
+        "title": "Indiana Jones and the Great Circle Ressourcen-Farmen",
+        "description": "Effiziente Routen zum Sammeln von Geld und Materialien."
+      },
+      {
+        "icon": "Star",
+        "title": "Indiana Jones and the Great Circle Frühe Prioritäten",
+        "description": "Beste erste Freischaltungen und praktische Entscheidungen im frühen Spiel."
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Indiana Jones and the Great Circle Erfolgs-Tracker",
+        "description": "Strukturierte Checkliste für Steam- und Plattformfortschritt."
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Indiana Jones and the Great Circle FAQ",
+        "description": "Kernantworten für Editionen, Zugang und Fortschritt."
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Indiana Jones and the Great Circle Controller-Leitfaden",
+        "description": "Controller-Einrichtung und Erwartungen an die Plattformeingabe."
+      },
+      {
+        "icon": "Settings",
+        "title": "Indiana Jones and the Great Circle Einstellungen-Leitfaden",
+        "description": "Praktische Einstellungen und Fehlerbehebungs-Checkpunkte."
+      },
+      {
+        "icon": "Clock",
+        "title": "Indiana Jones and the Great Circle Updates",
+        "description": "Patch-Highlights, Fehlerbehebungen und aktuelle Update-Notizen."
+      },
+      {
+        "icon": "Shield",
+        "title": "Indiana Jones and the Great Circle Stabilitäts-Leitfaden",
+        "description": "Absturz-Triage und Leistungs-Fehlerbehebungsablauf."
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo-Download",
-      "subtitle": "Hol dir die kostenlose Demo auf Steam",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30. Januar 2026",
-      "price": "Kostenlos",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo herunterladen",
-      "secondaryCTA": "Technische Infos ansehen",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Wo man es herunterladen kann",
-          "items": [
-            "Öffne die offizielle Steam-Store-Seite und nutze den Abschnitt \"Demo herunterladen\".",
-            "Wenn Steam dich auffordert, dich anzumelden, melde dich zuerst an und versuche es erneut."
-          ]
-        },
-        {
-          "heading": "Schnelle Überprüfung von Installation und Start",
-          "items": [
-            "Standardinstallationsort: Steam-Bibliotheksordner → steamapps → common → (Spielordner).",
-            "Wenn es nicht startet: Überprüfe die Spieldateien in Steam und starte Steam neu."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Anfängerleitfaden",
-      "subtitle": "Meistere die Kernschleife und vermeide häufige Fehler",
+    "lucidBlocksBeginnerGuide": {
+      "title": "Indiana Jones and the Great Circle Anfängerleitfaden",
+      "displayType": "steps",
+      "intro": "Beginnen Sie damit, zu lernen, wie Erkundung, Fusion und Fortschritt zusammenhängen. Indiana Jones and the Great Circle belohnt Experimente, daher kommt der frühe Fortschritt durch das Sammeln ungewöhnlicher Materialien, das Testen von Kombinationen und das Freischalten Ihres persönlichen Basislagers.",
       "steps": [
         {
-          "number": 1,
-          "title": "Betritt das Haus",
-          "description": "Lass dich von deiner schwebenden Inselbasis in ein menschliches Haus fallen. Spawne draußen und schleiche dich durch unverschlossene Türen oder Fenster hinein."
+          "title": "Erkunden Sie, bevor Sie sich festlegen",
+          "description": "Gehen Sie nach außen, bauen Sie gewöhnliche Blöcke ab und behalten Sie alle seltsamen Funde, die Sie entdecken. Früher Fortschritt dreht sich weniger um feste Quests als vielmehr darum, zu entdecken, was aus Materialien werden kann."
         },
         {
-          "number": 2,
-          "title": "Schließe Aufgaben ab",
-          "description": "Erledige High-Gnome-Aufgaben, bevor die Zeit abläuft. Überprüfe die Ziele über die Tab-Taste und priorisiere zuerst riskante Aufgaben."
+          "title": "Schalten Sie Ihr persönliches Basislager frühzeitig frei",
+          "description": "Ihr persönliches Basislager ist einer der wichtigsten frühen Meilensteine. Es bietet Ihnen einen zuverlässigen Ort, um sich neu zu formieren und darauf aufzubauen."
         },
         {
-          "number": 3,
-          "title": "Stehle Gegenstände",
-          "description": "Sammle Wertgegenstände und Materialien zum Craften. Vermeide es, Lärm zu machen oder vom Hausbesitzer entdeckt zu werden."
+          "title": "Verwenden Sie Osmium für schnellen frühen Fortschritt",
+          "description": "Osmium ist eines der nützlichsten frühen Materialien. Eine beliebte frühe Route ist die Kombination von Osmium mit Stöcken, um eine Frostspitzhacke für schnelles Mining herzustellen."
         },
         {
-          "number": 4,
-          "title": "Flucht via Tornado",
-          "description": "Wenn der Timer endet, spawnt ein Tornado im Garten – erreiche ihn, um sicher zu extrahieren. Fang früh an, dich zu bewegen!"
-        },
-        {
-          "number": 5,
-          "title": "Upgrade & Wiederholung",
-          "description": "Verwende Belohnungen und Materialien, um Ausrüstung zu Hause herzustellen, und starte dann deinen nächsten Raubzug mit besserer Ausrüstung."
+          "title": "Gute Fusionen aufzeichnen",
+          "description": "Halten Sie erfolgreiche Kombinationen in Ihrem Tagebuch fest. Indiana Jones and the Great Circle hat viele mögliche Fusionspfade, daher spart das Aufschreiben nützlicher Ergebnisse viel Zeit."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Erwischt werden",
-          "description": "Der Hausbesitzer wird dich verfolgen. Bleib versteckt, lenke ab und unterbreche die Sichtlinie, um zu entkommen.",
-          "icon": "Warndreieck"
-        },
-        {
-          "title": "Zeit läuft ab",
-          "description": "Der Tornado-Timer ist streng. Beginne frühzeitig mit dem Weg zur Extraktion, anstatt zu viel zu plündern.",
-          "icon": "Uhr"
-        },
-        {
-          "title": "Teamkollegen ignorieren",
-          "description": "Rette gefangene Verbündete schnell aus Kühl-/Ofenfallen – rufe sofort nach Rettung.",
-          "icon": "Benutzer"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks Koop-Leitfaden",
-      "subtitle": "Koordiniere dich mit bis zu 6 Spielern für maximales Chaos",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Späher",
-          "description": "Überprüfe auf Bedrohungen, markiere sichere Pfade und leite die Teambewegung",
-          "icon": "Auge"
-        },
-        {
-          "name": "Träger",
-          "description": "Konzentriere dich auf schwere Gegenstände mit Rucksack-Upgrades und sichere den Aufgabenfortschritt",
-          "icon": "Paket"
-        },
-        {
-          "name": "Ablenkung",
-          "description": "Locke Hausbesitzer/Haustiere vom Team weg, um sichere Fenster zu schaffen",
-          "icon": "Benutzer"
-        },
-        {
-          "name": "Retter",
-          "description": "Befreie gefangene Teamkollegen aus Kühl-/Ofen, bevor sie sterben",
-          "icon": "Schild"
-        }
-      ],
-      "threats": [
-        "Hausbesitzer (verfolgt und fängt dich)",
-        "Katzen & Mäuse (Patrouillenwege)",
-        "Staubsaugerroboter (sofortige Gefahr)",
-        "Zeitlimit (Tornado-Extraktion)"
-      ],
-      "communication": "Verwende Voice-Chat (V-Taste), um Aufgaben und Rettungen zu koordinieren. Rufe: \"Entdeckt\", \"Route\", \"Brauche Rettung\", \"Bald extrahieren\"."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Aufgaben & Ziele",
-      "subtitle": "Was der High-Gnome will: Aufgabenbeispiele",
-      "taskTypes": [
-        {
-          "type": "Stehle Gegenstände",
-          "examples": [
-            "Schnapp dir bestimmte Gegenstände, die durch High-Gnome-Ziele markiert sind"
-          ]
-        },
-        {
-          "type": "Erreiche Orte",
-          "examples": [
-            "Navigiere zu bestimmten Bereichen im Haus"
-          ]
-        },
-        {
-          "type": "Verursache Unfug",
-          "examples": [
-            "Mach einen Fernseher kaputt",
-            "Überflute eine Toilette",
-            "Erzeuge Chaos"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Erledige zuerst riskante Aufgaben, während das Team zusammen ist",
-        "Weise einem Träger Aufgabengegenstände zu, damit sie während der Verfolgungsjagden nicht verloren gehen",
-        "Beginne mit der Bewegung zur Extraktion, bevor die Zeit abläuft"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Steuerung & Tastenbelegung",
-      "subtitle": "Standard-Tastatursteuerung (und wo man sie ändern kann)",
-      "keybinds": [
-        {
-          "action": "Nach links bewegen",
-          "key": "A"
-        },
-        {
-          "action": "Nach rechts bewegen",
-          "key": "D"
-        },
-        {
-          "action": "Nach vorne bewegen",
-          "key": "W"
-        },
-        {
-          "action": "Nach hinten bewegen",
-          "key": "S"
-        },
-        {
-          "action": "Ducken",
-          "key": "Linke Strg"
-        },
-        {
-          "action": "Angreifen",
-          "key": "Linksklick"
-        },
-        {
-          "action": "Rennen",
-          "key": "Linke Umschalttaste"
-        },
-        {
-          "action": "Gegenstand fallen lassen",
-          "key": "G"
-        },
-        {
-          "action": "Interagieren",
-          "key": "E"
-        },
-        {
-          "action": "Springen",
-          "key": "Leertaste"
-        },
-        {
-          "action": "Sprechen",
-          "key": "V"
-        },
-        {
-          "action": "Schieben",
-          "key": "Rechtsklick"
-        },
-        {
-          "action": "Ragdoll",
-          "key": "Q"
-        },
-        {
-          "action": "Ausrüstungsslot 1",
-          "key": "1"
-        },
-        {
-          "action": "Ausrüstungsslot 2",
-          "key": "2"
-        },
-        {
-          "action": "Ausrüstungsslot 3",
-          "key": "3"
-        },
-        {
-          "action": "Ausrüstungsslot 4",
-          "key": "4"
-        },
-        {
-          "action": "Inventar",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Vom Titelmenü aus: öffne EINSTELLUNGEN und überprüfe dann die Tastatureinstellungen. Verwende das Suchfeld, um die Tastenbelegungszeilen zu filtern."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks Inhaltseinstellungen",
-      "subtitle": "Inhalte für Erwachsene, Nacktheit-Umschaltung und Steam-Einstellungen",
-      "descriptors": [
-        "Etwas Nacktheit oder sexuelle Inhalte",
-        "Allgemeine Inhalte für Erwachsene"
-      ],
-      "details": [
-        {
-          "heading": "Was die Entwickler angeben",
-          "items": [
-            "Ein Mensch kann nackt erscheinen, während er Aktivitäten wie Baden ausübt.",
-            "Nacktheit wird zensiert und kann optional vollständig ausgeschaltet werden.",
-            "Gnome können zerstückelt werden und auf brutale Weise sterben."
-          ]
-        },
-        {
-          "heading": "Wenn Steam die Community-Seite blockiert",
-          "items": [
-            "Steam kann den Community-Hub je nach deinen Inhaltseinstellungen ausblenden.",
-            "Verwende Steams \"Inhaltseinstellungen aktualisieren\", um anzupassen, was Steam anzeigen darf."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Crafting & Ausrüstung",
-      "subtitle": "Ausrüsten: Crafting-Beispiele und was jedes Werkzeug bewirkt",
-      "equipment": [
-        {
-          "item": "Rucksack",
-          "benefit": "Erweitert die Inventarkapazität für mehr Beute pro Durchgang"
-        },
-        {
-          "item": "Gnom-Handschuhe",
-          "benefit": "Ermöglicht es dir, Türen zu öffnen und mit mehr Objekten zu interagieren"
-        },
-        {
-          "item": "Springschuhe",
-          "benefit": "Verhindert Fallschaden bei hohen Stürzen während der Flucht"
-        },
-        {
-          "item": "Waffe",
-          "benefit": "Hilft dir, Bedrohungen wie Mäuse in die Enge zu treiben"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Wie Crafting mit Plündern zusammenhängt",
-          "items": [
-            "Stehle während eines Laufs Gegenstände und bringe sie als Crafting-Materialien zurück.",
-            "Nach der Extraktion unterstützen Belohnungen/Materialien neue Handwerke."
-          ]
-        },
-        {
-          "heading": "Basisverbesserung",
-          "items": [
-            "Stelle Möbel her und verbessere dein schwebendes Inselhaus (vollständige Spielfunktion)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Beute & Gegenstände",
-      "subtitle": "Was man stehlen sollte: Gegenstandstypen, Risiko und Trage-Tipps",
-      "categories": [
-        {
-          "type": "Aufgabengegenstände",
-          "examples": [
-            "Gegenstände, die von High-Gnome für Ziele benötigt werden"
-          ]
-        },
-        {
-          "type": "Crafting-Materialien",
-          "examples": [
-            "Haushaltsgegenstände, die in Gnom-Ausrüstung und -Upgrades umgewandelt werden"
-          ]
-        },
-        {
-          "type": "Unfug-Ziele",
-          "examples": [
-            "Objekte, die an Aufgaben wie Zerstören oder Überfluten beteiligt sind"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Priorisiere den Aufgabenfortschritt und fülle dann die verbleibende Kapazität mit Crafting-Materialien",
-        "Wenn sich Bedrohungen in der Nähe befinden, bewege Gegenstände in kurzen, sicheren Sprüngen anstatt in langen, exponierten Tragen",
-        "Plane die Route zur Gartenextraktion, bevor der Timer endet"
-      ],
-      "riskLevels": [
-        {
-          "level": "Niedrig",
-          "description": "In der Nähe von Eingängen oder sicheren Ecken"
-        },
-        {
-          "level": "Mittel",
-          "description": "Tiefer gelegene Räume oder in der Nähe von umherziehenden Bedrohungen"
-        },
-        {
-          "level": "Hoch",
-          "description": "In der Nähe der Patrouille des Hausbesitzers oder des Staubsaugerroboters"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Gegner & Gefahren",
-      "subtitle": "Wisse, was dich erwischen kann",
-      "threats": [
-        {
-          "name": "Der Hausbesitzer",
-          "trigger": "Beim Einbrechen oder Erledigen von Aufgaben entdeckt werden",
-          "behavior": "Er verfolgt dich und versucht, dich zu fangen",
-          "counter": "Bleib heimlich, unterbreche Sichtlinien und bleib als Team in Bewegung"
-        },
-        {
-          "name": "Katzen",
-          "trigger": "Zu nahe kommen oder ihren Weg kreuzen",
-          "behavior": "Sie werden zu einer direkten Bedrohung, während du dich schleichst",
-          "counter": "Vermeide ihre Routen und gehe leise vorbei"
-        },
-        {
-          "name": "Mäuse",
-          "trigger": "Bereiche betreten, in denen Mäuse umherstreifen",
-          "behavior": "Sie bedrohen zerbrechliche Gnome während der Läufe",
-          "counter": "Bleib wachsam in engen Räumen und sei bereit, dich zurückzuziehen"
-        },
-        {
-          "name": "Staubsaugerroboter",
-          "trigger": "Sich auf seinem Reinigungspfad befinden",
-          "behavior": "Er kann Gnome einsaugen",
-          "counter": "Höre auf ihn, halte dich von seiner Route fern und positioniere dich schnell neu"
-        },
-        {
-          "name": "Kühlschrank / Ofen-Falle",
-          "trigger": "Vom Hausbesitzer erwischt werden",
-          "behavior": "Du kannst darin eingesperrt werden; wenn Teamkollegen nicht rechtzeitig retten, stirbst du",
-          "counter": "Rufe sofort; Teamkollegen priorisieren die Rettungsroute"
-        },
-        {
-          "name": "Zeitlimit",
-          "trigger": "Der Lauf-Timer erreicht das Limit",
-          "behavior": "Der Extraktions-Tornado erscheint im Garten; du musst ihn erreichen, um zu entkommen",
-          "counter": "Hör auf, zu viel zu plündern, gruppiere dich neu und engagiere dich frühzeitig für die Extraktion"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Stealth & Flucht Tipps",
-      "subtitle": "Stehle mehr, stirb weniger",
-      "do": [
-        "Bleib heimlich und gehe in Deckung, bevor du mit Objekten interagierst",
-        "Nutze die Teamarbeit: rufe Bedrohungen aus und koordiniere Routen",
-        "Rette Teamkollegen schnell, wenn jemand gefangen oder am Boden ist",
-        "Reduziere deine Verluste und mache dich auf den Weg zur Extraktion, wenn der Timer knapp ist"
-      ],
-      "dont": [
-        "Werde gierig, wenn die Extraktion bevorsteht",
-        "Teile dich zu weit vom Team, wenn der Hausbesitzer aktiv ist",
-        "Ignoriere Staubsaugerroboterpfade oder Tierpatrouillen",
-        "Verzögere Rettungen, wenn ein Teamkollege eingesperrt ist"
       ],
       "quickTips": [
+        "Der Abenteuerfortschritt erfordert keine feste Rezeptliste.",
+        "Die unendliche Weltgenerierung bedeutet, dass das Bewegen nach oben oder unten völlig andere Materialien offenbaren kann.",
+        "Bewegungswerkzeuge und nützliche Ausrüstung werden zu einem großen Qualitäts-of-Life-Boost, sobald Sie sie freischalten.",
+        "Sich am Anfang zu verirren ist normal, aber nützliche Werkzeuge, Lagerung und Bewegungsoptionen entwickeln sich schnell, sobald Ihre ersten guten Fusionen funktionieren."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Indiana Jones and the Great Circle Abenteuerfortschritt-Herstellung",
+      "displayType": "cards",
+      "intro": "Der Abenteuerfortschritt ist das uneingeschränkte Fusionssystem des Spiels. Anstatt ein traditionelles Rezeptbuch auswendig zu lernen, kombinieren Sie Materialien, beobachten das Ergebnis und bauen Ihr eigenes Herstellwissen im Laufe der Zeit auf.",
+      "cards": [
         {
-          "title": "Die 3-Sekunden-Regel",
-          "text": "Wenn du deinen nächsten Zug nicht in 3 Sekunden erklären kannst, wirst du gleich entdeckt."
+          "name": "Freiform-Fusion",
+          "description": "Der Abenteuerfortschritt ermöglicht es Ihnen, verschiedene Gegenstände zu fusionieren, ohne einer festen Rezeptliste folgen zu müssen."
         },
         {
-          "title": "Rettung zuerst",
-          "text": "Eine schnelle Rettung hält den Lauf am Leben; Plündern kann warten."
+          "name": "Mehrere nützliche Ergebnisse",
+          "description": "Verschiedene Materialien führen oft zu bestimmten Ergebnissen. Community-Entdeckungen zeigen, dass ähnliche Eingaben immer noch zu praktischen Werkzeugen, Lagerung oder Kampf-Upgrades führen können."
         },
         {
-          "title": "Extraktionsdisziplin",
-          "text": "Gruppiere dich frühzeitig neu und engagiere dich für den Tornado, bevor Panik ausbricht."
+          "name": "Tagebuch-basierte Herstellung",
+          "description": "Der beste Weg, den Abenteuerfortschritt zu lernen, ist, Ihre erfolgreichen Kombinationen zu verfolgen. Ihr Tagebuch wird schnell zu Ihrer eigenen Herstellungsreferenz."
+        },
+        {
+          "name": "Community-getestete frühe Fusionen",
+          "description": "Beliebte frühe Beispiele sind Osmium plus Stock für eine Frostspitzhacke, Stock plus Wolfram-Anhang für Azrael und Azrael plus Magnetit für den Rankenrapier."
+        }
+      ],
+      "milestones": [
+        "Ein Gegenstand fusionieren",
+        "Ein Ungeziefer fusionieren",
+        "Ein göttliches Artefakt fusionieren"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Indiana Jones and the Great Circle Werkzeuge und Waffen",
+      "displayType": "itemCards",
+      "intro": "Indiana Jones and the Great Circle mischt offizielle Nutzungsgegenstände mit von der Community entdeckten frühen Waffen. Die beste Ausstattung ist normalerweise eine Mischung aus schnellem Mining, sicherer Fortbewegung und einer zuverlässigen Kampfoption.",
+      "items": [
+        {
+          "name": "Frostspitzhacke",
+          "type": "Mining-Werkzeug",
+          "description": "Eine schnelle und erschwingliche frühe Spitzhacke aus Osmium und Stock. Spieler verwenden sie, um die frühe Materialbeschaffung zu beschleunigen."
+        },
+        {
+          "name": "Azrael",
+          "type": "Starterwaffe",
+          "description": "Eine praktische frühe Waffe, hergestellt aus Stock und Wolfram-Anhang."
+        },
+        {
+          "name": "Rankenrapier",
+          "type": "Verbesserte Waffe",
+          "description": "Eine stärkere Folgewaffe, hergestellt durch die Kombination von Azrael mit Magnetit. Es ist einer der nützlichsten frühen bis mittleren Kampfwege, die von Spielern geteilt werden."
+        },
+        {
+          "name": "Greifhaken",
+          "type": "Mobilitätswerkzeug",
+          "description": "Ein offizieller Fortbewegungsgegenstand, der die Bewegung und vertikale Erkundung erheblich verbessert."
+        },
+        {
+          "name": "Bienen-Gleiter",
+          "type": "Mobilitätswerkzeug",
+          "description": "Ein offizieller Bewegungsgegenstand, der hilft, Räume sicherer und effizienter zu überwinden."
+        },
+        {
+          "name": "Ballzauberstab",
+          "type": "Nutzwaffe",
+          "description": "Ein offizieller Fernkampf-Nutzgegenstand, der Ihre Kampf- und Rätseloptionen erweitert."
+        },
+        {
+          "name": "Tauchausrüstung",
+          "type": "Fortbewegungs-Ausrüstung",
+          "description": "Ein offizieller Nutzgegenstand, um Bereiche zu erreichen, die sonst die Erkundung verlangsamen würden."
+        },
+        {
+          "name": "Sprengstoffe",
+          "type": "Nutzschaden",
+          "description": "Offiziell als Teil des Kernwerkzeugsatzes hervorgehoben und nützlich, um Bedrohungen oder Hindernisse zu überwinden."
         }
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Haus-Upgrades",
-      "subtitle": "Craften, bauen, verbessern",
-      "branches": [
+    "lucidBlocksStorageAndInventory": {
+      "title": "Indiana Jones and the Great Circle Lagerung und Inventar",
+      "displayType": "solutionCards",
+      "intro": "Der Inventardruck beginnt früh in Indiana Jones and the Great Circle, daher sollte der Bau von Lagerstätten eines Ihrer ersten Ziele sein. Mehrere von echten Spielern getestete Lösungen stechen bereits hervor.",
+      "solutions": [
         {
-          "branch": "Lagerung",
-          "summary": "Mehr tragen und mehr zurückbringen",
-          "items": [
-            "Rucksack (Inventarerweiterung)"
-          ]
+          "name": "Cache-Würfel",
+          "role": "Truhenähnlicher Speicher",
+          "description": "Cache-Würfel sind eine der frühesten praktischen Speicherlösungen und werden von Spielern als der Hauptbehälter im Truhenstil des Spiels behandelt."
         },
         {
-          "branch": "Dienstprogramm",
-          "summary": "Effektiver mit dem Haus interagieren",
-          "items": [
-            "Gnom-Handschuhe (ermöglichen es dir, Türen zu öffnen und mehr)"
-          ]
+          "name": "Schrank",
+          "role": "Einfache Basislagerung",
+          "description": "Schränke sind eine weitere bestätigte Speicheroption. Ein gemeinsames frühes Rezept verwendet 1 geschnittenes Holz und 1 Schnur."
         },
         {
-          "branch": "Mobilität",
-          "summary": "Sicherer durch vertikale Räume bewegen",
-          "items": [
-            "Springschuhe (reduzieren Fallschaden)"
-          ]
+          "name": "Persönliches Basislager",
+          "role": "Langfristiger Lagerungs-Hub",
+          "description": "Sobald es freigeschaltet ist, wird Ihr persönliches Basislager zu einem natürlichen Ort, um Materialien zu organisieren, in Ruhe zu basteln und Ihre Basiseinrichtung zu erweitern."
         },
         {
-          "branch": "Verteidigung",
-          "summary": "Mit kleinen Bedrohungen umgehen, wenn nötig",
-          "items": [
-            "Waffen (für Bedrohungen wie Mäuse)"
-          ]
-        },
-        {
-          "branch": "Heimatbasis",
-          "summary": "Stelle Möbel her und verbessere dein schwebendes Inselhaus",
-          "items": [
-            "Funktionale Möbel-Upgrades"
-          ]
+          "name": "Journal-Verfolgung",
+          "role": "Inventareffizienz",
+          "description": "Das Aufzeichnen nützlicher Kombinationen in Ihrem Journal reduziert Materialverschwendung und erleichtert die Inventarverwaltung erheblich."
         }
       ],
-      "priority": [
+      "managementTips": [
+        "Priorisieren Sie eine zuverlässige Speicheroption, bevor Sie seltene Drops horten.",
+        "Bauen Sie um Ihr persönliches Basislager herum, sobald es verfügbar ist.",
+        "Halten Sie Handwerksmaterialien, Kampfausrüstung und Bewegungsausrüstung getrennt, damit Upgrades leichter geplant werden können.",
+        "Nutzen Sie Ihr Journal als Teil der Inventarverwaltung, nicht nur zur Entdeckung von Handwerksrezepten."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Indiana Jones and the Great Circle Abenteuerbücher",
+      "displayType": "cards",
+      "intro": "Abenteuerbücher sind das zentrale langfristige Upgrade-System in Indiana Jones and the Great Circle. Verfolgen Sie frühzeitig hochwertige Freischaltungen und nutzen Sie dann Karten-Enthüllungsbücher, um das Sammeln von Gegenständen in jeder wichtigen Region zu beschleunigen.",
+      "cards": [
         {
-          "rank": 1,
-          "title": "Zuerst Lagerung",
-          "reason": "Mehr Tragfähigkeit verbessert die Auszahlung jedes Laufs"
+          "name": "Punch Out I",
+          "description": "Region: Der Vatikan, Engelsburg. Kosten: 25 AP. Effekt: stellt Ausdauer nach einem K.O. wieder her. Priorität: früh freischalten."
         },
         {
-          "rank": 2,
-          "title": "Als nächstes Dienstprogramm",
-          "reason": "Bessere Interaktionen reduzieren die Zeit, die in Gefahrenzonen verbracht wird"
+          "name": "Lucky Hat I",
+          "description": "Region: Der Vatikan, Kapitänszimmer. Kosten: 125 AP. Effekt: zweite Chance zur Erholung nach einem K.O."
         },
         {
-          "rank": 3,
-          "title": "Mobilität zum Überleben",
-          "reason": "Fallschutz verhindert vermeidbare Todesfälle bei der Flucht"
+          "name": "Moxie I, II, III",
+          "description": "Regionen: Vatikan, Gizeh, Sukhothai. Kosten: 5/10/15 Medizinflaschen. Effekt: verlängert die Ausdauerleiste für Erkundung und Kampf."
+        },
+        {
+          "name": "Shaping Up I, II, III",
+          "description": "Regionen: Vatikan, Gizeh, Sukhothai. Kosten: 5/10/15 Medizinflaschen. Effekt: fügt zusätzliche Gesundheitsreserven hinzu."
+        }
+      ],
+      "highlights": [
+        "Climbing Ace I und Pep I sind starke frühe Ausdauer-Picks für Routeneffizienz.",
+        "Throttle und Jumbo Lasso verbessern Tarnung und die Kontrolle über schwere Gegner in schwierigeren Begegnungen.",
+        "Fruchtbeutel ist eine praktische Versorgungsoption, wenn man länger im Feld bleibt.",
+        "Verwenden Sie die Kartenbücher für Vatikan, Gizeh und Sukhothai, bevor Sie 100 % abschließen."
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Indiana Jones and the Great Circle Trophäen und Erfolge",
+      "displayType": "regionCards",
+      "intro": "Nutzen Sie diesen Fahrplan, um eine einmalige Durchspielroute für das Hauptspiel zu planen, und schließen Sie dann die Bereinigung des The Order of Giants DLC ab, um die vollständigen Plattform-Abschlusswerte zu erreichen.",
+      "regions": [
+        {
+          "name": "Basis PlayStation Trophäen",
+          "type": "46 Trophäen",
+          "description": "Enthält 1 Platin, 2 Gold, 15 Silber und 28 Bronze. Typische Abschlusszeit: 40-50 Stunden."
+        },
+        {
+          "name": "Basis Xbox Erfolge",
+          "type": "45 Erfolge / 1.000 GS",
+          "description": "Folgt dem gleichen Weg wie der Steam-Abschluss: Story-Fortschritt, Feldarbeit, Mysterien, Sammelobjekte und Abenteuerbücher."
+        },
+        {
+          "name": "Verpassbares und Schwierigkeitsgrad",
+          "type": "0 Verpassbares in der Haupt-Roadmap",
+          "description": "Der Schwierigkeitsgrad schränkt die aufgeführten Trophäen nicht ein, und die freie Erkundung bleibt nach Abschluss der Geschichte verfügbar."
+        },
+        {
+          "name": "Schwierigste Abschlussprüfung",
+          "type": "Archivar",
+          "description": "Erfordert alle Journalnotizen und repräsentiert effektiv die vollständige Disziplin des Hauptspielabschlusses."
         }
       ]
     },
-    "community": {
-      "title": "Lucid Blocks Community & Discord",
-      "subtitle": "Finde Trupps, Updates, Diskussionen",
-      "links": [
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Indiana Jones and the Great Circle The Order of Giants DLC",
+      "displayType": "creatureCards",
+      "intro": "The Order of Giants ist ein auf Rom fokussierter Story-DLC. Befolgen Sie diese Reihenfolge, um ihn korrekt freizuschalten, das Kapitel effizient abzuschließen und das DLC-Sammelset zu vervollständigen.",
+      "creatures": [
         {
-          "title": "Offizieller Discord",
-          "subtitle": "Ankündigungen • Feedback • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
+          "name": "Schritt 1: DLC-Zugriff prüfen",
+          "role": "Veröffentlichung und Besitz",
+          "description": "Veröffentlicht am 4. September 2025. Inklusive Premium Edition/Upgrade und Collector-Bundles; Basisspiel erforderlich."
         },
         {
-          "title": "Offizielles X (Twitter)",
-          "subtitle": "Updates & Entwicklerbeiträge",
-          "url": "https://x.com/lucidblocks"
+          "name": "Schritt 2: Erforderlichen Story-Punkt erreichen",
+          "role": "Fortschritt im Basisspiel",
+          "description": "Die Hauptgeschichte vorantreiben, bis der Vatikan-Fortschritt den DLC-Start ermöglicht, einschließlich des zugehörigen Fortschrittsziel-Kontrollpunkts."
         },
         {
-          "title": "Steam Community Hub",
-          "subtitle": "Diskussionen • Screenshots • Leitfäden",
-          "url": "https://steamcommunity.com/app/3495730"
+          "name": "Schritt 3: Ein Mysterium beginnt starten",
+          "role": "Quest-Auslöser",
+          "description": "Treffen Sie Pater Ricci in der Nähe des Vatikans Brunnens der Beichte, um die DLC-Route zu beginnen."
         },
         {
-          "title": "Steam Store Seite",
-          "subtitle": "Wunschliste • Demo • Offizielle Beschreibung",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+          "name": "Schritt 4: Villa Pia Route betreten",
+          "role": "Früher DLC-Pfad",
+          "description": "Folgen Sie Pio, betreten Sie Riccis Büro, sammeln Sie Schlüsselgegenstände und drängen Sie in die Casina/Villa Pia Zielkette vor."
+        },
+        {
+          "name": "Schritt 5: Rom-Kapitel abschließen",
+          "role": "Hauptmissionsfluss",
+          "description": "Schließen Sie den verbundenen Rom-Story-Faden über unterirdische Routen, Kammern und rätsellastige Abschnitte ab."
+        },
+        {
+          "name": "Schritt 6: DLC-Abschluss-Set sammeln",
+          "role": "100% Bereinigung",
+          "description": "Sammeln Sie 118 Journalnotizen, 7 Mithraische Artefakte und schließen Sie alle Rom-Mysterien sowie Buchfähigkeiten ab."
+        },
+        {
+          "name": "Schritt 7: Trophäen-/Erfolgsziele abschließen",
+          "role": "Finale Checkliste",
+          "description": "Schließen Sie den Story-Abschluss, verbleibende Mysterien, Artefaktprüfungen und das optionale Katzeninteraktionsziel ab."
         }
       ]
     },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Mods & BepInEx Setup",
-      "subtitle": "Installiere Mods auf saubere Weise",
-      "steps": [
+    "lucidBlocksMobilityGear": {
+      "title": "Indiana Jones and the Great Circle Plattformen und PC-Anforderungen",
+      "displayType": "itemCards",
+      "intro": "Vor dem Kauf oder der Installation prüfen Sie die Plattformverfügbarkeit, die Vorteile der Edition, die Game Pass-Abdeckung und die PC-Hardware-Stufen einschließlich der Raytracing-Anforderungen.",
+      "items": [
         {
-          "step": 1,
-          "title": "Installiere BepInEx 5",
-          "text": "Lade BepInEx 5 herunter und entpacke es in den Spiel-Root-Ordner."
+          "name": "Xbox Series X|S",
+          "type": "Plattform",
+          "description": "Verfügbar mit Xbox-Ökosystem-Unterstützung und Play Anywhere-Vorteilen beim Kauf über Xbox."
         },
         {
-          "step": 2,
-          "title": "Einmal starten, um Ordner zu generieren",
-          "text": "Starte das Spiel bis zum Hauptmenü und schließe es dann. Dadurch wird die BepInEx-Ordnerstruktur erstellt."
+          "name": "Steam und PlayStation 5",
+          "type": "Plattform",
+          "description": "Steam unterstützt PC-Anforderungen und Erfolge; PS5 unterstützt den vollständigen Trophäenpfad einschließlich Platin."
         },
         {
-          "step": 3,
-          "title": "Mods installieren",
-          "text": "Platziere Mod-.dll-Dateien in den Plugins-Ordner."
+          "name": "Nintendo Switch 2",
+          "type": "Plattform",
+          "description": "Als verfügbar gelistet mit Veröffentlichungsdatum 12. Mai 2026 für tragbares Spiel."
         },
         {
-          "step": 4,
-          "title": "Installation überprüfen",
-          "text": "Starte das Spiel neu und bestätige, dass die Mod-Funktion verfügbar ist (Kamera-Umschaltung, UI-Cursor usw.)."
+          "name": "Game Pass Zugang",
+          "type": "Abonnement",
+          "description": "Verfügbar über Game Pass-Optionen für Xbox Series X|S, Xbox PC und Cloud-unterstützte Spielpfade."
+        },
+        {
+          "name": "Standard vs. Premium",
+          "type": "Edition",
+          "description": "Standard beinhaltet das Basisspiel; Premium fügt den DLC „The Order of Giants“ und gebündelte digitale Extras hinzu."
+        },
+        {
+          "name": "PC-Anforderungen",
+          "type": "Spezifikationen",
+          "description": "Die minimale 1080p-Stufe beginnt bei RTX 2060 SUPER / RX 6600 Klasse; höhere Stufen zielen auf 1440p und 4K mit stärkeren Raytracing-GPUs ab."
         }
       ],
-      "paths": [
-        {
-          "label": "Typische Steam-Installation",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Plugins-Ordner",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Für modifizierte Koop-Gameplay-Funktionen sollte jeder BepInEx und dieselben Gameplay-Mods installieren."
+      "unlockMilestones": [
+        "Überprüfen Sie die Hardware-Raytracing-Unterstützung vor der Installation.",
+        "Bestätigen Sie die SSD-Kapazität: 126 GB plus zusätzlicher DLC-Speicherplatz.",
+        "Passen Sie die Editionswahl an die DLC- und Bonusinhaltsziele an.",
+        "Nutzen Sie plattformspezifische Ökosystemfunktionen, um die Gesamtkosten zu senken."
+      ]
     },
-    "popularMods": {
-      "title": "Lucid Blocks Beliebte Mods",
-      "subtitle": "Top-Community-Auswahlen",
-      "mods": [
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Indiana Jones and the Great Circle Landwirtschaft und Wachstum",
+      "displayType": "mixedCards",
+      "intro": "Wachstum ist Teil des echten Fortschritts in Indiana Jones and the Great Circle. Beim Farmen geht es nicht nur ums Pflanzen und Ernten, sondern auch darum, wiederholbare Materialrouten einzurichten, die Ihre Werkzeuge, Waffen und Handwerksoptionen am Laufen halten.",
+      "sections": [
         {
-          "title": "Spawn-Menü",
-          "tags": [
-            "Spaß",
-            "Werkzeuge",
-            "Nur Host"
-          ],
-          "description": "Fügt ein Element-Spawn-Menü mit einem Flugmodus hinzu.",
-          "controls": [
+          "name": "Samen-Progression",
+          "description": "Das Pflanzen und Düngen von Samen ist ein echter Meilenstein im Spiel, und das Ernten einer ausgewachsenen Nuss ist Teil desselben Wachstumspfades."
+        },
+        {
+          "name": "Material-Farmen",
+          "description": "Eine praktische frühe Farm-Schleife ist das Erstellen von Quecksilberkapseln, die kleine Schleime spawnen, die Ranken und Schleim für wiederholbare Handwerksmaterialien fallen lassen."
+        },
+        {
+          "name": "Werkzeug-Erhalt",
+          "description": "Das Ressourcen-Farmen wird viel stärker, sobald Sie Osmium, Glasscherben, Pflanzen und Schleimmaterialien für nachfolgende Handwerke konsistent sammeln können."
+        },
+        {
+          "name": "Basis-Routine",
+          "description": "Das beste Farm-Setup unterstützt mehr als nur Nahrung. Es sollte Ihren Speicher, Ihre Bewegungswerkzeuge, Waffen-Upgrades und zukünftige Fusions-Experimente versorgen."
+        }
+      ],
+      "growthMilestones": [
+        "Einen Samen düngen",
+        "Eine ausgewachsene Nuss ernten",
+        "Wiederholbare Materialschleifen erstellen",
+        "Farmen in langfristigen Fortschritt umwandeln"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Indiana Jones and the Great Circle Beste frühe Freischaltungen",
+      "displayType": "priorityCards",
+      "intro": "Die stärksten frühen Freischaltungen sind diejenigen, die Sicherheit, Lagerung und Bewegung verbessern. In Indiana Jones and the Great Circle können ein paar praktische Upgrades den gesamten Rest des Spiels viel reibungsloser gestalten.",
+      "priorities": [
+        {
+          "name": "Persönliches Basislager",
+          "priority": "Essentiell",
+          "description": "Sobald Sie Zugang zu Ihrem persönlichen Basislager erhalten, wird Ihr Spiel viel stabiler. Es dient als zuverlässiger Knotenpunkt für Lagerung, Bau und Neuformierung."
+        },
+        {
+          "name": "Frostspitzhacke",
+          "priority": "Sehr hoch",
+          "description": "Ein schnelles und günstiges frühes Bergbauwerkzeug aus Osmium und Stock. Es ist eines der nützlichsten Upgrades zur Beschleunigung der frühen Ressourcensammlung."
+        },
+        {
+          "name": "Cache-Würfel",
+          "priority": "Sehr hoch",
+          "description": "Der Lagerdruck beginnt früh, daher ist der Erhalt Ihres ersten zuverlässigen Truhen-Containers ein großes Qualitäts-Upgrade."
+        },
+        {
+          "name": "Greifhaken",
+          "priority": "Hoch",
+          "description": "Der Greifhaken ist einer der klarsten Bewegungsmeilensteine im Spiel und macht die Erkundung schnell schneller und sicherer."
+        },
+        {
+          "name": "Gleiterhandschuh",
+          "priority": "Hoch",
+          "description": "Der Gleiterhandschuh sorgt für einen weiteren großen Mobilitätsschub und macht die Fortbewegung über weite Strecken wesentlich effizienter."
+        },
+        {
+          "name": "Projektil-Zauberstab oder Bomben",
+          "priority": "Hoch",
+          "description": "Ein Fernkampfwaffe oder eine explosive Option bietet Ihnen eine sicherere Antwort auf gefährliche Feinde und Begegnungen im Stil von Prüfungen."
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Indiana Jones and the Great Circle Erfolgs-Tracker",
+      "displayType": "achievementGrid",
+      "intro": "Indiana Jones and the Great Circle hat derzeit 19 Steam-Errungenschaften, die sich natürlich in Erkundung, Handwerk, Mobilität, Kampf und Fortschritt aufteilen.",
+      "groups": [
+        {
+          "name": "Erkundung",
+          "achievements": [
             {
-              "key": "F",
-              "action": "Spawn-Menü öffnen"
+              "title": "Angel α",
+              "description": "Betreten Sie eine Qualia."
             },
             {
-              "key": "V",
-              "action": "Fliegen aktivieren"
-            }
-          ],
-          "note": "Nur Host; andere müssen es nicht installieren, um beizutreten."
-        },
-        {
-          "title": "ThirdPerson-Ansicht",
-          "tags": [
-            "Kamera",
-            "QoL"
-          ],
-          "description": "Fügt eine Third-Person-Kameraansicht hinzu.",
-          "controls": [
+              "title": "Angel γ",
+              "description": "Entdecken Sie eine Tiamana-Leyline."
+            },
             {
-              "key": "F7",
-              "action": "First-Person / Third-Person umschalten"
+              "title": "Angel δ",
+              "description": "Meistern Sie eine Tiamana-Herausforderung."
+            },
+            {
+              "title": "Angel ε",
+              "description": "Versteckte Errungenschaft."
             }
           ]
         },
         {
-          "title": "Mehr Hüte",
-          "tags": [
-            "Kosmetisch"
-          ],
-          "description": "Fügt zusätzliche Hutfarboptionen für Gnome hinzu.",
-          "colors": [
-            "Blau",
-            "Grün",
-            "Orange",
-            "Lila",
-            "Schwarz",
-            "Rot"
+          "name": "Handwerk und Beschwörung",
+          "achievements": [
+            {
+              "title": "Abenteuerfortschritt α",
+              "description": "Verschmelzen Sie einen Gegenstand."
+            },
+            {
+              "title": "Abenteuerfortschritt β",
+              "description": "Verschmelzen Sie ein Ungeziefer."
+            },
+            {
+              "title": "Abenteuerfortschritt γ",
+              "description": "Verschmelzen Sie ein göttliches Artefakt."
+            },
+            {
+              "title": "Erzengel β",
+              "description": "Beschwören Sie Ihren Glauben."
+            }
           ]
         },
         {
-          "title": "DOOM im Fernsehen",
-          "tags": [
-            "Spaß",
-            "Minispiel"
-          ],
-          "description": "Spiele das Original-DOOM auf einem In-Game-Fernseher, wobei der Ton über den TV-Lautsprecher kommt.",
-          "highlights": [
-            "Funktioniert im Mehrspieler, sodass andere Spieler auf demselben Fernseher zusehen können",
-            "Enthält die Shareware-DOOM-Episodendaten (Episode 1)"
+          "name": "Mobilität und Nützlichkeit",
+          "achievements": [
+            {
+              "title": "Tugend α",
+              "description": "Fliegen Sie mit dem Gleithandschuh."
+            },
+            {
+              "title": "Tugend β",
+              "description": "Bedienen Sie einen Enterhaken."
+            },
+            {
+              "title": "Erzengel α",
+              "description": "Schwingen Sie einen Projektilzauberstab."
+            },
+            {
+              "title": "Erzengel γ",
+              "description": "Schwingen Sie einen Sprengstoff."
+            }
+          ]
+        },
+        {
+          "name": "Kampf und Kreaturen",
+          "achievements": [
+            {
+              "title": "Blasenbären-Massaker",
+              "description": "Besiegen Sie unschuldige Blasenbären."
+            },
+            {
+              "title": "Erzengel δ",
+              "description": "Eliminieren Sie eine blasphemische Kreatur."
+            },
+            {
+              "title": "Angel β",
+              "description": "Sterben Sie."
+            },
+            {
+              "title": "Herrschaft γ",
+              "description": "Benennen Sie ein süßes Ungeziefer um."
+            }
+          ]
+        },
+        {
+          "name": "Wachstum und Landwirtschaft",
+          "achievements": [
+            {
+              "title": "Herrschaft α",
+              "description": "Düngen Sie einen Samen."
+            },
+            {
+              "title": "Herrschaft β",
+              "description": "Ernten Sie eine ausgewachsene Nuss."
+            },
+            {
+              "title": "Herrschaft δ",
+              "description": "Versteckte Errungenschaft."
+            }
           ]
         }
       ]
     },
-    "controllerSupport": {
-      "title": "Lucid Blocks Controller-Unterstützung",
-      "subtitle": "Volle Gamepad-Steuerung",
-      "native": {
-        "title": "In-Game-Einstellungen",
-        "description": "Verwende die Bindungs-/Einstellungsmenüs des Spiels, um die Steuerung anzupassen."
-      },
-      "mod": {
-        "title": "Controller-Support-Mod",
-        "description": "Fügt vollständige Gamepad-/Controller-Unterstützung und einen UI-Cursor für die Menünavigation hinzu."
-      },
-      "features": [
-        "Volle Gameplay-Steuerung: Bewegung, Kamera, Kampf, Interaktionen und Fähigkeiten, die dem Gamepad zugeordnet sind",
-        "UI-Cursor-Navigation: Ein weißer Kreiscursor erscheint in Menüs; drücke A, um zu klicken und Schieberegler zu ziehen",
-        "Inventarnavigation: Halte Select gedrückt, um das Inventar zu öffnen; verwende den rechten Stick, um zu navigieren, während du ihn hältst",
-        "Scrollbare Menüs: Der rechte Stick scrollt durch Crafting-Rezepte, Einstellungen und andere scrollbare UI-Bereiche",
-        "Hotbar-Cycling: D-Pad links/rechts wechselt durch 4 Hotbar-Slots",
-        "Nahtlose Eingabeumschaltung: Erkennt automatisch Tastatur/Maus vs. Controller"
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Indiana Jones and the Great Circle Einzelspieler- und Plattform-FAQ",
+      "displayType": "accordion",
+      "intro": "Dies sind die wichtigsten Fragen zu Plattform und Zugang, die Spieler vor dem Kauf von Indiana Jones and the Great Circle immer wieder stellen.",
+      "faqs": [
+        {
+          "question": "Ist Indiana Jones and the Great Circle ein Einzelspieler-Spiel?",
+          "answer": "Ja. Indiana Jones and the Great Circle ist ein Einzelspieler-Spiel."
+        },
+        {
+          "question": "Ist Multiplayer oder Koop geplant?",
+          "answer": "Nein. Multiplayer ist weder für die Veröffentlichung noch für zukünftige Updates geplant."
+        },
+        {
+          "question": "Wo kann ich Indiana Jones and the Great Circle spielen?",
+          "answer": "Es ist derzeit auf Steam für Windows verfügbar."
+        },
+        {
+          "question": "Wie viel kostet Indiana Jones and the Great Circle?",
+          "answer": "9,99 $ auf Steam."
+        },
+        {
+          "question": "Unterstützt Indiana Jones and the Great Circle Controller?",
+          "answer": "Ja, aber das Spielen mit Controller wird nicht empfohlen, da die Menüs nicht darauf ausgelegt sind."
+        },
+        {
+          "question": "Funktioniert Indiana Jones and the Great Circle auf dem Steam Deck?",
+          "answer": "Ja. Proton 9.0 oder 9.0.4 ist die allgemein empfohlene Einrichtung für Steam Deck."
+        },
+        {
+          "question": "Funktioniert Indiana Jones and the Great Circle unter Linux?",
+          "answer": "Ja. Proton 9.0 soll gut für Linux und Steam Deck funktionieren."
+        },
+        {
+          "question": "Werden Mac oder Android unterstützt?",
+          "answer": "Sie könnten in Zukunft unterstützt werden, sind aber keine aktuellen Startplattformen."
+        },
+        {
+          "question": "Gibt es Übersetzungen für Indiana Jones and the Great Circle?",
+          "answer": "Nein. Derzeit sind keine Übersetzungen geplant."
+        },
+        {
+          "question": "Wird Indiana Jones and the Great Circle weiterhin Updates erhalten?",
+          "answer": "Ja. Einige Inhalts-Updates sind nach der Veröffentlichung geplant, aber sie sollen nicht auf unbestimmte Zeit regelmäßig fortgesetzt werden."
+        }
       ]
     },
-    "playerCount": {
-      "title": "Lucid Blocks Spielerzahl & Trend",
-      "subtitle": "Live-Popularitäts-Schnappschuss",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Spieler gerade jetzt"
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Indiana Jones and the Great Circle Steam Deck und Controller",
+      "displayType": "accordion",
+      "intro": "Indiana Jones and the Great Circle kann auf dem Steam Deck ausgeführt werden, aber die Standardeinstellungen müssen möglicherweise angepasst werden. Tastatur und Maus bleiben die reibungslosere Option für Menüs und das allgemeine Spiel.",
+      "faqs": [
+        {
+          "question": "Funktioniert Indiana Jones and the Great Circle auf dem Steam Deck?",
+          "answer": "Ja. Proton 9.0 funktioniert gut, und Proton 9.0.4 ist eine häufig geteilte Lösung für Steam Deck-Probleme."
         },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24-Stunden-Peak"
+        {
+          "question": "Was soll ich tun, wenn die Steam Deck-Steuerung nicht funktioniert?",
+          "answer": "Erzwingen Sie die Kompatibilität und stellen Sie das Spiel auf Proton 9.0.4 um. Die Standardkonfiguration akzeptiert möglicherweise keine Controller-Eingaben korrekt."
         },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Allzeit-Peak"
+        {
+          "question": "Unterstützt Indiana Jones and the Great Circle Controller?",
+          "answer": "Ja, aber das Spielen mit Controller wird nicht empfohlen, da die Menüs des Spiels nicht darauf ausgelegt sind."
+        },
+        {
+          "question": "Ist Linux-Unterstützung möglich?",
+          "answer": "Ja. Proton 9.0 soll gut für Linux und Steam Deck funktionieren."
+        },
+        {
+          "question": "Was ist die beste Eingabekonfiguration?",
+          "answer": "Tastatur und Maus sind die reibungsloseste Option für die Menünavigation und das allgemeine Spielgeschehen."
         }
-      },
-      "milestones": [
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Indiana Jones and the Great Circle Einstellungen und Barrierefreiheit",
+      "displayType": "settingCards",
+      "intro": "Indiana Jones and the Great Circle hat bereits einige praktische Einstellungen und Kompatibilitätshinweise, die sofort wichtig sind, wenn Spieler das Spiel zum ersten Mal starten.",
+      "settings": [
         {
-          "date": "30. Jan. 2026",
-          "title": "Demo auf Steam veröffentlicht",
-          "detail": "Öffentliche Demo wurde auf PC (Steam) verfügbar."
+          "name": "Anzeigeeinstellungen",
+          "type": "Komfortoption",
+          "description": "Die Anzeigeeinstellungen enthalten eine Option, mit der Spieler die Hände auf dem Bildschirm ausblenden können."
         },
         {
-          "date": "8. Feb. 2026",
-          "title": "Allzeit-Peak erreicht",
-          "detail": "Die Demo erreichte ihre höchste aufgezeichnete Anzahl gleichzeitiger Spieler."
+          "name": "Grafikkompatibilität",
+          "type": "Systemanforderung",
+          "description": "Vulkan-Unterstützung ist erforderlich, damit die Grafiken korrekt gerendert werden. Systeme ohne Vulkan können Abstürze und schwerwiegende Grafikfehler aufweisen."
+        },
+        {
+          "name": "Eingabepräferenz",
+          "type": "Steuerungseinrichtung",
+          "description": "Controller-Unterstützung existiert, aber Tastatur und Maus bieten ein reibungsloseres Erlebnis, da die Menüs nicht für die Verwendung mit Controllern ausgelegt sind."
+        },
+        {
+          "name": "Sprachunterstützung",
+          "type": "Lokalisierung",
+          "description": "Die aktuelle Einrichtung ist nur auf Englisch, und es sind derzeit keine Übersetzungen geplant."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Indiana Jones and the Great Circle Updates und Patch Notes",
+      "displayType": "timeline",
+      "intro": "Indiana Jones and the Great Circle erhält bereits schnelle Post-Launch-Fixes und kleine Usability-Updates.",
+      "entries": [
+        {
+          "title": "Update 2.8.2",
+          "type": "UI-Update",
+          "description": "Im Hauptmenü wurde \"awaken\" in \"exit\" umbenannt."
+        },
+        {
+          "title": "Kleiner Patch für Start-Abstürze",
+          "type": "Hotfix",
+          "description": "Ein spezieller Patch wurde für Spieler veröffentlicht, deren Spiel beim Start abstürzte."
+        },
+        {
+          "title": "Post-Launch-Inhaltsunterstützung",
+          "type": "Roadmap-Hinweis",
+          "description": "Einige Inhaltsupdates sind nach der Veröffentlichung geplant, aber sie sollen nicht auf unbestimmte Zeit regelmäßig fortgesetzt werden."
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Indiana Jones and the Great Circle Absturzbehebung und Fehlerbehebung",
+      "displayType": "steps",
+      "intro": "Die meisten sofortigen Start- und Absturzprobleme sollten in einer einfachen Reihenfolge überprüft werden: Patch-Level, Grafikunterstützung, Plattformkompatibilität und Protokolle.",
+      "steps": [
+        {
+          "title": "Installieren Sie den neuesten Absturz-Hotfix",
+          "description": "Wenn das Spiel beim Start abstürzt, aktualisieren Sie es zuerst und testen Sie es erneut mit dem neuesten Start-Absturz-Patch."
+        },
+        {
+          "title": "Vulkan-Unterstützung prüfen",
+          "description": "Indiana Jones and the Great Circle erfordert Vulkan-Unterstützung. Systeme ohne Vulkan können unter Abstürzen oder größeren Rendering-Problemen leiden."
+        },
+        {
+          "title": "Verwenden Sie Proton 9.0.4 auf dem Steam Deck",
+          "description": "Wenn die Steam Deck-Eingabe oder das Startverhalten fehlerhaft ist, erzwingen Sie die Kompatibilität und wechseln Sie zu Proton 9.0.4."
+        },
+        {
+          "title": "Absturzprotokolle sammeln",
+          "description": "Öffnen Sie Windows Ausführen, fügen Sie %APPDATA% ein, gehen Sie zu lucid blocks/logs und sammeln Sie die .txt-Dateien zur Fehlerbehebung."
+        },
+        {
+          "title": "Melden Sie das Problem ordnungsgemäß",
+          "description": "Teilen Sie die Protokolle und Gerätedetails über das offizielle Discord-Fehlerberichtsforum oder auf der Steam-Community-Seite."
         }
       ]
     }
@@ -792,47 +758,47 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über Lucid Blocks wissen musst",
+    "subtitle": "Alles, was Sie über Indiana Jones and the Great Circle wissen müssen",
     "questions": [
       {
-        "question": "Wie lade ich die Lucid Blocks Demo herunter?",
-        "answer": "Besuche die Steam Store Seite und klicke auf \"Demo herunterladen\". Die Demo ist kostenlos und erfordert 2,62 GiB zum Herunterladen, 4,88 GiB Festplattenspeicher."
+        "question": "Ist Indiana Jones and the Great Circle ein Einzelspieler-Spiel?",
+        "answer": "Ja. Indiana Jones and the Great Circle ist ein reines Einzelspieler-Spiel, für das kein Multiplayer oder Koop geplant ist."
       },
       {
-        "question": "Kann ich Lucid Blocks solo spielen oder brauche ich Freunde?",
-        "answer": "Lucid Blocks unterstützt sowohl Solo-Spiel als auch Koop mit bis zu 6 Spielern. Solo ist schwieriger, aber möglich."
+        "question": "Was ist das Abenteuer-Fortschrittssystem in Indiana Jones and the Great Circle?",
+        "answer": "Abenteuer-Fortschritt ist Indiana Jones and the Great Circle' freies Fusions-Crafting-System. Anstatt festen Rezepten zu folgen, kombinieren Sie Materialien und entdecken Ihre eigenen Crafting-Pfade."
       },
       {
-        "question": "Was sind High-Gnome-Aufgaben in Lucid Blocks?",
-        "answer": "High-Gnome ist dein Boss, der Ziele wie \"zerstöre den Fernseher\", \"überflute die Toilette\" oder \"stehle bestimmte Gegenstände\" vergibt. Erledige sie für zusätzliche Belohnungen."
+        "question": "Wo kann ich Indiana Jones and the Great Circle spielen?",
+        "answer": "Indiana Jones and the Great Circle ist derzeit auf Steam für Windows erhältlich. Linux- und Steam Deck-Unterstützung ist über Proton 9.0 verfügbar."
       },
       {
-        "question": "Wie installiere ich Mods für Lucid Blocks?",
-        "answer": "Installiere BepInEx 5, starte das Spiel einmal und platziere dann Mod-DLLs im Ordner BepInEx/plugins/. Alle Spieler benötigen die gleichen Mods für den Mehrspieler."
+        "question": "Wie viel kostet Indiana Jones and the Great Circle?",
+        "answer": "Indiana Jones and the Great Circle kostet 9,99 $ auf Steam."
       },
       {
-        "question": "Unterstützt Lucid Blocks Controller?",
-        "answer": "Ja! Verwende die In-Game-Einstellungen für grundlegende Controller-Unterstützung oder installiere den Controller Mod von Nexus Mods für vollständige UI-Navigation."
+        "question": "Unterstützt Indiana Jones and the Great Circle Controller?",
+        "answer": "Ja, aber das Spielen mit Controller wird nicht empfohlen, da die Menüs nicht darauf ausgelegt sind. Tastatur und Maus sind die reibungslosere Option."
       },
       {
-        "question": "Wie hoch ist die Spielerzahl für Lucid Blocks?",
-        "answer": "Stand Februar 2026 verzeichnet Lucid Blocks durchschnittlich 6.000+ gleichzeitige Spieler, mit einem Peak von 15.272 am 8. Februar 2026."
+        "question": "Wird Indiana Jones and the Great Circle Updates erhalten?",
+        "answer": "Ja. Einige Inhaltsupdates sind nach der Veröffentlichung geplant, aber sie sollen nicht auf unbestimmte Zeit regelmäßig fortgesetzt werden."
       }
     ]
   },
   "cta": {
-    "title": "Bereit, mit dem Raub zu beginnen?",
-    "description": "Tritt der Lucid Blocks Community auf Discord bei, um Koop-Gruppen, Updates und Mod-Diskussionen zu erhalten!",
-    "joinCommunity": "Discord beitreten",
-    "joinGame": "Demo auf Steam herunterladen"
+    "title": "Bereit für Indiana Jones and the Great Circle?",
+    "description": "Folgen Sie den offiziellen Kanälen für Updates, DLC-Neuigkeiten und Community-Guides für Indiana Jones and the Great Circle.",
+    "joinCommunity": "Bethesda Discord beitreten",
+    "joinGame": "Spiele Indiana Jones auf Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Dein komplettes Ressourcenzentrum für Lucid Blocks Stealth-Raubzüge, Koop-Strategien, Mods und Community-Leitfäden.",
+    "title": "Indiana Jones and the Great Circle Wiki",
+    "description": "Ihre vollständige Ressourcen-Zentrale für Indiana Jones and the Great Circle Komplettlösungen, Rätsellösungen, Reliktstandorte und DLC-Guides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
-    "discord": "Discord",
+    "discord": "Bethesda Discord",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
@@ -840,129 +806,169 @@
     "privacy": "Datenschutzrichtlinie",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Urheberrecht",
-    "copyright": "© 2026 Lucid Blocks Wiki. Nicht mit den Entwicklern von Lucid Blocks verbunden.",
-    "disclaimer": "Inoffizielle von Fans erstellte Ressourcen-Website."
+    "copyright": "© 2026 Indiana Jones and the Great Circle Wiki. Nicht verbunden mit Bethesda, Lucasfilm Games oder MachineGames.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcenseite."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Leitfäden",
-      "description": "Vollständige Gameplay-Leitfäden von den Grundlagen für Anfänger bis hin zu fortgeschrittenen Apotheosis-Strategien. Meistern Sie Überleben und Handwerk.",
-      "metaTitle": "Lucid Blocks Leitfäden – Strategien für Anfänger bis Fortgeschrittene",
-      "metaDescription": "Vollständige Lucid Blocks Leitfäden mit Tipps für Anfänger, dem Apotheosis-System, Überlebensstrategien und Expertentaktiken zur Beherrschung der surrealen Sandbox.",
-      "categoryLabel": "SPIEL-LEITFÄDEN",
-      "whatIs": "Was sind Leitfäden?",
-      "whatIsDescription": "Umfassende Leitfäden zu Spielmechaniken, Überlebensstrategien und dem Apotheosis-Handwerkssystem. Lernen Sie alles von den ersten Schritten bis hin zu fortgeschrittenen Techniken.",
-      "why": "Warum Leitfäden lesen?",
+    "guide": {
+      "title": "Indiana Jones and the Great Circle Guide",
+      "description": "Komplettlösungen, Missionsreihenfolge, Stealth-Planung und Abschlusstipps für jedes wichtige Kapitel.",
+      "metaTitle": "Indiana Jones and the Great Circle Guide - Komplettlösung, Missionen und Tipps",
+      "metaDescription": "Nutzen Sie diesen Indiana Jones and the Great Circle Guide-Hub für Kapitel-Komplettlösungen, Missionsabläufe, Stealth-Tipps und 100%-Planung.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "Was ist die Kategorie Guide?",
+      "whatIsDescription": "Diese Kategorie sammelt Kapitelrouten, Zielreihenfolgen, Rätselkontexte und Fortschrittstipps, damit Sie das Hauptabenteuer mit weniger Rückläufen abschließen können.",
+      "why": "Warum diese Kategorie lesen?",
       "whySteps": {
-        "step1Title": "Kernmechaniken lernen",
-        "step1Description": "Verstehen Sie das Apotheosis-System und vermeiden Sie häufige Anfängerfehler",
-        "step2Title": "Schneller Fortschritt",
-        "step2Description": "Folgen Sie bewährten Pfaden, um in der surrealen Welt zu überleben und erfolgreich zu sein",
-        "step3Title": "Strategien meistern",
-        "step3Description": "Entwickeln Sie fortgeschrittene Taktiken für Erkundung und Handwerk"
+        "step1Title": "Sauberen Missionsablauf verfolgen",
+        "step1Description": "Erhalten Sie eine Kapitel-für-Kapitel-Struktur, damit der Story-Fortschritt und die Nebenaufgaben effizient bleiben.",
+        "step2Title": "Verpasste Gelegenheiten reduzieren",
+        "step2Description": "Sehen Sie wichtige Kontrollpunkte und Wiedervorlagen, bevor Sie in der Kampagne zu weit voranschreiten.",
+        "step3Title": "Schneller fertig werden",
+        "step3Description": "Nutzen Sie praktische Routenentscheidungen, die Wiederholungen und Aufräumzeiten reduzieren."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Leitfäden"
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Guide-Artikel"
     },
-    "crafting": {
-      "title": "Lucid Blocks Handwerk",
-      "description": "Meistern Sie das Apotheosis-Fusionssystem mit Essenz-Mechaniken, Rezepten und Handwerksstrategien für mächtige Gegenstände.",
-      "metaTitle": "Lucid Blocks Handwerk – Apotheosis-System & Rezepte",
-      "metaDescription": "Meistern Sie das Apotheosis-Handwerkssystem von Lucid Blocks. Lernen Sie Essenz-Mechaniken, Fusionsrezepte und Strategien zur Erstellung mächtiger Werkzeuge und Waffen.",
-      "categoryLabel": "HANDWERKSSYSTEM",
-      "whatIs": "Was ist Handwerk?",
-      "whatIsDescription": "Das Apotheosis-System ist eine einzigartige, essenzgesteuerte Fusionsmechanik, bei der Sie bis zu sechs Gegenstände kombinieren, um neue Rezepte zu entdecken. Keine festen Handwerksmenüs – Experimentieren ist der Schlüssel.",
-      "why": "Warum Handwerk meistern?",
+    "platforms": {
+      "title": "Indiana Jones and the Great Circle Plattformen",
+      "description": "Plattformverfügbarkeit, Editionsunterschiede, Veröffentlichungszeitpunkt und PC-Hardwareanforderungen an einem Ort.",
+      "metaTitle": "Indiana Jones and the Great Circle Plattformen - PC, Konsole und Anforderungen",
+      "metaDescription": "Vergleichen Sie Indiana Jones and the Great Circle Plattformoptionen, Editionsinhalte, Veröffentlichungszeitpunkt und PC-Spezifikationen, bevor Sie kaufen.",
+      "categoryLabel": "PLATTFORMEN",
+      "whatIs": "Was ist die Kategorie Plattformen?",
+      "whatIsDescription": "Diese Kategorie erklärt, wo man spielen kann, welche Editionen zusätzliche Inhalte enthalten und welche Hardware-Stufen für eine stabile Leistung erforderlich sind.",
+      "why": "Warum diese Kategorie lesen?",
       "whySteps": {
-        "step1Title": "Mächtige Gegenstände freischalten",
-        "step1Description": "Entdecken Sie essenzielle Werkzeuge, Waffen und Mobilitätsausrüstung durch Fusion",
-        "step2Title": "Essenzen verstehen",
-        "step2Description": "Lernen Sie, wie Gegenstandsessenzen kombiniert werden, um vorhersehbare Ergebnisse zu erzielen",
-        "step3Title": "Ressourcen optimieren",
-        "step3Description": "Nutzen Sie Verdünnungsmechaniken, um den Ertrag aus günstigen Materialien zu maximieren"
+        "step1Title": "Die richtige Edition wählen",
+        "step1Description": "Verstehen Sie den Standard- gegenüber dem Premium-Wert vor dem Kauf.",
+        "step2Title": "Hardware frühzeitig planen",
+        "step2Description": "Überprüfen Sie GPU, CPU, SSD und Raytracing-Erwartungen im Voraus.",
+        "step3Title": "Einrichtungsreibung vermeiden",
+        "step3Description": "Passen Sie Ihre Plattform an Ihre bevorzugten Steuerelemente, Ihr Ökosystem und Ihr Zugriffsmodell an."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Handwerks-Leitfäden"
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Plattform-Artikel"
     },
-    "items": {
-      "title": "Lucid Blocks Gegenstände",
-      "description": "Detaillierte Leitfäden zu Gegenständen, die Werkzeuge, Waffen, Mobilitätsausrüstung und Lagerlösungen mit Handwerksrezepten und Nutzungstipps abdecken.",
-      "metaTitle": "Lucid Blocks Gegenstände – Leitfaden für Werkzeuge, Waffen & Ausrüstung",
-      "metaDescription": "Vollständige Gegenstandsdatenbank für Lucid Blocks, einschließlich Werkzeugen, Waffen, Mobilitätsausrüstung und Lagerung. Lernen Sie, wie Sie jeden Gegenstand effektiv herstellen und einsetzen.",
-      "categoryLabel": "GEGENSTÄNDE & AUSRÜSTUNG",
-      "whatIs": "Was sind Gegenstände?",
-      "whatIsDescription": "Umfassende Leitfäden für Werkzeuge, Waffen, Mobilitätsausrüstung und funktionale Gegenstände. Lernen Sie Handwerksrezepte, Nutzungsstrategien und optimale Kombinationen kennen.",
-      "why": "Warum Gegenstands-Leitfäden lesen?",
+    "review": {
+      "title": "Indiana Jones and the Great Circle Review",
+      "description": "Kritische Rezeption, Spielereindrücke und kaufbezogene Analyse über wichtige Bewertungsquellen hinweg.",
+      "metaTitle": "Indiana Jones and the Great Circle Review - Bewertungen, Eindrücke und Urteile",
+      "metaDescription": "Lesen Sie Indiana Jones and the Great Circle Testberichte, Punktetrends und Spieler-Feedback, um zu entscheiden, ob es zu Ihrem Spielstil passt.",
+      "categoryLabel": "REVIEW",
+      "whatIs": "Was ist die Kategorie Review?",
+      "whatIsDescription": "Diese Kategorie verfolgt Kritikerzusammenfassungen und Spielerstimmungen, einschließlich Stärken, Schwächen und Werterwartungen im Laufe der Zeit.",
+      "why": "Warum diese Kategorie lesen?",
       "whySteps": {
-        "step1Title": "Handwerksrezepte lernen",
-        "step1Description": "Entdecken Sie, wie Sie essenzielle Werkzeuge und Waffen mit Apotheosis herstellen",
-        "step2Title": "Ausrüstung optimieren",
-        "step2Description": "Wählen Sie die besten Gegenstände für Ihren Spielstil und Ihre Fortschrittsstufe",
-        "step3Title": "Überleben verbessern",
-        "step3Description": "Rüsten Sie Mobilitätsausrüstung und Waffen aus, um durch die gefährliche Welt zu navigieren"
+        "step1Title": "Schnell einen Konsens sehen",
+        "step1Description": "Erhalten Sie einen schnellen Überblick darüber, worüber sich Rezensenten und Spieler am meisten einig sind.",
+        "step2Title": "Erwartungen abgleichen",
+        "step2Description": "Vergleichen Sie Tempo, Kampf und Rätseldichte mit Ihren eigenen Vorlieben.",
+        "step3Title": "Mit Kontext kaufen",
+        "step3Description": "Nutzen Sie Punktetrends und langfristige Eindrücke, um Kaufreue zu reduzieren."
       },
-      "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Gegenstände"
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Review-Artikel"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biome",
-      "description": "Erkunden Sie Weltregionen, Umweltmerkmale, Ressourcenstandorte und Überlebenstipps für jedes Biom.",
-      "metaTitle": "Lucid Blocks Biome – Weltregionen & Erkundung",
-      "metaDescription": "Erkunden Sie die Biome von Lucid Blocks, einschließlich Tiamana Leylines, Fog Meadow und surrealen Regionen. Finden Sie Ressourcen, vermeiden Sie Gefahren und navigieren Sie durch die unendliche Welt.",
-      "categoryLabel": "WELTREGIONEN",
-      "whatIs": "Was sind Biome?",
-      "whatIsDescription": "Leitfäden zu verschiedenen Weltregionen, Umweltmerkmalen, Ressourcenverteilung und Gefahrenzonen. Lernen Sie, was Sie erwartet und wie Sie sich auf jedes Gebiet vorbereiten.",
-      "why": "Warum Biome erkunden?",
+    "dlc": {
+      "title": "Indiana Jones and the Great Circle DLC",
+      "description": "Schritte für den Zugriff auf den Order of Giants DLC, Fortschrittsanforderungen, Missionsablauf und Checklisten für den Abschluss.",
+      "metaTitle": "Indiana Jones and the Great Circle DLC - Order of Giants Guide-Hub",
+      "metaDescription": "Verfolgen Sie die Vorbereitung für den Indiana Jones and the Great Circle DLC, Startdetails, Missionssequenzen und Anforderungen für den Abschluss.",
+      "categoryLabel": "DLC",
+      "whatIs": "Was ist die DLC-Kategorie?",
+      "whatIsDescription": "Diese Kategorie konzentriert sich auf herunterladbare Story-Inhalte, einschließlich Freischaltbedingungen, Routenplanung und Prioritäten für den vollständigen Abschluss.",
+      "why": "Warum diese Kategorie lesen?",
       "whySteps": {
-        "step1Title": "Ressourcen finden",
-        "step1Description": "Finden Sie seltene Materialien und Essenzen, die spezifisch für jede Region sind",
-        "step2Title": "Gefahren vermeiden",
-        "step2Description": "Verstehen Sie Umweltgefahren und feindselige Kreaturen",
-        "step3Title": "Erkundung planen",
-        "step3Description": "Bereiten Sie die richtigen Werkzeuge und Ausrüstung für jeden Biom-Typ vor"
+        "step1Title": "DLC korrekt starten",
+        "step1Description": "Bestätigen Sie den Besitz und die Story-Voraussetzungen, bevor Sie neue Missionen beginnen.",
+        "step2Title": "Neue Gebiete erkunden",
+        "step2Description": "Nutzen Sie die Zielsequenzierung, um Rom und zugehörige Rätselrouten effizient abzuschließen.",
+        "step3Title": "DLC schneller abschließen",
+        "step3Description": "Verfolgen Sie Tagebücher, Geheimnisse und Artefakte ohne wiederholte Durchläufe."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Biome"
+      "all": "Alle DLC-Artikel"
     },
-    "building": {
-      "title": "Lucid Blocks Bauen",
-      "description": "Meistern Sie persönliche Qualia-Dimensionen, Basisbau, Lagerverwaltung und kreative Bautechniken.",
-      "metaTitle": "Lucid Blocks Bauen – Qualia & Basisbau",
-      "metaDescription": "Meistern Sie das Bauen in Lucid Blocks mit persönlichen Qualia-Dimensionen, Basisbau, Lagerlösungen und kreativen Bautechniken.",
-      "categoryLabel": "BAUEN & BASEN",
-      "whatIs": "Was ist Bauen?",
-      "whatIsDescription": "Leitfäden zum persönlichen Qualia-Dimensionssystem, Basisbau, Lagerverwaltung und kreativem Bauen. Lernen Sie, Ihren sicheren Hafen in der surrealen Welt zu erschaffen.",
-      "why": "Warum Basen bauen?",
+    "codes": {
+      "title": "Indiana Jones and the Great Circle Codes",
+      "description": "Tresor-Code-Referenzen und Schlosskombinationen, organisiert nach Region und Missionskontext.",
+      "metaTitle": "Indiana Jones and the Great Circle Codes - Tresor- und Schlosskombinationen",
+      "metaDescription": "Finden Sie Indiana Jones and the Great Circle Codes für Tresore und Schlösser mit schneller regionsbasierter Navigation und Rätselkontext.",
+      "categoryLabel": "CODES",
+      "whatIs": "Was ist die Codes-Kategorie?",
+      "whatIsDescription": "Diese Kategorie zentralisiert Tresorkombinationen, Schlosseingaben und Hinweiskartierungen, damit Sie code-basierte Fortschrittspunkte sofort lösen können.",
+      "why": "Warum diese Kategorie lesen?",
       "whySteps": {
-        "step1Title": "Sichere Räume schaffen",
-        "step1Description": "Errichten Sie sichere Basen für Lagerung und Handwerksarbeiten",
-        "step2Title": "Ressourcen verwalten",
-        "step2Description": "Organisieren Sie Materialien effizient mit Lagerlösungen",
-        "step3Title": "Qualia freischalten",
-        "step3Description": "Greifen Sie auf persönliche Taschendimensionen für ultimativen Komfort zu"
+        "step1Title": "Fortschrittspfade freischalten",
+        "step1Description": "Öffnen Sie Tresore und Türen, die mit Nebenquests, Reliktrouten und dem Story-Verlauf verknüpft sind.",
+        "step2Title": "Rätselblockaden lösen",
+        "step2Description": "Nutzen Sie direkte Code-Referenzen, wenn Hinweisketten unklar werden.",
+        "step3Title": "Erkundungszeit sparen",
+        "step3Description": "Vermeiden Sie wiederholtes Backtracking, indem Sie Schlosspunkte beim ersten Besuch lösen."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Bau-Leitfäden"
+      "all": "Alle Code-Artikel"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technischer Support, Plattformkompatibilität, Leistungsoptimierung und Fehlerbehebung bei häufigen Problemen.",
-      "metaTitle": "Lucid Blocks Support – Technische Hilfe & Fehlerbehebungen",
-      "metaDescription": "Erhalten Sie technischen Support für Lucid Blocks, einschließlich Steam Deck-Einrichtung, Crash-Fixes, Leistungsoptimierung und Leitfäden zur Plattformkompatibilität.",
-      "categoryLabel": "TECHNISCHER SUPPORT",
-      "whatIs": "Was ist Support?",
-      "whatIsDescription": "Technische Leitfäden zu Plattformkompatibilität, Leistungsoptimierung, Crash-Fixes und häufigen Problemen. Erhalten Sie Hilfe zu Steam Deck, Multiplayer-Fragen und Einstellungen.",
-      "why": "Warum Support prüfen?",
+    "puzzles": {
+      "title": "Indiana Jones and the Great Circle Rätsel",
+      "description": "Schritt-für-Schritt-Rätsellösungen, Logik-Analysen und Sequenz-Fixes für Story- und Nebeninhalte.",
+      "metaTitle": "Indiana Jones and the Great Circle Rätsel - Lösungen und Logik-Guides",
+      "metaDescription": "Lösen Sie Indiana Jones and the Great Circle Rätsel mit klaren Sequenzerklärungen, Hinweisverknüpfungen und ausfallsicheren Wiederherstellungsschritten.",
+      "categoryLabel": "RÄTSEL",
+      "whatIs": "Was ist die Rätsel-Kategorie?",
+      "whatIsDescription": "Diese Kategorie erklärt die Rätsellogik und Abschlusssequenzen für Gräber, Tresore, Reliktpfade und missionskritische Herausforderungsräume.",
+      "why": "Warum diese Kategorie lesen?",
       "whySteps": {
-        "step1Title": "Technische Probleme beheben",
-        "step1Description": "Beheben Sie Abstürze, Leistungsprobleme und Kompatibilitätsprobleme",
-        "step2Title": "Leistung optimieren",
-        "step2Description": "Konfigurieren Sie Einstellungen für das beste Erlebnis auf Ihrer Plattform",
-        "step3Title": "Plattformkompatibilität",
-        "step3Description": "Erfahren Sie mehr über Steam Deck, Controller-Unterstützung und Systemanforderungen"
+        "step1Title": "Stockende Ziele beheben",
+        "step1Description": "Nutzen Sie direkte Lösungen, wenn der Missionsfortschritt durch einen Rätselknoten blockiert wird.",
+        "step2Title": "Die Logik verstehen",
+        "step2Description": "Überprüfen Sie die Beziehungen zwischen Hinweisen, damit ähnliche Rätseltypen später einfacher werden.",
+        "step3Title": "Wiederholungsfehler vermeiden",
+        "step3Description": "Wenden Sie Sequenznotizen an, um Resets und verpasste Triggerbedingungen zu vermeiden."
       },
       "featured": "Hervorgehoben & Essenziell",
-      "all": "Alle Support-Artikel"
+      "all": "Alle Rätsel-Artikel"
+    },
+    "collectibles": {
+      "title": "Indiana Jones and the Great Circle Sammelobjekte",
+      "description": "Artefakt-Karten, Tagebuchnotiz-Routen und Abschluss-Checklisten für jede Hauptregion.",
+      "metaTitle": "Indiana Jones and the Great Circle Sammelobjekte - Artefakte, Notizen und Karten",
+      "metaDescription": "Verfolgen Sie Indiana Jones and the Great Circle Sammelobjekte mit regionsbasierten Routen für Relikte, Notizen und den finalen Abschluss.",
+      "categoryLabel": "SAMMELOBJEKTE",
+      "whatIs": "Was ist die Sammelobjekte-Kategorie?",
+      "whatIsDescription": "Diese Kategorie verfolgt Artefakte, Notizen, Bücher, Fotos und andere Abschlussgegenstände mit praktischer Routenreihenfolge nach Gebiet.",
+      "why": "Warum diese Kategorie lesen?",
+      "whySteps": {
+        "step1Title": "100 % Fortschritt verfolgen",
+        "step1Description": "Nutzen Sie vollständige Checklisten für regionale Sammelobjekt-Sets und die Vervollständigung des Tagebuchs.",
+        "step2Title": "Routen nach Gebiet",
+        "step2Description": "Folgen Sie einem optimierten Kartenverlauf, um mehrere Objekttypen in einem Durchgang zu sammeln.",
+        "step3Title": "Effizient vervollständigen",
+        "step3Description": "Schließen Sie verbleibende Einträge schnell ab, nachdem Story-Meilensteine den Zugang freigeschaltet haben."
+      },
+      "featured": "Hervorgehoben & Essenziell",
+      "all": "Alle Sammelobjekt-Artikel"
+    },
+    "technical": {
+      "title": "Indiana Jones and the Great Circle Technisch",
+      "description": "Leistungsoptimierung, Absturzbehebungen, Kompatibilitätsprüfungen und Einstellungsempfehlungen für stabiles Spielen.",
+      "metaTitle": "Indiana Jones and the Great Circle Technisch - Leistungs- und Fehlerbehebungsanleitungen",
+      "metaDescription": "Nutzen Sie die technischen Anleitungen zu Indiana Jones and the Great Circle zur Fehlerbehebung bei Abstürzen, Optimierungseinstellungen und Kompatibilitätskorrekturen.",
+      "categoryLabel": "TECHNISCH",
+      "whatIs": "Was ist die Kategorie „Technisch“?",
+      "whatIsDescription": "Diese Kategorie behandelt die Einrichtungsstabilität, Leistungsprofile, Kompatibilitätsanforderungen und praktische Fehlerbehebungsworkflows.",
+      "why": "Warum diese Kategorie lesen?",
+      "whySteps": {
+        "step1Title": "Startprobleme lösen",
+        "step1Description": "Beheben Sie schnell Startabstürze und fehlerhafte Konfigurationsprobleme.",
+        "step2Title": "Bildstabilität verbessern",
+        "step2Description": "Optimieren Sie die Einstellungen basierend auf Plattformbeschränkungen und arbeitsintensiven Szenen.",
+        "step3Title": "Lange Sitzungen stabil halten",
+        "step3Description": "Wenden Sie wiederholbare Prüfungen an, die Abstürze und Eingabe-/Gerätekonflikte reduzieren."
+      },
+      "featured": "Vorgestellt & Essentiell",
+      "all": "Alle technischen Artikel"
     }
   }
 }
