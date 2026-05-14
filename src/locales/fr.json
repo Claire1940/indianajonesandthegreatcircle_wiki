@@ -108,51 +108,11 @@
         "icon": "ArrowRight",
         "title": "Plateformes et exigences PC de Indiana Jones and the Great Circle",
         "description": "Support de plateforme, éditions et niveaux d'exigences matérielles."
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming de ressources de Indiana Jones and the Great Circle",
-        "description": "Itinéraires efficaces de collecte d'argent et de matériaux."
-      },
-      {
-        "icon": "Star",
-        "title": "Priorités initiales de Indiana Jones and the Great Circle",
-        "description": "Meilleurs déverrouillages initiaux et choix pratiques en début de partie."
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Suivi des succès de Indiana Jones and the Great Circle",
-        "description": "Liste de contrôle structurée pour la progression Steam et de la plateforme."
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "FAQ de Indiana Jones and the Great Circle",
-        "description": "Réponses essentielles pour les éditions, l'accès et la progression."
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Guide du contrôleur de Indiana Jones and the Great Circle",
-        "description": "Configuration du contrôleur et attentes d'entrée de la plateforme."
-      },
-      {
-        "icon": "Settings",
-        "title": "Guide des paramètres de Indiana Jones and the Great Circle",
-        "description": "Paramètres pratiques et points de contrôle de dépannage."
-      },
-      {
-        "icon": "Clock",
-        "title": "Mises à jour de Indiana Jones and the Great Circle",
-        "description": "Points forts des correctifs, corrections et notes de mise à jour actuelles."
-      },
-      {
-        "icon": "Shield",
-        "title": "Guide de stabilité de Indiana Jones and the Great Circle",
-        "description": "Triage des plantages et flux de dépannage des performances."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
+    "indianaJonesWalkthrough": {
       "title": "Guide du débutant pour Indiana Jones and the Great Circle",
       "displayType": "steps",
       "intro": "Commencez par apprendre comment l'exploration, la fusion et la progression sont liées. Indiana Jones and the Great Circle récompense l'expérimentation, donc les premiers progrès proviennent de la collecte de matériaux inhabituels, de l'expérimentation de combinaisons et du déverrouillage de votre camp de base personnel.",
@@ -181,7 +141,7 @@
         "Se perdre au début est normal, mais les outils utiles, le stockage et les options de mouvement s'accumulent rapidement une fois que vos premières bonnes fusions commencent à fonctionner."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
+    "indianaJonesSafeCodes": {
       "title": "Artisanat de progression d'aventure dans Indiana Jones and the Great Circle",
       "displayType": "cards",
       "intro": "La progression d'aventure est le système de fusion illimité du jeu. Au lieu de mémoriser un livre de recettes traditionnel, vous combinez des matériaux, observez le résultat et construisez vos propres connaissances en matière d'artisanat au fil du temps.",
@@ -209,7 +169,7 @@
         "Fusionner un artefact divin"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
+    "indianaJonesPuzzleSolutions": {
       "title": "Outils et armes dans Indiana Jones and the Great Circle",
       "displayType": "itemCards",
       "intro": "Indiana Jones and the Great Circle mélange l'équipement utilitaire officiel avec les premières armes découvertes par la communauté. La meilleure configuration est généralement un mélange d'extraction rapide, de déplacement sûr et d'une option de combat fiable.",
@@ -256,7 +216,7 @@
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
+    "indianaJonesCollectibles": {
       "title": "Stockage et inventaire dans Indiana Jones and the Great Circle",
       "displayType": "solutionCards",
       "intro": "La pression de l'inventaire commence tôt dans Indiana Jones and the Great Circle, donc la construction de stockage devrait être l'un de vos premiers objectifs. Plusieurs solutions déjà testées par de vrais joueurs se démarquent.",
@@ -289,7 +249,7 @@
         "Utilisez votre journal comme partie intégrante de la gestion de l'inventaire, et pas seulement pour la découverte d'artisanat."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
+    "indianaJonesAdventureBooks": {
       "title": "Livres d'aventure dans Indiana Jones and the Great Circle",
       "displayType": "cards",
       "intro": "Les livres d'aventure sont le système d'amélioration à long terme principal dans Indiana Jones and the Great Circle. Suivez les déverrouillages de grande valeur tôt, puis utilisez les livres de révélation de carte pour accélérer le nettoyage des objets de collection dans chaque région majeure.",
@@ -318,7 +278,7 @@
         "Utilisez les livres de cartes du Vatican, de Gizeh et de Sukhothai avant un nettoyage à 100 %."
       ]
     },
-    "lucidBlocksWorldRegions": {
+    "indianaJonesTrophies": {
       "title": "Trophées et succès dans Indiana Jones and the Great Circle",
       "displayType": "regionCards",
       "intro": "Utilisez cette feuille de route pour planifier un parcours de complétion du jeu de base en une seule partie, puis terminez le nettoyage du DLC The Order of Giants pour les totaux de complétion de plateforme complets.",
@@ -345,7 +305,7 @@
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
+    "indianaJonesDLC": {
       "title": "DLC The Order of Giants dans Indiana Jones and the Great Circle",
       "displayType": "creatureCards",
       "intro": "The Order of Giants est un DLC d'histoire centré sur Rome. Suivez cette séquence pour le déverrouiller correctement, terminer le chapitre efficacement et compléter l'ensemble des objets de collection du DLC.",
@@ -387,7 +347,7 @@
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
+    "indianaJonesPlatforms": {
       "title": "Plateformes et configuration PC requise pour Indiana Jones and the Great Circle",
       "displayType": "itemCards",
       "intro": "Avant d'acheter ou d'installer, vérifiez la disponibilité des plateformes, les avantages des éditions, la couverture Game Pass et les niveaux de matériel PC, y compris les exigences de ray tracing.",
@@ -428,330 +388,6 @@
         "Confirmez la capacité du SSD : 126 Go plus l'espace DLC supplémentaire.",
         "Faites correspondre le choix de l'édition aux objectifs du DLC et du contenu bonus.",
         "Utilisez les fonctionnalités de l'écosystème spécifiques à la plateforme pour réduire le coût total."
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Indiana Jones and the Great Circle : Agriculture et croissance",
-      "displayType": "mixedCards",
-      "intro": "La croissance fait partie de la progression réelle dans Indiana Jones and the Great Circle. L'agriculture ne consiste pas seulement à planter et à récolter, mais aussi à établir des itinéraires de matériaux reproductibles qui maintiennent le flux de vos outils, armes et options d'artisanat.",
-      "sections": [
-        {
-          "name": "Progression des graines",
-          "description": "Planter et fertiliser des graines est une véritable étape dans le jeu, et récolter une noix entièrement développée fait partie du même chemin de croissance."
-        },
-        {
-          "name": "Agriculture de matériaux",
-          "description": "Une boucle agricole précoce pratique consiste à créer des capsules de mercure, qui génèrent de petits slimes qui lâchent des vrilles et de la boue pour des matériaux d'artisanat reproductibles."
-        },
-        {
-          "name": "Maintien des outils",
-          "description": "L'agriculture de ressources devient beaucoup plus forte une fois que vous pouvez collecter constamment de l'Osmium, des éclats de verre, des plantes et des matériaux de slime pour les fabrications ultérieures."
-        },
-        {
-          "name": "Routine de base",
-          "description": "La meilleure configuration agricole soutient plus que la nourriture. Elle devrait alimenter votre stockage, vos outils de mouvement, vos améliorations d'armes et vos futures expériences de fusion."
-        }
-      ],
-      "growthMilestones": [
-        "Fertiliser une graine",
-        "Récolter une noix entièrement développée",
-        "Créer des boucles de matériaux reproductibles",
-        "Transformer l'agriculture en progression à long terme"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Indiana Jones and the Great Circle : Meilleurs déverrouillages précoces",
-      "displayType": "priorityCards",
-      "intro": "Les déverrouillages précoces les plus puissants sont ceux qui améliorent la sécurité, le stockage et le mouvement. Dans Indiana Jones and the Great Circle, quelques améliorations pratiques peuvent rendre le reste du jeu beaucoup plus fluide.",
-      "priorities": [
-        {
-          "name": "Camp de base personnel",
-          "priority": "Essentiel",
-          "description": "Dès que vous avez accès à votre camp de base personnel, votre partie devient beaucoup plus stable. Il agit comme un hub fiable pour le stockage, la construction et le regroupement."
-        },
-        {
-          "name": "Pioche de givre",
-          "priority": "Très Élevé",
-          "description": "Un outil de minage précoce rapide et bon marché fabriqué à partir d'Osmium et de bâton. C'est l'une des améliorations les plus utiles pour accélérer la collecte de ressources au début."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Très Élevé",
-          "description": "La pression de stockage commence tôt, donc obtenir votre premier conteneur fiable de type coffre est une amélioration majeure de la qualité de vie."
-        },
-        {
-          "name": "Grappin",
-          "priority": "Élevé",
-          "description": "Le grappin est l'une des étapes de mouvement les plus claires du jeu et rend rapidement l'exploration plus rapide et plus sûre."
-        },
-        {
-          "name": "Gant de planeur",
-          "priority": "Élevé",
-          "description": "Le gant de planeur ajoute un autre boost de mobilité majeur et rend les déplacements sur de longues distances beaucoup plus efficaces."
-        },
-        {
-          "name": "Baguette de projectile ou bombes",
-          "priority": "Élevé",
-          "description": "Un outil à distance ou une option explosive vous donne une réponse plus sûre aux ennemis dangereux et aux rencontres de type épreuve."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Suivi des succès de Indiana Jones and the Great Circle",
-      "displayType": "achievementGrid",
-      "intro": "Indiana Jones and the Great Circle compte actuellement 19 succès Steam, qui se répartissent naturellement en exploration, artisanat, mobilité, combat et progression de croissance.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Ange α",
-              "description": "Entrez dans une qualia."
-            },
-            {
-              "title": "Ange γ",
-              "description": "Découvrez une ligne tellurique tiamana."
-            },
-            {
-              "title": "Ange δ",
-              "description": "Surmontez un défi tiamana."
-            },
-            {
-              "title": "Ange ε",
-              "description": "Succès caché."
-            }
-          ]
-        },
-        {
-          "name": "Artisanat et Invocation",
-          "achievements": [
-            {
-              "title": "Progression d'aventure α",
-              "description": "Fusionnez un objet."
-            },
-            {
-              "title": "Progression d'aventure β",
-              "description": "Fusionnez un vermine."
-            },
-            {
-              "title": "Progression d'aventure γ",
-              "description": "Fusionnez un artefact divin."
-            },
-            {
-              "title": "Archange β",
-              "description": "Invoquez votre foi."
-            }
-          ]
-        },
-        {
-          "name": "Mobilité et Utilitaire",
-          "achievements": [
-            {
-              "title": "Vertu α",
-              "description": "Volez avec le gant planeur."
-            },
-            {
-              "title": "Vertu β",
-              "description": "Commandez un grappin."
-            },
-            {
-              "title": "Archange α",
-              "description": "Brandissez une baguette de projectile."
-            },
-            {
-              "title": "Archange γ",
-              "description": "Brandissez un explosif."
-            }
-          ]
-        },
-        {
-          "name": "Combat et Créatures",
-          "achievements": [
-            {
-              "title": "Massacre de Bubblebear",
-              "description": "Vaincre des bubblebears innocents."
-            },
-            {
-              "title": "Archange δ",
-              "description": "Éliminez une créature blasphématoire."
-            },
-            {
-              "title": "Ange β",
-              "description": "Mourir."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Renommez un mignon vermine."
-            }
-          ]
-        },
-        {
-          "name": "Croissance et Agriculture",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilisez une graine."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Récoltez une noix entièrement développée."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Succès caché."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ sur le mode solo et les plateformes de Indiana Jones and the Great Circle",
-      "displayType": "accordion",
-      "intro": "Voici les questions essentielles sur les plateformes et l'accès que les joueurs posent avant d'acheter Indiana Jones and the Great Circle.",
-      "faqs": [
-        {
-          "question": "Indiana Jones and the Great Circle est-il un jeu solo ?",
-          "answer": "Oui. Indiana Jones and the Great Circle est un jeu solo."
-        },
-        {
-          "question": "Le multijoueur ou la coopération sont-ils prévus ?",
-          "answer": "Non. Le multijoueur n'est pas prévu pour la sortie ni pour les futures mises à jour."
-        },
-        {
-          "question": "Où puis-je jouer à Indiana Jones and the Great Circle ?",
-          "answer": "Il est actuellement disponible sur Steam pour Windows."
-        },
-        {
-          "question": "Combien coûte Indiana Jones and the Great Circle ?",
-          "answer": "9,99 $ sur Steam."
-        },
-        {
-          "question": "Indiana Jones and the Great Circle prend-il en charge les manettes ?",
-          "answer": "Oui, mais l'utilisation de la manette n'est pas recommandée car les menus ne sont pas conçus pour cela."
-        },
-        {
-          "question": "Indiana Jones and the Great Circle fonctionne-t-il sur Steam Deck ?",
-          "answer": "Oui. Proton 9.0 ou 9.0.4 est la configuration généralement recommandée pour Steam Deck."
-        },
-        {
-          "question": "Indiana Jones and the Great Circle fonctionne-t-il sur Linux ?",
-          "answer": "Oui. Proton 9.0 est réputé bien fonctionner pour Linux et Steam Deck."
-        },
-        {
-          "question": "Mac ou Android seront-ils pris en charge ?",
-          "answer": "Ils pourraient être pris en charge à l'avenir, mais ce ne sont pas des plateformes de lancement actuelles."
-        },
-        {
-          "question": "Indiana Jones and the Great Circle a-t-il des traductions ?",
-          "answer": "Non. Aucune traduction n'est actuellement prévue."
-        },
-        {
-          "question": "Indiana Jones and the Great Circle continuera-t-il à recevoir des mises à jour ?",
-          "answer": "Oui. Certaines mises à jour de contenu sont prévues après la sortie, mais elles ne sont pas destinées à se poursuivre sur un calendrier régulier indéfini."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Indiana Jones and the Great Circle Steam Deck et manette",
-      "displayType": "accordéon",
-      "intro": "Indiana Jones and the Great Circle peut fonctionner sur Steam Deck, mais la configuration par défaut peut nécessiter des ajustements. Le clavier et la souris restent l'option la plus fluide pour les menus et le jeu en général.",
-      "faqs": [
-        {
-          "question": "Est-ce que Indiana Jones and the Great Circle fonctionne sur Steam Deck ?",
-          "answer": "Oui. Proton 9.0 fonctionne bien, et Proton 9.0.4 est un correctif couramment partagé pour les problèmes sur Steam Deck."
-        },
-        {
-          "question": "Que dois-je faire si les commandes du Steam Deck ne fonctionnent pas ?",
-          "answer": "Forcez la compatibilité et passez le jeu sur Proton 9.0.4. La configuration par défaut peut ne pas accepter correctement les entrées de la manette."
-        },
-        {
-          "question": "Est-ce que Indiana Jones and the Great Circle prend en charge les manettes ?",
-          "answer": "Oui, mais jouer à la manette n'est pas recommandé car les menus du jeu ne sont pas conçus pour cela."
-        },
-        {
-          "question": "Le support Linux est-il possible ?",
-          "answer": "Oui. Il est rapporté que Proton 9.0 fonctionne bien pour Linux et Steam Deck."
-        },
-        {
-          "question": "Quelle est la meilleure configuration d'entrée ?",
-          "answer": "Le clavier et la souris sont l'option la plus fluide pour la navigation dans les menus et le jeu en général."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Paramètres et accessibilité de Indiana Jones and the Great Circle",
-      "displayType": "cartes de paramètres",
-      "intro": "Indiana Jones and the Great Circle dispose déjà de quelques paramètres pratiques et de notes de compatibilité qui comptent dès le premier lancement du jeu par les joueurs.",
-      "settings": [
-        {
-          "name": "Paramètres d'affichage",
-          "type": "Option de confort",
-          "description": "Les paramètres d'affichage incluent une option qui permet aux joueurs de masquer les mains à l'écran."
-        },
-        {
-          "name": "Compatibilité graphique",
-          "type": "Configuration requise",
-          "description": "Le support Vulkan est requis pour que les graphismes s'affichent correctement. Les systèmes sans Vulkan peuvent rencontrer des plantages et des bugs graphiques graves."
-        },
-        {
-          "name": "Préférence d'entrée",
-          "type": "Configuration des commandes",
-          "description": "Le support manette existe, mais le clavier et la souris offrent une expérience plus fluide car les menus ne sont pas conçus pour l'utilisation d'une manette."
-        },
-        {
-          "name": "Support linguistique",
-          "type": "Localisation",
-          "description": "La configuration actuelle est uniquement en anglais, et aucune traduction n'est prévue pour le moment."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Mises à jour et notes de patch de Indiana Jones and the Great Circle",
-      "displayType": "frise chronologique",
-      "intro": "Indiana Jones and the Great Circle reçoit déjà des correctifs rapides après le lancement et de petites mises à jour d'ergonomie.",
-      "entries": [
-        {
-          "title": "Mise à jour 2.8.2",
-          "type": "Mise à jour de l'interface utilisateur",
-          "description": "Renommé « awaken » en « exit » dans le menu principal."
-        },
-        {
-          "title": "Petit patch pour les plantages au démarrage",
-          "type": "Correctif",
-          "description": "Un patch dédié a été publié pour les joueurs dont le jeu plantait au lancement."
-        },
-        {
-          "title": "Support du contenu post-lancement",
-          "type": "Note de feuille de route",
-          "description": "Certaines mises à jour de contenu sont prévues après la sortie, mais elles ne sont pas destinées à se poursuivre selon un calendrier régulier indéfini."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Correction de plantages et dépannage de Indiana Jones and the Great Circle",
-      "displayType": "étapes",
-      "intro": "La plupart des problèmes immédiats de lancement et de plantage doivent être vérifiés dans un ordre simple : niveau de patch, support graphique, compatibilité de la plateforme et journaux.",
-      "steps": [
-        {
-          "title": "Installer le dernier correctif de plantage",
-          "description": "Si le jeu plante au démarrage, mettez-le d'abord à jour et testez à nouveau avec le dernier patch de plantage au démarrage."
-        },
-        {
-          "title": "Vérifier le support Vulkan",
-          "description": "Indiana Jones and the Great Circle nécessite le support Vulkan. Les systèmes sans Vulkan peuvent subir des plantages ou des problèmes de rendu majeurs."
-        },
-        {
-          "title": "Utiliser Proton 9.0.4 sur Steam Deck",
-          "description": "Si l'entrée ou le comportement de lancement sur Steam Deck est défectueux, forcez la compatibilité et passez à Proton 9.0.4."
-        },
-        {
-          "title": "Collecter les journaux de plantage",
-          "description": "Ouvrez « Exécuter » sous Windows, collez %APPDATA%, allez dans lucid blocks/logs et rassemblez les fichiers .txt pour le dépannage."
-        },
-        {
-          "title": "Signaler le problème correctement",
-          "description": "Partagez les journaux et les détails de l'appareil via le forum officiel de rapport de bugs sur Discord ou sur la page de la communauté Steam."
-        }
       ]
     }
   },

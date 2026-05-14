@@ -108,51 +108,11 @@
         "icon": "ArrowRight",
         "title": "Equipamento de Mobilidade",
         "description": "__PROTECTED_6a765cb2__, Glider Glove, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo e Crescimento",
-        "description": "Progressão de sementes e coleta de materiais"
-      },
-      {
-        "icon": "Star",
-        "title": "Melhores Desbloqueios Iniciais",
-        "description": "Melhorias prioritárias para a primeira hora"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Rastreador de Conquistas",
-        "description": "Todas as 19 conquistas e condições de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "FAQ Singleplayer",
-        "description": "Dúvidas sobre plataforma, preço, cooperativo e idioma"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck e Controle",
-        "description": "Configuração do Proton 9.0.4 e dicas de controle"
-      },
-      {
-        "icon": "Settings",
-        "title": "Configurações e Acessibilidade",
-        "description": "Ocultar mãos, __PROTECTED_38625270__ e opções de exibição"
-      },
-      {
-        "icon": "Clock",
-        "title": "Atualizações e Notas de Patch",
-        "description": "Correções recentes e notas do roadmap"
-      },
-      {
-        "icon": "Shield",
-        "title": "Correção de Travamentos",
-        "description": "Verificação de __PROTECTED_38625270__, caminho dos logs e relato de bugs"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
+    "indianaJonesWalkthrough": {
       "title": "Guia para Iniciantes de Lucid Blocks",
       "displayType": "steps",
       "intro": "Comece aprendendo como a exploração, a fusão e a progressão se conectam. Lucid Blocks recompensa a experimentação, portanto, o progresso inicial vem da coleta de materiais incomuns, do teste de combinações e do desbloqueio de sua Qualia pessoal.",
@@ -181,7 +141,7 @@
         "Perder-se no início é normal, mas ferramentas úteis, armazenamento e opções de movimento crescem rapidamente assim que suas primeiras boas fusões começam a funcionar."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
+    "indianaJonesSafeCodes": {
       "title": "Criação de Apotheosis em Lucid Blocks",
       "displayType": "cards",
       "intro": "Apotheosis é o sistema de fusão irrestrito do jogo. Em vez de memorizar um livro de receitas tradicional, você combina materiais, observa o resultado e constrói seu próprio conhecimento de criação ao longo do tempo.",
@@ -209,7 +169,7 @@
         "Fundir um artefato divino"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
+    "indianaJonesPuzzleSolutions": {
       "title": "Ferramentas e Armas de Lucid Blocks",
       "displayType": "itemCards",
       "intro": "Lucid Blocks mistura equipamentos utilitários oficiais com armas iniciais descobertas pela comunidade. A melhor configuração geralmente é uma mistura de mineração rápida, travessia segura e uma opção de combate confiável.",
@@ -256,7 +216,7 @@
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
+    "indianaJonesCollectibles": {
       "title": "Armazenamento e Inventário de Lucid Blocks",
       "displayType": "solutionCards",
       "intro": "A pressão no inventário começa cedo em Lucid Blocks, então construir armazenamento deve ser um de seus primeiros objetivos. Várias soluções testadas por jogadores reais já se destacam.",
@@ -289,7 +249,7 @@
         "Use seu diário como parte do gerenciamento de inventário, não apenas para descobertas de criação."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
+    "indianaJonesAdventureBooks": {
       "title": "Qualia e Construção de Base em Lucid Blocks",
       "displayType": "cards",
       "intro": "Qualia é um dos marcos de progressão mais importantes em Lucid Blocks. Ela oferece um espaço pessoal para se reagrupar, armazenar materiais e gradualmente transformar o progresso da exploração em uma base real.",
@@ -318,7 +278,7 @@
         "Usar o espaço da base para apoiar a criação e o cultivo"
       ]
     },
-    "lucidBlocksWorldRegions": {
+    "indianaJonesTrophies": {
       "title": "Regiões do Mundo de Lucid Blocks",
       "displayType": "regionCards",
       "intro": "Lucid Blocks utiliza geração de mundo infinita, então os jogadores continuam descobrindo novos ambientes e estruturas. Alguns lugares nomeados já estão aparecendo em conquistas e discussões da comunidade.",
@@ -345,7 +305,7 @@
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
+    "indianaJonesDLC": {
       "title": "Criaturas e Inimigos de Lucid Blocks",
       "displayType": "creatureCards",
       "intro": "Lucid Blocks mistura criaturas surreais com perigo real. Descrições oficiais e postagens da comunidade apontam para um mundo cheio de vida estranha, ameaças hostis e alguns encontros marcantes que os jogadores lembram rapidamente.",
@@ -387,7 +347,7 @@
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
+    "indianaJonesPlatforms": {
       "title": "Equipamento de Mobilidade de Lucid Blocks",
       "displayType": "itemCards",
       "intro": "Melhorias de movimento são um dos maiores saltos na qualidade de vida em Lucid Blocks. Depois de desbloquear suas primeiras ferramentas de travessia, a exploração torna-se mais rápida, segura e muito mais recompensadora.",
@@ -428,330 +388,6 @@
         "Voar com a luva planadora",
         "Empunhar uma varinha de projéteis",
         "Empunhar um explosivo"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo e Crescimento em Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "O crescimento faz parte da progressão real em Lucid Blocks. O cultivo não se trata apenas de plantar e colher, mas também de estabelecer rotas de materiais repetíveis que mantêm suas ferramentas, armas e opções de criação fluindo.",
-      "sections": [
-        {
-          "name": "Progressão de Sementes",
-          "description": "Plantar e fertilizar sementes é um marco real no jogo, e colher uma noz totalmente crescida faz parte do mesmo caminho de crescimento."
-        },
-        {
-          "name": "Cultivo de Materiais",
-          "description": "Um ciclo prático de cultivo inicial é criar Cápsulas de Mercúrio, que geram pequenos slimes que soltam Gavinhas e gosma para materiais de criação repetíveis."
-        },
-        {
-          "name": "Sustentação de Ferramentas",
-          "description": "O cultivo de recursos torna-se muito mais forte quando você consegue coletar consistentemente Ósmio, fragmentos de vidro, plantas e materiais de slime para criações subsequentes."
-        },
-        {
-          "name": "Rotina da Base",
-          "description": "A melhor configuração de cultivo suporta mais do que apenas comida. Ela deve alimentar seu armazenamento, ferramentas de movimento, melhorias de armas e futuros experimentos de fusão."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilizar uma semente",
-        "Colher uma noz totalmente crescida",
-        "Criar ciclos de materiais repetíveis",
-        "Transformar o cultivo em progressão de longo prazo"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Melhores Desbloqueios Iniciais de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Os desbloqueios iniciais mais fortes são aqueles que melhoram a segurança, o armazenamento e o movimento. Em Lucid Blocks, algumas melhorias práticas podem tornar todo o resto do jogo muito mais suave.",
-      "priorities": [
-        {
-          "name": "Qualia Pessoal",
-          "priority": "Essencial",
-          "description": "Assim que você obtém acesso à sua Qualia pessoal, sua jornada torna-se muito mais estável. Ela atua como um centro confiável para armazenamento, construção e reagrupamento."
-        },
-        {
-          "name": "Picareta de Gelo",
-          "priority": "Muito Alta",
-          "description": "Uma ferramenta de mineração inicial rápida e barata feita de Ósmio e Graveto. É uma das melhorias mais úteis para acelerar a coleta inicial de recursos."
-        },
-        {
-          "name": "Cubo de Cache",
-          "priority": "Muito Alta",
-          "description": "A pressão de armazenamento começa cedo, então obter seu primeiro recipiente confiável estilo baú é uma grande melhoria na qualidade de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "O gancho é um dos marcos de movimento mais claros do jogo e rapidamente torna a exploração mais rápida e segura."
-        },
-        {
-          "name": "Luva Planadora",
-          "priority": "Alta",
-          "description": "A luva planadora adiciona outro grande impulso de mobilidade e torna o movimento de longa distância muito mais eficiente."
-        },
-        {
-          "name": "Varinha de Projéteis ou Bombas",
-          "priority": "Alta",
-          "description": "Uma ferramenta de longo alcance ou opção explosiva oferece uma resposta mais segura a inimigos perigosos e encontros de estilo desafio."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Rastreador de Conquistas de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks possui atualmente 19 conquistas no Steam, e elas se dividem naturalmente em exploração, criação, mobilidade, combate e progressão de cultivo.",
-      "groups": [
-        {
-          "name": "Exploração",
-          "achievements": [
-            {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entre em uma qualia."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubra uma linha de ley tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Vença um desafio tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Conquista oculta."
-            }
-          ]
-        },
-        {
-          "name": "Criação e Invocação",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Funda um item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Funda um verme."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Funda um artefato divino."
-            },
-            {
-              "title": "Arcanjo β",
-              "description": "Invoque sua fé."
-            }
-          ]
-        },
-        {
-          "name": "Mobilidade e Utilidade",
-          "achievements": [
-            {
-              "title": "Virtude α",
-              "description": "Voe com a luva planadora."
-            },
-            {
-              "title": "Virtude β",
-              "description": "Comande um gancho."
-            },
-            {
-              "title": "Arcanjo α",
-              "description": "Empunhe uma varinha de projéteis."
-            },
-            {
-              "title": "Arcanjo γ",
-              "description": "Empunhe um explosivo."
-            }
-          ]
-        },
-        {
-          "name": "Combate e Criaturas",
-          "achievements": [
-            {
-              "title": "Massacre de __PROTECTED_26ee183b__",
-              "description": "Derrote bubblebears inocentes."
-            },
-            {
-              "title": "Arcanjo δ",
-              "description": "Elimine uma criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morra."
-            },
-            {
-              "title": "Domínio γ",
-              "description": "Renomeie um verme fofo."
-            }
-          ]
-        },
-        {
-          "name": "Crescimento e Cultivo",
-          "achievements": [
-            {
-              "title": "Domínio α",
-              "description": "Fertilize uma semente."
-            },
-            {
-              "title": "Domínio β",
-              "description": "Colha uma noz totalmente crescida."
-            },
-            {
-              "title": "Domínio δ",
-              "description": "Conquista oculta."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "FAQ de Singleplayer e Plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas são as principais perguntas sobre plataformas e acesso que os jogadores costumam fazer antes de comprar Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Lucid Blocks é singleplayer?",
-          "answer": "Sim. Lucid Blocks é um jogo singleplayer."
-        },
-        {
-          "question": "Multijogador ou cooperativo estão planejados?",
-          "answer": "Não. O modo multijogador não está planejado para o lançamento nem para atualizações futuras."
-        },
-        {
-          "question": "Onde posso jogar Lucid Blocks?",
-          "answer": "Ele está disponível atualmente no Steam para Windows."
-        },
-        {
-          "question": "Quanto custa Lucid Blocks?",
-          "answer": "$9,99 no Steam."
-        },
-        {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus não foram projetados para isso."
-        },
-        {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 ou 9.0.4 é a configuração comumente recomendada para o Steam Deck."
-        },
-        {
-          "question": "Lucid Blocks funciona no Linux?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Haverá suporte para Mac ou Android?",
-          "answer": "Eles podem ser suportados no futuro, mas não são plataformas de lançamento atuais."
-        },
-        {
-          "question": "Lucid Blocks possui traduções?",
-          "answer": "Não. Atualmente não há traduções planejadas."
-        },
-        {
-          "question": "Lucid Blocks continuará recebendo atualizações?",
-          "answer": "Sim. Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Steam Deck e Controle em Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks pode rodar no Steam Deck, mas a configuração padrão pode precisar de ajustes. Teclado e mouse continuam sendo a opção mais fluida para menus e jogabilidade geral.",
-      "faqs": [
-        {
-          "question": "Lucid Blocks funciona no Steam Deck?",
-          "answer": "Sim. O Proton 9.0 funciona bem, e o Proton 9.0.4 é uma correção comumente compartilhada para problemas no Steam Deck."
-        },
-        {
-          "question": "O que devo fazer se os controles do Steam Deck não estiverem funcionando?",
-          "answer": "Force a compatibilidade e mude o jogo para o Proton 9.0.4. A configuração padrão pode não aceitar a entrada do controle corretamente."
-        },
-        {
-          "question": "Lucid Blocks suporta controles?",
-          "answer": "Sim, mas jogar no controle não é recomendado porque os menus do jogo não foram projetados para isso."
-        },
-        {
-          "question": "O suporte para Linux é possível?",
-          "answer": "Sim. Relatos indicam que o Proton 9.0 funciona bem para Linux e Steam Deck."
-        },
-        {
-          "question": "Qual é a melhor configuração de entrada?",
-          "answer": "Teclado e mouse são a opção mais fluida para navegação em menus e jogabilidade geral momento a momento."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Configurações e Acessibilidade de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks já possui algumas configurações práticas e notas de compatibilidade que importam imediatamente quando os jogadores iniciam o jogo pela primeira vez.",
-      "settings": [
-        {
-          "name": "Configurações de Exibição",
-          "type": "Opção de Conforto",
-          "description": "As Configurações de Exibição incluem uma opção que permite aos jogadores ocultar as mãos na tela."
-        },
-        {
-          "name": "Compatibilidade Gráfica",
-          "type": "Requisito do Sistema",
-          "description": "O suporte a __PROTECTED_38625270__ é necessário para que os gráficos sejam renderizados corretamente. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas e erros gráficos graves."
-        },
-        {
-          "name": "Preferência de Entrada",
-          "type": "Configuração de Controle",
-          "description": "O suporte a controle existe, mas o teclado e o mouse proporcionam uma experiência mais fluida porque os menus não foram construídos para o uso de controle."
-        },
-        {
-          "name": "Suporte de Idioma",
-          "type": "Localização",
-          "description": "A configuração atual é apenas em inglês, e nenhuma tradução está planejada no momento."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Atualizações e Notas de Patch de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks já está recebendo correções rápidas pós-lançamento e pequenas atualizações de usabilidade.",
-      "entries": [
-        {
-          "title": "Atualização 2.8.2",
-          "type": "Atualização de UI",
-          "description": "Renomeado \"awaken\" para \"exit\" no menu principal."
-        },
-        {
-          "title": "Pequeno Patch para Falhas na Inicialização",
-          "type": "Hotfix",
-          "description": "Um patch dedicado foi lançado para jogadores cujo jogo estava travando ao iniciar."
-        },
-        {
-          "title": "Suporte de Conteúdo Pós-Lançamento",
-          "type": "Nota do Roteiro",
-          "description": "Algumas atualizações de conteúdo estão planejadas após o lançamento, mas não pretendem continuar em um cronograma regular indefinido."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Correção de Falhas e Solução de Problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "A maioria dos problemas imediatos de inicialização e falhas deve ser verificada em uma ordem simples: nível do patch, suporte gráfico, compatibilidade de plataforma e logs.",
-      "steps": [
-        {
-          "title": "Instale o Hotfix de Falhas Mais Recente",
-          "description": "Se o jogo estiver travando ao iniciar, atualize primeiro e teste novamente com o patch de falha de inicialização mais recente."
-        },
-        {
-          "title": "Verifique o Suporte a __PROTECTED_38625270__",
-          "description": "Lucid Blocks requer suporte a __PROTECTED_38625270__. Sistemas sem __PROTECTED_38625270__ podem sofrer falhas ou grandes problemas de renderização."
-        },
-        {
-          "title": "Use o Proton 9.0.4 no Steam Deck",
-          "description": "Se o comportamento de entrada ou inicialização do Steam Deck estiver quebrado, force a compatibilidade e mude para o Proton 9.0.4."
-        },
-        {
-          "title": "Colete Logs de Falhas",
-          "description": "Abra o Executar do Windows, cole %APPDATA%, vá para lucid blocks/logs e reúna os arquivos .txt para solução de problemas."
-        },
-        {
-          "title": "Relate o Problema Corretamente",
-          "description": "Compartilhe os logs e detalhes do dispositivo através do fórum oficial de bug-reports no Discord ou na página da comunidade do Steam."
-        }
       ]
     }
   },

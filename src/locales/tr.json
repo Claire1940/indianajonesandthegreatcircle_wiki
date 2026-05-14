@@ -70,722 +70,377 @@
     "subtitle": "Soygunlarda ve işbirliği gizliliğinde ustalaşmak için ihtiyacınız olan her şey",
     "cards": [
       {
-        "icon": "İndir",
-        "title": "Demo İndirme",
-        "description": "Ücretsiz Steam demosunu edinin"
+        "icon": "BookOpen",
+        "title": "Indiana Jones and the Great Circle Walkthrough",
+        "description": "Main story route, chapter order, and completion flow."
       },
       {
-        "icon": "KitapAçık",
-        "title": "Başlangıç Rehberi",
-        "description": "Temel döngü ve yaygın tuzaklar"
+        "icon": "Sparkles",
+        "title": "Indiana Jones and the Great Circle Safe Codes",
+        "description": "Fast access to safes, chests, and lock combinations."
       },
       {
-        "icon": "Kullanıcılar",
-        "title": "İşbirliği Rehberi",
-        "description": "6 oyunculu roller ve kurtarma taktikleri"
+        "icon": "Hammer",
+        "title": "Indiana Jones and the Great Circle Puzzle Solutions",
+        "description": "Quick solutions for major puzzle blockers by region."
       },
       {
-        "icon": "PanoKontrol",
-        "title": "Görevler & Amaçlar",
-        "description": "Yüksek Cüce'nin sizden istedikleri"
+        "icon": "Package",
+        "title": "Indiana Jones and the Great Circle Collectibles",
+        "description": "Track relics, notes, books, and key cleanup categories."
       },
       {
-        "icon": "Klavye",
-        "title": "Kontroller & Tuş Atamaları",
-        "description": "Varsayılan tuşlar ve nasıl değiştirileceği"
+        "icon": "Home",
+        "title": "Indiana Jones and the Great Circle Adventure Books",
+        "description": "Best skill books, upgrade costs, and top unlock priorities."
       },
       {
-        "icon": "Kalkan",
-        "title": "İçerik Ayarları",
-        "description": "Yetişkinlere yönelik içerik ve geçiş seçenekleri"
+        "icon": "Eye",
+        "title": "Indiana Jones and the Great Circle Trophies and Achievements",
+        "description": "Roadmap for Platinum, Gamerscore, and full completion cleanup."
       },
       {
-        "icon": "Çekiç",
-        "title": "Üretim & Ekipman",
-        "description": "Çalınan malzemelerle donanın"
+        "icon": "AlertTriangle",
+        "title": "Indiana Jones and the Great Circle The Order of Giants DLC",
+        "description": "Access steps, Rome route, and DLC collectible checklist."
       },
       {
-        "icon": "Paket",
-        "title": "Ganimet & Eşyalar",
-        "description": "Ne çalınır ve taşıma ipuçları"
-      },
-      {
-        "icon": "UyarıÜçgeni",
-        "title": "Düşmanlar & Tehlikeler",
-        "description": "Tehditler ve onlarla nasıl başa çıkılır"
-      },
-      {
-        "icon": "Göz",
-        "title": "Gizlilik & Kaçış",
-        "description": "Gizli kalın ve güvenli bir şekilde çıkış yapın"
-      },
-      {
-        "icon": "Ana Sayfa",
-        "title": "Ev Geliştirmeleri",
-        "description": "Yüzen ada üssünüzü geliştirin"
-      },
-      {
-        "icon": "MesajDairesi",
-        "title": "Topluluk & Discord",
-        "description": "Resmi bağlantılar ve grup bulma"
-      },
-      {
-        "icon": "Ayarlar",
-        "title": "Modlar & BepInEx",
-        "description": "Çerçeve ve mod kurulumunu yapın"
-      },
-      {
-        "icon": "Yıldız",
-        "title": "Popüler Modlar",
-        "description": "En iyi topluluk seçimleri ve özellikleri"
-      },
-      {
-        "icon": "OyunKonsolu2",
-        "title": "Kontrol Cihazı Desteği",
-        "description": "UI imleci ile tam gamepad oyunu"
-      },
-      {
-        "icon": "YükselişTrendi",
-        "title": "Oyuncu Sayısı & Trendi",
-        "description": "Canlı istatistikler ve zirve takibi"
+        "icon": "ArrowRight",
+        "title": "Indiana Jones and the Great Circle Platforms and PC Requirements",
+        "description": "Platform support, editions, and hardware requirement tiers."
       }
     ]
   },
   "modules": {
-    "demoDownload": {
-      "title": "Lucid Blocks Demo İndirme",
-      "subtitle": "Steam'de ücretsiz demoyu edinin",
-      "downloadSize": "2,62 GiB",
-      "diskSize": "4,88 GiB",
-      "releaseDate": "30 Ocak 2026",
-      "price": "Ücretsiz",
-      "platform": "PC (Steam) / Windows",
-      "engine": "Unity",
-      "primaryCTA": "Demo İndir",
-      "secondaryCTA": "Teknik Bilgileri Görüntüle",
-      "installPath": "Steam\\steamapps\\common\\Lucid Blocks Demo",
-      "sections": [
-        {
-          "heading": "Nereden indirilir",
-          "items": [
-            "Resmi Steam mağaza sayfasını açın ve 'Demo İndir' bölümünü kullanın.",
-            "Steam sizden oturum açmanızı isterse, önce oturum açın ve tekrar deneyin."
-          ]
-        },
-        {
-          "heading": "Kurulum & başlatma hızlı kontrolleri",
-          "items": [
-            "Varsayılan kurulum konumu: Steam Kütüphanesi klasörü → steamapps → common → (oyun klasörü).",
-            "Başlatılamıyorsa: Steam'de oyun dosyalarını doğrulayın, ardından Steam'i yeniden başlatın."
-          ]
-        }
-      ]
-    },
-    "beginnerGuide": {
-      "title": "Lucid Blocks Başlangıç Rehberi",
-      "subtitle": "Temel döngüde ustalaşın ve yaygın hatalardan kaçının",
+    "indianaJonesWalkthrough": {
+      "title": "Indiana Jones and the Great Circle Complete Walkthrough",
+      "displayType": "steps",
+      "intro": "Follow the main adventure order from South America to Iraq, with the major Fieldwork and Mystery checks placed where they fit best. Use this route for a clean story run or a 100% cleanup path.",
       "steps": [
         {
-          "number": 1,
-          "title": "Eve Girin",
-          "description": "Yüzen ada üssünüzden bir insan evine inin. Dışarıda doğun ve kilitli olmayan kapılardan veya pencerelerden içeri sızın."
+          "title": "South America: The Golden Idol",
+          "description": "Finish the opening temple sequence, learn basic traversal, traps, item handling, and the idol escape. This is a focused tutorial chapter."
         },
         {
-          "number": 2,
-          "title": "Görevleri Tamamlayın",
-          "description": "Yüksek Cüce görevlerini süre dolmadan bitirin. Tab tuşu aracılığıyla hedefleri kontrol edin ve öncelikle riskli görevlere öncelik verin."
+          "title": "Marshall College: The Break-In",
+          "description": "Investigate the museum break-in, inspect the college rooms, and follow the clues that lead Indy toward the Vatican. Collect early Journal Notes around classrooms and Indy's office."
         },
         {
-          "number": 3,
-          "title": "Eşyaları Çalın",
-          "description": "Değerli eşyaları ve üretim malzemelerini kapın. Gürültü yapmaktan veya ev sahibine yakalanmaktan kaçının."
+          "title": "The Vatican: The Stolen Cat Mummy",
+          "description": "First large hub route: meet Antonio, get the camera from Ernesto, explore the Vatican, solve story puzzles, and push toward the underground path. Clear nearby Fieldwork and Mysteries while you have access."
         },
         {
-          "number": 4,
-          "title": "Tornado ile Kaçın",
-          "description": "Zamanlayıcı sona erdiğinde, bahçede bir tornado oluşur—güvenli bir şekilde çıkış yapmak için ona ulaşın. Erken hareket etmeye başlayın!"
+          "title": "Gizeh: The Race Is On / The Idol of Ra",
+          "description": "Arrive in Gizeh, learn the desert hub layout, locate key camps and dig sites. Then progress through pyramid, Sphinx, tablet, and light-based puzzle sections. Prioritize Cloud Atlas for the Gizeh Medicine book."
         },
         {
-          "number": 5,
-          "title": "Geliştirin & Tekrarlayın",
-          "description": "Ödülleri ve malzemeleri evde ekipman üretmek için kullanın, ardından daha iyi ekipmanlarla bir sonraki soygununuza başlayın."
+          "title": "The Himalayas: A Harsh Climb",
+          "description": "Move through the KMS Kummetz section, solve the Kummetz Cipher door, and escape the frozen ship route. Check side rooms for Journal Notes before advancing."
+        },
+        {
+          "title": "Shanghai: Into the Fire",
+          "description": "Complete the high-pressure Shanghai escape sequence and collect available notes along the path."
+        },
+        {
+          "title": "Sukhothai: Trouble in Paradise / The Blessed Pearl",
+          "description": "Enter the Sukhothai hub, unlock boat movement, learn the water routes. Then complete Wat Mahathat, the hidden pyramid, and late-game temple puzzles. Clear all safe codes and cogwheel puzzles before the final push."
+        },
+        {
+          "title": "Iraq: Atonements",
+          "description": "Finish the final story chapter and use the endgame route for the Secret Vault and final completion checks. Return through free-roam to finish remaining collectibles."
         }
-      ],
-      "pitfalls": [
-        {
-          "title": "Yakalanmak",
-          "description": "Ev sahibi sizi kovalayacaktır. Saklanın, dikkat dağıtıcı unsurları kullanın ve kaçmak için görüş hattını kırın.",
-          "icon": "UyarıÜçgeni"
-        },
-        {
-          "title": "Sürenin Bitmesi",
-          "description": "Tornado zamanlayıcısı katıdır. Aşırı yağmalamak yerine erken bir şekilde çıkışa doğru ilerlemeye başlayın.",
-          "icon": "Saat"
-        },
-        {
-          "title": "Takım Arkadaşlarını Görmezden Gelmek",
-          "description": "Buzdolabı/fırın tuzaklarına yakalanan müttefikleri hızlıca kurtarın—kurtarmalar için hemen bağırın.",
-          "icon": "Kullanıcılar"
-        }
-      ]
-    },
-    "coopGuide": {
-      "title": "Lucid Blocks İşbirliği Rehberi",
-      "subtitle": "Maksimum kaos için 6 oyuncuya kadar koordine olun",
-      "maxPlayers": 6,
-      "roles": [
-        {
-          "name": "Gözcü",
-          "description": "Tehditleri kontrol edin, güvenli yolları işaretleyin ve takım hareketine rehberlik edin",
-          "icon": "Göz"
-        },
-        {
-          "name": "Taşıyıcı",
-          "description": "Sırt çantası geliştirmeleriyle ağır eşyalara odaklanın ve görev ilerlemesini güvence altına alın",
-          "icon": "Paket"
-        },
-        {
-          "name": "Dikkat Dağıtıcı",
-          "description": "Güvenli pencereler oluşturmak için ev sahibini/evcil hayvanları takımdan uzağa çekin",
-          "icon": "Kullanıcılar"
-        },
-        {
-          "name": "Kurtarıcı",
-          "description": "Tuzaktan kurtarma",
-          "icon": "Kalkan"
-        }
-      ],
-      "threats": [
-        "Ev Sahibi (sizi kovalar ve tuzağa düşürür)",
-        "Kediler & Fareler (devriye yolları)",
-        "Robot Süpürge (anında tehlike)",
-        "Süre Sınırı (tornado tahliyesi)"
-      ],
-      "communication": "Görevleri ve kurtarmaları koordine etmek için sesli sohbeti (V tuşu) kullanın. Şunu söyleyin: 'Görüldü', 'Rota', 'Kurtarmaya ihtiyacım var', 'Yakında çıkış yap'."
-    },
-    "tasksObjectives": {
-      "title": "Lucid Blocks Görevler & Amaçlar",
-      "subtitle": "Yüksek Cüce'nin istedikleri: görev örnekleri",
-      "taskTypes": [
-        {
-          "type": "Eşyaları Çalın",
-          "examples": [
-            "Yüksek Cüce hedefleri tarafından işaretlenen belirli eşyaları kapın"
-          ]
-        },
-        {
-          "type": "Konumlara Ulaşın",
-          "examples": [
-            "Evin içindeki belirtilen alanlara gidin"
-          ]
-        },
-        {
-          "type": "Yaramazlık Yapın",
-          "examples": [
-            "Bir TV'yi kırın",
-            "Bir tuvaleti su baskını yapın",
-            "Kaos yaratın"
-          ]
-        }
-      ],
-      "efficiency": [
-        "Takım bir aradayken önce riskli görevleri yapın",
-        "Takip sırasında kaybolmamaları için görev eşyaları için bir taşıyıcı atayın",
-        "Süre dolmadan çıkışa doğru hareket etmeye başlayın"
-      ]
-    },
-    "controlsKeybinds": {
-      "title": "Lucid Blocks Kontroller & Tuş Atamaları",
-      "subtitle": "Varsayılan klavye kontrolleri (ve bunları nerede değiştireceğiniz)",
-      "keybinds": [
-        {
-          "action": "Sola Hareket Et",
-          "key": "A"
-        },
-        {
-          "action": "Sağa Hareket Et",
-          "key": "D"
-        },
-        {
-          "action": "İleri Hareket Et",
-          "key": "W"
-        },
-        {
-          "action": "Geri Hareket Et",
-          "key": "S"
-        },
-        {
-          "action": "Çömelme",
-          "key": "Sol Ctrl"
-        },
-        {
-          "action": "Saldırı",
-          "key": "Sol Tık"
-        },
-        {
-          "action": "Koş",
-          "key": "Sol Shift"
-        },
-        {
-          "action": "Eşyayı Bırak",
-          "key": "G"
-        },
-        {
-          "action": "Etkileşim",
-          "key": "E"
-        },
-        {
-          "action": "Zıpla",
-          "key": "Boşluk"
-        },
-        {
-          "action": "Bas-Konuş",
-          "key": "V"
-        },
-        {
-          "action": "İtme",
-          "key": "Sağ Tık"
-        },
-        {
-          "action": "Bez Bebek",
-          "key": "Q"
-        },
-        {
-          "action": "Ekipman Yuvası 1",
-          "key": "1"
-        },
-        {
-          "action": "Ekipman Yuvası 2",
-          "key": "2"
-        },
-        {
-          "action": "Ekipman Yuvası 3",
-          "key": "3"
-        },
-        {
-          "action": "Ekipman Yuvası 4",
-          "key": "4"
-        },
-        {
-          "action": "Envanter",
-          "key": "Tab"
-        }
-      ],
-      "changePath": "Başlık menüsünden: AYARLAR'ı açın, ardından klavye ayarlarını kontrol edin. Tuş atama satırlarını filtrelemek için arama alanını kullanın."
-    },
-    "contentSettings": {
-      "title": "Lucid Blocks İçerik Ayarları",
-      "subtitle": "Yetişkinlere yönelik içerik, çıplaklık geçişi ve Steam tercihleri",
-      "descriptors": [
-        "Bazı Çıplaklık veya Cinsel İçerik",
-        "Genel Yetişkinlere Yönelik İçerik"
-      ],
-      "details": [
-        {
-          "heading": "Geliştiricilerin belirttiği şey",
-          "items": [
-            "Bir insan banyo gibi aktiviteler yaparken çıplak görünebilir.",
-            "Çıplaklık sansürlenmiştir ve isteğe bağlı olarak tamamen kapatılabilir.",
-            "Cüceler parçalanabilir ve acımasız şekillerde ölebilir."
-          ]
-        },
-        {
-          "heading": "Steam topluluk sayfasını engellerse",
-          "items": [
-            "Steam, içerik tercihlerinize bağlı olarak topluluk merkezini gizleyebilir.",
-            "Steam'in ne göstermesine izin verdiğinizi ayarlamak için Steam'in 'İçerik Tercihlerini Güncelle' seçeneğini kullanın."
-          ]
-        }
-      ]
-    },
-    "craftingEquipment": {
-      "title": "Lucid Blocks Üretim & Ekipman",
-      "subtitle": "Donanın: üretim örnekleri ve her aracın ne yaptığı",
-      "equipment": [
-        {
-          "item": "Sırt Çantası",
-          "benefit": "Her koşu için daha fazla ganimet için envanter kapasitesini genişletir"
-        },
-        {
-          "item": "Cüce Eldivenleri",
-          "benefit": "Kapıları açmanızı ve daha fazla nesneyle etkileşim kurmanızı sağlar"
-        },
-        {
-          "item": "Yaylı Ayakkabılar",
-          "benefit": "Kaçışlar sırasında yüksek düşmelerden kaynaklanan hasarı önler"
-        },
-        {
-          "item": "Silah",
-          "benefit": "Köşeye sıkıştığınızda fareler gibi tehditlerle savaşmanıza yardımcı olur"
-        }
-      ],
-      "sections": [
-        {
-          "heading": "Üretim yağmalamaya nasıl bağlanır",
-          "items": [
-            "Bir koşu sırasında, eşyaları çalın ve üretim malzemesi olarak geri getirin.",
-            "Tahliyeden sonra, ödüller/malzemeler yeni üretimleri destekler."
-          ]
-        },
-        {
-          "heading": "Üs iyileştirmesi",
-          "items": [
-            "Mobilya üretin ve yüzen ada evinizi yükseltin (tam oyun özelliği)."
-          ]
-        }
-      ]
-    },
-    "lootItems": {
-      "title": "Lucid Blocks Ganimet & Eşyalar",
-      "subtitle": "Ne çalınır: eşya türleri, risk ve taşıma ipuçları",
-      "categories": [
-        {
-          "type": "Görev Eşyaları",
-          "examples": [
-            "Yüksek Cüce tarafından hedefler için gerekli olan eşyalar"
-          ]
-        },
-        {
-          "type": "Üretim Malzemeleri",
-          "examples": [
-            "Cüce teçhizatına ve yükseltmelerine dönüştürülen ev eşyaları"
-          ]
-        },
-        {
-          "type": "Yaramazlık Hedefleri",
-          "examples": [
-            "Kırma veya su baskını gibi görevlerde yer alan nesneler"
-          ]
-        }
-      ],
-      "carryTips": [
-        "Görev ilerlemesine öncelik verin, ardından kalan kapasiteyi üretim malzemeleriyle doldurun",
-        "Tehditler yakındaysa, eşyaları uzun açık taşımalar yerine kısa güvenli sıçramalarla hareket ettirin",
-        "Zamanlayıcı sona ermeden bahçe tahliyesine giden rotayı planlayın"
-      ],
-      "riskLevels": [
-        {
-          "level": "Düşük",
-          "description": "Girişlerin veya güvenli köşelerin yakınında"
-        },
-        {
-          "level": "Orta",
-          "description": "Daha derin odalar veya dolaşan tehditlerin yakınında"
-        },
-        {
-          "level": "Yüksek",
-          "description": "Ev sahibi devriyesinin veya robot süpürgenin yakınında"
-        }
-      ]
-    },
-    "enemiesHazards": {
-      "title": "Lucid Blocks Düşmanlar & Tehlikeler",
-      "subtitle": "Sizi neyin yakalayabileceğini bilin",
-      "threats": [
-        {
-          "name": "Ev Sahibi",
-          "trigger": "Soygun yaparken veya görev yaparken yakalanmak",
-          "behavior": "Sizi kovalar ve yakalamaya çalışır",
-          "counter": "Gizli kalın, görüş hatlarını kırın ve bir ekip olarak hareket etmeye devam edin"
-        },
-        {
-          "name": "Kediler",
-          "trigger": "Çok yaklaşmak veya yollarını kesmek",
-          "behavior": "Siz gizlice dolaşırken doğrudan bir tehdit haline gelirler",
-          "counter": "Yollarından kaçının ve sessizce geçin"
-        },
-        {
-          "name": "Fareler",
-          "trigger": "Farelerin dolaştığı alanlara girmek",
-          "behavior": "Koşular sırasında kırılgan cüceleri tehdit ederler",
-          "counter": "Dar alanlarda tetikte olun ve geri çekilmeye hazır olun"
-        },
-        {
-          "name": "Robot Süpürge",
-          "trigger": "Temizleme yolunda olmak",
-          "behavior": "Cüceleri emebilir",
-          "counter": "Onu dinleyin, yolunda durmayın ve hızlıca yeniden konumlanın"
-        },
-        {
-          "name": "Buzdolabı / Fırın Tuzağı",
-          "trigger": "Ev sahibi tarafından yakalanmak",
-          "behavior": "İçeri kilitlenebilirsiniz; takım arkadaşları zamanında kurtarmazsa ölürsünüz",
-          "counter": "Hemen bağırın; takım arkadaşları kurtarma yoluna öncelik verir"
-        },
-        {
-          "name": "Süre Sınırı",
-          "trigger": "Koşu zamanlayıcısının sınıra ulaşması",
-          "behavior": "Bahçede tahliye tornadosu belirir; kaçmak için ona ulaşmalısınız",
-          "counter": "Aşırı yağmalamayı bırakın, yeniden toplanın ve erken bir şekilde tahliyeye başlayın"
-        }
-      ]
-    },
-    "stealthEscape": {
-      "title": "Lucid Blocks Gizlilik & Kaçış İpuçları",
-      "subtitle": "Daha fazla çalın, daha az ölün",
-      "do": [
-        "Gizli kalın ve nesnelerle etkileşim kurmadan önce siper alın",
-        "Ekip çalışmasını kullanın: tehditleri söyleyin ve rotaları koordine edin",
-        "Biri tuzağa düştüğünde veya yere serildiğinde takım arkadaşlarını hızlıca kurtarın",
-        "Kayıplarınızı azaltın ve zaman daraldığında tahliyeye gidin"
-      ],
-      "dont": [
-        "Tahliye yaklaştığında açgözlü olun",
-        "Ev sahibi aktifken takımdan çok uzağa ayrılın",
-        "Robot süpürge yollarını veya hayvan devriyelerini görmezden gelin",
-        "Bir takım arkadaşı kilitlendiğinde kurtarmaları geciktirin"
       ],
       "quickTips": [
-        {
-          "title": "3 Saniye Kuralı",
-          "text": "Bir sonraki hareketinizi 3 saniyede açıklayamazsanız, yakalanmak üzeresiniz demektir."
-        },
-        {
-          "title": "Önce Kurtarma",
-          "text": "Hızlı bir kurtarma koşuyu canlı tutar; yağmalama bekleyebilir."
-        },
-        {
-          "title": "Tahliye Disiplini",
-          "text": "Erken toplanın ve panik başlamadan önce tornadoya başlayın."
-        }
+        "Progress each hub naturally and clear nearby Fieldwork and Mysteries while you have access.",
+        "Buy Vatican, Gizeh, and Sukhothai exploration books when available to mark collectibles on the map.",
+        "Use post-story free-roam and the Journal travel tab for final cleanup.",
+        "Keep regional money separate because each region uses its own currency."
       ]
     },
-    "homeUpgrades": {
-      "title": "Lucid Blocks Ev Geliştirmeleri",
-      "subtitle": "Üret, inşa et, yükselt",
-      "branches": [
+    "indianaJonesSafeCodes": {
+      "title": "Indiana Jones and the Great Circle Safe Codes",
+      "displayType": "cards",
+      "intro": "Use these combinations for locked safes, chests, lockboxes, and story doors across the Vatican, Gizeh, the Himalayas, and Sukhothai. Filter by region, copy the code, then check the location and requirement note.",
+      "cards": [
         {
-          "branch": "Depolama",
-          "summary": "Daha fazla taşıyın ve daha fazlasını geri getirin",
-          "items": [
-            "Sırt Çantası (envanter genişletme)"
-          ]
+          "name": "Belvedere Courtyard Chest (Chest)",
+          "description": "Code: 5238. Location: Tent in the Belvedere Courtyard. Reward: Splinter Smash. Find the nearby ticket-stub clue."
         },
         {
-          "branch": "Yardımcı Program",
-          "summary": "Evle daha etkili etkileşim kurun",
-          "items": [
-            "Cüce Eldivenleri (kapıları ve daha fazlasını açmanızı sağlar)"
-          ]
+          "name": "Secret of Secrets (Safe)",
+          "description": "Code: 4471. Location: Office west of the Sistine Chapel. Reward: Cutman I. Decode the saint-statue clues."
         },
         {
-          "branch": "Hareketlilik",
-          "summary": "Dikey alanlarda daha güvenli hareket edin",
-          "items": [
-            "Yaylı Ayakkabılar (düşme hasarını azaltır)"
-          ]
+          "name": "A Date to Remember (Chest)",
+          "description": "Code: 6380. Location: Restricted area between Belvedere Courtyard and Museum Wing. Reward: Vatican Medicine."
         },
         {
-          "branch": "Savunma",
-          "summary": "Gerekirse küçük tehditlerle başa çıkın",
-          "items": [
-            "Silahlar (fareler gibi tehditler için)"
-          ]
+          "name": "Post Office Cellar Lockbox",
+          "description": "Code: 1136. Location: Cellar beneath the post office on Via Di Belvedere. Reward: Street Scrapper I. Get the Cellar Key during A Savage Discovery."
         },
         {
-          "branch": "Ana Üs",
-          "summary": "Mobilya üretin ve yüzen ada evinizi yükseltin",
-          "items": [
-            "Fonksiyonel mobilya yükseltmeleri"
-          ]
+          "name": "Cloud Atlas (Chest)",
+          "description": "Code: 0609. Location: Meteorological Station northwest of Gizeh Workers' Area. Reward: Gizeh Medicine. Match cloud status dates to atlas page numbers."
+        },
+        {
+          "name": "Nazi Compound Safe",
+          "description": "Code: 40926. Location: Building with Voss' office inside the Nazi Compound. Reward: Gun, money, and Ancient Relic."
+        },
+        {
+          "name": "Kummetz Cipher (Door)",
+          "description": "Code: 3666. Location: Officer's Quarters on the KMS Kummetz. Reward: Story progression. Set code wheels, enter Captain's Code JÖGM, read BLUT."
+        },
+        {
+          "name": "Voss' Gold Stash Safe",
+          "description": "Code: 5484. Location: Deep inside Voss' camp in Sukhothai. Reward: Voss' gold stash. Knock out the guard near the safe for the combination."
         }
       ],
-      "priority": [
-        {
-          "rank": 1,
-          "title": "Önce depolama",
-          "reason": "Daha fazla taşıma kapasitesi her koşunun getirisini artırır"
-        },
-        {
-          "rank": 2,
-          "title": "Sıradaki yardımcı program",
-          "reason": "Daha iyi etkileşimler tehlike bölgelerinde geçirilen süreyi azaltır"
-        },
-        {
-          "rank": 3,
-          "title": "Hayatta kalmak için hareketlilik",
-          "reason": "Düşme güvenliği kaçarken önlenebilir ölümleri önler"
-        }
-      ]
-    },
-    "community": {
-      "title": "Lucid Blocks Topluluk & Discord",
-      "subtitle": "Kadrolar, güncellemeler, tartışmalar bulun",
-      "links": [
-        {
-          "title": "Resmi Discord",
-          "subtitle": "Duyurular • Geri Bildirim • LFG",
-          "url": "https://discord.com/invite/lucidblocks"
-        },
-        {
-          "title": "Resmi X (Twitter)",
-          "subtitle": "Güncellemeler & geliştirici gönderileri",
-          "url": "https://x.com/lucidblocks"
-        },
-        {
-          "title": "Steam Topluluk Merkezi",
-          "subtitle": "Tartışmalar • Ekran Görüntüleri • Rehberler",
-          "url": "https://steamcommunity.com/app/3495730"
-        },
-        {
-          "title": "Steam Mağaza Sayfası",
-          "subtitle": "İstek Listesi • Demo • Resmi açıklama",
-          "url": "https://store.steampowered.com/app/3495730/Lucid_Blocks/"
-        }
-      ]
-    },
-    "modsBepInEx": {
-      "title": "Lucid Blocks Modlar & BepInEx Kurulumu",
-      "subtitle": "Modları temiz bir şekilde kurun",
-      "steps": [
-        {
-          "step": 1,
-          "title": "BepInEx 5'i Kurun",
-          "text": "BepInEx 5'i indirin ve oyun kök klasörüne çıkarın."
-        },
-        {
-          "step": 2,
-          "title": "Klasörleri oluşturmak için bir kez başlatın",
-          "text": "Oyunu ana menüye başlatın, ardından kapatın. Bu, BepInEx klasör yapısını oluşturur."
-        },
-        {
-          "step": 3,
-          "title": "Modları kurun",
-          "text": "Mod .dll dosyalarını eklenti klasörüne yerleştirin."
-        },
-        {
-          "step": 4,
-          "title": "Kurulumu doğrulayın",
-          "text": "Oyunu yeniden başlatın ve mod özelliğinin (kamera geçişi, UI imleci vb.) kullanılabilir olduğunu onaylayın."
-        }
-      ],
-      "paths": [
-        {
-          "label": "Tipik Steam kurulumu",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\"
-        },
-        {
-          "label": "Eklenti klasörü",
-          "path": "Steam\\steamapps\\common\\Lucid Blocks Demo\\BepInEx\\plugins\\"
-        }
-      ],
-      "multiplayerNote": "Modlanmış işbirliği oynanış özellikleri için herkes BepInEx'i ve aynı oynanış modlarını kurmalıdır."
-    },
-    "popularMods": {
-      "title": "Lucid Blocks Popüler Modlar",
-      "subtitle": "En iyi topluluk seçimleri",
-      "mods": [
-        {
-          "title": "Doğma Menüsü",
-          "tags": [
-            "Eğlence",
-            "Araçlar",
-            "Yalnızca Ev Sahibi"
-          ],
-          "description": "Uçuş modu ile bir eşya doğma menüsü ekler.",
-          "controls": [
-            {
-              "key": "F",
-              "action": "Doğma menüsünü aç"
-            },
-            {
-              "key": "V",
-              "action": "Uçmayı etkinleştir"
-            }
-          ],
-          "note": "Yalnızca Ev Sahibi; başkalarının katılmak için yüklemesi gerekmez."
-        },
-        {
-          "title": "Üçüncü Şahıs Görünümü",
-          "tags": [
-            "Kamera",
-            "Yaşam Kalitesi"
-          ],
-          "description": "Üçüncü şahıs kamera görünümü ekler.",
-          "controls": [
-            {
-              "key": "F7",
-              "action": "Birinci şahıs / üçüncü şahıs arasında geçiş yap"
-            }
-          ]
-        },
-        {
-          "title": "Daha Fazla Şapka",
-          "tags": [
-            "Kozmetik"
-          ],
-          "description": "Cüceler için ek şapka rengi seçenekleri ekler.",
-          "colors": [
-            "Mavi",
-            "Yeşil",
-            "Turuncu",
-            "Mor",
-            "Siyah",
-            "Kırmızı"
-          ]
-        },
-        {
-          "title": "TV'de DOOM",
-          "tags": [
-            "Eğlence",
-            "Mini oyun"
-          ],
-          "description": "Orijinal DOOM'u oyun içi bir TV'de oynayın, ses TV hoparlöründen gelsin.",
-          "highlights": [
-            "Çok oyunculu modda çalışır, böylece diğer oyuncular aynı TV'de izleyebilir",
-            "Shareware DOOM bölüm verilerini içerir (Bölüm 1)"
-          ]
-        }
-      ]
-    },
-    "controllerSupport": {
-      "title": "Lucid Blocks Kontrol Cihazı Desteği",
-      "subtitle": "Tam gamepad oyunu",
-      "native": {
-        "title": "Oyun İçi Ayarlar",
-        "description": "Kontrolleri ayarlamak için oyunun bağlamaları/ayarlar menülerini kullanın."
-      },
-      "mod": {
-        "title": "Kontrol Cihazı Desteği Modu",
-        "description": "Menüde gezinme için eksiksiz gamepad/kontrol cihazı desteği ve bir UI imleci ekler."
-      },
-      "features": [
-        "Tam Oynanış Kontrolleri: hareket, kamera, savaş, etkileşimler ve yetenekler gamepad'e eşlenmiştir",
-        "UI İmleç Gezinmesi: menülerde beyaz bir daire imleci görünür; tıklamak ve kaydırıcıları sürüklemek için A'ya basın",
-        "Envanter Gezinmesi: envanteri açmak için Seç'i basılı tutun; basılı tutarken gezinmek için sağ çubuğu kullanın",
-        "Kaydırılabilir Menüler: sağ çubuk, üretim tariflerini, ayarları ve diğer kaydırılabilir UI alanlarını kaydırır",
-        "Hızlı Erişim Çubuğu Döngüsü: D-pad sol/sağ, 4 hızlı erişim çubuğu yuvası arasında döngü yapar",
-        "Sorunsuz Giriş Değiştirme: klavye/fare ile kontrol cihazını otomatik olarak algılar"
-      ]
-    },
-    "playerCount": {
-      "title": "Lucid Blocks Oyuncu Sayısı & Trendi",
-      "subtitle": "Canlı popülerlik anlık görüntüsü",
-      "stats": {
-        "now": {
-          "value": "6.047",
-          "label": "Şu anda oyuncu"
-        },
-        "peak24h": {
-          "value": "13.859",
-          "label": "24 saatlik zirve"
-        },
-        "allTimePeak": {
-          "value": "15.272",
-          "label": "Tüm zamanların zirvesi"
-        }
-      },
       "milestones": [
+        "The Vatican",
+        "Gizeh",
+        "The Himalayas",
+        "Sukhothai"
+      ]
+    },
+    "indianaJonesPuzzleSolutions": {
+      "title": "Indiana Jones and the Great Circle Puzzle Solutions",
+      "displayType": "itemCards",
+      "intro": "Quick answers for the most common blockers, including Vatican fountain puzzles, Gizeh chamber puzzles, code-machine puzzles, and Sukhothai board or gear puzzles. Each entry gives the puzzle location, shortest solution, and reward.",
+      "items": [
         {
-          "date": "30 Ocak 2026",
-          "title": "Steam'de demo yayınlandı",
-          "detail": "Herkese açık demo PC'de (Steam) kullanıma sunuldu."
+          "name": "Fountain of Confession",
+          "type": "The Vatican",
+          "description": "Turn both dragon statues to face the fountain, whip the center dragon, rotate the fountain cube. Opens the underground route toward the Secret Monastery."
         },
         {
-          "date": "8 Şubat 2026",
-          "title": "Tüm zamanların zirvesine ulaşıldı",
-          "detail": "Demo, kaydedilen en yüksek eş zamanlı oyuncu sayısına ulaştı."
+          "name": "Sacred Wounds",
+          "type": "The Vatican",
+          "description": "Pour wine into golden basins, read residue numbers beside marked wounds, match numbers to levers on crucifix mural. Opens next Vatican story path."
+        },
+        {
+          "name": "House of God",
+          "type": "The Vatican",
+          "description": "Slide front lever on puzzle box, move medallion into opposite compartment, take Golden Chalice, place on top. Reward: Vatican Relics book."
+        },
+        {
+          "name": "Chamber of Resonance",
+          "type": "Gizeh",
+          "description": "Photograph Adamic tablets, crawl into low tunnel, break wall with two-handed mace, select photos in order: Heed, The Lord's, Oath, Protect, The secret, Of the name. Opens Underground Cave System."
+        },
+        {
+          "name": "Cloud Atlas",
+          "type": "Gizeh",
+          "description": "Match dates 13.10, 09.10, 16.10, 14.10 with Cirrus, Stratus, Cirrus, Cumulonimbus, convert to 0, 6, 0, 9. Reward: Gizeh Medicine book."
+        },
+        {
+          "name": "Kummetz Cipher",
+          "type": "The Himalayas",
+          "description": "Collect four code wheels, arrange in cipher machine, enter Captain's Code JÖGM, read BLUT, cross-check on code tables, input 3666. Unlocks KMS Kummetz story door."
+        },
+        {
+          "name": "A Game of Wits",
+          "type": "Sukhothai",
+          "description": "Solve the Mak-Yek board puzzle, then use combination 3186 to open the safe. Reward: Mystery completion."
+        },
+        {
+          "name": "Khmer Cogwheel Puzzles",
+          "type": "Sukhothai",
+          "description": "Collect all 10 Khmer Cogwheels, connect each gear train, recover Ancient Relic at each site. Reward: Ancient Relics and Gear Head completion route."
         }
+      ]
+    },
+    "indianaJonesCollectibles": {
+      "title": "Indiana Jones and the Great Circle Collectibles",
+      "displayType": "solutionCards",
+      "intro": "Track the major collectible groups needed for 100% completion, trophies, upgrades, and late-game cleanup. Start with region maps and exploration books, then clean up remaining items through free-roam.",
+      "solutions": [
+        {
+          "name": "Ancient Relics",
+          "role": "50 total",
+          "description": "The Vatican 10, Gizeh 15, Sukhothai 24, Iraq 1. Required for Shadows out of Time and Secret Vault completion."
+        },
+        {
+          "name": "Lost Artifacts",
+          "role": "15 total",
+          "description": "The Vatican 5, Gizeh 5, Sukhothai 5. Required for Repatriation."
+        },
+        {
+          "name": "Journal Notes",
+          "role": "497 total",
+          "description": "All major regions. Required for Archivist. Split across Adventure, Fieldwork, Discoveries, and Mysteries."
+        },
+        {
+          "name": "Adventure Books",
+          "role": "55 books",
+          "description": "Major hubs, vendors, locked chests, puzzle rewards. Required for Bookman. Used to unlock or improve Indy abilities with Adventure Points."
+        },
+        {
+          "name": "Stelae",
+          "role": "10 total",
+          "description": "Gizeh only. Required for It Belongs in a Museum. Collect while clearing Gizeh dig sites."
+        },
+        {
+          "name": "Radio Frequencies",
+          "role": "8 total",
+          "description": "Gizeh 4, Sukhothai 4. Required for Tuned In. Collect from Nazi or Fascist compounds."
+        },
+        {
+          "name": "Khmer Cogwheels",
+          "role": "10 total",
+          "description": "Sukhothai only. Used for cogwheel puzzles and the final Khmer Gear Puzzle route."
+        },
+        {
+          "name": "Medicine Bottles",
+          "role": "Regional sets",
+          "description": "The Vatican, Gizeh, Sukhothai. Used with doctors to obtain upgrade books for health and stamina progression."
+        }
+      ],
+      "managementTips": [
+        "Buy regional exploration books first so collectible icons appear on the map.",
+        "Sweep each hub after finishing the main route in that region.",
+        "Use the Journal to check photos, letters, maps, and clue documents after each major quest.",
+        "Collect Ancient Relics through hub puzzles and underground routes, not just as loot."
+      ]
+    },
+    "indianaJonesAdventureBooks": {
+      "title": "Indiana Jones and the Great Circle Adventure Books",
+      "displayType": "cards",
+      "intro": "Adventure Books are the core long-term upgrade system in Indiana Jones and the Great Circle. Track high-value unlocks early, then use map reveal books to speed up collectible cleanup in each major region.",
+      "cards": [
+        {
+          "name": "Punch Out I",
+          "description": "Region: The Vatican, Castel Sant'Angelo. Cost: 25 AP. Effect: restores stamina after a knockout. Priority: unlock early."
+        },
+        {
+          "name": "Lucky Hat I",
+          "description": "Region: The Vatican, Captain's Room. Cost: 125 AP. Effect: second-chance recovery after getting knocked out."
+        },
+        {
+          "name": "Moxie I, II, III",
+          "description": "Regions: Vatican, Gizeh, Sukhothai. Cost: 5/10/15 Medicine Bottles. Effect: extends stamina bar for exploration and combat."
+        },
+        {
+          "name": "Shaping Up I, II, III",
+          "description": "Regions: Vatican, Gizeh, Sukhothai. Cost: 5/10/15 Medicine Bottles. Effect: adds extra health reserve bars."
+        }
+      ],
+      "highlights": [
+        "Climbing Ace I and Pep I are strong early stamina picks for route efficiency.",
+        "Throttle and Jumbo Lasso improve stealth and heavy-enemy control in tougher encounters.",
+        "Fruit Bag is a practical sustain option when staying in the field longer.",
+        "Use Vatican, Gizeh, and Sukhothai map books before 100% cleanup."
+      ]
+    },
+    "indianaJonesTrophies": {
+      "title": "Indiana Jones and the Great Circle Trophies and Achievements",
+      "displayType": "regionCards",
+      "intro": "Use this roadmap to plan a one-playthrough base-game completion route, then finish The Order of Giants DLC cleanup for full platform completion totals.",
+      "regions": [
+        {
+          "name": "Base PlayStation Trophies",
+          "type": "46 Trophies",
+          "description": "Includes 1 Platinum, 2 Gold, 15 Silver, and 28 Bronze. Typical completion time: 40-50 hours."
+        },
+        {
+          "name": "Base Xbox Achievements",
+          "type": "45 Achievements / 1,000 GS",
+          "description": "Follows the same route as Steam completion: story progress, Fieldwork, Mysteries, collectibles, and Adventure Books."
+        },
+        {
+          "name": "Missables and Difficulty",
+          "type": "0 Missables in Main Roadmap",
+          "description": "Difficulty does not gate the listed trophies, and free-roam cleanup remains available after story completion."
+        },
+        {
+          "name": "Hardest Completion Check",
+          "type": "Archivist",
+          "description": "Requires all Journal notes and effectively represents full base-game completion discipline."
+        }
+      ]
+    },
+    "indianaJonesDLC": {
+      "title": "Indiana Jones and the Great Circle The Order of Giants DLC",
+      "displayType": "creatureCards",
+      "intro": "The Order of Giants is a Rome-focused story DLC. Follow this sequence to unlock it correctly, clear the chapter efficiently, and complete the DLC collectible set.",
+      "creatures": [
+        {
+          "name": "Step 1: Check DLC Access",
+          "role": "Release and Ownership",
+          "description": "Released September 4, 2025. Included with Premium Edition/Upgrade and Collector bundles; base game required."
+        },
+        {
+          "name": "Step 2: Reach Required Story Point",
+          "role": "Base Game Progress",
+          "description": "Advance main story until Vatican progress allows DLC start, including the related progression objective checkpoint."
+        },
+        {
+          "name": "Step 3: Start A Mystery Begins",
+          "role": "Quest Trigger",
+          "description": "Meet Father Ricci near the Vatican Fountain of Confession to begin the DLC route."
+        },
+        {
+          "name": "Step 4: Enter Villa Pia Route",
+          "role": "Early DLC Path",
+          "description": "Follow Pio, access Ricci's office, collect key items, and push into the Casina/Villa Pia objective chain."
+        },
+        {
+          "name": "Step 5: Clear Rome Chapter",
+          "role": "Main Mission Flow",
+          "description": "Complete the connected Rome story thread across underground routes, chambers, and puzzle-heavy segments."
+        },
+        {
+          "name": "Step 6: Collect DLC Completion Set",
+          "role": "100% Cleanup",
+          "description": "Collect 118 Journal Notes, 7 Mithraic Artifacts, and complete all Rome Mysteries plus book abilities."
+        },
+        {
+          "name": "Step 7: Finish Trophy/Achievement Targets",
+          "role": "Final Checklist",
+          "description": "Wrap story completion, remaining mysteries, artifact checks, and the optional cat interaction objective."
+        }
+      ]
+    },
+    "indianaJonesPlatforms": {
+      "title": "Indiana Jones and the Great Circle Platforms and PC Requirements",
+      "displayType": "itemCards",
+      "intro": "Before buying or installing, check platform availability, edition benefits, Game Pass coverage, and PC hardware tiers including ray tracing requirements.",
+      "items": [
+        {
+          "name": "Xbox Series X|S",
+          "type": "Platform",
+          "description": "Available with Xbox ecosystem support and Play Anywhere benefits when purchased through Xbox."
+        },
+        {
+          "name": "Steam and PlayStation 5",
+          "type": "Platform",
+          "description": "Steam supports PC requirements and achievements; PS5 supports the full trophy route including Platinum."
+        },
+        {
+          "name": "Nintendo Switch 2",
+          "type": "Platform",
+          "description": "Listed as available with release date May 12, 2026 for portable play coverage."
+        },
+        {
+          "name": "Game Pass Access",
+          "type": "Subscription",
+          "description": "Available through Game Pass options for Xbox Series X|S, Xbox PC, and cloud-supported play paths."
+        },
+        {
+          "name": "Standard vs Premium",
+          "type": "Edition",
+          "description": "Standard includes the base game; Premium adds The Order of Giants DLC and bundled digital extras."
+        },
+        {
+          "name": "PC Requirements",
+          "type": "Specs",
+          "description": "Minimum 1080p tier starts at RTX 2060 SUPER / RX 6600 class; higher tiers target 1440p and 4K with stronger ray tracing GPUs."
+        }
+      ],
+      "unlockMilestones": [
+        "Check hardware ray tracing support before install.",
+        "Confirm SSD capacity: 126 GB plus additional DLC space.",
+        "Match edition choice to DLC and bonus content goals.",
+        "Use platform-specific ecosystem features to reduce total cost."
       ]
     }
   },

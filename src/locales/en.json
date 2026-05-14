@@ -108,188 +108,201 @@
         "icon": "ArrowRight",
         "title": "Indiana Jones and the Great Circle Platforms and PC Requirements",
         "description": "Platform support, editions, and hardware requirement tiers."
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Indiana Jones and the Great Circle Resource Farming",
-        "description": "Efficient money and material collection routes."
-      },
-      {
-        "icon": "Star",
-        "title": "Indiana Jones and the Great Circle Early Priorities",
-        "description": "Best first unlocks and practical early-game choices."
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Indiana Jones and the Great Circle Achievement Tracker",
-        "description": "Structured checklist for Steam and platform progress."
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Indiana Jones and the Great Circle FAQ",
-        "description": "Core answers for editions, access, and progression."
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Indiana Jones and the Great Circle Controller Guide",
-        "description": "Controller setup and platform input expectations."
-      },
-      {
-        "icon": "Settings",
-        "title": "Indiana Jones and the Great Circle Settings Guide",
-        "description": "Practical settings and troubleshooting checkpoints."
-      },
-      {
-        "icon": "Clock",
-        "title": "Indiana Jones and the Great Circle Updates",
-        "description": "Patch highlights, fixes, and current update notes."
-      },
-      {
-        "icon": "Shield",
-        "title": "Indiana Jones and the Great Circle Stability Guide",
-        "description": "Crash triage and performance troubleshooting flow."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Indiana Jones and the Great Circle Beginner Guide",
+    "indianaJonesWalkthrough": {
+      "title": "Indiana Jones and the Great Circle Complete Walkthrough",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Indiana Jones and the Great Circle rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal base camp.",
+      "intro": "Follow the main adventure order from South America to Iraq, with the major Fieldwork and Mystery checks placed where they fit best. Use this route for a clean story run or a 100% cleanup path.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "South America: The Golden Idol",
+          "description": "Finish the opening temple sequence, learn basic traversal, traps, item handling, and the idol escape. This is a focused tutorial chapter."
         },
         {
-          "title": "Unlock Your Personal base camp Early",
-          "description": "Your personal base camp is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Marshall College: The Break-In",
+          "description": "Investigate the museum break-in, inspect the college rooms, and follow the clues that lead Indy toward the Vatican. Collect early Journal Notes around classrooms and Indy's office."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "The Vatican: The Stolen Cat Mummy",
+          "description": "First large hub route: meet Antonio, get the camera from Ernesto, explore the Vatican, solve story puzzles, and push toward the underground path. Clear nearby Fieldwork and Mysteries while you have access."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Indiana Jones and the Great Circle has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Gizeh: The Race Is On / The Idol of Ra",
+          "description": "Arrive in Gizeh, learn the desert hub layout, locate key camps and dig sites. Then progress through pyramid, Sphinx, tablet, and light-based puzzle sections. Prioritize Cloud Atlas for the Gizeh Medicine book."
+        },
+        {
+          "title": "The Himalayas: A Harsh Climb",
+          "description": "Move through the KMS Kummetz section, solve the Kummetz Cipher door, and escape the frozen ship route. Check side rooms for Journal Notes before advancing."
+        },
+        {
+          "title": "Shanghai: Into the Fire",
+          "description": "Complete the high-pressure Shanghai escape sequence and collect available notes along the path."
+        },
+        {
+          "title": "Sukhothai: Trouble in Paradise / The Blessed Pearl",
+          "description": "Enter the Sukhothai hub, unlock boat movement, learn the water routes. Then complete Wat Mahathat, the hidden pyramid, and late-game temple puzzles. Clear all safe codes and cogwheel puzzles before the final push."
+        },
+        {
+          "title": "Iraq: Atonements",
+          "description": "Finish the final story chapter and use the endgame route for the Secret Vault and final completion checks. Return through free-roam to finish remaining collectibles."
         }
       ],
       "quickTips": [
-        "Adventure Progression does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Progress each hub naturally and clear nearby Fieldwork and Mysteries while you have access.",
+        "Buy Vatican, Gizeh, and Sukhothai exploration books when available to mark collectibles on the map.",
+        "Use post-story free-roam and the Journal travel tab for final cleanup.",
+        "Keep regional money separate because each region uses its own currency."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Indiana Jones and the Great Circle Adventure Progression Crafting",
+    "indianaJonesSafeCodes": {
+      "title": "Indiana Jones and the Great Circle Safe Codes",
       "displayType": "cards",
-      "intro": "Adventure Progression is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+      "intro": "Use these combinations for locked safes, chests, lockboxes, and story doors across the Vatican, Gizeh, the Himalayas, and Sukhothai. Filter by region, copy the code, then check the location and requirement note.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Adventure Progression lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "Belvedere Courtyard Chest (Chest)",
+          "description": "Code: 5238. Location: Tent in the Belvedere Courtyard. Reward: Splinter Smash. Find the nearby ticket-stub clue."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Secret of Secrets (Safe)",
+          "description": "Code: 4471. Location: Office west of the Sistine Chapel. Reward: Cutman I. Decode the saint-statue clues."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Adventure Progression is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "A Date to Remember (Chest)",
+          "description": "Code: 6380. Location: Restricted area between Belvedere Courtyard and Museum Wing. Reward: Vatican Medicine."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
+          "name": "Post Office Cellar Lockbox",
+          "description": "Code: 1136. Location: Cellar beneath the post office on Via Di Belvedere. Reward: Street Scrapper I. Get the Cellar Key during A Savage Discovery."
+        },
+        {
+          "name": "Cloud Atlas (Chest)",
+          "description": "Code: 0609. Location: Meteorological Station northwest of Gizeh Workers' Area. Reward: Gizeh Medicine. Match cloud status dates to atlas page numbers."
+        },
+        {
+          "name": "Nazi Compound Safe",
+          "description": "Code: 40926. Location: Building with Voss' office inside the Nazi Compound. Reward: Gun, money, and Ancient Relic."
+        },
+        {
+          "name": "Kummetz Cipher (Door)",
+          "description": "Code: 3666. Location: Officer's Quarters on the KMS Kummetz. Reward: Story progression. Set code wheels, enter Captain's Code JÖGM, read BLUT."
+        },
+        {
+          "name": "Voss' Gold Stash Safe",
+          "description": "Code: 5484. Location: Deep inside Voss' camp in Sukhothai. Reward: Voss' gold stash. Knock out the guard near the safe for the combination."
         }
       ],
       "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
+        "The Vatican",
+        "Gizeh",
+        "The Himalayas",
+        "Sukhothai"
       ]
     },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Indiana Jones and the Great Circle Tools and Weapons",
+    "indianaJonesPuzzleSolutions": {
+      "title": "Indiana Jones and the Great Circle Puzzle Solutions",
       "displayType": "itemCards",
-      "intro": "Indiana Jones and the Great Circle mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+      "intro": "Quick answers for the most common blockers, including Vatican fountain puzzles, Gizeh chamber puzzles, code-machine puzzles, and Sukhothai board or gear puzzles. Each entry gives the puzzle location, shortest solution, and reward.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Fountain of Confession",
+          "type": "The Vatican",
+          "description": "Turn both dragon statues to face the fountain, whip the center dragon, rotate the fountain cube. Opens the underground route toward the Secret Monastery."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "name": "Sacred Wounds",
+          "type": "The Vatican",
+          "description": "Pour wine into golden basins, read residue numbers beside marked wounds, match numbers to levers on crucifix mural. Opens next Vatican story path."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "name": "House of God",
+          "type": "The Vatican",
+          "description": "Slide front lever on puzzle box, move medallion into opposite compartment, take Golden Chalice, place on top. Reward: Vatican Relics book."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "name": "Chamber of Resonance",
+          "type": "Gizeh",
+          "description": "Photograph Adamic tablets, crawl into low tunnel, break wall with two-handed mace, select photos in order: Heed, The Lord's, Oath, Protect, The secret, Of the name. Opens Underground Cave System."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "name": "Cloud Atlas",
+          "type": "Gizeh",
+          "description": "Match dates 13.10, 09.10, 16.10, 14.10 with Cirrus, Stratus, Cirrus, Cumulonimbus, convert to 0, 6, 0, 9. Reward: Gizeh Medicine book."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "name": "Kummetz Cipher",
+          "type": "The Himalayas",
+          "description": "Collect four code wheels, arrange in cipher machine, enter Captain's Code JÖGM, read BLUT, cross-check on code tables, input 3666. Unlocks KMS Kummetz story door."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "name": "A Game of Wits",
+          "type": "Sukhothai",
+          "description": "Solve the Mak-Yek board puzzle, then use combination 3186 to open the safe. Reward: Mystery completion."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Khmer Cogwheel Puzzles",
+          "type": "Sukhothai",
+          "description": "Collect all 10 Khmer Cogwheels, connect each gear train, recover Ancient Relic at each site. Reward: Ancient Relics and Gear Head completion route."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Indiana Jones and the Great Circle Storage and Inventory",
+    "indianaJonesCollectibles": {
+      "title": "Indiana Jones and the Great Circle Collectibles",
       "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Indiana Jones and the Great Circle, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
+      "intro": "Track the major collectible groups needed for 100% completion, trophies, upgrades, and late-game cleanup. Start with region maps and exploration books, then clean up remaining items through free-roam.",
       "solutions": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "name": "Ancient Relics",
+          "role": "50 total",
+          "description": "The Vatican 10, Gizeh 15, Sukhothai 24, Iraq 1. Required for Shadows out of Time and Secret Vault completion."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "name": "Lost Artifacts",
+          "role": "15 total",
+          "description": "The Vatican 5, Gizeh 5, Sukhothai 5. Required for Repatriation."
         },
         {
-          "name": "Personal base camp",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal base camp becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "name": "Journal Notes",
+          "role": "497 total",
+          "description": "All major regions. Required for Archivist. Split across Adventure, Fieldwork, Discoveries, and Mysteries."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "name": "Adventure Books",
+          "role": "55 books",
+          "description": "Major hubs, vendors, locked chests, puzzle rewards. Required for Bookman. Used to unlock or improve Indy abilities with Adventure Points."
+        },
+        {
+          "name": "Stelae",
+          "role": "10 total",
+          "description": "Gizeh only. Required for It Belongs in a Museum. Collect while clearing Gizeh dig sites."
+        },
+        {
+          "name": "Radio Frequencies",
+          "role": "8 total",
+          "description": "Gizeh 4, Sukhothai 4. Required for Tuned In. Collect from Nazi or Fascist compounds."
+        },
+        {
+          "name": "Khmer Cogwheels",
+          "role": "10 total",
+          "description": "Sukhothai only. Used for cogwheel puzzles and the final Khmer Gear Puzzle route."
+        },
+        {
+          "name": "Medicine Bottles",
+          "role": "Regional sets",
+          "description": "The Vatican, Gizeh, Sukhothai. Used with doctors to obtain upgrade books for health and stamina progression."
         }
       ],
       "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal base camp once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
+        "Buy regional exploration books first so collectible icons appear on the map.",
+        "Sweep each hub after finishing the main route in that region.",
+        "Use the Journal to check photos, letters, maps, and clue documents after each major quest.",
+        "Collect Ancient Relics through hub puzzles and underground routes, not just as loot."
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
+    "indianaJonesAdventureBooks": {
       "title": "Indiana Jones and the Great Circle Adventure Books",
       "displayType": "cards",
       "intro": "Adventure Books are the core long-term upgrade system in Indiana Jones and the Great Circle. Track high-value unlocks early, then use map reveal books to speed up collectible cleanup in each major region.",
@@ -318,7 +331,7 @@
         "Use Vatican, Gizeh, and Sukhothai map books before 100% cleanup."
       ]
     },
-    "lucidBlocksWorldRegions": {
+    "indianaJonesTrophies": {
       "title": "Indiana Jones and the Great Circle Trophies and Achievements",
       "displayType": "regionCards",
       "intro": "Use this roadmap to plan a one-playthrough base-game completion route, then finish The Order of Giants DLC cleanup for full platform completion totals.",
@@ -345,7 +358,7 @@
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
+    "indianaJonesDLC": {
       "title": "Indiana Jones and the Great Circle The Order of Giants DLC",
       "displayType": "creatureCards",
       "intro": "The Order of Giants is a Rome-focused story DLC. Follow this sequence to unlock it correctly, clear the chapter efficiently, and complete the DLC collectible set.",
@@ -387,7 +400,7 @@
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
+    "indianaJonesPlatforms": {
       "title": "Indiana Jones and the Great Circle Platforms and PC Requirements",
       "displayType": "itemCards",
       "intro": "Before buying or installing, check platform availability, edition benefits, Game Pass coverage, and PC hardware tiers including ray tracing requirements.",
@@ -428,330 +441,6 @@
         "Confirm SSD capacity: 126 GB plus additional DLC space.",
         "Match edition choice to DLC and bonus content goals.",
         "Use platform-specific ecosystem features to reduce total cost."
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Indiana Jones and the Great Circle Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Indiana Jones and the Great Circle. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Indiana Jones and the Great Circle Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Indiana Jones and the Great Circle, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal base camp",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal base camp, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Indiana Jones and the Great Circle Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Indiana Jones and the Great Circle currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Adventure Progression α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Adventure Progression β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Adventure Progression γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Indiana Jones and the Great Circle Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Indiana Jones and the Great Circle.",
-      "faqs": [
-        {
-          "question": "Is Indiana Jones and the Great Circle singleplayer?",
-          "answer": "Yes. Indiana Jones and the Great Circle is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Indiana Jones and the Great Circle?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Indiana Jones and the Great Circle cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Indiana Jones and the Great Circle support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Indiana Jones and the Great Circle work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Indiana Jones and the Great Circle work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Indiana Jones and the Great Circle have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Indiana Jones and the Great Circle keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Indiana Jones and the Great Circle Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Indiana Jones and the Great Circle can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Indiana Jones and the Great Circle work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Indiana Jones and the Great Circle support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Indiana Jones and the Great Circle Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Indiana Jones and the Great Circle already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Indiana Jones and the Great Circle Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Indiana Jones and the Great Circle is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Indiana Jones and the Great Circle Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Indiana Jones and the Great Circle requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
-        }
       ]
     }
   },
