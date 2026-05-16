@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Engine: Tech Specs & Performance 2026",
+  description: "Explore the technical foundations of Indiana Jones and the Great Circle, including its engine, PC system requirements, and performance on various platforms for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Great+Circle+Engine",
+  date: "2026-05-16",
+  author: "Indiana Jones Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Indiana Jones and the Great Circle** utilizes a custom-built engine, leveraging id Tech foundations for optimal performance.
+- PC players should note the **ray tracing GPU requirement** across all tiers.
+- The game is available on **Xbox Series X|S, PS5, PC, and Nintendo Switch 2**.
+- An **SSD is mandatory** for installation, requiring 126 GB for the base game.
+- Performance targets range from **1080p/60fps (minimum) to 4K (ultra)**, all with ray tracing.
+</Callout>
+
+Indiana Jones and the Great Circle plunges players into a thrilling first-person action-adventure, demanding a robust technical foundation to deliver its cinematic experience. Understanding the game's engine and its implications for performance across different platforms is key for any aspiring archaeologist. This guide delves into the technical specifications, system requirements, and overall performance expectations for Indiana Jones and the Great Circle in 2026, ensuring you're ready to embark on your next grand adventure with optimal settings. From PC hardware demands to console capabilities, we'll cover everything you need to know to experience the game as intended by MachineGames and Bethesda.
+
+<Section icon={Sparkles} title="The Power Behind the Adventure: Game Engine Details">
+
+Indiana Jones and the Great Circle is developed by MachineGames, known for their work on the critically acclaimed Wolfenstein series. While the exact name of the engine isn't widely publicized as a distinct, standalone product, it's confirmed that MachineGames utilizes a heavily modified and advanced version of **id Tech**, specifically building upon the foundations of id Tech 7, which powered games like *Doom Eternal*. This lineage ensures a powerful and optimized experience, capable of delivering stunning visuals and smooth gameplay.
+
+<Callout type="tip" title="Engine Evolution">
+MachineGames' approach involves refining and customizing the id Tech engine to suit their specific needs, focusing on delivering a rich, story-driven first-person adventure with intricate environments and dynamic action sequences. This customization allows for unique features tailored to the Indiana Jones universe.
+</Callout>
+
+The id Tech engine is renowned for its:
+- **High-fidelity graphics**: Expect detailed textures, advanced lighting, and realistic environmental effects.
+- **Optimized performance**: The engine is known for maintaining high frame rates even in graphically intensive scenarios.
+- **Scalability**: It allows developers to target a wide range of hardware configurations, from consoles to high-end PCs.
+- **Dynamic environments**: Crucial for a game like Indiana Jones, allowing for interactive elements and destructible scenery.
+
+</Section>
+
+<Section icon={Shield} title="Platform Availability and Editions">
+
+Indiana Jones and the Great Circle is designed to be accessible across a variety of modern gaming platforms, ensuring a broad audience can experience Indy's latest escapade. Players have multiple options for how and where they choose to play, including subscription services and different editions.
+
+<CardGrid cols={3}>
+  <Card title="Xbox Series X|S">
+    - **Available**: Playable on current-gen Xbox consoles.
+    - **Xbox Play Anywhere**: Supports cross-buy when purchased through Xbox.
+    - **Game Pass**: Included with Xbox Game Pass for console and PC.
+  </Card>
+  <Card title="PC (Windows & Steam)">
+    - **Available**: Dedicated versions for Windows PC (Xbox App) and Steam.
+    - **System Requirements**: Detailed specs provided for Minimum, Recommended, and Ultra tiers.
+    - **Steam Achievements**: Full support for Steam community features and achievements.
+  </Card>
+  <Card title="PlayStation 5">
+    - **Available**: Full PS5 version with PlayStation trophy list support.
+    - **Platinum Trophy**: Achieve 100% completion with a dedicated Platinum trophy.
+    - **Optimized for PS5**: Leverages the console's unique features for an immersive experience.
+  </Card>
+  <Card title="Nintendo Switch 2">
+    - **Available**: Released on May 12, 2026.
+    - **Portable Play**: Best choice for players who prefer gaming on the go.
+    - **Dedicated Version**: Optimized for the Switch 2's hardware capabilities.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Game Pass Advantage">
+Subscribers to Xbox Game Pass can access Indiana Jones and the Great Circle on day one across Xbox Series X|S, Windows PC, and Xbox Cloud Gaming, offering excellent value for money.
+</Callout>
+
+### Available Editions
+
+| Edition            | Content Included                                                                                                  | Buyer Note                                                                                               |
+|--------------------|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Standard Edition** | Base game only.                                                                                                   | Ideal if you only want the main campaign and plan to purchase DLC separately later.                      |
+| **Premium Edition** | Base game, The Order of Giants Story DLC, Digital Artbook, and Temple of Doom outfit.                           | Best for players who want the full experience and extra digital content bundled together from the start. |
+| **Premium Upgrade**| The Order of Giants Story DLC, Digital Artbook, and Temple of Doom outfit (requires base game).                   | For Standard Edition owners who want to upgrade to the Premium content.                                  |
+
+</Section>
+
+<Section icon={Target} title="Detailed PC System Requirements 2026">
+
+To ensure a smooth and visually impressive experience with Indiana Jones and the Great Circle on PC, it's crucial to meet or exceed the specified system requirements. A key aspect across all tiers is the **mandatory requirement for hardware ray tracing**, which significantly impacts GPU selection.
+
+<Callout type="warning" title="SSD Requirement">
+All PC configurations for Indiana Jones and the Great Circle require an **SSD** for installation. The base game needs **126 GB** of storage, with an additional **9 GB** for the *The Order of Giants* DLC.
+</Callout>
+
+### PC Performance Tiers
+
+| Requirement Tier | Target Performance           | Operating System             | Processor (CPU)               | Memory (RAM) | Graphics Card (GPU)                                  | Storage           |
+|------------------|------------------------------|------------------------------|-------------------------------|--------------|------------------------------------------------------|-------------------|
+| **Minimum**      | 1080p Native / Low preset / 60 FPS | Windows 10 22H2 or higher    | Intel Core i7-10700K or AMD Ryzen 5 3600 | 16 GB        | NVIDIA RTX 2060 SUPER 8 GB, AMD RX 6600 8 GB, or Intel Arc A580 8 GB | **126 GB SSD** + 9 GB for DLC |
+| **Recommended**  | 1440p Native / High preset / 60 FPS| Windows 10 22H2 or higher    | Intel Core i7-12700K or AMD Ryzen 7 7700 | 32 GB        | NVIDIA RTX 3080 Ti 12 GB or AMD RX 7700 XT 12 GB     | **126 GB SSD** + 9 GB for DLC |
+| **Ultra**        | 4K Native / High-Ultra preset / 60+ FPS| Windows 10 22H2 or higher    | Intel Core i7-13900K or AMD Ryzen 9 7900X | 32 GB        | NVIDIA RTX 4080 16 GB or AMD RX 7900 XT 20 GB       | **126 GB SSD** + 9 GB for DLC |
+
+<Callout type="info" title="Ray Tracing Impact">
+The mandatory hardware ray tracing requirement means that older GPUs without dedicated RT cores (e.g., GTX 10-series, RX 5000-series) will not be able to run the game, even if they meet other specifications. This is a significant factor for PC players to consider.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Maximizing Performance: Tips for All Platforms">
+
+Achieving the best possible experience in Indiana Jones and the Great Circle involves optimizing your setup, regardless of whether you're on PC or console. Here are some general tips to get the most out of the game.
+
+<Steps>
+  <Step num="1" title="Update Drivers and System Software">
+    Always ensure your graphics drivers (NVIDIA, AMD, Intel) are updated to the latest version. For consoles, keep your system software current to benefit from performance optimizations and bug fixes.
+  </Step>
+  <Step num="2" title="Adjust In-Game Settings (PC)">
+    For PC players, experiment with graphics settings. If you're struggling to hit your target frame rate, try lowering settings like shadow quality, volumetric lighting, and anti-aliasing. Ray tracing can be demanding, so adjust its intensity if performance is an issue.
+  </Step>
+  <Step num="3" title="Ensure Adequate Storage (All Platforms)">
+    Given the large installation size (126 GB base, plus DLC), make sure you have enough free space on your SSD. Fragmented storage can sometimes lead to minor performance hiccups, especially during loading screens.
+  </Step>
+  <Step num="4" title="Monitor Temperatures (PC)">
+    Keep an eye on your CPU and GPU temperatures. Overheating can lead to thermal throttling, reducing performance. Ensure good airflow in your PC case and clean any dust buildup.
+  </Step>
+  <Step num="5" title="Close Background Applications (PC)">
+    Before launching the game, close any unnecessary background applications, especially those that consume significant CPU, GPU, or RAM resources. This frees up system resources for the game.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+On consoles, while you have fewer direct settings to tweak, ensuring your console is well-ventilated and not obstructed can prevent thermal throttling, maintaining consistent performance.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Future-Proofing Your Experience: DLC and Updates">
+
+MachineGames and Bethesda are committed to supporting Indiana Jones and the Great Circle with post-launch content, including story DLCs like "The Order of Giants." Understanding how these additions might impact the game's technical demands is important for long-term enjoyment.
+
+<Checklist
+  id="future-ready"
+  title="Staying Ready for Future Content:"
+  items={[
+    "Allocate extra SSD space for future DLC and updates (plan for at least 10-20 GB beyond current requirements).",
+    "Keep an eye on official announcements for any revised system requirements that might accompany major engine updates or graphical overhauls.",
+    "Consider upgrading your GPU if you're consistently at the minimum requirements and wish to experience future content at higher fidelity.",
+    "Regularly check for game patches and performance updates, which can often improve stability and frame rates.",
+    "Engage with the community on platforms like Steam and Reddit for shared performance tips and troubleshooting."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What engine does Indiana Jones and the Great Circle use?",
+    answer: "Indiana Jones and the Great Circle uses a heavily modified version of the id Tech engine, building upon the foundations of id Tech 7, known for its high-fidelity graphics and optimized performance."
+  },
+  {
+    question: "Is ray tracing required to play Indiana Jones and the Great Circle on PC?",
+    answer: "Yes, hardware ray tracing is a mandatory requirement across all PC system requirement tiers for Indiana Jones and the Great Circle. GPUs without dedicated RT cores will not be able to run the game."
+  },
+  {
+    question: "What is the storage requirement for Indiana Jones and the Great Circle?",
+    answer: "The base game requires 126 GB of SSD storage on PC. An additional 9 GB is needed for the 'The Order of Giants' DLC, bringing the total to 135 GB for the complete experience."
+  },
+  {
+    question: "What platforms is Indiana Jones and the Great Circle available on in 2026?",
+    answer: "As of 2026, Indiana Jones and the Great Circle is available on Xbox Series X|S, Windows PC (via Xbox App and Steam), PlayStation 5, and Nintendo Switch 2."
+  }
+]} />
+
+</Section>
