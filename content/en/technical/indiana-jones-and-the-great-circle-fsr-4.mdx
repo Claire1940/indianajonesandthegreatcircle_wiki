@@ -1,0 +1,188 @@
+jsx
+import { Map, Sparkles, Target, Shield, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle FSR 4: Performance & Visuals 2026",
+  description: "Explore how FSR 4 impacts Indiana Jones and the Great Circle, offering enhanced performance and visual fidelity for a smoother adventure in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Indiana+Jones+FSR+4",
+  date: "2026-05-16",
+  author: "Indiana Jones Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Indiana Jones and the Great Circle FSR 4** integration is crucial for optimal PC performance.
+- FSR 4 aims to deliver significant **FPS boosts** across various hardware configurations.
+- Expect **improved visual clarity** and reduced artifacts compared to previous FSR versions.
+- Proper **configuration of in-game settings** is vital to maximize FSR 4 benefits.
+- FSR 4 support enhances the experience on both **high-end and mid-range PCs**.
+</Callout>
+
+Indiana Jones and the Great Circle promises an epic first-person adventure, blending thrilling exploration, intricate puzzles, and intense action. As players delve into ancient ruins and navigate treacherous landscapes, smooth performance is paramount to a truly immersive experience. This is where technologies like AMD's FidelityFX Super Resolution (FSR) come into play. This guide focuses on the integration and impact of **Indiana Jones and the Great Circle FSR 4**, exploring how this advanced upscaling solution enhances both performance and visual quality for PC players in 2026. Understanding FSR 4's capabilities will help you optimize your gameplay and enjoy the adventure to its fullest.
+
+<Section icon={Sparkles} title="Understanding FSR 4 in The Great Circle">
+
+FidelityFX Super Resolution (FSR) is a cutting-edge upscaling technology developed by AMD, designed to boost frame rates in games by rendering frames at a lower resolution and then intelligently upscaling them to your monitor's native resolution. FSR 4, the latest iteration, brings further refinements to this process, aiming for even greater performance gains with minimal visual compromise. For **Indiana Jones and the Great Circle FSR 4** means players can expect a smoother, more responsive experience, especially when pushing higher resolutions or maintaining stable frame rates on less powerful hardware.
+
+<Callout type="tip" title="Why FSR Matters for Indiana Jones">
+The game's visually rich environments and detailed character models can be demanding. FSR 4 acts as a performance multiplier, allowing a wider range of PC users to enjoy high frame rates without sacrificing too much visual fidelity. This is particularly beneficial for players targeting 1440p or 4K resolutions.
+</Callout>
+
+### Key Improvements with FSR 4
+
+FSR 4 builds upon its predecessors with several advancements that directly benefit demanding titles like Indiana Jones and the Great Circle. The primary goals are to improve image quality, reduce ghosting and shimmering artifacts, and offer broader compatibility.
+
+| Feature               | FSR 3.0 Comparison                                       | FSR 4 Enhancement                                                              |
+| :-------------------- | :------------------------------------------------------- | :----------------------------------------------------------------------------- |
+| **Upscaling Algorithm** | Good quality, some minor artifacts                       | **Advanced temporal upscaling**, significantly reduced artifacts, better detail |
+| **Frame Generation**  | Included, but with higher latency potential              | **Optimized frame generation**, lower latency, smoother motion                 |
+| **Image Reconstruction**| Effective, but could show slight blurriness              | **Sharper image reconstruction**, preserves fine details, less blur            |
+| **Hardware Support**  | Broad, but best on AMD GPUs                              | **Even broader compatibility**, improved performance on all modern GPUs        |
+| **Latency**           | Noticeable with Frame Generation in some scenarios       | **Reduced input latency** through refined algorithms and integration           |
+
+</Section>
+
+<Section icon={Target} title="Optimizing FSR 4 Settings for Performance">
+
+To get the most out of **Indiana Jones and the Great Circle FSR 4**, understanding and adjusting the in-game settings is crucial. The game offers various FSR presets, each balancing performance and visual quality differently. Experimenting with these settings based on your PC's specifications will yield the best results.
+
+<Steps>
+  <Step num="1" title="Access Graphics Settings">
+    From the main menu, navigate to "Options" then "Graphics Settings." Here, you'll find all the visual customization options for the game.
+  </Step>
+  <Step num="2" title="Enable FSR 4">
+    Locate the "Upscaling" or "Resolution Scaling" option and select "AMD FidelityFX Super Resolution 4." If FSR 4 is not available, ensure your game and graphics drivers are updated to the latest versions.
+  </Step>
+  <Step num="3" title="Choose an FSR Preset">
+    FSR 4 typically offers several presets: **Quality**, **Balanced**, **Performance**, and **Ultra Performance**.
+    - **Quality**: Offers the best image quality with a moderate FPS boost. Ideal for high-end GPUs.
+    - **Balanced**: A good mix of visual fidelity and performance. Suitable for mid-range systems.
+    - **Performance**: Prioritizes frame rate over image quality. Best for maximizing FPS on lower-end hardware.
+    - **Ultra Performance**: Provides the highest FPS boost but with a noticeable drop in visual clarity. Use only if absolutely necessary.
+  </Step>
+  <Step num="4" title="Adjust Sharpening">
+    FSR 4 often includes a sharpening slider. A slight increase can help restore lost detail, but too much can introduce an artificial look. Start with a value around **0.5** and adjust to your preference.
+  </Step>
+  <Step num="5" title="Monitor Performance">
+    Use in-game FPS counters or external tools like MSI Afterburner to monitor your frame rate and adjust settings accordingly. Aim for a stable FPS that feels smooth to you.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Driver Updates Are Key">
+Always ensure your GPU drivers are up to date. Graphics card manufacturers frequently release new drivers that include optimizations and support for the latest FSR versions in games like Indiana Jones and the Great Circle. Outdated drivers can lead to performance issues or prevent FSR 4 from functioning correctly.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="PC System Requirements and FSR 4 Impact">
+
+The official PC system requirements for Indiana Jones and the Great Circle indicate a need for robust hardware, especially for higher resolutions and ray tracing. FSR 4 can significantly alleviate some of these demands, making the game more accessible across a wider range of configurations.
+
+### Minimum and Recommended PC Specs
+
+| Component        | Minimum (1080p Native / Low preset / 60 FPS)                 | Recommended (1440p Native / High preset / 60 FPS)                 | Ultra (4K Native)                                                     |
+| :--------------- | :----------------------------------------------------------- | :------------------------------------------------------------------ | :-------------------------------------------------------------------- |
+| **OS**           | Windows 10 22H2 or higher                                    | Windows 10 22H2 or higher                                           | Windows 10 22H2 or higher                                             |
+| **Processor**    | Intel Core i7-10700K or AMD Ryzen 5 3600                     | Intel Core i7-12700K or AMD Ryzen 7 7700                            | Intel Core i7-13900K or AMD Ryzen 9 7900X                             |
+| **RAM**          | 16 GB                                                        | 32 GB                                                               | 32 GB                                                                 |
+| **GPU**          | NVIDIA RTX 2060 SUPER 8 GB or AMD RX 6600 8 GB or Intel Arc A580 8 GB | NVIDIA RTX 3080 Ti 12 GB or AMD RX 7700 XT 12 GB                    | NVIDIA RTX 4080 16 GB or AMD RX 7900 XT 20 GB                          |
+| **Storage**      | **126 GB SSD** + 9 GB for DLC                                | **126 GB SSD** + 9 GB for DLC                                       | **126 GB SSD** + 9 GB for DLC                                         |
+| **Ray Tracing**  | **Required**                                                 | **Required**                                                        | **Required**                                                          |
+
+<Callout type="success" title="FSR 4's Role in Meeting Requirements">
+FSR 4 is especially beneficial for players with GPUs at the lower end of the recommended spectrum, or those who want to experience ray tracing without a top-tier card. It can push your effective performance closer to the next tier, offering smoother frame rates at higher visual settings.
+</Callout>
+
+### Expected Performance Gains with FSR 4
+
+The performance boost from FSR 4 can vary greatly depending on your hardware, resolution, and the specific FSR preset chosen.
+
+| FSR Preset          | Expected FPS Increase (Approx.) | Visual Quality | Ideal Use Case                                                         |
+| :------------------ | :------------------------------ | :------------- | :--------------------------------------------------------------------- |
+| **Quality**         | **15-30%**                      | Near Native    | High-end GPUs, targeting stable 60+ FPS at 1440p/4K                    |
+| **Balanced**        | **30-50%**                      | Very Good      | Mid-range GPUs, targeting stable 60 FPS at 1440p                       |
+| **Performance**     | **50-80%**                      | Good           | Lower-end GPUs, targeting stable 60 FPS at 1080p/1440p                 |
+| **Ultra Performance**| **80-100%+**                    | Moderate       | Entry-level GPUs, targeting playable FPS in demanding scenarios        |
+
+</Section>
+
+<Section icon={Map} title="Comparing FSR 4 to Other Upscaling Technologies">
+
+While FSR 4 is a powerful tool, it's not the only upscaling technology available. Understanding how it stacks up against alternatives like DLSS and XeSS can help players make informed decisions, especially if their GPU supports multiple options.
+
+<CardGrid cols={3}>
+  <Card title="AMD FSR 4">
+    - **Broadest compatibility** across GPUs (AMD, NVIDIA, Intel).
+    - **Open-source** and easy for developers to integrate.
+    - Excellent **performance uplift** with refined image quality.
+    - **Frame Generation** helps boost FPS significantly.
+  </Card>
+  <Card title="NVIDIA DLSS">
+    - **AI-powered**, requires NVIDIA RTX GPUs.
+    - Often considered the **gold standard for image quality** at higher resolutions.
+    - Strong **Frame Generation** implementation with Reflex for low latency.
+    - Less compatible due to hardware requirements.
+  </Card>
+  <Card title="Intel XeSS">
+    - Supports **Intel Arc GPUs** with XMX engines, and also runs on other GPUs.
+    - Offers a **good balance** of performance and visual quality.
+    - Growing developer adoption and continuous improvements.
+    - Still maturing compared to FSR and DLSS.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Choosing the Right Upscaler">
+For **Indiana Jones and the Great Circle**, if you have an NVIDIA RTX card, you might have the option between DLSS and FSR 4. Experiment with both to see which provides the best visual experience and performance for your specific setup. If you have an AMD or older NVIDIA card, FSR 4 will likely be your best bet for a significant performance boost.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Troubleshooting FSR 4 Issues">
+
+Even with advanced technology, sometimes issues can arise. If you're experiencing problems with **Indiana Jones and the Great Circle FSR 4**, here are some common troubleshooting steps to help you resolve them.
+
+<Checklist
+  id="fsr-troubleshooting"
+  title="Common FSR 4 Fixes:"
+  items={[
+    "**Update Graphics Drivers**: Always the first step. Check for the latest drivers from AMD, NVIDIA, or Intel.",
+    "**Verify Game Files**: Use Steam or your game launcher to verify the integrity of game files. Corrupted files can cause issues.",
+    "**Check In-Game Settings**: Ensure FSR 4 is correctly enabled and try different presets (e.g., switch from Performance to Quality).",
+    "**Disable Other Overlays**: Third-party overlays (Discord, GeForce Experience, etc.) can sometimes conflict with FSR. Try disabling them.",
+    "**Adjust Sharpening Slider**: If visuals look too blurry or too sharp, tweak the FSR sharpening slider.",
+    "**Check Game Patches**: Developers often release patches that fix performance issues or improve FSR integration. Keep your game updated.",
+    "**Monitor Temperatures**: Overheating can cause performance throttling. Ensure your GPU and CPU are running within safe temperature limits."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions about FSR 4">
+
+<FAQ items={[
+  {
+    question: "What is FSR 4 in Indiana Jones and the Great Circle?",
+    answer: "FSR 4 (FidelityFX Super Resolution 4) is AMD's latest upscaling technology integrated into Indiana Jones and the Great Circle. It renders the game at a lower resolution and intelligently upscales it to your display's native resolution, boosting frame rates and improving overall performance without requiring an upgrade to your hardware."
+  },
+  {
+    question: "Does FSR 4 work on NVIDIA GPUs for Indiana Jones?",
+    answer: "Yes, FSR 4 is designed to be hardware agnostic, meaning it works across a wide range of GPUs, including those from AMD, NVIDIA, and Intel. This makes it a versatile solution for PC gamers playing Indiana Jones and the Great Circle."
+  },
+  {
+    question: "How much FPS can I gain with FSR 4?",
+    answer: "The FPS gain from FSR 4 varies depending on your hardware, chosen resolution, and the FSR preset (Quality, Balanced, Performance, Ultra Performance). You can expect anywhere from a 15% increase on Quality mode up to 100%+ on Ultra Performance mode. Monitoring your FPS in-game is recommended to find your optimal setting."
+  },
+  {
+    question: "Will FSR 4 make Indiana Jones and the Great Circle look blurry?",
+    answer: "FSR 4 employs advanced temporal upscaling and image reconstruction techniques to minimize blurriness and preserve detail. While some minor visual differences might be perceptible, especially at lower presets, the goal is to provide a significant performance boost with minimal impact on visual quality. Adjusting the sharpening slider can also help fine-tune the image."
+  }
+]} />
+
+</Section>
