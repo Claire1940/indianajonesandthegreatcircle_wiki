@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Indiana Jones et l'énigme du vin du Grand Cercle : Soluce pas à pas",
+  description: "Maîtrisez l'énigme du vin d'Indiana Jones et du Grand Cercle avec notre guide détaillé. Apprenez l'emplacement des tuiles, la logique des chemins de vigne et comment réclamer l'artefact de Persée.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/edae49?text=Guide+Enigme+Vin",
+  date: "2026-05-17",
+  author: "Équipe Wiki"
+}
+
+<Callout type="info" title="Guide Rapide">
+- L'**énigme du vin d'Indiana Jones et du Grand Cercle** est une quête secondaire mystère intitulée "Une histoire de vinification" située dans la Cloaca Maxima.
+- **Objectif de l'énigme**: Disposer cinq tuiles de pierre dans l'ordre chronologique basé sur le processus de vinification.
+- **Le piège**: La solution n'est pas une simple séquence de gauche à droite ; vous devez suivre les chemins physiques des vignes sculptées dans le mur.
+- **Séquence des tuiles**: L'ordre logique est Plantation, Croissance, Récolte, Traitement et Fermentation.
+- **Récompense principale**: Résoudre ce mystère octroie 100 points d'aventure et le légendaire artefact de Persée.
+</Callout>
+
+<Section icon={Map} title="Localisation de l'énigme du vin dans la Cloaca Maxima">
+
+L'aventure dans les profondeurs des anciens égouts de Rome, la Cloaca Maxima, mène à l'un des défis environnementaux les plus intrigants du DLC L'Ordre des Géants. Pour commencer la quête de l'**énigme du vin d'Indiana Jones et du Grand Cercle**, vous devez d'abord progresser dans l'histoire principale jusqu'à rencontrer le Père Ricci dans sa cachette secrète sous le Palazzo Ricci.
+
+Une fois votre conversation avec Ricci terminée, vous êtes chargé de naviguer dans les égouts pour trouver des pièces de Cylindre supplémentaires. Le chemin est linéaire au début, mais les joueurs doivent être attentifs à une bifurcation dans la rivière souterraine. Prendre la branche de droite à cette jonction déclenche une brève apparition d'une silhouette encapuchonnée, signalant que vous êtes sur la bonne voie vers le mystère "Une histoire de vinification".
+
+<CardGrid cols={2}>
+  <Card title="Navigation dans les égouts">
+    - Suivez la rivière plus profondément dans la Cloaca Maxima.
+    - Cherchez la bifurcation et prenez la branche de **droite**.
+    - Observez la silhouette encapuchonnée comme indice visuel.
+  </Card>
+  <Card title="Briser la barrière">
+    - Localisez les caisses contenant une **masse**.
+    - Utilisez la masse pour démolir le mur affaibli sur la droite.
+    - Éliminez les gardes postés à l'intérieur de la pièce cachée.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Préparation au combat">
+La pièce contenant la fresque de vinification est gardée par plusieurs voyous. Assurez-vous d'avoir votre fouet prêt ou utilisez la masse trouvée à proximité pour éliminer rapidement ces ennemis avant de tenter de résoudre l'énigme.
+</Callout>
+
+### Référence des points de repère des égouts
+
+| Point de repère | Description visuelle | Action requise |
+| :--- | :--- | :--- |
+| **Sortie du Père Ricci** | Arche en pierre submergée | Dirigez-vous en aval dans le collecteur d'égout principal |
+| **La bifurcation de la rivière** | Séparation du courant d'eau | Dirigez Indy vers le chemin de droite |
+| **Corniche de ravitaillement** | Caisses en bois et lanternes | Prenez la masse dans les caisses |
+| **Mur affaibli** | Maçonnerie fissurée avec du lierre | Brisez-le avec la masse pour entrer dans la salle de la fresque |
+
+</Section>
+
+<Section icon={Search} title="Collecte des tuiles de vinification">
+
+En entrant dans la chambre cachée, vous rencontrerez une grande fresque sur le mur du fond avec cinq emplacements vides. Pour résoudre l'**énigme du vin d'Indiana Jones et du Grand Cercle**, vous devez d'abord fouiller le périmètre de la pièce pour trouver les cinq tuiles de pierre manquantes. Chaque tuile représente une étape spécifique de la production de vin, et leurs détails visuels sont cruciaux pour déterminer la séquence chronologique correcte.
+
+Avant de ramasser les tuiles, examinez la Note Murale trouvée sur une caisse voisine. Cette note fournit l'indice essentiel : le processus doit être arrangé du début de la vie de la vigne jusqu'au stockage final du vin.
+
+<Callout type="tip" title="Astuce d'exploration">
+Ne vous contentez pas de prendre les tuiles et de courir vers la fresque. Prenez un moment pour inspecter la pièce à la recherche d'autres objets de collection, car cette zone contient souvent des notes cachées et des trésors mineurs qui contribuent à votre achèvement total des découvertes.
+</Callout>
+
+### Identification et descriptions des tuiles
+
+| Nom de la tuile | Iconographie visuelle | Étape de production |
+| :--- | :--- | :--- |
+| **Plant** | Une simple pousse de vigne sans feuilles | La plantation initiale du vignoble |
+| **Croissance** | Une vigne luxuriante chargée de grappes de raisin mûres | La maturation de la récolte |
+| **Récolte** | Une figure tendant la main pour cueillir les raisins | La collecte des matières premières |
+| **Traitement** | Des figures foulant les raisins dans une grande cuve | L'extraction du jus (foulage) |
+| **Fermentation** | Une figure debout à côté d'amphores en argile | La transformation chimique et le stockage |
+
+</Section>
+
+<Section icon={Target} title="Résoudre la logique du chemin de vigne">
+
+L'erreur la plus courante que les joueurs commettent avec l'**énigme du vin d'Indiana Jones et du Grand Cercle** est de supposer que les tuiles vont dans un ordre standard de gauche à droite (1, 2, 3, 4, 5). Bien que le processus de vinification lui-même ait un ordre chronologique clair, la conception de la fresque ajoute une couche de complexité. Si vous regardez attentivement le mur, vous verrez des vignes émerger du sol et s'enrouler autour des emplacements des tuiles.
+
+Le "vrai" ordre est dicté par la vigne qui mène à quel emplacement. Vous devez suivre le chemin physique des vignes sculptées pour comprendre quel emplacement représente la première, deuxième, troisième, quatrième et cinquième étape de la séquence.
+
+<Steps>
+  <Step num="1" title="Identifier le processus">
+    Confirmez l'ordre chronologique : Plantation, Croissance, Récolte, Traitement (foulage) et Fermentation (amphores).
+  </Step>
+  <Step num="2" title="Tracer les vignes">
+    Regardez la base de la fresque. Suivez la première vigne telle qu'elle serpente le long du mur pour trouver où la tuile "Plant" doit être placée.
+  </Step>
+  <Step num="3" title="Cartographier les emplacements">
+    Notez que les vignes s'entrecroisent. La première vigne mène en fait aux premier et troisième emplacements, tandis que la seconde vigne gère les deuxième et cinquième.
+  </Step>
+  <Step num="4" title="Placer les tuiles">
+    Insérez les tuiles dans les emplacements en fonction de la méthode de comptage des vignes plutôt que de la simple logique horizontale.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Obfuscation visuelle">
+Les développeurs ont délibérément conçu cette énigme pour être contre-intuitive. Si vous placez les tuiles dans l'ordre logique de gauche à droite, la fresque ne s'activera pas. Suivez toujours les chemins de vigne du sol jusqu'aux emplacements.
+</Callout>
+
+### Matrice de placement : Ordre logique vs. Ordre mural
+
+| Numéro d'étape | Action logique | Position de l'emplacement mural (G à D) |
+| :--- | :--- | :--- |
+| **Étape 1** | Plantation (Vigne vide) | Emplacement 1 |
+| **Étape 2** | Croissance (Raisins sur la vigne) | Emplacement 3 |
+| **Étape 3** | Récolte (Cueillette des raisins) | Emplacement 2 |
+| **Étape 4** | Traitement (Foulage des raisins) | Emplacement 5 |
+| **Étape 5** | Fermentation (Amphores) | Emplacement 4 |
+
+</Section>
+
+<Section icon={Trophy} title="Récompenses et l'artefact de Persée">
+
+La réussite de l'**énigme du vin d'Indiana Jones et du Grand Cercle** déclenche un son mécanique alors que la fresque se déplace, révélant un compartiment caché. C'est l'une des quêtes secondaires "Mystère" clés de l'extension L'Ordre des Géants, et les récompenses sont importantes pour les joueurs qui cherchent à améliorer les capacités d'Indy et à compléter sa collection de reliques historiques.
+
+La récompense principale est l'artefact de Persée, une relique mithraïque qui s'ajoute à votre collection de musée. De plus, la résolution du mystère "Une histoire de vinification" vous offre un coup de pouce substantiel en Points d'Aventure, essentiels pour débloquer de nouvelles compétences dans le livre d'aventure.
+
+<Checklist
+  id="wine-puzzle-rewards"
+  title="Liste de contrôle d'achèvement :"
+  items={[
+    "Vaincre les gardes dans la salle de la fresque",
+    "Collecter les cinq tuiles de pierre de vinification",
+    "Disposer les tuiles selon la logique du chemin de vigne",
+    "Réclamer l'artefact de Persée dans le compartiment caché",
+    "Recevoir 100 points d'aventure"
+  ]}
+/>
+
+<Callout type="success" title="Succès débloqué">
+La résolution de cette énigme compte pour la liste de contrôle "Mystères de l'Ordre des Géants". Si vous visez 100 % d'achèvement dans la région de Rome, cette énigme est obligatoire.
+</Callout>
+
+### Résumé des récompenses
+
+| Type de récompense | Objet/Valeur | Signification |
+| :--- | :--- | :--- |
+| **Artefact** | Artefact de Persée | Un objet de collection mithraïque rare pour le journal d'Indy |
+| **Expérience** | 100 points d'aventure | Utilisés pour acheter des améliorations dans l'arbre de compétences |
+| **Achèvement** | Mystère résolu | Fait progresser la quête du DLC "L'Ordre des Géants" |
+| **Lore** | Note murale de vinification | Fournit un contexte historique pour la région |
+
+</Section>
+
+<Section icon={Swords} title="Comparaison avec d'autres énigmes du DLC">
+
+Le DLC L'Ordre des Géants regorge d'énigmes environnementales, allant de simples portes logiques à des énigmes mécaniques complexes. L'**énigme du vin d'Indiana Jones et du Grand Cercle** se situe au milieu du spectre de difficulté, s'appuyant davantage sur l'observation que sur la méthode essais et erreurs brutale observée dans d'autres sections.
+
+La comparaison avec l'énigme des "Blessures Sacrées" ou l'énigme de l'"Eau du Serpent" montre la variété de la philosophie de conception de MachineGames. Alors que l'énigme du vin utilise le traçage des vignes, l'énigme des Blessures Sacrées nécessite une lecture attentive des notes bibliques et une compréhension des perspectives en miroir.
+
+<CardGrid cols={3}>
+  <Card title="Énigme du vin">
+    - **Logique** : Chronologique/Visuelle
+    - **Mécanisme clé** : Traçage des vignes
+    - **Difficulté** : Moyenne
+  </Card>
+  <Card title="Blessures Sacrées">
+    - **Logique** : Anatomique/Miroir
+    - **Mécanisme clé** : Numérotation des parties du corps
+    - **Difficulté** : Élevée
+  </Card>
+  <Card title="Eau du Serpent">
+    - **Logique** : Dynamique des fluides
+    - **Mécanisme clé** : Alignement des tuyaux
+    - **Difficulté** : Moyenne
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Stratégie d'énigme">
+Si vous vous retrouvez bloqué sur une énigme dans le Grand Cercle, cherchez toujours une note à proximité. Le jeu fournit presque toujours un indice écrit qui explique les "règles" de l'interaction, même si la solution elle-même reste cachée.
+</Callout>
+
+### Difficulté des énigmes et estimation du temps
+
+| Nom de l'énigme | Emplacement | Temps estimé | Difficulté (1-5) |
+| :--- | :--- | :--- | :--- |
+| **Une histoire de vinification** | Cloaca Maxima | 10 minutes | ★★★☆☆ |
+| **Blessures Sacrées** | Profondeurs du Vatican | 15 minutes | ★★★★☆ |
+| **Eau du Serpent** | Jungle interdite | 12 minutes | ★★★☆☆ |
+| **Labyrinthe du sanctuaire** | Pics de l'Himalaya | 20 minutes | ★★★★★ |
+
+</Section>
+
+<Section icon={BookOpen} title="Foire aux questions">
+
+<FAQ items={[
+  {
+    question: "Où se trouve exactement l'énigme du vin d'Indiana Jones et du Grand Cercle ?",
+    answer: "L'énigme fait partie du mystère 'Une histoire de vinification' dans la section Cloaca Maxima (égouts) du DLC L'Ordre des Géants. Vous pouvez la trouver en prenant la bifurcation de droite dans la rivière après avoir quitté la cachette du Père Ricci et en brisant un mur avec une masse."
+  },
+  {
+    question: "Pourquoi l'ordre de mes tuiles ne fonctionne-t-il pas même s'il est chronologique ?",
+    answer: "L'énigme présente un piège où les vignes sur le mur s'entrecroisent. Vous ne pouvez pas placer les tuiles dans un simple ordre de gauche à droite. Vous devez tracer chaque vigne du sol jusqu'à son emplacement spécifique pour déterminer le placement correct de chaque étape de la vinification."
+  },
+  {
+    question: "Que gagne-t-on en complétant l'énigme du vin ?",
+    answer: "En complétant l'énigme, vous recevez l'artefact de Persée et 100 points d'aventure. Cela marque également le mystère 'Une histoire de vinification' comme terminé dans votre journal d'aventure."
+  },
+  {
+    question: "Puis-je manquer les tuiles dans la salle de la fresque ?",
+    answer: "Les cinq tuiles sont dispersées autour du périmètre de la petite pièce. Elles sont mises en évidence lorsque vous êtes près d'elles, mais vous devez les ramasser manuellement avant de pouvoir interagir avec les emplacements de la fresque."
+  }
+]} />
+
+</Section>

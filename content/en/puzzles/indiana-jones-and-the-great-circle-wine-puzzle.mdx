@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Wine Puzzle: Step-by-Step Walkthrough",
+  description: "Master the Indiana Jones and the Great Circle wine puzzle with our detailed guide. Learn tile locations, vine path logic, and how to claim the Perses Artifact.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/edae49?text=Wine+Puzzle+Guide",
+  date: "2026-05-17",
+  author: " Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Indiana Jones and the Great Circle wine puzzle** is a mystery sidequest titled "A Tale of Winemaking" located in the Cloaca Maxima.
+- **Puzzle Objective**: Arrange five stone tiles in chronological order based on the winemaking process.
+- **The Twist**: The solution is not a simple left-to-right sequence; you must follow the physical paths of the vines carved into the wall.
+- **Tile Sequence**: The logical order is Plant, Grow, Harvest, Process, and Ferment.
+- **Primary Reward**: Solving this mystery grants 100 Adventure Points and the legendary Perses Artifact.
+</Callout>
+
+<Section icon={Map} title="Locating the Wine Puzzle in Cloaca Maxima">
+
+The adventure into the depths of Rome's ancient sewers, the Cloaca Maxima, leads to one of the most intriguing environmental challenges in the Order of Giants DLC. To begin the quest for the **Indiana Jones and the Great Circle wine puzzle**, you must first progress through the main story until you meet Father Ricci in his secret hideout beneath the Palazzo Ricci. 
+
+Once your conversation with Ricci concludes, you are tasked with navigating the sewers to find additional Cylinder pieces. The path is linear initially, but players should keep a sharp eye out for a fork in the subterranean river. Taking the right branch at this junction triggers a brief sighting of a hooded figure, signaling that you are on the right track toward the "A Tale of Winemaking" mystery.
+
+<CardGrid cols={2}>
+  <Card title="Sewer Navigation">
+    - Follow the river deeper into the Cloaca Maxima.
+    - Look for the fork and branch to the **right**.
+    - Watch for the hooded figure as a visual cue.
+  </Card>
+  <Card title="Breaking the Barrier">
+    - Locate the crates containing a **sledgehammer**.
+    - Use the hammer to demolish the weakened wall on the right.
+    - Defeat the guards stationed inside the hidden room.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Combat Readiness">
+The room containing the winemaking mural is guarded by several thugs. Ensure you have your whip ready or utilize the sledgehammer found nearby to quickly dispatch these enemies before attempting to solve the puzzle.
+</Callout>
+
+### Sewer Landmark Reference
+
+| Landmark | Visual Description | Action Required |
+| :--- | :--- | :--- |
+| **Father Ricci's Exit** | Submerged stone archway | Head downstream into the main sewer line |
+| **The River Fork** | Split in the water flow | Steer Indy toward the right-hand path |
+| **Supply Ledge** | Wooden crates and lanterns | Pick up the sledgehammer from the boxes |
+| **Weakened Wall** | Cracking masonry with ivy | Smash with sledgehammer to enter the mural room |
+
+</Section>
+
+<Section icon={Search} title="Collecting the Winemaking Tiles">
+
+Upon entering the hidden chamber, you will encounter a large mural on the back wall with five empty slots. To solve the **Indiana Jones and the Great Circle wine puzzle**, you must first scour the perimeter of the room to find the five missing stone tiles. Each tile depicts a specific stage in the production of wine, and their visual details are crucial for determining the correct chronological sequence.
+
+Before picking up the tiles, examine the Mural Note found on a nearby crate. This note provides the essential hint: the process must be arranged from the beginning of the vine's life to the final storage of the wine.
+
+<Callout type="tip" title="Exploration Tip">
+Don't just grab the tiles and run to the mural. Take a moment to inspect the room for other collectibles, as this area often contains hidden notes and minor treasures that contribute to your total discovery completion.
+</Callout>
+
+### Tile Identification and Descriptions
+
+| Tile Name | Visual Iconography | Production Stage |
+| :--- | :--- | :--- |
+| **Plant** | A simple vine sprout with no leaves | The initial planting of the vineyard |
+| **Grow** | A lush vine laden with ripe grape clusters | The maturation of the crop |
+| **Harvest** | A figure reaching up to pick the grapes | Gathering the raw materials |
+| **Process** | Figures treading on grapes in a large vat | Extracting the juice (crushing) |
+| **Ferment** | A figure standing next to clay amphoras | The chemical transformation and storage |
+
+</Section>
+
+<Section icon={Target} title="Solving the Vine Path Logic">
+
+The most common mistake players make with the **Indiana Jones and the Great Circle wine puzzle** is assuming the tiles go in a standard left-to-right order (1, 2, 3, 4, 5). While the winemaking process itself has a clear chronological order, the mural's design adds a layer of complexity. If you look closely at the wall, you will see vines emerging from the ground and looping around the tile slots.
+
+The "true" order is dictated by which vine leads to which slot. You must follow the physical path of the carved vines to understand which slot represents the first, second, third, fourth, and fifth step in the sequence.
+
+<Steps>
+  <Step num="1" title="Identify the Process">
+    Confirm the chronological order: Planting, Growing, Harvesting, Processing (treading), and Fermenting (amphoras).
+  </Step>
+  <Step num="2" title="Trace the Vines">
+    Look at the base of the mural. Follow the first vine as it winds up the wall to find where the "Plant" tile must be placed.
+  </Step>
+  <Step num="3" title="Map the Slots">
+    Note that the vines crisscross. The first vine actually leads to the first and third slots, while the second vine handles the second and fifth.
+  </Step>
+  <Step num="4" title="Place the Tiles">
+    Insert the tiles into the slots based on the vine counting method rather than simple horizontal logic.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Visual Obfuscation">
+The developers deliberately designed this puzzle to be counter-intuitive. If you place the tiles in logical order from left to right, the mural will not activate. Always follow the vine paths from the floor up to the slots.
+</Callout>
+
+### Placement Matrix: Logical vs. Mural Order
+
+| Step Number | Logical Action | Mural Slot Position (L to R) |
+| :--- | :--- | :--- |
+| **Step 1** | Plant (Empty Vine) | Slot 1 |
+| **Step 2** | Grow (Grapes on Vine) | Slot 3 |
+| **Step 3** | Harvest (Picking Grapes) | Slot 2 |
+| **Step 4** | Process (Treading Grapes) | Slot 5 |
+| **Step 5** | Ferment (Amphoras) | Slot 4 |
+
+</Section>
+
+<Section icon={Trophy} title="Rewards and the Perses Artifact">
+
+Successfully completing the **Indiana Jones and the Great Circle wine puzzle** triggers a mechanical sound as the mural shifts, revealing a hidden compartment. This is one of the key "Mystery" sidequests in the Order of Giants expansion, and the rewards are significant for players looking to upgrade Indy's abilities and complete his collection of historical relics.
+
+The primary reward is the Perses Artifact, a Mithraic relic that adds to your overall museum collection. Additionally, the completion of the "A Tale of Winemaking" mystery provides a substantial boost to your Adventure Points, which are essential for unlocking new skills in the adventure book.
+
+<Checklist
+  id="wine-puzzle-rewards"
+  title="Completion Checklist:"
+  items={[
+    "Defeat the guards in the mural room",
+    "Collect all five stone winemaking tiles",
+    "Arrange tiles according to the vine path logic",
+    "Claim the Perses Artifact from the hidden compartment",
+    "Receive 100 Adventure Points"
+  ]}
+/>
+
+<Callout type="success" title="Achievement Unlocked">
+Completing this puzzle counts toward the "Order of Giants Mysteries" checklist. If you are aiming for 100% completion in the Rome region, this puzzle is mandatory.
+</Callout>
+
+### Reward Summary
+
+| Reward Type | Item/Value | Significance |
+| :--- | :--- | :--- |
+| **Artifact** | Perses Artifact | A rare Mithraic collectible for Indy's journal |
+| **Experience** | 100 Adventure Points | Used to purchase upgrades in the Skill Tree |
+| **Completion** | Mystery Resolved | Progresses the "Order of Giants" DLC questline |
+| **Lore** | Winemaking Mural Note | Provides historical context for the region |
+
+</Section>
+
+<Section icon={Swords} title="Comparison with Other DLC Puzzles">
+
+The Order of Giants DLC is packed with environmental puzzles, ranging from simple logic gates to complex mechanical riddles. The **Indiana Jones and the Great Circle wine puzzle** sits in the middle of the difficulty spectrum, relying more on observation than the brute-force trial and error seen in some other sections.
+
+Comparing this to the "Sacred Wounds" puzzle or the "Serpent Water" puzzle shows the variety in MachineGames' design philosophy. While the wine puzzle uses vine tracing, the Sacred Wounds puzzle requires careful reading of biblical notes and understanding mirror-image perspectives.
+
+<CardGrid cols={3}>
+  <Card title="Wine Puzzle">
+    - **Logic**: Chronological/Visual
+    - **Key Mechanic**: Vine tracing
+    - **Difficulty**: Medium
+  </Card>
+  <Card title="Sacred Wounds">
+    - **Logic**: Anatomical/Mirroring
+    - **Key Mechanic**: Body part numbering
+    - **Difficulty**: High
+  </Card>
+  <Card title="Serpent Water">
+    - **Logic**: Fluid Dynamics
+    - **Key Mechanic**: Pipe alignment
+    - **Difficulty**: Medium
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Puzzle Strategy">
+If you find yourself stuck on any puzzle in the Great Circle, always look for a nearby note. The game almost always provides a written clue that explains the "rules" of the interaction, even if the solution itself remains hidden.
+</Callout>
+
+### Puzzle Difficulty & Time Estimate
+
+| Puzzle Name | Location | Est. Time | Difficulty (1-5) |
+| :--- | :--- | :--- | :--- |
+| **A Tale of Winemaking** | Cloaca Maxima | 10 Minutes | ★★★☆☆ |
+| **Sacred Wounds** | Vatican Depths | 15 Minutes | ★★★★☆ |
+| **Serpent Water** | Forbidden Jungle | 12 Minutes | ★★★☆☆ |
+| **Shrine Maze** | Himalayan Peaks | 20 Minutes | ★★★★★ |
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where exactly is the Indiana Jones and the Great Circle wine puzzle located?",
+    answer: "The puzzle is part of the 'A Tale of Winemaking' mystery in the Cloaca Maxima (sewer) section of the Order of Giants DLC. You can find it by taking the right fork in the river after leaving Father Ricci's hideout and breaking down a wall with a sledgehammer."
+  },
+  {
+    question: "Why is my tile order not working even though it's chronological?",
+    answer: "The puzzle features a trick where the vines on the wall crisscross. You cannot place the tiles in a simple left-to-right order. You must trace each vine from the ground up to its specific slot to determine the correct placement for each stage of winemaking."
+  },
+  {
+    question: "What do I get for completing the wine puzzle?",
+    answer: "Completing the puzzle rewards you with the Perses Artifact and 100 Adventure Points. It also marks the 'A Tale of Winemaking' mystery as complete in your adventure journal."
+  },
+  {
+    question: "Can I miss the tiles in the mural room?",
+    answer: "The five tiles are scattered around the perimeter of the small room. They are highlighted when you are near them, but you must manually pick them up before you can interact with the mural slots."
+  }
+]} />
+
+</Section>
