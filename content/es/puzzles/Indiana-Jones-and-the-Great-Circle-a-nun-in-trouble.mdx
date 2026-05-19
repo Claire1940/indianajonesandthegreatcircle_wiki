@@ -1,0 +1,171 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones y el Gran Círculo: Una monja en apuros: Guía de Campo",
+  description: "Navega por la misión secundaria de campo 'Una monja en apuros' en Indiana Jones y el Gran Círculo, localiza a Giuliana y descubre secretos del Vaticano.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/800000/fff?text=Nun+in+Trouble+Guide",
+  date: "2026-05-19",
+  author: "Equipo Wiki"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Comienza la misión **Indiana Jones y el Gran Círculo: Una monja en apuros** hablando con Gina en la Capilla Sixtina.
+- Investiga el Ala del Museo Vaticano en busca de pistas sobre la desaparición de Giuliana.
+- Reúne pruebas como **huellas de manos ensangrentadas** y la tarjeta de identificación de Giuliana en el almacén.
+- Asciende a la Torre Borgia para rescatar a Giuliana de sus interrogadores.
+- Descubre información crítica sobre el interés del Vaticano en el Dr. Jones y obtén la Llave de Giuliana.
+</Callout>
+
+<Section icon={Map} title="Iniciando el Trabajo de Campo 'Una Monja en Apuros'">
+La misión secundaria de campo "Una Monja en Apuros" es una parte fundamental de tu aventura en la Ciudad del Vaticano en *Indiana Jones y el Gran Círculo*. Esta misión comienza después de haber avanzado significativamente en la historia principal, específicamente después de conocer a la periodista Gina y discutir tus próximos pasos con Antonio. Tu objetivo principal es localizar al contacto de Gina, Giuliana, una monja que aparentemente ha tenido problemas mientras recopilaba información sensible sobre el Dr. Jones.
+
+Puedes encontrar a Gina de nuevo en la Capilla Sixtina, ubicada al sur de los Patios Borgia. Ella te informará que Giuliana debía reunirse con ella en el Ala del Museo Vaticano con información crucial sobre el colegio objetivo del reciente allanamiento. Sin embargo, el ala del museo ahora está cerrada, lo que genera preocupaciones inmediatas sobre la seguridad de Giuliana.
+
+**Puntos Destacados del Video:**
+- Presenta la misión "Una Monja en Apuros" y su contexto.
+- Muestra la interacción inicial con Gina en la Capilla Sixtina.
+- Destaca el museo cerrado como el próximo destino.
+
+<YouTubeEmbed videoId="sSCDLSoxx6s" title="A Nun in Trouble Indiana Jones and the Great Circle" />
+
+<Callout type="tip">
+Asegúrate de haber completado "La Momia de Gato Robada - La Torre de Nicolás V (Inframundo)" y de haber hablado con Antonio antes de intentar comenzar esta misión secundaria, ya que es un requisito previo para que Gina ofrezca la misión.
+</Callout>
+
+| Etapa de la Misión | Ubicación         | Objetivo                                       | Recompensa (Puntos de Aventura) |
+| :----------------- | :---------------- | :--------------------------------------------- | :------------------------------ |
+| **Habla con Gina** | Capilla Sixtina   | Aprende sobre la desaparición de Giuliana      | 350                             |
+| **Ala del Museo**  | Museo Vaticano    | Investiga el último paradero conocido de Giuliana | -                               |
+| **Torre Borgia**   | Torre Borgia      | Rescata a Giuliana                             | -                               |
+</Section>
+
+<Section icon={Target} title="Navegando el Ala del Museo y Recopilando Pistas">
+Al salir de la Capilla Sixtina con Gina, tu próximo destino es el Ala del Museo Vaticano. Esta área está bajo una fuerte guardia fascista. Hay varias formas de acercarse a la entrada del museo, dependiendo de tu estilo de juego preferido. Si posees el Disfraz de Uniforme Camisa Negra, puedes navegar por el área con relativa facilidad, evitando la confrontación directa con la mayoría de los guardias. De lo contrario, se recomienda un enfoque sigiloso.
+
+<CardGrid cols={2}>
+  <Card title="Enfoque Sigiloso">
+    - **Agáchate y pégate a la pared izquierda** cerca de la entrada vigilada.
+    - Sigue el estrecho pasaje más allá de las cajas hasta la puerta del Ala del Museo.
+    - Evita la línea de visión directa con los Camisas Negras que patrullan.
+  </Card>
+  <Card title="Enfoque de Disfraz">
+    - Utiliza el **Disfraz de Uniforme Camisa Negra** si lo has adquirido.
+    - Pasa junto a los guardias, pero mantente alerta cerca de los Capitanes.
+    - Proporciona un acceso más fácil pero requiere movimientos cuidadosos.
+  </Card>
+</CardGrid>
+
+Una vez dentro del museo, Gina te ayudará a forzar las cerraduras de las puertas. El objetivo principal es llegar al almacén, donde se esperaba a Giuliana por última vez. El museo es un laberinto de pistas, y una búsqueda diligente es clave para progresar.
+
+<Steps>
+  <Step num="1" title="Entra al Ala del Museo">
+    Localiza la entrada en el borde de la Plaza del Belvedere. Usa el sigilo o un disfraz para sortear a los guardias. Gina abrirá una ventana para que entres a un nivel inferior.
+  </Step>
+  <Step num="2" title="Llega al Almacén">
+    Navega por los pasillos del museo. Gina forzará una puerta que conduce al almacén. Prepárate para posibles encuentros con Camisas Negras en el camino; Gina puede encargarse de algunos sola, pero a menudo se necesita ayuda.
+  </Step>
+  <Step num="3" title="Busca Pruebas">
+    En el almacén, busca varias pistas críticas. Estas incluyen una huella de mano ensangrentada, un trozo de tela de uniforme fascista, la tarjeta de identificación de Giuliana y una fotografía del Dr. Jones. Cada pista ayuda a reconstruir la situación de Giuliana.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Peligros Ocultos">
+El Ala del Museo está repleta de Camisas Negras. Prepárate para el combate o emplea tácticas de sigilo para evitar ser detectado. Gina puede ayudar en las peleas, pero prioriza tu propia seguridad y conciencia situacional.
+</Callout>
+
+| Tipo de Pista          | Ubicación (Almacén)        | Significado                                        | Nota de Trabajo de Campo |
+| :--------------------- | :------------------------- | :------------------------------------------------- | :----------------------- |
+| **Huella de Mano Ensangrentada** | Pared lejana               | Indica una lucha o lesión                          | Una Monja en Apuros      |
+| **Tela Fascista**      | Cerca de la huella de mano | Sugiere la implicación de Camisas Negras          | Una Monja en Apuros      |
+| **Tarjeta de Identificación de Giuliana** | En el suelo                | Confirma que Giuliana estuvo presente              | Una Monja en Apuros      |
+| **Fotografía de Castello** | Caja pequeña (hallazgo de Gina) | Foto de Indy en el Castillo Sant'Angelo, implica vigilancia | Una Monja en Apuros      |
+| **Huellas**            | Piso inferior              | Sugiere que alguien estaba corriendo               | Una Monja en Apuros      |
+| **Mancha de Sangre y Anillo** | Habitación contigua, cerca del sombrero fascista | Evidencia de un encuentro violento; anillo de Giuliana | Una Monja en Apuros      |
+</Section>
+
+<Section icon={Swords} title="Rescatando a Giuliana en la Torre Borgia">
+Después de descubrir las pistas en el museo, te enterarás de que Giuliana ha sido llevada a la Torre Borgia, acusada de matar a un guardia. Tu próxima misión es dirigirte a la torre y rescatarla. La Torre Borgia es accesible desde Via di Belvedere. El camino más fácil implica regresar al Patio del Belvedere y subir por los andamios detrás de la gran construcción del escenario.
+
+<Callout type="success" title="Secreto - Artefacto Perdido">
+Antes de ascender a la torre, considera un pequeño desvío. Al salir de la habitación donde encontraste el anillo de Giuliana, pasarás por una habitación con una caja fuerte. Enciende la lámpara verde junto a la puerta para revelar una luz negra, que muestra la combinación **7171**. Dentro, encontrarás un **Cuerno para Beber**, un valioso Artefacto Perdido de Europa.
+</Callout>
+
+Dentro del Palacio Apostólico, Gina se reunirá contigo, abriendo una puerta a la derecha. El ascenso a la torre implicará múltiples encuentros con Camisas Negras, incluidos Médicos, lo que hará el combate desafiante. Utiliza armas improvisadas y distracciones ambientales para obtener una ventaja.
+
+| Tipo de Encuentro     | Estrategia                                       | Notas                                     |
+| :-------------------- | :----------------------------------------------- | :---------------------------------------- |
+| **Dos Camisas Negras** | Distrae con una botella, usa armas improvisadas | Ascenso temprano a la torre               |
+| **Dos Camisas Negras + Médico** | Prioriza al Médico, usa cobertura, ataques cuerpo a cuerpo | Media torre, más desafiante               |
+| **Bruto (Final)**     | Esquiva golpes poderosos, ataques cuerpo a cuerpo pesados | Sala de interrogatorios, rescata a Giuliana |
+
+Una vez que llegues a la cima, Gina te ayudará a abrir la última puerta, que te llevará al interrogatorio de Giuliana. Te enfrentarás a un Bruto fascista; derrótalo rápidamente para desatar a Giuliana.
+
+Giuliana revelará información crítica: el Vaticano ha estado espiando al Dr. Jones desde su excavación en Siwa, lo que indica una conspiración de alto nivel. Ella te proporcionará la **Información de Giuliana** y la **Llave de Giuliana**, que abre una habitación secreta en la torre, iniciando el "Misterio del Padre y el Hijo".
+
+<Checklist
+  id="tower-rescue"
+  title="Lista de Verificación de Rescate de la Torre Borgia:"
+  items={[
+    "Localiza la entrada a la Torre Borgia (Via di Belvedere).",
+    "Sube por los andamios desde el Patio del Belvedere.",
+    "Lucha a través de las patrullas de Camisas Negras, incluidos los Médicos.",
+    "Utiliza armas improvisadas y ventajas ambientales.",
+    "Derrota al Bruto en la sala de interrogatorios.",
+    "Desata a Giuliana y recibe información vital y la Llave de Giuliana."
+  ]}
+/>
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Próximos Pasos">
+Completar "Una Monja en Apuros" te otorga 350 Puntos de Aventura y un progreso significativo en el descubrimiento del misterio general. La información de Giuliana y su llave abren nuevas vías de investigación. Gina también te dará una pista sobre futuras colaboraciones, instruyéndote a buscar una nota en la Capilla Sixtina para obtener más información, lo que inicia el Misterio "Señales de Problemas".
+
+<CardGrid cols={3}>
+  <Card title="Puntos de Aventura">
+    - **350 PA** otorgados al completar la misión.
+    - Contribuye al progreso general del juego.
+  </Card>
+  <Card title="Información de Giuliana">
+    - Revela la **vigilancia del Vaticano** sobre el Dr. Jones.
+    - Confirma una conspiración de alto nivel dirigida a Indy.
+  </Card>
+  <Card title="Llave de Giuliana">
+    - Desbloquea una **habitación secreta** en la torre.
+    - Inicia la misión secundaria **"Misterio del Padre y el Hijo"**.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+Recuerda recoger el **Documento de Interrogatorio** en la habitación donde rescataste a Giuliana. Además, una pared de ladrillos en mal estado en la sala de interrogatorios se puede derribar con un mazo de la habitación anterior, revelando un área secreta con esqueletos y una **Estatuilla de Venus**, otro Artefacto Perdido.
+</Callout>
+
+Tu viaje en *Indiana Jones y el Gran Círculo* está lejos de terminar. Las revelaciones de Giuliana preparan el escenario para inmersiones más profundas en los secretos del Vaticano y el verdadero alcance de las fuerzas desplegadas contra el Dr. Jones.
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+<FAQ items={[
+  {
+    question: "¿Cómo comienzo la misión 'Una Monja en Apuros' en Indiana Jones y el Gran Círculo?",
+    answer: "Puedes comenzar la misión 'Una Monja en Apuros' hablando con Gina en la Capilla Sixtina después de completar la misión principal 'La Momia de Gato Robada' y discutir tus próximos pasos con Antonio."
+  },
+  {
+    question: "¿Qué debo hacer si la misión 'Una Monja en Apuros' no aparece?",
+    answer: "Algunos jugadores han informado de errores en los que la misión no aparece. Intenta regresar con el Padre Antonio, entregarle los pergaminos y luego salir del edificio. Esto a veces puede activar la aparición de la misión en tu diario. Además, asegúrate de haber avanzado lo suficiente en la historia principal."
+  },
+  {
+    question: "¿Dónde puedo encontrar pistas sobre la desaparición de Giuliana en el museo?",
+    answer: "En el almacén del Ala del Museo Vaticano, busca una huella de mano ensangrentada, un trozo de tela de uniforme fascista, la tarjeta de identificación de Giuliana, una fotografía de Castello del Dr. Jones, huellas y una mancha de sangre con el anillo de oro de Giuliana."
+  },
+  {
+    question: "¿Cuál es la combinación de la caja fuerte encontrada durante la misión 'Una Monja en Apuros'?",
+    answer: "La combinación de la caja fuerte es **7171**. Puedes revelarla apagando la lámpara verde cerca de la caja fuerte, que actúa como luz negra."
+  }
+]} />
+</Section>
