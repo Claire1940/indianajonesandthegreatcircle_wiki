@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Language } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Change Language: Step-by-Step Guide",
+  description: "Learn how to change the language settings in Indiana Jones and the Great Circle for both PC (Xbox Game Pass, Steam) and consoles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/9e2b0e/fff?text=Indiana+Jones+Language",
+  date: "2026-05-20",
+  author: "Indiana Jones Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **System Language**: For Xbox Game Pass and consoles, **Indiana Jones and the Great Circle** often defaults to your system's language.
+- **PC Game Pass**: Adjust your PC's **Region & Language** settings to change the game's language.
+- **Steam**: Locate the game's configuration files to manually edit language settings, if available.
+- **Audio & Subtitles**: Some platforms allow for separate audio and subtitle language configurations.
+- **Supported Languages**: Verify the game's supported languages on the official Bethesda support page.
+</Callout>
+
+<Section icon={Language} title="Changing Language in Indiana Jones and the Great Circle">
+Navigating the language settings in *Indiana Jones and the Great Circle* can sometimes be a bit tricky, especially depending on your platform. Unlike many games with in-game language options, this title often relies on your system's default language settings. This guide will walk you through the necessary steps for PC (Xbox Game Pass and Steam) and consoles to ensure you can enjoy the game in your preferred language.
+
+**Video Highlights:**
+- Demonstrates how to access system language settings on PC.
+- Shows the process of adding and prioritizing a new language.
+- Explains the method for changing audio language while retaining local subtitles.
+
+<YouTubeEmbed videoId="IXNzluf-9b0" title="How to Change Audio Language in Indiana Jones and the Great Circle (PC)" />
+
+For players on PC via Xbox Game Pass or consoles, the game typically inherits the language set at the system level. This means that to change the game's language, you'll need to modify your operating system's or console's language preferences. Steam users might find options within the game's properties, but system-level changes can also be a factor.
+
+<Callout type="tip">
+Always restart the game and potentially your PC or console after making system-level language changes to ensure the new settings are applied correctly.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PC Language Change: Xbox Game Pass Method">
+If you're playing *Indiana Jones and the Great Circle* through Xbox Game Pass on PC, the primary method for changing the game's language involves adjusting your Windows system settings. This approach ensures the game launches with your desired language.
+
+<Steps>
+  <Step num="1" title="Access System Settings">
+    Click on the **Start Menu** and navigate to **Settings**.
+  </Step>
+  <Step num="2" title="Go to Time & Language">
+    In the Settings window, select **Time & Language** from the left-hand menu.
+  </Step>
+  <Step num="3" title="Select Language & Region">
+    Click on **Language & Region** to view your installed languages.
+  </Step>
+  <Step num="4" title="Add a Preferred Language">
+    If your desired language is not listed, click **Add a language** and select it from the list.
+  </Step>
+  <Step num="5" title="Prioritize Your Language">
+    Once added, click the three dots next to your preferred language and select **Move up** to place it at the top of the list. This sets it as your primary display language.
+  </Step>
+  <Step num="6" title="Relaunch the Game">
+    Close the Xbox Game Pass app completely, then relaunch *Indiana Jones and the Great Circle*. The game should now be in your newly selected language.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note for Audio/Subtitle Mix">
+If you wish to have English audio with local language subtitles, a workaround is required. Temporarily change your system language to English, restart your PC, and download the English audio files. Then, locate the `en_US` sound folder within the game's content directory (`Xbox game app > Manage > Files > Browse > Indiana Jones and the Great Circle > Content > Base > Sound > External Sources > PC`), copy it to a safe location, and revert your system language. Finally, replace the sound files with your saved English audio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PC Language Change: Steam Method">
+For players on Steam, the process might involve a combination of Steam's built-in options and potentially manual file editing if an in-game option is not available.
+
+<Steps>
+  <Step num="1" title="Open Steam Library">
+    Launch Steam and go to your **Library**.
+  </Step>
+  <Step num="2" title="Access Game Properties">
+    Right-click on *Indiana Jones and the Great Circle* in your game list and select **Properties**.
+  </Step>
+  <Step num="3" title="Check Language Tab">
+    In the Properties window, look for a **Language** tab. If available, select your desired language from the dropdown menu.
+  </Step>
+  <Step num="4" title="Verify Game Files">
+    After changing the language, it's often a good idea to go to the **Local Files** tab and click **Verify integrity of game files...** to ensure all language-specific assets are downloaded.
+  </Step>
+  <Step num="5" title="Manual Configuration (if needed)">
+    If a language tab is absent or doesn't work, some games might have a configuration file within the game's installation directory (e.g., `Steam/steamapps/common/Indiana Jones and the Great Circle/settings.ini` or similar) where you can manually edit the language entry.
+  </Step>
+</Steps>
+
+<Callout type="info">
+The ability to choose different languages for text and voiceover separately is not always an in-game feature. Some players have requested this from the developers, and it may be added in future updates.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Console Language Change">
+On consoles (Xbox Series X|S), *Indiana Jones and the Great Circle* typically follows the system language of your console. There are usually no in-game options for language selection.
+
+<Steps>
+  <Step num="1" title="Go to Console Settings">
+    Navigate to your console's **Settings** menu from the dashboard.
+  </Step>
+  <Step num="2" title="Select System Language">
+    Find the **System** or **Language & Location** option.
+  </Step>
+  <Step num="3" title="Choose Your Language">
+    Select your preferred language from the available options.
+  </Step>
+  <Step num="4" title="Restart Console">
+    Restart your console to apply the new system language settings.
+  </Step>
+  <Step num="5" title="Launch Game">
+    Start *Indiana Jones and the Great Circle*. The game should now reflect your console's chosen language.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Supported Languages">
+According to Bethesda's official support page, *Indiana Jones and the Great Circle* offers voice and text support for English, French, Italian, German, Spanish (Latin American and Castilian), Brazilian Portuguese, Japanese, and Polish. Text-only support includes Arabic, Traditional Chinese, Simplified Chinese, Korean, and Russian.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Supported Languages and Troubleshooting">
+Understanding which languages are officially supported by *Indiana Jones and the Great Circle* is crucial. Bethesda provides a comprehensive list, which can help in troubleshooting if a language you desire isn't appearing.
+
+<CardGrid cols={2}>
+  <Card title="Voice and Text Support">
+    - **English**
+    - **French**
+    - **Italian**
+    - **German**
+    - **Spanish** (Latin American & Castilian)
+    - **Brazilian Portuguese**
+    - **Japanese**
+    - **Polish**
+  </Card>
+  <Card title="Text Only Support">
+    - **Arabic**
+    - **Traditional Chinese**
+    - **Simplified Chinese**
+    - **Korean**
+    - **Russian**
+  </Card>
+</CardGrid>
+
+<Callout type="warning">
+If you're experiencing issues with the language not changing, ensure your game is fully updated. Sometimes, language packs are downloaded as part of game updates. If problems persist, consider reaching out to Bethesda Support for platform-specific assistance.
+</Callout>
+
+</Section>
+
+<Section icon={Language} title="Frequently Asked Questions (FAQ)">
+
+<FAQ items={[
+  {
+    question: "How do I change the language in Indiana Jones and the Great Circle on PC Game Pass?",
+    answer: "To change the language on PC Game Pass, you need to adjust your Windows system's 'Language & Region' settings. Add your desired language, move it to the top of the preferred languages list, and then restart the Xbox Game Pass app and the game."
+  },
+  {
+    question: "Can I have English audio and Spanish subtitles in Indiana Jones and the Great Circle?",
+    answer: "Yes, but it requires a workaround. Temporarily set your system language to English to download the English audio files. Then, manually copy the English audio folder, revert your system language to Spanish, and replace the audio files with the English ones. This will give you English audio with Spanish subtitles."
+  },
+  {
+    question: "Are there in-game language options for Indiana Jones and the Great Circle?",
+    answer: "Generally, no. For most platforms (Xbox Game Pass PC and consoles), *Indiana Jones and the Great Circle* relies on your system's default language settings. Steam might have a language tab in game properties, but system-level changes are often the primary method."
+  },
+  {
+    question: "What languages are fully supported (voice and text) in Indiana Jones and the Great Circle?",
+    answer: "The game fully supports English, French, Italian, German, Spanish (Latin American and Castilian), Brazilian Portuguese, Japanese, and Polish for both voice and text. Additional languages like Arabic, Chinese, Korean, and Russian are supported for text only."
+  }
+]} />
+
+</Section>

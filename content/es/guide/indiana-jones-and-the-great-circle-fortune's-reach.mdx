@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Fortune's Reach: Guía del misterio y solución",
+  description: "Desentraña el misterio de Fortune's Reach en Indiana Jones and the Great Circle con nuestra guía paso a paso, que incluye la ubicación, la solución del rompecabezas y las recompensas. Descubre todos los misterios de Gizeh.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/9b59b6/fff?text=Fortunes+Reach+Guide",
+  date: "2026-05-20",
+  author: "Equipo de la Wiki de Indiana Jones and the Great Circle",
+  keywords: "Indiana Jones, Fortune's Reach, Gizeh, solución puzzle, guía de misterio, medicina de Gizeh"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El misterio **Fortune's Reach** se encuentra en **Gizeh**, específicamente cerca de la Estación Meteorológica.
+- Resolver este misterio te recompensa con el libro de exploración **Medicina de Gizeh**.
+- El rompecabezas consiste en emparejar las **fechas del Registro de estado de las nubes** con los **números de página del Atlas de nubes**.
+- El código final para el cofre asociado es **0609**.
+- Prioriza este misterio para obtener una valiosa **mejora de resistencia** a través del libro de Medicina.
+</Callout>
+
+<Section icon={Map} title="Desbloqueando el misterio de Fortune's Reach en Gizeh">
+El misterio **Fortune's Reach** es una de las muchas misiones secundarias intrigantes que Indiana Jones encuentra en la vasta y antigua región de Gizeh en *Indiana Jones and the Great Circle*. Este misterio en particular es crucial para los jugadores que buscan explorar completamente el área de Gizeh y adquirir mejoras valiosas. Encontrarlo y resolverlo te dará acceso al libro de exploración Medicina de Gizeh, que ayuda significativamente a localizar otros coleccionables y mejorar las capacidades de supervivencia de Indy.
+
+El misterio se localiza principalmente cerca de la Estación Meteorológica, un área al oeste de la Gran Esfinge. Esta región forma parte de la aventura principal más amplia "El ídolo de Ra", lo que la convierte en un buen punto de interés para abordar mientras progresas en la historia principal.
+
+<Callout type="tip" title="Consejo de Exploración">
+Mientras exploras Gizeh, mantente siempre atento a los objetos interactuables como notas, registros y pistas. Muchos misterios, incluido **Fortune's Reach**, se resuelven atando cabos con la información del entorno en lugar de seguir instrucciones directas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fortune's Reach: Solución del rompecabezas paso a paso">
+Resolver el misterio de Fortune's Reach implica un ingenioso rompecabezas que requiere atención al detalle. El núcleo del puzzle consiste en emparejar fechas y tipos de nubes para obtener un código numérico. Sigue estos pasos para descifrar el misterio con éxito:
+
+<Steps>
+  <Step num="1" title="Localiza la Estación Meteorológica">
+    Dirígete a la Estación Meteorológica, situada al noroeste del Área de Trabajadores de Gizeh. Aquí es donde encontrarás las pistas principales para el rompecabezas.
+  </Step>
+  <Step num="2" title="Encuentra el Registro de estado de las nubes">
+    Dentro de la estación, busca el Registro de estado de las nubes (Cloud Status Logbook). Este registro contiene una serie de fechas y sus correspondientes tipos de nubes.
+  </Step>
+  <Step num="3" title="Identifica los números de página del Atlas de nubes">
+    Deberás cruzar los tipos de nubes del registro con los números de página del Atlas de nubes (Cloud Atlas). La clave es convertir los tipos de nubes identificados en sus equivalentes numéricos. Las fechas relevantes son 13.10, 09.10, 16.10 y 14.10.
+  </Step>
+  <Step num="4" title="Empareja tipos de nubes con números">
+    Empareja los tipos de nubes encontrados en el registro (Cirrus, Stratus, Cirrus y Cumulonimbus) con sus valores numéricos. Esta conversión te dará el código de cuatro dígitos.
+    <Callout type="success" title="El Código">
+    La conversión numérica correcta para los tipos de nubes te llevará al código: **0609**.
+    </Callout>
+  </Step>
+  <Step num="5" title="Abre el cofre">
+    Introduce el código **0609** en el cofre cerrado asociado al misterio Fortune's Reach. El cofre se encuentra normalmente dentro del área de la Estación Meteorológica.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Swords} title="Recompensas e impacto en el juego">
+Resolver con éxito el misterio de Fortune's Reach otorga una recompensa significativa: el libro de exploración **Medicina de Gizeh**. Este libro es invaluable para cualquier aventurero que busque una ventaja en el duro entorno de Gizeh.
+
+<CardGrid cols={2}>
+  <Card title="Libro de Medicina de Gizeh">
+    - **Efecto**: Revela las ubicaciones de los Frascos de Medicina en el mapa de Gizeh.
+    - **Beneficio**: Esencial para localizar todos los Frascos de Medicina de la región.
+    - **Ruta de mejora**: Los Frascos de Medicina se utilizan para desbloquear o mejorar la progresión de salud y resistencia de Indy.
+  </Card>
+  <Card title="Aumentos de Resistencia y Salud">
+    - **Utilidad**: Contribuye directamente a aumentar la barra de resistencia de Indy (mediante libros Moxie) y añadir barras de reserva de salud adicionales (mediante libros Shaping Up).
+    - **Supervivencia**: Hace que los encuentros de combate y la exploración extensa sean mucho más seguros y manejables.
+    - **Valor a largo plazo**: Una de las mejores mejoras a largo plazo para la supervivencia general y la efectividad en combate.
+  </Card>
+</CardGrid>
+
+El libro de Medicina de Gizeh es particularmente útil cuando se combina con otros libros de exploración, ya que agiliza el proceso de limpieza de coleccionables. Al revelar las ubicaciones de objetos cruciales en tu mapa, puedes pasar menos tiempo buscando y más tiempo viviendo la aventura.
+
+</Section>
+
+<Section icon={Trophy} title="Resumen de los misterios de Gizeh">
+Fortune's Reach es solo uno de los varios misterios que encontrarás en Gizeh. Estos objetivos secundarios a menudo proporcionan valiosa información sobre el lore, objetos únicos y mejoras esenciales. Aquí tienes un breve resumen de otros misterios notables de Gizeh y sus recompensas:
+
+| Nombre del misterio      | Ubicación                                    | Elemento clave del puzzle                        | Recompensa/Impacto                              |
+| :----------------------- | :------------------------------------------- | :----------------------------------------------- | :---------------------------------------------- |
+| **Secreto de la Reina Madre** | Gran Pirámide                                | Observación del entorno                          | Desbloquea nuevas áreas, Notas del diario       |
+| **Santuario de los Guardianes** | Área de Trabajadores de Gizeh                | Interpretación de glifos                         | Acceso a botín oculto                           |
+| **Un predicamento salvaje** | Varios sitios de excavación                  | Búsqueda de pistas, combate                      | XP, Notas del diario                            |
+| **El asiento de la eternidad** | Pequeña tumba al noroeste de la Gran Esfinge | **Orden de los Vasos Canopos**                   | Completar misterio, botín de tumba              |
+| **Futuro brillante**      | Camino principal entre Esfinge y Tumba de Khentkawes | Carta de Pohl, cofre de dinamita                 | Completar misterio                              |
+| **La aparición**          | Ruinas antiguas                              | Investigación de actividad paranormal            | Lore único, recompensas menores                 |
+| **Atlas de nubes**       | Estación Meteorológica                       | **Conversión de tipo de nube a número**          | **Medicina de Gizeh** (Fortune's Reach)        |
+| **La promesa de un ladrón** | Área del mercado                             | Rastrear a un sospechoso, sigilo                 | Dinero, objetos menores                         |
+
+<Callout type="warning" title="Alerta para Completistas">
+Aunque la mayoría de los misterios se pueden completar a tu ritmo, algunos es mejor abordarlos durante tu exploración inicial de un área central. Esto evita tener que volver atrás excesivamente y asegura que te beneficies de sus recompensas, como los libros de exploración, lo antes posible.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Maximizando tu exploración de Gizeh">
+Para aprovechar al máximo tu tiempo en Gizeh y completar eficientemente todos sus misterios, considera la siguiente lista de verificación:
+
+<Checklist
+  id="gizeh-exploration"
+  title="Lista de verificación de exploración de Gizeh:"
+  items={[
+    "Desbloquea todos los puntos de viaje rápido en Gizeh.",
+    "Prioriza obtener el libro de Medicina de Gizeh de Fortune's Reach.",
+    "Colecciona todas las Estelas mientras despejas sitios de excavación y áreas nazis.",
+    "Reúne todas las frecuencias de radio y entrégaselas a Gina.",
+    "Resuelve los misterios de códigos de cajas fuertes antes de pasar a la siguiente aventura principal.",
+    "Fotografía todos los monumentos únicos y elementos de puzzles para las Notas del Diario."
+  ]}
+/>
+
+Gizeh es un área rica con muchos secretos, y aprovechar las recompensas de misterios como Fortune's Reach mejorará significativamente tu viaje. Los libros de exploración son particularmente poderosos, convirtiendo una búsqueda desalentadora de coleccionables en una tarea mucho más manejable.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes sobre Fortune's Reach">
+
+<FAQ items={[
+  {
+    question: "¿Dónde se encuentra exactamente el misterio Fortune's Reach?",
+    answer: "El misterio Fortune's Reach se encuentra en Gizeh, específicamente en la Estación Meteorológica, que se halla al noroeste del Área de Trabajadores de Gizeh y al oeste de la Gran Esfinge."
+  },
+  {
+    question: "¿Cuál es la recompensa por completar Fortune's Reach?",
+    answer: "Al resolver el misterio de Fortune's Reach, recibirás el libro de exploración Medicina de Gizeh. Este libro revela las ubicaciones de los Frascos de Medicina en el mapa de Gizeh, los cuales son cruciales para mejorar la salud y la resistencia de Indy."
+  },
+  {
+    question: "¿Cuál es el código del cofre en Fortune's Reach?",
+    answer: "El código para el cofre en el misterio Fortune's Reach es 0609. Este código se obtiene emparejando las fechas del Registro de estado de las nubes con los números de página correspondientes del Atlas de nubes."
+  },
+  {
+    question: "¿Hay otros misterios importantes en Gizeh?",
+    answer: "Sí, Gizeh cuenta con varios otros misterios, incluyendo 'Secreto de la Reina Madre', 'Santuario de los Guardianes' y 'El asiento de la eternidad'. Cada uno ofrece recompensas únicas y contribuye a tu progreso general."
+  }
+]} />
+
+</Section>

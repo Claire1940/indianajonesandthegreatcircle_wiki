@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Console Commands: 2026 PC Cheat Guide",
+  description: "Unlock the full potential of Indiana Jones and the Great Circle console commands. Learn how to enable god mode, noclip, and fix progression bugs on PC.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/f39c12?text=Console+Commands+Guide",
+  date: "2026-05-20",
+  author: " Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Indiana Jones and the Great Circle console commands** are primarily accessible on the PC version via the tilde key.
+- **Engine Background**: The game utilizes the id Tech engine, meaning many commands follow standard Bethesda/MachineGames syntax.
+- **Bug Fixing**: Commands like `noclip` (or `idclip`) are essential for bypassing geometry-related progression blockers.
+- **Achievement Warning**: Using certain "cheat" commands may disable Steam or Xbox achievements for the current session.
+- **Third-Party Tools**: If the native console is restricted, external trainers like WeMod offer reliable alternatives for 2026.
+</Callout>
+
+<Section icon={Map} title="Accessing the Command Console in The Great Circle">
+
+To utilize **indiana jones and the great circle console commands**, players must first understand the architectural roots of the game. Developed by MachineGames, the title runs on a highly modified version of the id Tech engine. Historically, this engine allows developers and players to access a "developer console" to modify game variables in real-time.
+
+On the PC version, the console is typically accessed by pressing the **Tilde (~)** key, located just below the Escape (Esc) key. For some keyboard layouts, you may need to use `Ctrl + Alt + ~` or `Shift + ~`. Once the transparent overlay appears at the top of the screen, you can input specific strings to alter gameplay mechanics, movement, or environmental settings.
+
+| Feature | PC Access Method | Console Access |
+| :--- | :--- | :--- |
+| **Primary Key** | Tilde (~) | Not Available |
+| **Alternative** | Ctrl + Alt + ~ | Not Available |
+| **Trainer Support** | High (WeMod/CheatEngine) | None |
+| **Command History** | Up/Down Arrow Keys | N/A |
+
+<Callout type="tip" title="Developer Mode">
+If the console does not open by default, you may need to add `-devmode` or `+com_allowconsole 1` to the game's launch options in Steam or the Xbox App. This forces the engine to initialize the command interface upon startup.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essential Console Commands and Cheats">
+
+While many players seek **indiana jones and the great circle console commands** to gain an unfair advantage, most use them to enhance the cinematic experience or overcome difficult puzzles. The commands are divided into movement, combat, and utility categories. Because the game focuses heavily on first-person exploration and whip mechanics, movement commands are the most sought-after.
+
+The following table outlines the most effective commands identified within the engine's framework for 2026. Note that syntax must be exact, including underscores.
+
+| Command | Function | Recommended Use |
+| :--- | :--- | :--- |
+| **g_god 1** | Enables God Mode | Surviving lethal trap rooms |
+| **noclip** | Disable collision | Fixing geometry/stuck issues |
+| **idclip** | Engine-specific noclip | Alternative movement fix |
+| **g_infiniteammo 1** | Unlimited resources | Combat-heavy sections |
+| **give all** | Grants all items/weapons | Sandbox exploration |
+| **timescale 0.5** | Slows down time | Capturing cinematic screenshots |
+
+<Callout type="success" title="Legacy Command Support">
+Interestingly, the engine still recognizes legacy commands from previous MachineGames titles like Wolfenstein. If a specific Great Circle command fails, trying the Wolfenstein equivalent often yields results.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Exploration Commands">
+    - **noclip**: Fly through walls
+    - **g_showfps 1**: Monitor performance
+    - **listcvars**: View all commands
+  </Card>
+  <Card title="Combat Buffs">
+    - **g_god 1**: Invincibility
+    - **give health**: Instant heal
+    - **give ammo**: Refill supplies
+  </Card>
+  <Card title="Utility Tools">
+    - **screenshot**: Capture high-res images
+    - **quit**: Instant exit to desktop
+    - **clear**: Wipe console history
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Fixing Progression Bugs and Getting Unstuck">
+
+A common reason players search for **indiana jones and the great circle console commands** is to resolve technical glitches. For instance, players have reported getting stuck in the Sukothai "Trap Room" during side quests. In these scenarios, Indy may fail to perform a "shimmy" action through a wall, effectively soft-locking the game.
+
+If you find yourself trapped without a recent save, follow these steps to use the console as a diagnostic tool.
+
+<Steps>
+  <Step num="1" title="Open the Console">
+    Press the **~** key to open the command overlay. Ensure the game is not in a paused menu state, as this can sometimes prevent the console from registering inputs.
+  </Step>
+  <Step num="2" title="Enable No-Clip">
+    Type `noclip` or `idclip` and press Enter. You should see a confirmation message in the console log. This allows Indy to move freely through walls and floors.
+  </Step>
+  <Step num="3" title="Reposition Indy">
+    Fly through the problematic geometry (such as the wall in the Sukothai Trap Room) to the other side where the script is supposed to trigger.
+  </Step>
+  <Step num="4" title="Disable No-Clip">
+    Type `noclip` again to re-enable gravity and collision. **Warning**: Ensure you are hovering slightly above the floor to avoid falling through the map when physics resume.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Script Triggers">
+Using noclip can sometimes bypass invisible "triggers" required for quest progression. If the story does not advance after clipping through a wall, you may need to clip back and walk over specific floor tiles to activate the next objective.
+</Callout>
+
+| Stuck Scenario | Recommended Fix | Alternative |
+| :--- | :--- | :--- |
+| **Wall Shimmy Bug** | noclip / idclip | Reload Checkpoint |
+| **Falling through Map** | g_god 1 (to survive) | Fast Travel |
+| **NPC Not Talking** | reload | restart_level |
+| **Object Interaction Fail** | give [item_name] | Verify Game Files |
+
+</Section>
+
+<Section icon={Sparkles} title="Third-Party Trainers and WeMod Integration">
+
+In some versions of the game, particularly those on the Microsoft Store or Game Pass, the native **indiana jones and the great circle console commands** may be locked behind administrative restrictions. In these cases, 2026 players often turn to third-party software like WeMod to achieve similar results without manually typing strings.
+
+Trainers provide a graphical user interface (GUI) that toggles "cheats" via hotkeys. This is often safer for beginners who are wary of breaking the game's engine by entering incorrect console variables.
+
+<CardGrid cols={2}>
+  <Card title="WeMod Features">
+    - **One-Click Activation**: No need to memorize command syntax.
+    - **Safe Noclip**: Often more stable than engine commands.
+    - **Stealth Mode**: Designed to avoid achievement flags.
+  </Card>
+  <Card title="Engine Console Benefits">
+    - **Zero Installation**: Built directly into the game files.
+    - **Granular Control**: Modify specific variables like FOV or lighting.
+    - **Developer Tools**: Access to debug logs and performance metrics.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Software Compatibility">
+Always ensure your trainer is updated to the latest game version. Using a 2025 trainer on a 2026 game patch can cause crashes or corrupt your save files.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Legacy Comparisons: Great Circle vs. Infernal Machine">
+
+Long-time fans of the franchise may remember the elaborate cheat codes for *Indiana Jones and the Infernal Machine*. While that classic title used codes like `TAKLIT_MARION` for god mode or `MAKEMEAPIRATE` for costumes, **indiana jones and the great circle console commands** follow the modern id Tech standard.
+
+| Feature | Infernal Machine (Legacy) | The Great Circle (2026) |
+| :--- | :--- | :--- |
+| **God Mode Code** | TAKLIT_MARION | g_god 1 |
+| **Noclip Code** | FIXME | noclip / idclip |
+| **Weapon Unlock** | All weapons (Cheat) | give all (Console) |
+| **Costume Changes** | MAKEMEAPIRATE | Cosmetic Menu / Mods |
+
+<Callout type="tip" title="Easter Eggs">
+While legacy codes like `NUB_WILLIE` do not work in the modern console, MachineGames often hides references to these old cheats in the game's environment or journal entries as a nod to veteran players.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Final Checklist and FAQ">
+
+Before you begin experimenting with the developer console, ensure you have a backup of your progress. Manipulating engine variables can have unforeseen consequences on the physics-based puzzles that define the Great Circle experience.
+
+<Checklist
+  id="console-safety"
+  title="Safe Modding Checklist:"
+  items={[
+    "Create a manual save before using any commands",
+    "Disable 'Cloud Sync' if you plan to use trainers",
+    "Test 'noclip' in an open area first",
+    "Identify the correct engine syntax (id Tech 7/8)",
+    "Verify if achievements are still active after use"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "How do I open the console in Indiana Jones and the Great Circle?",
+    answer: "On PC, press the tilde (~) key. If it doesn't open, ensure you have added '+com_allowconsole 1' to your launch options in Steam or the Xbox App."
+  },
+  {
+    question: "Will using console commands disable achievements?",
+    answer: "Generally, yes. Most Bethesda-published titles disable achievements for the duration of the play session once a 'cheat' command like g_god or give all is used."
+  },
+  {
+    question: "What is the command for noclip?",
+    answer: "The primary command is 'noclip'. If that doesn't work, 'idclip' is the engine-specific alternative often used in MachineGames titles."
+  },
+  {
+    question: "Can I use these commands on Xbox or PlayStation?",
+    answer: "No. Console commands are restricted to the PC version of the game. Console players must rely on in-game exploits or patches to fix progression issues."
+  }
+]} />
+
+</Section>

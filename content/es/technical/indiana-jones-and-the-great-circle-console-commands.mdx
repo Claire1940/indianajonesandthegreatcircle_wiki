@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Comandos de Consola de Indiana Jones and the Great Circle: Guía de Trucos para PC 2026",
+  description: "Desbloquea todo el potencial de los comandos de consola de Indiana Jones and the Great Circle. Aprende cómo activar el modo dios, noclip y solucionar errores de progresión en PC.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/f39c12?text=Console+Commands+Guide",
+  date: "2026-05-20",
+  author: "Equipo de Wiki",
+  keywords: "indiana jones, comandos de consola, trucos pc, modo dios, noclip, gran círculo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **comandos de consola de Indiana Jones and the Great Circle** son accesibles principalmente en la versión de PC a través de la tecla tilde.
+- **Base del Motor**: El juego utiliza el motor id Tech, lo que significa que muchos comandos siguen la sintaxis estándar de Bethesda/MachineGames.
+- **Solución de Errores**: Comandos como `noclip` (o `idclip`) son esenciales para omitir bloqueadores de progresión relacionados con la geometría.
+- **Advertencia de Logros**: El uso de ciertos comandos de \"truco\" puede desactivar los logros de Steam o Xbox para la sesión actual.
+- **Herramientas de Terceros**: Si la consola nativa está restringida, los trainers externos como WeMod ofrecen alternativas fiables para 2026.
+</Callout>
+
+<Section icon={Map} title="Cómo acceder a la consola de comandos en The Great Circle">
+
+Para utilizar los **comandos de consola de indiana jones and the great circle**, los jugadores deben comprender primero las raíces arquitectónicas del juego. Desarrollado por MachineGames, el título se ejecuta en una versión altamente modificada del motor id Tech. Históricamente, este motor permite a los desarrolladores y jugadores acceder a una \"consola de desarrollador\" para modificar las variables del juego en tiempo real.
+
+En la versión de PC, normalmente se accede a la consola presionando la tecla **Tilde (~)**, ubicada justo debajo de la tecla Escape (Esc). Para algunos diseños de teclado, es posible que deba usar `Ctrl + Alt + ~` o `Shift + ~`. Una vez que aparezca la superposición transparente en la parte superior de la pantalla, puede introducir cadenas específicas para alterar las mecánicas de juego, el movimiento o la configuración ambiental.
+
+| Característica | Método de Acceso en PC | Acceso en Consola |
+| :--- | :--- | :--- |
+| **Tecla Principal** | Tilde (~) | No disponible |
+| **Alternativa** | Ctrl + Alt + ~ | No disponible |
+| **Soporte de Trainer** | Alto (WeMod/CheatEngine) | Ninguno |
+| **Historial de Comandos** | Teclas de flecha Arriba/Abajo | N/A |
+
+<Callout type="tip" title="Modo Desarrollador">
+Si la consola no se abre de forma predeterminada, es posible que deba añadir `-devmode` o `+com_allowconsole 1` a las opciones de lanzamiento del juego en Steam o en la aplicación de Xbox. Esto obliga al motor a inicializar la interfaz de comandos al arrancar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comandos de consola y trucos esenciales">
+
+Aunque muchos jugadores buscan **comandos de consola de indiana jones and the great circle** para obtener una ventaja injusta, la mayoría los utiliza para mejorar la experiencia cinematográfica o superar acertijos difíciles. Los comandos se dividen en categorías de movimiento, combate y utilidad. Debido a que el juego se centra en gran medida en la exploración en primera persona y las mecánicas del látigo, los comandos de movimiento son los más solicitados.
+
+La siguiente tabla describe los comandos más efectivos identificados dentro del marco del motor para 2026. Tenga en cuenta que la sintaxis debe ser exacta, incluyendo los guiones bajos.
+
+| Comando | Función | Uso Recomendado |
+| :--- | :--- | :--- |
+| **g_god 1** | Activa el Modo Dios | Sobrevivir a salas de trampas letales |
+| **noclip** | Desactiva las colisiones | Corregir problemas de geometría/bloqueo |
+| **idclip** | Noclip específico del motor | Solución alternativa de movimiento |
+| **g_infiniteammo 1** | Recursos ilimitados | Secciones con mucho combate |
+| **give all** | Otorga todos los objetos/armas | Exploración de tipo sandbox |
+| **timescale 0.5** | Ralentiza el tiempo | Capturar capturas de pantalla cinematográficas |
+
+<Callout type="success" title="Soporte de comandos heredados">
+Curiosamente, el motor todavía reconoce comandos heredados de títulos anteriores de MachineGames como Wolfenstein. Si un comando específico de Great Circle falla, intentar el equivalente de Wolfenstein suele dar resultados.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Comandos de Exploración">
+    - **noclip**: Volar a través de paredes
+    - **g_showfps 1**: Monitorizar rendimiento
+    - **listcvars**: Ver todos los comandos
+  </Card>
+  <Card title="Mejoras de Combate">
+    - **g_god 1**: Invencibilidad
+    - **give health**: Curación instantánea
+    - **give ammo**: Rellenar suministros
+  </Card>
+  <Card title="Herramientas de Utilidad">
+    - **screenshot**: Capturar imágenes de alta resolución
+    - **quit**: Salida instantánea al escritorio
+    - **clear**: Borrar historial de la consola
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Solución de errores de progresión y desbloqueo">
+
+Una razón común por la que los jugadores buscan **comandos de consola de indiana jones and the great circle** es para resolver fallos técnicos. Por ejemplo, algunos jugadores han informado haberse quedado atascados en la \"Sala de Trampas\" de Sukothai durante misiones secundarias. En estos escenarios, Indy puede fallar al realizar una acción de \"deslizamiento\" a través de una pared, bloqueando efectivamente el juego.
+
+Si se encuentra atrapado sin un guardado reciente, siga estos pasos para usar la consola como herramienta de diagnóstico.
+
+<Steps>
+  <Step num="1" title="Abrir la Consola">
+    Presione la tecla **~** para abrir la superposición de comandos. Asegúrese de que el juego no esté en un estado de menú de pausa, ya que esto a veces puede evitar que la consola registre las entradas.
+  </Step>
+  <Step num="2" title="Activar No-Clip">
+    Escriba `noclip` o `idclip` y presione Enter. Debería ver un mensaje de confirmación en el registro de la consola. Esto permite que Indy se mueva libremente a través de paredes y suelos.
+  </Step>
+  <Step num="3" title="Reposicionar a Indy">
+    Vuele a través de la geometría problemática (como la pared en la Sala de Trampas de Sukothai) hacia el otro lado donde se supone que debe activarse el script.
+  </Step>
+  <Step num="4" title="Desactivar No-Clip">
+    Escriba `noclip` nuevamente para volver a activar la gravedad y las colisiones. **Advertencia**: Asegúrese de estar flotando ligeramente por encima del suelo para evitar caer a través del mapa cuando se reanude la física.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Activadores de Script">
+El uso de noclip a veces puede omitir \"activadores\" invisibles necesarios para la progresión de la misión. Si la historia no avanza después de atravesar una pared, es posible que deba volver a atravesarla y caminar sobre baldosas específicas del suelo para activar el siguiente objetivo.
+</Callout>
+
+| Escenario de Bloqueo | Solución Recomendada | Alternativa |
+| :--- | :--- | :--- |
+| **Error de Deslizamiento en Pared** | noclip / idclip | Recargar punto de control |
+| **Caída a través del Mapa** | g_god 1 (para sobrevivir) | Viaje rápido |
+| **NPC no habla** | reload | restart_level |
+| **Fallo de interacción con objeto** | give [nombre_objeto] | Verificar archivos del juego |
+
+</Section>
+
+<Section icon={Sparkles} title="Trainers de terceros e integración con WeMod">
+
+En algunas versiones del juego, particularmente aquellas en la Microsoft Store o Game Pass, los **comandos de consola nativos de indiana jones and the great circle** pueden estar bloqueados por restricciones administrativas. En estos casos, los jugadores de 2026 suelen recurrir a software de terceros como WeMod para lograr resultados similares sin escribir cadenas manualmente.
+
+Los trainers proporcionan una interfaz gráfica de usuario (GUI) que activa \"trucos\" mediante teclas de acceso rápido. Esto suele ser más seguro para principiantes que temen romper el motor del juego al introducir variables de consola incorrectas.
+
+<CardGrid cols={2}>
+  <Card title="Características de WeMod">
+    - **Activación con un clic**: No es necesario memorizar la sintaxis de los comandos.
+    - **Noclip seguro**: A menudo más estable que los comandos del motor.
+    - **Modo sigilo**: Diseñado para evitar el marcado de logros.
+  </Card>
+  <Card title="Beneficios de la Consola del Motor">
+    - **Instalación cero**: Integrada directamente en los archivos del juego.
+    - **Control granular**: Modifica variables específicas como el FOV o la iluminación.
+    - **Herramientas de desarrollador**: Acceso a registros de depuración y métricas de rendimiento.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Compatibilidad de Software">
+Asegúrese siempre de que su trainer esté actualizado a la última versión del juego. Usar un trainer de 2025 en un parche de juego de 2026 puede causar cierres inesperados o corromper sus archivos de guardado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Comparaciones heredadas: Great Circle vs. Infernal Machine">
+
+Los fans veteranos de la franquicia recordarán los elaborados códigos de trucos de *Indiana Jones and the Infernal Machine*. Mientras que ese título clásico usaba códigos como `TAKLIT_MARION` para el modo dios o `MAKEMEAPIRATE` para disfraces, los **comandos de consola de indiana jones and the great circle** siguen el estándar moderno de id Tech.
+
+| Característica | Infernal Machine (Legado) | The Great Circle (2026) |
+| :--- | :--- | :--- |
+| **Código Modo Dios** | TAKLIT_MARION | g_god 1 |
+| **Código Noclip** | FIXME | noclip / idclip |
+| **Desbloqueo de Armas** | Todas las armas (Truco) | give all (Consola) |
+| **Cambios de Disfraz** | MAKEMEAPIRATE | Menú cosmético / Mods |
+
+<Callout type="tip" title="Huevos de Pascua">
+Aunque códigos heredados como `NUB_WILLIE` no funcionan en la consola moderna, MachineGames a menudo esconde referencias a estos viejos trucos en el entorno del juego o en las entradas del diario como un guiño a los jugadores veteranos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de verificación final y preguntas frecuentes">
+
+Antes de comenzar a experimentar con la consola de desarrollador, asegúrese de tener una copia de seguridad de su progreso. Manipular las variables del motor puede tener consecuencias imprevistas en los acertijos basados en la física que definen la experiencia de Great Circle.
+
+<Checklist
+  id="console-safety"
+  title="Lista de verificación para modding seguro:"
+  items={[
+    "Crea un guardado manual antes de usar cualquier comando",
+    "Desactiva la 'Sincronización en la nube' si planeas usar trainers",
+    "Prueba el 'noclip' primero en un área abierta",
+    "Identifica la sintaxis correcta del motor (id Tech 7/8)",
+    "Verifica si los logros siguen activos después del uso"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Cómo abro la consola en Indiana Jones and the Great Circle?",
+    answer: "En PC, presiona la tecla tilde (~). Si no se abre, asegúrate de haber añadido '+com_allowconsole 1' a tus opciones de lanzamiento en Steam o en la aplicación de Xbox."
+  },
+  {
+    question: "¿El uso de comandos de consola desactivará los logros?",
+    answer: "Generalmente, sí. La mayoría de los títulos publicados por Bethesda desactivan los logros durante la sesión de juego una vez que se usa un comando de 'truco' como g_god o give all."
+  },
+  {
+    question: "¿Cuál es el comando para noclip?",
+    answer: "El comando principal es 'noclip'. Si eso no funciona, 'idclip' es la alternativa específica del motor que se suele usar en los títulos de MachineGames."
+  },
+  {
+    question: "¿Puedo usar estos comandos en Xbox o PlayStation?",
+    answer: "No. Los comandos de consola están restringidos a la versión de PC del juego. Los jugadores de consola deben confiar en exploits del juego o parches para solucionar problemas de progresión."
+  }
+]} />
+
+</Section>

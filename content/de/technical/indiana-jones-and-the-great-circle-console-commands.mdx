@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle Konsolenbefehle: 2026 PC Cheat Guide",
+  description: "Entfesseln Sie das volle Potenzial der Indiana Jones and the Great Circle Konsolenbefehle. Erfahren Sie, wie Sie den God-Modus, Noclip aktivieren und Fortschrittsfehler auf dem PC beheben.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1a1a1a/f39c12?text=Console+Commands+Guide",
+  date: "2026-05-20",
+  author: "Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Indiana Jones and the Great Circle Konsolenbefehle** sind primär in der PC-Version über die Tilde-Taste zugänglich.
+- **Engine-Hintergrund**: Das Spiel verwendet die id Tech-Engine, was bedeutet, dass viele Befehle der Standard-Syntax von Bethesda/MachineGames folgen.
+- **Fehlerbehebung**: Befehle wie `noclip` (oder `idclip`) sind unerlässlich, um geometriebezogene Fortschrittsblockaden zu umgehen.
+- **Achievement-Warnung**: Die Verwendung bestimmter "Cheat"-Befehle kann Steam- oder Xbox-Errungenschaften für die aktuelle Sitzung deaktivieren.
+- **Drittanbieter-Tools**: Wenn die native Konsole eingeschränkt ist, bieten externe Trainer wie WeMod zuverlässige Alternativen für 2026.
+</Callout>
+
+<Section icon={Map} title="Zugriff auf die Befehlskonsole in The Great Circle">
+
+Um **Indiana Jones and the Great Circle Konsolenbefehle** nutzen zu können, müssen Spieler zunächst die architektonischen Wurzeln des Spiels verstehen. Der Titel wurde von MachineGames entwickelt und läuft auf einer stark modifizierten Version der id Tech-Engine. Historisch gesehen ermöglicht diese Engine Entwicklern und Spielern den Zugriff auf eine "Entwicklerkonsole", um Spielvariablen in Echtzeit zu ändern.
+
+In der PC-Version wird die Konsole typischerweise durch Drücken der **Tilde (~)**-Taste aufgerufen, die sich direkt unter der Escape (Esc)-Taste befindet. Bei einigen Tastaturbelegungen müssen Sie möglicherweise `Strg + Alt + ~` oder `Umschalt + ~` verwenden. Sobald die transparente Überlagerung oben auf dem Bildschirm erscheint, können Sie spezifische Zeichenketten eingeben, um Gameplay-Mechaniken, Bewegung oder Umwelteinstellungen zu ändern.
+
+| Funktion | PC-Zugriffsmethode | Konsolenzugriff |
+| :--- | :--- | :--- |
+| **Primärtaste** | Tilde (~) | Nicht verfügbar |
+| **Alternative** | Strg + Alt + ~ | Nicht verfügbar |
+| **Trainer-Unterstützung** | Hoch (WeMod/CheatEngine) | Keine |
+| **Befehlsverlauf** | Pfeiltasten Hoch/Runter | N/A |
+
+<Callout type="tip" title="Entwicklermodus">
+Wenn sich die Konsole nicht standardmäßig öffnet, müssen Sie möglicherweise `-devmode` oder `+com_allowconsole 1` zu den Startoptionen des Spiels in Steam oder der Xbox App hinzufügen. Dies zwingt die Engine, die Befehlsschnittstelle beim Start zu initialisieren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Essentielle Konsolenbefehle und Cheats">
+
+Während viele Spieler **Indiana Jones and the Great Circle Konsolenbefehle** suchen, um einen unfairen Vorteil zu erlangen, nutzen die meisten sie, um das filmische Erlebnis zu verbessern oder schwierige Rätsel zu überwinden. Die Befehle sind in Bewegungs-, Kampf- und Dienstprogramm-Kategorien unterteilt. Da sich das Spiel stark auf die Ego-Erkundung und Peitschenmechaniken konzentriert, sind Bewegungsbefehle die begehrtesten.
+
+Die folgende Tabelle listet die effektivsten Befehle auf, die im Rahmen der Engine für 2026 identifiziert wurden. Beachten Sie, dass die Syntax exakt sein muss, einschließlich Unterstrichen.
+
+| Befehl | Funktion | Empfohlene Verwendung |
+| :--- | :--- | :--- |
+| **g_god 1** | Aktiviert den God-Modus | Überleben tödlicher Fallenräume |
+| **noclip** | Kollision deaktivieren | Behebung von Geometrie-/Steckenbleiberproblemen |
+| **idclip** | Enginespezifischer Noclip | Alternative Bewegungsbehebung |
+| **g_infiniteammo 1** | Unbegrenzte Ressourcen | Kampfintensive Abschnitte |
+| **give all** | Gewährt alle Gegenstände/Waffen | Sandbox-Erkundung |
+| **timescale 0.5** | Verlangsamt die Zeit | Aufnehmen kinematischer Screenshots |
+
+<Callout type="success" title="Unterstützung für Legacy-Befehle">
+Interessanterweise erkennt die Engine immer noch Legacy-Befehle aus früheren MachineGames-Titeln wie Wolfenstein. Wenn ein spezifischer Great Circle-Befehl fehlschlägt, führt der Versuch des Wolfenstein-Äquivalents oft zu Ergebnissen.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Erkundungsbefehle">
+    - **noclip**: Durch Wände fliegen
+    - **g_showfps 1**: Leistung überwachen
+    - **listcvars**: Alle Befehle anzeigen
+  </Card>
+  <Card title="Kampf-Buffs">
+    - **g_god 1**: Unverwundbarkeit
+    - **give health**: Sofortige Heilung
+    - **give ammo**: Vorräte auffüllen
+  </Card>
+  <Card title="Dienstprogramm-Tools">
+    - **screenshot**: Hochauflösende Bilder aufnehmen
+    - **quit**: Sofortiger Beenden zum Desktop
+    - **clear**: Konsolenverlauf löschen
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Behebung von Fortschrittsfehlern und Feststecken">
+
+Ein häufiger Grund, warum Spieler nach **Indiana Jones and the Great Circle Konsolenbefehlen** suchen, ist die Behebung technischer Störungen. Zum Beispiel haben Spieler berichtet, im Sukothai "Fallenraum" während Nebenquests festzustecken. In diesen Szenarien kann Indy möglicherweise keine "Shimmy"-Aktion durch eine Wand ausführen, was das Spiel effektiv weich blockiert.
+
+Wenn Sie sich ohne eine aktuelle Speicherung gefangen finden, befolgen Sie diese Schritte, um die Konsole als Diagnosewerkzeug zu verwenden.
+
+<Steps>
+  <Step num="1" title="Konsole öffnen">
+    Drücken Sie die Taste **~**, um die Befehlsüberlagerung zu öffnen. Stellen Sie sicher, dass sich das Spiel nicht in einem pausierten Menüzustand befindet, da dies manchmal verhindern kann, dass die Konsole Eingaben registriert.
+  </Step>
+  <Step num="2" title="No-Clip aktivieren">
+    Geben Sie `noclip` oder `idclip` ein und drücken Sie die Eingabetaste. Sie sollten eine Bestätigungsmeldung im Konsolenprotokoll sehen. Dies ermöglicht es Indy, sich frei durch Wände und Böden zu bewegen.
+  </Step>
+  <Step num="3" title="Indy neu positionieren">
+    Fliegen Sie durch die problematische Geometrie (wie die Wand im Sukothai Fallenraum) auf die andere Seite, wo das Skript ausgelöst werden soll.
+  </Step>
+  <Step num="4" title="No-Clip deaktivieren">
+    Geben Sie `noclip` erneut ein, um die Schwerkraft und Kollision wieder zu aktivieren. **Warnung**: Stellen Sie sicher, dass Sie leicht über dem Boden schweben, um nicht durch die Karte zu fallen, wenn die Physik wieder einsetzt.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Skript-Trigger">
+Die Verwendung von Noclip kann manchmal unsichtbare "Trigger" umgehen, die für den Questfortschritt erforderlich sind. Wenn die Geschichte nach dem Durchqueren einer Wand nicht voranschreitet, müssen Sie möglicherweise zurückclippen und über bestimmte Bodenplatten gehen, um das nächste Ziel zu aktivieren.
+</Callout>
+
+| Feststeck-Szenario | Empfohlene Behebung | Alternative |
+| :--- | :--- | :--- |
+| **Wand-Shimmy-Bug** | noclip / idclip | Checkpoint neu laden |
+| **Durch die Karte fallen** | g_god 1 (zum Überleben) | Schnellreise |
+| **NPC spricht nicht** | reload | restart_level |
+| **Objektinteraktion fehlgeschlagen** | give [item_name] | Spieldateien überprüfen |
+
+</Section>
+
+<Section icon={Sparkles} title="Drittanbieter-Trainer und WeMod-Integration">
+
+In einigen Versionen des Spiels, insbesondere denen im Microsoft Store oder Game Pass, können die nativen **Indiana Jones and the Great Circle Konsolenbefehle** durch administrative Beschränkungen gesperrt sein. In diesen Fällen greifen Spieler im Jahr 2026 oft auf Drittanbieter-Software wie WeMod zurück, um ähnliche Ergebnisse zu erzielen, ohne manuell Zeichenketten eingeben zu müssen.
+
+Trainer bieten eine grafische Benutzeroberfläche (GUI), die "Cheats" über Hotkeys umschaltet. Dies ist oft sicherer für Anfänger, die befürchten, die Engine des Spiels durch die Eingabe falscher Konsolenvariablen zu beschädigen.
+
+<CardGrid cols={2}>
+  <Card title="WeMod-Funktionen">
+    - **Ein-Klick-Aktivierung**: Kein Auswendiglernen der Befehlssyntax erforderlich.
+    - **Sicheres Noclip**: Oft stabiler als Engine-Befehle.
+    - **Stealth-Modus**: Entwickelt, um Achievement-Flags zu vermeiden.
+  </Card>
+  <Card title="Vorteile der Engine-Konsole">
+    - **Keine Installation**: Direkt in den Spieldateien integriert.
+    - **Granulare Kontrolle**: Spezifische Variablen wie FOV oder Beleuchtung ändern.
+    - **Entwickler-Tools**: Zugriff auf Debug-Protokolle und Leistungsmetriken.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Software-Kompatibilität">
+Stellen Sie immer sicher, dass Ihr Trainer auf die neueste Spielversion aktualisiert ist. Die Verwendung eines Trainers von 2025 mit einem Spielpatch von 2026 kann zu Abstürzen oder einer Beschädigung Ihrer Speicherstände führen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vergleiche mit der Vergangenheit: Great Circle vs. Infernal Machine">
+
+Langjährige Fans des Franchises erinnern sich vielleicht an die ausgeklügelten Cheat-Codes für *Indiana Jones and the Infernal Machine*. Während dieser klassische Titel Codes wie `TAKLIT_MARION` für den God-Modus oder `MAKEMEAPIRATE` für Kostüme verwendete, folgen die **Indiana Jones and the Great Circle Konsolenbefehle** dem modernen id Tech-Standard.
+
+| Funktion | Infernal Machine (Legacy) | The Great Circle (2026) |
+| :--- | :--- | :--- |
+| **God-Modus-Code** | TAKLIT_MARION | g_god 1 |
+| **Noclip-Code** | FIXME | noclip / idclip |
+| **Waffenfreischaltung** | Alle Waffen (Cheat) | give all (Konsole) |
+| **Kostümänderungen** | MAKEMEAPIRATE | Kosmetikmenü / Mods |
+
+<Callout type="tip" title="Easter Eggs">
+Während Legacy-Codes wie `NUB_WILLIE` in der modernen Konsole nicht funktionieren, versteckt MachineGames oft Verweise auf diese alten Cheats in der Spielumgebung oder in Tagebucheinträgen als Anspielung auf erfahrene Spieler.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Finale Checkliste und FAQ">
+
+Bevor Sie mit der Entwicklerkonsole experimentieren, stellen Sie sicher, dass Sie eine Sicherung Ihres Fortschritts haben. Die Manipulation von Engine-Variablen kann unvorhergesehene Folgen für die physikbasierten Rätsel haben, die das Great Circle-Erlebnis definieren.
+
+<Checklist
+  id="console-safety"
+  title="Checkliste für sicheres Modding:"
+  items={[
+    "Erstellen Sie vor der Verwendung von Befehlen einen manuellen Speicherstand",
+    "Deaktivieren Sie 'Cloud Sync', wenn Sie Trainer verwenden möchten",
+    "Testen Sie 'noclip' zuerst in einem offenen Bereich",
+    "Identifizieren Sie die korrekte Engine-Syntax (id Tech 7/8)",
+    "Überprüfen Sie, ob Errungenschaften nach der Verwendung noch aktiv sind"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Wie öffne ich die Konsole in Indiana Jones and the Great Circle?",
+    answer: "Auf dem PC drücken Sie die Tilde (~)-Taste. Wenn sie sich nicht öffnet, stellen Sie sicher, dass Sie '+com_allowconsole 1' zu Ihren Startoptionen in Steam oder der Xbox App hinzugefügt haben."
+  },
+  {
+    question: "Deaktiviert die Verwendung von Konsolenbefehlen Errungenschaften?",
+    answer: "Im Allgemeinen ja. Die meisten von Bethesda veröffentlichten Titel deaktivieren Errungenschaften für die Dauer der Spielsitzung, sobald ein 'Cheat'-Befehl wie g_god oder give all verwendet wird."
+  },
+  {
+    question: "Was ist der Befehl für Noclip?",
+    answer: "Der primäre Befehl ist 'noclip'. Wenn das nicht funktioniert, ist 'idclip' die enginespezifische Alternative, die oft in MachineGames-Titeln verwendet wird."
+  },
+  {
+    question: "Kann ich diese Befehle auf Xbox oder PlayStation verwenden?",
+    answer: "Nein. Konsolenbefehle sind auf die PC-Version des Spiels beschränkt. Konsolenspieler müssen sich auf In-Game-Exploits oder Patches verlassen, um Fortschrittsprobleme zu beheben."
+  }
+]} />
+
+</Section>

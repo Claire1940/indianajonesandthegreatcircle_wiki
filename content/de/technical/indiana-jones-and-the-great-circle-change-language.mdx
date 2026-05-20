@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Language } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones und der Große Kreis: Sprache ändern – Schritt-für-Schritt-Anleitung",
+  description: "Erfahren Sie, wie Sie die Spracheinstellungen in Indiana Jones und der Große Kreis für PC (Xbox Game Pass, Steam) und Konsolen ändern.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/9e2b0e/fff?text=Indiana+Jones+Language",
+  date: "2026-05-20",
+  author: "Indiana Jones Wiki Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Systemsprache**: Für Xbox Game Pass und Konsolen verwendet **Indiana Jones und der Große Kreis** oft standardmäßig die Systemsprache.
+- **PC Game Pass**: Passen Sie die **Region & Sprache**-Einstellungen Ihres PCs an, um die Sprache des Spiels zu ändern.
+- **Steam**: Suchen Sie die Konfigurationsdateien des Spiels, um die Spracheinstellungen manuell zu bearbeiten, falls verfügbar.
+- **Audio & Untertitel**: Einige Plattformen ermöglichen separate Konfigurationen für Audio- und Untertitelsprachen.
+- **Unterstützte Sprachen**: Überprüfen Sie die unterstützten Sprachen des Spiels auf der offiziellen Bethesda-Supportseite.
+</Callout>
+
+<Section icon={Language} title="Sprache ändern in Indiana Jones und der Große Kreis">
+Die Navigation durch die Spracheinstellungen in *Indiana Jones und der Große Kreis* kann manchmal etwas knifflig sein, insbesondere abhängig von Ihrer Plattform. Im Gegensatz zu vielen Spielen mit In-Game-Sprachoptionen verlässt sich dieser Titel oft auf die Standard-Spracheinstellungen Ihres Systems. Diese Anleitung führt Sie durch die notwendigen Schritte für PC (Xbox Game Pass und Steam) und Konsolen, um sicherzustellen, dass Sie das Spiel in Ihrer bevorzugten Sprache genießen können.
+
+**Video-Highlights:**
+- Zeigt, wie man auf dem PC auf die Systemspracheinstellungen zugreift.
+- Erklärt den Prozess des Hinzufügens und Priorisierens einer neuen Sprache.
+- Erläutert die Methode zum Ändern der Audiosprache bei Beibehaltung lokaler Untertitel.
+
+<YouTubeEmbed videoId="IXNzluf-9b0" title="So ändern Sie die Audiosprache in Indiana Jones und der Große Kreis (PC)" />
+
+Für Spieler auf dem PC über Xbox Game Pass oder Konsolen übernimmt das Spiel in der Regel die auf Systemebene eingestellte Sprache. Das bedeutet, dass Sie zum Ändern der Spielsprache die Spracheinstellungen Ihres Betriebssystems oder Ihrer Konsole ändern müssen. Steam-Benutzer finden möglicherweise Optionen in den Spieleigenschaften, aber systemweite Änderungen können ebenfalls eine Rolle spielen.
+
+<Callout type="tip">
+Starten Sie das Spiel und gegebenenfalls Ihren PC oder Ihre Konsole immer neu, nachdem Sie systemweite Sprachänderungen vorgenommen haben, um sicherzustellen, dass die neuen Einstellungen korrekt angewendet werden.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PC-Sprachänderung: Xbox Game Pass Methode">
+Wenn Sie *Indiana Jones und der Große Kreis* über den Xbox Game Pass auf dem PC spielen, beinhaltet die primäre Methode zur Änderung der Spielsprache die Anpassung Ihrer Windows-Systemeinstellungen. Dieser Ansatz stellt sicher, dass das Spiel in Ihrer gewünschten Sprache startet.
+
+<Steps>
+  <Step num="1" title="Zugriff auf die Systemeinstellungen">
+    Klicken Sie auf das **Startmenü** und navigieren Sie zu den **Einstellungen**.
+  </Step>
+  <Step num="2" title="Gehe zu Zeit & Sprache">
+    Wählen Sie im Einstellungsfenster **Zeit & Sprache** aus dem linken Menü.
+  </Step>
+  <Step num="3" title="Sprache & Region auswählen">
+    Klicken Sie auf **Sprache & Region**, um Ihre installierten Sprachen anzuzeigen.
+  </Step>
+  <Step num="4" title="Bevorzugte Sprache hinzufügen">
+    Wenn Ihre gewünschte Sprache nicht aufgeführt ist, klicken Sie auf **Sprache hinzufügen** und wählen Sie sie aus der Liste aus.
+  </Step>
+  <Step num="5" title="Ihre Sprache priorisieren">
+    Nachdem Sie die Sprache hinzugefügt haben, klicken Sie auf die drei Punkte neben Ihrer bevorzugten Sprache und wählen Sie **Nach oben verschieben**, um sie an den Anfang der Liste zu setzen. Dies legt sie als Ihre primäre Anzeigesprache fest.
+  </Step>
+  <Step num="6" title="Spiel neu starten">
+    Schließen Sie die Xbox Game Pass-App vollständig und starten Sie dann *Indiana Jones und der Große Kreis* neu. Das Spiel sollte nun in der neu ausgewählten Sprache sein.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Wichtiger Hinweis für Audio-/Untertitel-Mix">
+Wenn Sie englische Audioausgabe mit Untertiteln in der Landessprache wünschen, ist ein Workaround erforderlich. Ändern Sie vorübergehend Ihre Systemsprache auf Englisch, starten Sie Ihren PC neu und laden Sie die englischen Audiodateien herunter. Suchen Sie dann den `en_US`-Soundordner im Inhaltsverzeichnis des Spiels (`Xbox Game App > Verwalten > Dateien > Durchsuchen > Indiana Jones und der Große Kreis > Inhalt > Basis > Sound > Externe Quellen > PC`), kopieren Sie ihn an einen sicheren Ort und setzen Sie Ihre Systemsprache zurück. Ersetzen Sie abschließend die Sounddateien durch Ihre gespeicherten englischen Audiodateien.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="PC-Sprachänderung: Steam-Methode">
+Für Spieler auf Steam kann der Prozess eine Kombination aus den integrierten Optionen von Steam und potenziell manueller Dateibearbeitung umfassen, falls keine Option im Spiel verfügbar ist.
+
+<Steps>
+  <Step num="1" title="Steam-Bibliothek öffnen">
+    Starten Sie Steam und gehen Sie zu Ihrer **Bibliothek**.
+  </Step>
+  <Step num="2" title="Spieleigenschaften aufrufen">
+    Klicken Sie mit der rechten Maustaste auf *Indiana Jones und der Große Kreis* in Ihrer Spieleliste und wählen Sie **Eigenschaften**.
+  </Step>
+  <Step num="3" title="Sprachregisterkarte prüfen">
+    Suchen Sie im Eigenschaftenfenster nach einem **Sprach**-Tab. Falls verfügbar, wählen Sie Ihre gewünschte Sprache aus dem Dropdown-Menü.
+  </Step>
+  <Step num="4" title="Spieldateien überprüfen">
+    Nachdem Sie die Sprache geändert haben, ist es oft eine gute Idee, zum Tab **Lokale Dateien** zu gehen und auf **Integrität der Spieldateien überprüfen...** zu klicken, um sicherzustellen, dass alle sprachspezifischen Assets heruntergeladen werden.
+  </Step>
+  <Step num="5" title="Manuelle Konfiguration (falls erforderlich)">
+    Wenn ein Sprach-Tab fehlt oder nicht funktioniert, könnten einige Spiele eine Konfigurationsdatei im Installationsverzeichnis des Spiels haben (z. B. `Steam/steamapps/common/Indiana Jones and the Great Circle/settings.ini` oder ähnliches), wo Sie den Spracheintrag manuell bearbeiten können.
+  </Step>
+</Steps>
+
+<Callout type="info">
+Die Möglichkeit, verschiedene Sprachen für Text und Sprachausgabe separat zu wählen, ist nicht immer eine In-Game-Funktion. Einige Spieler haben dies von den Entwicklern angefordert, und es könnte in zukünftigen Updates hinzugefügt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Konsolensprachänderung">
+Auf Konsolen (Xbox Series X|S) folgt *Indiana Jones und der Große Kreis* typischerweise der Systemsprache Ihrer Konsole. Es gibt normalerweise keine Optionen zur Sprachauswahl im Spiel.
+
+<Steps>
+  <Step num="1" title="Zu den Konsoleneinstellungen gehen">
+    Navigieren Sie vom Dashboard aus zum **Einstellungen**-Menü Ihrer Konsole.
+  </Step>
+  <Step num="2" title="Systemsprache auswählen">
+    Suchen Sie die Option **System** oder **Sprache & Standort**.
+  </Step>
+  <Step num="3" title="Ihre Sprache wählen">
+    Wählen Sie Ihre bevorzugte Sprache aus den verfügbaren Optionen.
+  </Step>
+  <Step num="4" title="Konsole neu starten">
+    Starten Sie Ihre Konsole neu, um die neuen Systemeinstellungen zu übernehmen.
+  </Step>
+  <Step num="5" title="Spiel starten">
+    Starten Sie *Indiana Jones und der Große Kreis*. Das Spiel sollte nun die gewählte Sprache Ihrer Konsole widerspiegeln.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Unterstützte Sprachen">
+Laut der offiziellen Supportseite von Bethesda bietet *Indiana Jones und der Große Kreis* Sprach- und Textunterstützung für Englisch, Französisch, Italienisch, Deutsch, Spanisch (Lateinamerikanisch und Kastilisch), brasilianisches Portugiesisch, Japanisch und Polnisch. Nur Textunterstützung umfasst Arabisch, traditionelles Chinesisch, vereinfachtes Chinesisch, Koreanisch und Russisch.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Unterstützte Sprachen und Fehlerbehebung">
+Es ist entscheidend zu verstehen, welche Sprachen von *Indiana Jones und der Große Kreis* offiziell unterstützt werden. Bethesda stellt eine umfassende Liste zur Verfügung, die bei der Fehlerbehebung helfen kann, falls eine gewünschte Sprache nicht angezeigt wird.
+
+<CardGrid cols={2}>
+  <Card title="Sprach- und Textunterstützung">
+    - **Englisch**
+    - **Französisch**
+    - **Italienisch**
+    - **Deutsch**
+    - **Spanisch** (Lateinamerikanisch & Kastilisch)
+    - **Brasilianisches Portugiesisch**
+    - **Japanisch**
+    - **Polnisch**
+  </Card>
+  <Card title="Nur Textunterstützung">
+    - **Arabisch**
+    - **Traditionelles Chinesisch**
+    - **Vereinfachtes Chinesisch**
+    - **Koreanisch**
+    - **Russisch**
+  </Card>
+</CardGrid>
+
+<Callout type="warning">
+Wenn Sie Probleme beim Ändern der Sprache haben, stellen Sie sicher, dass Ihr Spiel vollständig aktualisiert ist. Manchmal werden Sprachpakete als Teil von Spielupdates heruntergeladen. Wenn die Probleme weiterhin bestehen, wenden Sie sich an den Bethesda-Support, um plattformspezifische Unterstützung zu erhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Language} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie ändere ich die Sprache in Indiana Jones und der Große Kreis auf dem PC Game Pass?",
+    answer: "Um die Sprache auf dem PC Game Pass zu ändern, müssen Sie die 'Sprache & Region'-Einstellungen Ihres Windows-Systems anpassen. Fügen Sie Ihre gewünschte Sprache hinzu, verschieben Sie sie an den Anfang der Liste der bevorzugten Sprachen und starten Sie dann die Xbox Game Pass-App und das Spiel neu."
+  },
+  {
+    question: "Kann ich englische Audioausgabe und spanische Untertitel in Indiana Jones und der Große Kreis haben?",
+    answer: "Ja, aber es erfordert einen Workaround. Stellen Sie Ihre Systemsprache vorübergehend auf Englisch ein, um die englischen Audiodateien herunterzuladen. Kopieren Sie dann manuell den englischen Audioordner, setzen Sie Ihre Systemsprache auf Spanisch zurück und ersetzen Sie die Audiodateien durch die englischen. Dies ermöglicht Ihnen englische Audioausgabe mit spanischen Untertiteln."
+  },
+  {
+    question: "Gibt es im Spiel Sprachoptionen für Indiana Jones und der Große Kreis?",
+    answer: "Im Allgemeinen nicht. Für die meisten Plattformen (Xbox Game Pass PC und Konsolen) verlässt sich *Indiana Jones und der Große Kreis* auf die Standard-Spracheinstellungen Ihres Systems. Steam könnte eine Sprachregisterkarte in den Spieleigenschaften haben, aber systemweite Änderungen sind oft die primäre Methode."
+  },
+  {
+    question: "Welche Sprachen werden in Indiana Jones und der Große Kreis vollständig unterstützt (Sprach- und Textausgabe)?",
+    answer: "Das Spiel unterstützt vollständig Englisch, Französisch, Italienisch, Deutsch, Spanisch (Lateinamerikanisch und Kastilisch), brasilianisches Portugiesisch, Japanisch und Polnisch für Sprach- und Textausgabe. Zusätzliche Sprachen wie Arabisch, Chinesisch, Koreanisch und Russisch werden nur für den Text unterstützt."
+  }
+]} />
+
+</Section>

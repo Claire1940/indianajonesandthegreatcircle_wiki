@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones and the Great Circle: Higher Resolution Textures Explained",
+  description: "Explore how to enable and manage higher resolution textures in Indiana Jones and the Great Circle for an enhanced visual experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Indiana+Jones+Textures",
+  date: "2026-05-20",
+  author: "Indiana Jones Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Indiana Jones and the Great Circle higher resolution textures** enhance visual fidelity.
+- **VRAM management** is crucial for stable performance with high-res textures.
+- **Texture Pool Size** is the most impactful setting for texture quality.
+- **Console commands** like `r_lodscale` can mitigate LOD pop-in.
+- **Dedicated texture packs** may be available on certain platforms.
+</Callout>
+
+<Section icon={Sparkles} title="Unveiling Higher Resolution Textures in Indiana Jones and the Great Circle">
+*Indiana Jones and the Great Circle* promises an immersive adventure, and for many players, visual fidelity is key to that experience. Higher resolution textures play a significant role in bringing the game's environments and characters to life, offering sharper details and a more realistic look. This guide will delve into how these textures impact your gameplay and how to best manage them for optimal performance and visual quality.
+
+The game, built on id Software's Id Tech 7 engine, is known for its visual prowess. While it embraces advanced features like Ray Tracing, the engine also allows for detailed texture work. However, pushing these visuals to their limits, especially with higher resolution textures, requires careful consideration of your system's capabilities, particularly VRAM.
+
+**Video Highlights:**
+- The Id Tech 7 engine pushes visual fidelity, embracing Ray Tracing.
+- Performance scalability of graphics settings can be limited.
+- Texture Pool Size is a crucial setting, especially for 8GB VRAM GPUs.
+- Managing VRAM is key to stable performance and higher settings.
+- Ray Traced Sun Shadows significantly improve shadow quality but are demanding.
+
+<YouTubeEmbed videoId="M22jOGHVDRg" title="Indiana Jones and the Great Circle | OPTIMIZATION GUIDE | Every Setting Tested | Best Settings" />
+
+Understanding the nuances of in-game settings is vital to achieving the best possible experience with **Indiana Jones and the Great Circle higher resolution textures**. Let's explore the key factors that influence texture quality and performance.
+
+<Callout type="tip" title="Optimize for VRAM">
+If you have a GPU with 8GB of VRAM, keeping the **Texture Pool Size** at 'Low' is often recommended to maintain stable performance and avoid VRAM-related slowdowns, even if it means slightly lower texture quality. This setting significantly impacts VRAM usage.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Managing Texture Settings for Optimal Performance">
+Achieving a balance between stunning visuals and smooth performance is the goal when dealing with higher resolution textures. Several in-game settings directly influence texture quality and VRAM consumption.
+
+<CardGrid cols={3}>
+  <Card title="Texture Pool Size">
+    - **Impact:** Directly affects texture resolution and VRAM usage.
+    - **Recommendation:** Adjust based on GPU VRAM. Lower for 8GB cards.
+    - **Benefit:** Prevents stuttering and performance drops.
+  </Card>
+  <Card title="Shadow Quality">
+    - **Impact:** Affects distant shadow detail and VRAM/performance.
+    - **Recommendation:** 'Medium' provides a good balance.
+    - **Benefit:** Noticeable visual improvement without excessive cost.
+  </Card>
+  <Card title="Global Illumination">
+    - **Impact:** Determines RTGI accuracy and VRAM/performance.
+    - **Recommendation:** 'Medium' offers a good trade-off.
+    - **Benefit:** Enhances ambient shading and lighting realism.
+  </Card>
+</CardGrid>
+
+The game's optimization guide highlights that while some settings have limited performance scalability, effectively managing VRAM usage is paramount. Even minor changes to texture-related settings can have a significant impact on stability, especially in VRAM-hungry scenarios.
+
+<Callout type="warning" title="VRAM Consumption Alert">
+Enabling **Supreme Texture Pool Size** alongside Frame Generation can lead to massive performance drops and stability issues, especially on GPUs with limited VRAM (e.g., 12GB RTX 4070 Super at 1440p). Always monitor your VRAM usage.
+</Callout>
+
+Here's a breakdown of how key settings affect your game:
+
+| Setting                 | Visual Impact (Low vs. High)                                 | Performance Impact (Low to Ultra) | VRAM Impact                 | Recommendation (8GB VRAM) |
+| :---------------------- | :----------------------------------------------------------- | :-------------------------------- | :-------------------------- | :------------------------ |
+| **Texture Pool Size**   | Significant difference in texture clarity                    | Highly variable (scene-dependent) | Very High                   | **Low**                   |
+| **Shadow Quality**      | Distant shadows show more detail on Ultra                    | Up to 18% drop                  | High                        | **Medium**                |
+| **Global Illumination** | Improves ambient shading, less 'glowy' scenes                | Up to 14% drop                  | High                        | **Medium**                |
+| **Hair Quality**        | Visually negligible difference                               | Minor                           | High                        | **Low**                   |
+| **Reflection Quality**  | Affects Screen Space Reflections and Cube-map reflections    | Negligible                      | Low                         | **Ultra**                 |
+| **Water Quality**       | Enables screen space reflections, caustic effects, ripples   | Negligible                      | Low                         | **Ultra**                 |
+| **Volumetrics Quality** | More defined and detailed volumetric effects                 | Minimal                         | Low                         | **Ultra**                 |
+| **Anisotropic Filtering** | Sharper textures at oblique angles                           | Negligible                      | Low                         | **Ultra**                 |
+
+</Section>
+
+<Section icon={Shield} title="Platform-Specific Texture Management">
+The availability and management of higher resolution textures can vary slightly depending on your gaming platform. While PC offers granular control through in-game settings, consoles often handle this differently.
+
+On Xbox Series X, players have reported an optional "higher resolution textures pack" that needs to be manually ticked for installation. This suggests that for some console versions, these packs might not be automatically included, potentially to save install size or cater to different console models (like the Series S).
+
+<Steps>
+  <Step num="1" title="Check for Optional Packs (Consoles)">
+    For Xbox Series X users, navigate to the game's "Manage game and add-ons" section. Look for an optional **higher resolution textures pack** and ensure it is selected for installation. This might not be automatically installed via Smart Delivery.
+  </Step>
+  <Step num="2" title="Adjust Texture Pool Size (PC)">
+    On PC, access the in-game graphics settings. Locate the **Texture Pool Size** option. If your GPU has 8GB of VRAM, start with 'Low' or 'Medium' and observe performance. For GPUs with more VRAM, you can experiment with 'High' or 'Supreme'.
+  </Step>
+  <Step num="3" title="Utilize Console Commands (PC)">
+    To address LOD pop-in, which can detract from the visual quality even with high-res textures, open the in-game console by pressing the tilde (~) key. Type `r_lodscale` followed by a value like `3` or `5`. This can significantly reduce pop-in without a major performance hit.
+  </Step>
+  <Step num="4" title="Monitor Performance">
+    After adjusting any texture settings, always monitor your game's performance. Use an FPS counter and keep an eye on VRAM usage. If you experience stutters or significant frame drops, consider lowering the Texture Pool Size or other VRAM-intensive settings.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Console Texture Packs">
+While Smart Delivery usually handles optimal asset delivery for consoles, some titles like *Indiana Jones and the Great Circle* might offer specific **higher resolution texture packs** as optional downloads. It's always worth checking your game's add-ons.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Impact of Ray Tracing and Upscaling on Texture Presentation">
+Ray Tracing and upscaling technologies, while not directly related to texture resolution, significantly influence how these textures are rendered and perceived in **Indiana Jones and the Great Circle**.
+
+The game's extensive use of Ray-Traced Global Illumination (RTGI) enhances lighting and shadows, making textures appear more grounded and realistic. However, enabling full Path Tracing features, especially RT Sun Shadows, comes with a substantial performance and VRAM cost. This can indirectly force players to compromise on texture quality if their system can't handle both.
+
+Upscaling solutions like DLSS (the only one currently available in-game) can help achieve playable frame rates at higher resolutions, but they are not without their drawbacks. DLSS can sometimes introduce visual artifacts like flickering black dots or shimmering, which can slightly detract from the crispness of high-resolution textures.
+
+| Feature                       | Primary Effect                     | VRAM Impact | Performance Cost (Approx.) | Texture Perception             |
+| :---------------------------- | :--------------------------------- | :---------- | :------------------------- | :----------------------------- |
+| **Ray Traced Sun Shadows**    | Eliminates flickering/low-quality shadows | Very High   | ~50% drop                | Textures appear more grounded  |
+| **Full Path Tracing**         | Comprehensive lighting and reflection | Extreme     | Massive drop               | Highly realistic texture interaction |
+| **DLSS (Upscaling)**          | Renders at lower internal res, upscales | Moderate    | Significant gain           | Can introduce artifacts/shimmering |
+| **Frame Generation**          | Generates interpolated frames      | High        | Improves smoothness, higher input lag | No direct texture impact, but higher VRAM can affect texture settings |
+
+<Checklist
+  id="advanced-visuals"
+  title="Considerations for Advanced Visuals:"
+  items={[
+    "Ensure sufficient VRAM for Ray Tracing and high textures.",
+    "Prioritize RT Sun Shadows for a good balance.",
+    "Be aware of DLSS artifacts affecting texture clarity.",
+    "Enable Frame Generation only if VRAM headroom allows.",
+    "Experiment with `r_lodscale` for better Level of Detail."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizing Your Visual Experience with Higher Resolution Textures">
+Optimizing the visual experience in *Indiana Jones and the Great Circle* involves a holistic approach, especially when aiming for **higher resolution textures**. It's not just about cranking up every setting, but understanding how each option interacts with your hardware.
+
+While the game's performance scalability through settings adjustments can be limited, smart management of VRAM-intensive options is the key to maintaining stability. For instance, even if your GPU has more than 8GB of VRAM, pushing texture quality to 'Supreme' alongside other demanding settings like Ray Tracing and Frame Generation can still lead to instability.
+
+<Callout type="success" title="Recommended Approach">
+Prioritize **Texture Pool Size** and **Shadow Quality** for their significant visual impact. For less demanding settings like Decals, Reflections, Water, Volumetrics, Texture Anisotropic Filtering, and Vegetation Animation, you can generally leave them at their highest quality without a noticeable performance hit.
+</Callout>
+
+By carefully tweaking these settings, you can enjoy the rich, detailed environments that **Indiana Jones and the Great Circle higher resolution textures** offer, without sacrificing the smooth gameplay experience essential for any adventure.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Do I need a powerful PC for Indiana Jones and the Great Circle higher resolution textures?",
+    answer: "While the game is optimized, running higher resolution textures, especially with Ray Tracing, will benefit significantly from a powerful GPU with ample VRAM (12GB or more is ideal) to maintain stable performance."
+  },
+  {
+    question: "How do I install higher resolution textures on Xbox Series X?",
+    answer: "On Xbox Series X, navigate to 'Manage game and add-ons' for Indiana Jones and the Great Circle. Look for an optional 'higher resolution textures pack' and ensure it is ticked for installation, as it might not be automatically installed."
+  },
+  {
+    question: "What is the most important setting for higher resolution textures?",
+    answer: "The 'Texture Pool Size' setting is the most crucial for controlling the quality of higher resolution textures and its impact on VRAM usage. Adjusting this is key to balancing visuals and performance."
+  },
+  {
+    question: "Can console commands improve texture quality beyond in-game settings?",
+    answer: "While console commands like `r_lodscale` can help mitigate LOD pop-in and improve the overall perception of detail, they don't directly increase the base resolution of textures. They primarily affect how and when textures are rendered at different distances."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Language } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones et le Grand Cercle : Guide étape par étape pour changer la langue",
+  description: "Apprenez à modifier les paramètres de langue dans Indiana Jones et le Grand Cercle pour PC (Xbox Game Pass, Steam) et consoles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/9e2b0e/fff?text=Indiana+Jones+Language",
+  date: "2026-05-20",
+  author: "Équipe Wiki Indiana Jones"
+}
+
+<Callout type="info" title="Guide rapide">
+- **Langue du système**: Pour le Xbox Game Pass et les consoles, **Indiana Jones et le Grand Cercle** utilise souvent la langue par défaut de votre système.
+- **PC Game Pass**: Ajustez les paramètres de **Région et langue** de votre PC pour changer la langue du jeu.
+- **Steam**: Localisez les fichiers de configuration du jeu pour modifier manuellement les paramètres de langue, si disponible.
+- **Audio et sous-titres**: Certaines plateformes permettent des configurations distinctes pour la langue audio et les sous-titres.
+- **Langues prises en charge**: Vérifiez les langues prises en charge par le jeu sur la page de support officielle de Bethesda.
+</Callout>
+
+<Section icon={Language} title="Changer la langue dans Indiana Jones et le Grand Cercle">
+Naviguer dans les paramètres de langue d'*Indiana Jones et le Grand Cercle* peut parfois être un peu délicat, surtout en fonction de votre plateforme. Contrairement à de nombreux jeux avec des options de langue intégrées, ce titre s'appuie souvent sur les paramètres de langue par défaut de votre système. Ce guide vous expliquera les étapes nécessaires pour PC (Xbox Game Pass et Steam) et consoles afin de vous assurer de pouvoir profiter du jeu dans votre langue préférée.
+
+**Points forts de la vidéo :**
+- Démontre comment accéder aux paramètres de langue du système sur PC.
+- Montre le processus d'ajout et de priorisation d'une nouvelle langue.
+- Explique la méthode pour changer la langue audio tout en conservant les sous-titres locaux.
+
+<YouTubeEmbed videoId="IXNzluf-9b0" title="Comment changer la langue audio dans Indiana Jones et le Grand Cercle (PC)" />
+
+Pour les joueurs sur PC via Xbox Game Pass ou consoles, le jeu hérite généralement de la langue définie au niveau du système. Cela signifie que pour changer la langue du jeu, vous devrez modifier les préférences linguistiques de votre système d'exploitation ou de votre console. Les utilisateurs de Steam pourraient trouver des options dans les propriétés du jeu, mais les changements au niveau du système peuvent également être un facteur.
+
+<Callout type="tip">
+Redémarrez toujours le jeu et potentiellement votre PC ou votre console après avoir effectué des changements de langue au niveau du système pour vous assurer que les nouveaux paramètres sont appliqués correctement.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Changement de langue PC : Méthode Xbox Game Pass">
+Si vous jouez à *Indiana Jones et le Grand Cercle* via le Xbox Game Pass sur PC, la méthode principale pour changer la langue du jeu consiste à ajuster les paramètres de votre système Windows. Cette approche garantit que le jeu se lance dans la langue souhaitée.
+
+<Steps>
+  <Step num="1" title="Accéder aux paramètres système">
+    Cliquez sur le **Menu Démarrer** et naviguez vers **Paramètres**.
+  </Step>
+  <Step num="2" title="Aller à Heure et langue">
+    Dans la fenêtre Paramètres, sélectionnez **Heure et langue** dans le menu de gauche.
+  </Step>
+  <Step num="3" title="Sélectionner Langue et région">
+    Cliquez sur **Langue et région** pour afficher vos langues installées.
+  </Step>
+  <Step num="4" title="Ajouter une langue préférée">
+    Si la langue souhaitée ne figure pas dans la liste, cliquez sur **Ajouter une langue** et sélectionnez-la dans la liste.
+  </Step>
+  <Step num="5" title="Prioriser votre langue">
+    Une fois ajoutée, cliquez sur les trois points à côté de votre langue préférée et sélectionnez **Monter** pour la placer en haut de la liste. Cela la définit comme votre langue d'affichage principale.
+  </Step>
+  <Step num="6" title="Relancer le jeu">
+    Fermez complètement l'application Xbox Game Pass, puis relancez *Indiana Jones et le Grand Cercle*. Le jeu devrait maintenant être dans la langue que vous avez sélectionnée.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Note importante pour le mélange audio/sous-titres">
+Si vous souhaitez avoir l'audio en anglais avec des sous-titres en langue locale, une solution de contournement est nécessaire. Changez temporairement la langue de votre système en anglais, redémarrez votre PC et téléchargez les fichiers audio anglais. Ensuite, localisez le dossier de son `en_US` dans le répertoire de contenu du jeu (`application Xbox Game Pass > Gérer > Fichiers > Parcourir > Indiana Jones et le Grand Cercle > Content > Base > Sound > External Sources > PC`), copiez-le dans un endroit sûr et rétablissez la langue de votre système. Enfin, remplacez les fichiers sonores par votre audio anglais sauvegardé.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Changement de langue PC : Méthode Steam">
+Pour les joueurs sur Steam, le processus peut impliquer une combinaison d'options intégrées à Steam et potentiellement une édition manuelle des fichiers si une option en jeu n'est pas disponible.
+
+<Steps>
+  <Step num="1" title="Ouvrir la bibliothèque Steam">
+    Lancez Steam et accédez à votre **Bibliothèque**.
+  </Step>
+  <Step num="2" title="Accéder aux propriétés du jeu">
+    Faites un clic droit sur *Indiana Jones et le Grand Cercle* dans votre liste de jeux et sélectionnez **Propriétés**.
+  </Step>
+  <Step num="3" title="Vérifier l'onglet Langue">
+    Dans la fenêtre Propriétés, recherchez un onglet **Langue**. Si disponible, sélectionnez votre langue souhaitée dans le menu déroulant.
+  </Step>
+  <Step num="4" title="Vérifier les fichiers du jeu">
+    Après avoir changé la langue, il est souvent conseillé d'aller dans l'onglet **Fichiers locaux** et de cliquer sur **Vérifier l'intégrité des fichiers du jeu...** pour s'assurer que tous les éléments spécifiques à la langue sont téléchargés.
+  </Step>
+  <Step num="5" title="Configuration manuelle (si nécessaire)">
+    Si un onglet de langue est absent ou ne fonctionne pas, certains jeux peuvent avoir un fichier de configuration dans le répertoire d'installation du jeu (par exemple, `Steam/steamapps/common/Indiana Jones and the Great Circle/settings.ini` ou similaire) où vous pouvez modifier manuellement l'entrée de langue.
+  </Step>
+</Steps>
+
+<Callout type="info">
+La possibilité de choisir différentes langues pour le texte et la voix off séparément n'est pas toujours une fonctionnalité intégrée au jeu. Certains joueurs l'ont demandée aux développeurs, et elle pourrait être ajoutée dans de futures mises à jour.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Changement de langue sur console">
+Sur les consoles (Xbox Series X|S), *Indiana Jones et le Grand Cercle* suit généralement la langue système de votre console. Il n'y a généralement pas d'options de sélection de langue en jeu.
+
+<Steps>
+  <Step num="1" title="Accéder aux paramètres de la console">
+    Naviguez vers le menu **Paramètres** de votre console depuis le tableau de bord.
+  </Step>
+  <Step num="2" title="Sélectionner la langue du système">
+    Recherchez l'option **Système** ou **Langue et emplacement**.
+  </Step>
+  <Step num="3" title="Choisir votre langue">
+    Sélectionnez votre langue préférée parmi les options disponibles.
+  </Step>
+  <Step num="4" title="Redémarrer la console">
+    Redémarrez votre console pour appliquer les nouveaux paramètres de langue du système.
+  </Step>
+  <Step num="5" title="Lancer le jeu">
+    Démarrez *Indiana Jones et le Grand Cercle*. Le jeu devrait maintenant refléter la langue choisie de votre console.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Langues prises en charge">
+Selon la page de support officielle de Bethesda, *Indiana Jones et le Grand Cercle* offre un support vocal et textuel pour l'anglais, le français, l'italien, l'allemand, l'espagnol (latin-américain et castillan), le portugais brésilien, le japonais et le polonais. Le support textuel uniquement inclut l'arabe, le chinois traditionnel, le chinois simplifié, le coréen et le russe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Langues prises en charge et dépannage">
+Comprendre les langues officiellement prises en charge par *Indiana Jones et le Grand Cercle* est crucial. Bethesda fournit une liste complète, ce qui peut aider au dépannage si une langue que vous désirez n'apparaît pas.
+
+<CardGrid cols={2}>
+  <Card title="Support vocal et textuel">
+    - **Anglais**
+    - **Français**
+    - **Italien**
+    - **Allemand**
+    - **Espagnol** (latin-américain et castillan)
+    - **Portugais brésilien**
+    - **Japonais**
+    - **Polonais**
+  </Card>
+  <Card title="Support textuel uniquement">
+    - **Arabe**
+    - **Chinois traditionnel**
+    - **Chinois simplifié**
+    - **Coréen**
+    - **Russe**
+  </Card>
+</CardGrid>
+
+<Callout type="warning">
+Si vous rencontrez des problèmes de changement de langue, assurez-vous que votre jeu est entièrement mis à jour. Parfois, les packs de langues sont téléchargés dans le cadre des mises à jour du jeu. Si les problèmes persistent, envisagez de contacter le support de Bethesda pour une assistance spécifique à la plateforme.
+</Callout>
+
+</Section>
+
+<Section icon={Language} title="Foire aux questions (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Comment changer la langue dans Indiana Jones et le Grand Cercle sur PC Game Pass ?",
+    answer: "Pour changer la langue sur PC Game Pass, vous devez ajuster les paramètres « Langue et région » de votre système Windows. Ajoutez la langue souhaitée, déplacez-la en haut de la liste des langues préférées, puis redémarrez l'application Xbox Game Pass et le jeu."
+  },
+  {
+    question: "Puis-je avoir l'audio en anglais et les sous-titres en espagnol dans Indiana Jones et le Grand Cercle ?",
+    answer: "Oui, mais cela nécessite une solution de contournement. Définissez temporairement la langue de votre système en anglais pour télécharger les fichiers audio anglais. Ensuite, copiez manuellement le dossier audio anglais, rétablissez la langue de votre système en espagnol et remplacez les fichiers audio par les fichiers anglais. Cela vous donnera l'audio en anglais avec des sous-titres en espagnol."
+  },
+  {
+    question: "Y a-t-il des options de langue en jeu pour Indiana Jones et le Grand Cercle ?",
+    answer: "Généralement, non. Pour la plupart des plateformes (Xbox Game Pass PC et consoles), *Indiana Jones et le Grand Cercle* s'appuie sur les paramètres de langue par défaut de votre système. Steam pourrait avoir un onglet de langue dans les propriétés du jeu, mais les changements au niveau du système sont souvent la méthode principale."
+  },
+  {
+    question: "Quelles sont les langues entièrement prises en charge (voix et texte) dans Indiana Jones et le Grand Cercle ?",
+    answer: "Le jeu prend entièrement en charge l'anglais, le français, l'italien, l'allemand, l'espagnol (latin-américain et castillan), le portugais brésilien, le japonais et le polonais pour la voix et le texte. Des langues supplémentaires comme l'arabe, le chinois, le coréen et le russe sont prises en charge uniquement pour le texte."
+  }
+]} />
+
+</Section>

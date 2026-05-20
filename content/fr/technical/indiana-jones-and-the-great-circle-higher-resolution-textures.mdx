@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Indiana Jones et le Grand Cercle : Explication des textures haute résolution",
+  description: "Découvrez comment activer et gérer les textures haute résolution dans Indiana Jones et le Grand Cercle pour une expérience visuelle améliorée.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Indiana+Jones+Textures",
+  date: "2026-05-20",
+  author: "Équipe Wiki d'Indiana Jones"
+}
+
+<Callout type="info" title="Guide rapide">
+- Les **textures haute résolution d'Indiana Jones et le Grand Cercle** améliorent la fidélité visuelle.
+- La **gestion de la VRAM** est cruciale pour des performances stables avec des textures haute résolution.
+- La **taille du pool de textures** est le paramètre le plus impactant pour la qualité des textures.
+- Les **commandes console** comme `r_lodscale` peuvent atténuer le pop-in du LOD.
+- Des **packs de textures dédiés** peuvent être disponibles sur certaines plateformes.
+</Callout>
+
+<Section icon={Sparkles} title="Dévoiler les textures haute résolution dans Indiana Jones et le Grand Cercle">
+*Indiana Jones et le Grand Cercle* promet une aventure immersive, et pour de nombreux joueurs, la fidélité visuelle est la clé de cette expérience. Les textures haute résolution jouent un rôle important en donnant vie aux environnements et aux personnages du jeu, offrant des détails plus nets et un aspect plus réaliste. Ce guide expliquera comment ces textures impactent votre gameplay et comment les gérer au mieux pour des performances et une qualité visuelle optimales.
+
+Le jeu, construit sur le moteur Id Tech 7 d'id Software, est réputé pour ses prouesses visuelles. Bien qu'il intègre des fonctionnalités avancées comme le Ray Tracing, le moteur permet également un travail de texture détaillé. Cependant, pousser ces visuels à leurs limites, surtout avec des textures haute résolution, nécessite une attention particulière aux capacités de votre système, en particulier la VRAM.
+
+**Points forts de la vidéo :**
+- Le moteur Id Tech 7 pousse la fidélité visuelle, en intégrant le Ray Tracing.
+- L'évolutivité des performances des paramètres graphiques peut être limitée.
+- La taille du pool de textures est un paramètre crucial, surtout pour les GPU avec 8 Go de VRAM.
+- La gestion de la VRAM est essentielle pour des performances stables et des paramètres plus élevés.
+- Les ombres solaires Ray Traced améliorent considérablement la qualité des ombres mais sont exigeantes.
+
+<YouTubeEmbed videoId="M22jOGHVDRg" title="Indiana Jones et le Grand Cercle | GUIDE D'OPTIMISATION | Chaque paramètre testé | Meilleurs réglages" />
+
+Comprendre les nuances des paramètres du jeu est vital pour obtenir la meilleure expérience possible avec les **textures haute résolution d'Indiana Jones et le Grand Cercle**. Explorons les facteurs clés qui influencent la qualité des textures et les performances.
+
+<Callout type="tip" title="Optimiser pour la VRAM">
+Si vous avez un GPU avec 8 Go de VRAM, il est souvent recommandé de maintenir la **taille du pool de textures** sur 'Faible' pour maintenir des performances stables et éviter les ralentissements liés à la VRAM, même si cela signifie une qualité de texture légèrement inférieure. Ce paramètre a un impact significatif sur l'utilisation de la VRAM.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestion des paramètres de texture pour des performances optimales">
+Atteindre un équilibre entre des visuels époustouflants et des performances fluides est l'objectif lorsque l'on traite des textures haute résolution. Plusieurs paramètres du jeu influencent directement la qualité des textures et la consommation de VRAM.
+
+<CardGrid cols={3}>
+  <Card title="Taille du pool de textures">
+    - **Impact :** Affecte directement la résolution des textures et l'utilisation de la VRAM.
+    - **Recommandation :** Ajuster en fonction de la VRAM du GPU. Plus bas pour les cartes 8 Go.
+    - **Avantage :** Prévient les saccades et les baisses de performances.
+  </Card>
+  <Card title="Qualité des ombres">
+    - **Impact :** Affecte les détails des ombres lointaines et la VRAM/performance.
+    - **Recommandation :** 'Moyen' offre un bon équilibre.
+    - **Avantage :** Amélioration visuelle notable sans coût excessif.
+  </Card>
+  <Card title="Illumination globale">
+    - **Impact :** Détermine la précision du RTGI et la VRAM/performance.
+    - **Recommandation :** 'Moyen' offre un bon compromis.
+    - **Avantage :** Améliore l'ombrage ambiant et le réalisme de l'éclairage.
+  </Card>
+</CardGrid>
+
+Le guide d'optimisation du jeu souligne que si certains paramètres ont une évolutivité des performances limitée, une gestion efficace de l'utilisation de la VRAM est primordiale. Même des modifications mineures des paramètres liés aux textures peuvent avoir un impact significatif sur la stabilité, en particulier dans les scénarios gourmands en VRAM.
+
+<Callout type="warning" title="Alerte de consommation de VRAM">
+L'activation de la **taille du pool de textures suprême** en même temps que la génération de trames peut entraîner des baisses de performances massives et des problèmes de stabilité, en particulier sur les GPU avec une VRAM limitée (par exemple, 12 Go RTX 4070 Super à 1440p). Surveillez toujours votre utilisation de la VRAM.
+</Callout>
+
+Voici une ventilation de la façon dont les paramètres clés affectent votre jeu :
+
+| Paramètre                 | Impact visuel (Faible vs. Élevé)                                 | Impact sur les performances (Faible à Ultra) | Impact sur la VRAM                 | Recommandation (8 Go VRAM) |
+| :---------------------- | :----------------------------------------------------------- | :-------------------------------- | :-------------------------- | :------------------------ |
+| **Taille du pool de textures**   | Différence significative dans la clarté des textures                    | Très variable (dépend de la scène) | Très Élevé                   | **Faible**                   |
+| **Qualité des ombres**      | Les ombres lointaines montrent plus de détails en Ultra                    | Jusqu'à 18% de baisse                  | Élevé                        | **Moyen**                |
+| **Illumination globale** | Améliore l'ombrage ambiant, scènes moins 'lumineuses'                | Jusqu'à 14% de baisse                  | Élevé                        | **Moyen**                |
+| **Qualité des cheveux**        | Différence visuellement négligeable                               | Mineur                           | Élevé                        | **Faible**                   |
+| **Qualité des reflets**  | Affecte les reflets d'espace écran et les reflets de cube-map    | Négligeable                      | Faible                         | **Ultra**                 |
+| **Qualité de l'eau**       | Active les reflets d'espace écran, les effets caustiques, les ondulations   | Négligeable                      | Faible                         | **Ultra**                 |
+| **Qualité des volumétriques** | Effets volumétriques plus définis et détaillés                 | Minimal                         | Faible                         | **Ultra**                 |
+| **Filtrage anisotrope** | Textures plus nettes sous des angles obliques                           | Négligeable                      | Faible                         | **Ultra**                 |
+
+</Section>
+
+<Section icon={Shield} title="Gestion des textures spécifique à la plateforme">
+La disponibilité et la gestion des textures haute résolution peuvent varier légèrement selon votre plateforme de jeu. Alors que le PC offre un contrôle granulaire via les paramètres du jeu, les consoles gèrent souvent cela différemment.
+
+Sur Xbox Series X, les joueurs ont signalé un "pack de textures haute résolution" facultatif qui doit être coché manuellement pour l'installation. Cela suggère que pour certaines versions console, ces packs pourraient ne pas être inclus automatiquement, potentiellement pour économiser la taille d'installation ou pour s'adapter à différents modèles de console (comme la Series S).
+
+<Steps>
+  <Step num="1" title="Vérifier les packs optionnels (Consoles)">
+    Pour les utilisateurs de Xbox Series X, accédez à la section "Gérer le jeu et les extensions" du jeu. Recherchez un **pack de textures haute résolution** facultatif et assurez-vous qu'il est sélectionné pour l'installation. Il pourrait ne pas être automatiquement installé via Smart Delivery.
+  </Step>
+  <Step num="2" title="Ajuster la taille du pool de textures (PC)">
+    Sur PC, accédez aux paramètres graphiques du jeu. Localisez l'option **Taille du pool de textures**. Si votre GPU a 8 Go de VRAM, commencez par 'Faible' ou 'Moyen' et observez les performances. Pour les GPU avec plus de VRAM, vous pouvez expérimenter avec 'Élevé' ou 'Suprême'.
+  </Step>
+  <Step num="3" title="Utiliser les commandes console (PC)">
+    Pour résoudre le pop-in du LOD, qui peut nuire à la qualité visuelle même avec des textures haute résolution, ouvrez la console du jeu en appuyant sur la touche tilde (~). Tapez `r_lodscale` suivi d'une valeur comme `3` ou `5`. Cela peut réduire considérablement le pop-in sans impact majeur sur les performances.
+  </Step>
+  <Step num="4" title="Surveiller les performances">
+    Après avoir ajusté les paramètres de texture, surveillez toujours les performances de votre jeu. Utilisez un compteur FPS et gardez un œil sur l'utilisation de la VRAM. Si vous rencontrez des saccades ou des baisses de fréquences d'images significatives, envisagez de réduire la taille du pool de textures ou d'autres paramètres gourmands en VRAM.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Packs de textures console">
+Bien que Smart Delivery gère généralement la livraison optimale des ressources pour les consoles, certains titres comme *Indiana Jones et le Grand Cercle* pourraient offrir des **packs de textures haute résolution** spécifiques en téléchargement optionnel. Il est toujours utile de vérifier les extensions de votre jeu.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Impact du Ray Tracing et de l'upscaling sur la présentation des textures">
+Les technologies de Ray Tracing et d'upscaling, bien que non directement liées à la résolution des textures, influencent de manière significative la façon dont ces textures sont rendues et perçues dans **Indiana Jones et le Grand Cercle**.
+
+L'utilisation intensive par le jeu de l'Illumination Globale Ray Traced (RTGI) améliore l'éclairage et les ombres, rendant les textures plus ancrées et réalistes. Cependant, l'activation de toutes les fonctionnalités de Path Tracing, en particulier les ombres solaires RT, entraîne un coût substantiel en termes de performances et de VRAM. Cela peut indirectement forcer les joueurs à faire des compromis sur la qualité des textures si leur système ne peut pas gérer les deux.
+
+Les solutions d'upscaling comme le DLSS (la seule actuellement disponible dans le jeu) peuvent aider à atteindre des fréquences d'images jouables à des résolutions plus élevées, mais elles ne sont pas sans inconvénients. Le DLSS peut parfois introduire des artefacts visuels comme des points noirs scintillants ou des scintillements, ce qui peut légèrement nuire à la netteté des textures haute résolution.
+
+| Fonctionnalité                       | Effet principal                     | Impact VRAM | Coût de performance (environ) | Perception des textures             |
+| :---------------------------- | :--------------------------------- | :---------- | :------------------------- | :----------------------------- |
+| **Ombres solaires Ray Traced**    | Élimine les ombres scintillantes/de mauvaise qualité | Très Élevé   | ~50% de baisse                | Les textures semblent plus ancrées  |
+| **Full Path Tracing**         | Éclairage et réflexion complets | Extrême     | Baisse massive               | Interaction de texture très réaliste |
+| **DLSS (Upscaling)**          | Rend à une résolution interne inférieure, upscale | Modéré    | Gain significatif           | Peut introduire des artefacts/scintillements |
+| **Génération de trames**          | Génère des trames interpolées      | Élevé        | Améliore la fluidité, latence d'entrée plus élevée | Pas d'impact direct sur les textures, mais une VRAM plus élevée peut affecter les paramètres de texture |
+
+<Checklist
+  id="advanced-visuals"
+  title="Considérations pour les visuels avancés :"
+  items={[
+    "Assurez-vous d'avoir suffisamment de VRAM pour le Ray Tracing et les textures haute résolution.",
+    "Privilégiez les ombres solaires RT pour un bon équilibre.",
+    "Soyez conscient des artefacts DLSS affectant la clarté des textures.",
+    "Activez la génération de trames uniquement si la VRAM le permet.",
+    "Expérimentez avec `r_lodscale` pour un meilleur niveau de détail."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Optimiser votre expérience visuelle avec des textures haute résolution">
+L'optimisation de l'expérience visuelle dans *Indiana Jones et le Grand Cercle* implique une approche holistique, en particulier lorsque l'on vise des **textures haute résolution**. Il ne s'agit pas seulement de monter tous les paramètres, mais de comprendre comment chaque option interagit avec votre matériel.
+
+Bien que l'évolutivité des performances du jeu via les ajustements de paramètres puisse être limitée, une gestion intelligente des options gourmandes en VRAM est la clé pour maintenir la stabilité. Par exemple, même si votre GPU a plus de 8 Go de VRAM, pousser la qualité des textures à 'Suprême' en même temps que d'autres paramètres exigeants comme le Ray Tracing et la génération de trames peut toujours entraîner une instabilité.
+
+<Callout type="success" title="Approche recommandée">
+Privilégiez la **taille du pool de textures** et la **qualité des ombres** pour leur impact visuel significatif. Pour les paramètres moins exigeants comme les décalques, les reflets, l'eau, les volumétriques, le filtrage anisotrope des textures et l'animation de la végétation, vous pouvez généralement les laisser à leur qualité la plus élevée sans impact notable sur les performances.
+</Callout>
+
+En ajustant soigneusement ces paramètres, vous pourrez profiter des environnements riches et détaillés offerts par les **textures haute résolution d'Indiana Jones et le Grand Cercle**, sans sacrifier l'expérience de jeu fluide essentielle à toute aventure.
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Ai-je besoin d'un PC puissant pour les textures haute résolution d'Indiana Jones et le Grand Cercle ?",
+    answer: "Bien que le jeu soit optimisé, l'exécution de textures haute résolution, surtout avec le Ray Tracing, bénéficiera considérablement d'un GPU puissant avec une VRAM suffisante (12 Go ou plus est idéal) pour maintenir des performances stables."
+  },
+  {
+    question: "Comment installer des textures haute résolution sur Xbox Series X ?",
+    answer: "Sur Xbox Series X, accédez à 'Gérer le jeu et les extensions' pour Indiana Jones et le Grand Cercle. Recherchez un 'pack de textures haute résolution' facultatif et assurez-vous qu'il est coché pour l'installation, car il pourrait ne pas être automatiquement installé."
+  },
+  {
+    question: "Quel est le paramètre le plus important pour les textures haute résolution ?",
+    answer: "Le paramètre 'Taille du pool de textures' est le plus crucial pour contrôler la qualité des textures haute résolution et son impact sur l'utilisation de la VRAM. L'ajustement de ce paramètre est essentiel pour équilibrer les visuels et les performances."
+  },
+  {
+    question: "Les commandes console peuvent-elles améliorer la qualité des textures au-delà des paramètres du jeu ?",
+    answer: "Bien que les commandes console comme `r_lodscale` puissent aider à atténuer le pop-in du LOD et à améliorer la perception globale des détails, elles n'augmentent pas directement la résolution de base des textures. Elles affectent principalement la façon et le moment où les textures sont rendues à différentes distances."
+  }
+]} />
+
+</Section>
