@@ -1,0 +1,2042 @@
+{
+  "de": {
+    "codes": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-safe-codes",
+        "file": "Indiana-Jones-and-the-Great-Circle-safe-codes"
+      }
+    ],
+    "collectibles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-adventure-books",
+        "file": "Indiana-Jones-and-the-Great-Circle-adventure-books"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-iraq-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-iraq-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-outfits",
+        "file": "Indiana-Jones-and-the-Great-Circle-outfits"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-unlockables",
+        "file": "indiana-jones-and-the-great-circle-unlockables"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-vatican-mysteries",
+        "file": "indiana-jones-and-the-great-circle-vatican-mysteries"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-length",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-length"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants",
+        "file": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-idol-of-ra",
+        "file": "indiana-jones-and-the-great-circle-the-idol-of-ra"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-serpent-s-chest",
+        "file": "indiana-jones-and-the-great-circle-the-serpent's-chest"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-100-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-100-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-achievement-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-achievement-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-beginner-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-beginner-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-can-you-go-back",
+        "file": "Indiana-Jones-and-the-Great-Circle-can-you-go-back"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chapters",
+        "file": "Indiana-Jones-and-the-Great-Circle-chapters"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-difficulty",
+        "file": "Indiana-Jones-and-the-Great-Circle-difficulty"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-disguises",
+        "file": "Indiana-Jones-and-the-Great-Circle-disguises"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-easter-eggs",
+        "file": "Indiana-Jones-and-the-Great-Circle-easter-eggs"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-mission-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-mission-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-game-plus",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-game-plus"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-playtime",
+        "file": "Indiana-Jones-and-the-Great-Circle-playtime"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-quest-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-quest-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-secret-ending",
+        "file": "Indiana-Jones-and-the-Great-Circle-secret-ending"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tips",
+        "file": "Indiana-Jones-and-the-Great-Circle-tips"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-trophy-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-trophy-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-walkthrough"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-belongs-in-a-museum",
+        "file": "indiana-jones-and-the-great-circle-belongs-in-a-museum"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blessed-pearl",
+        "file": "indiana-jones-and-the-great-circle-blessed-pearl"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-boxing-ring",
+        "file": "indiana-jones-and-the-great-circle-boxing-ring"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-breathing-device",
+        "file": "indiana-jones-and-the-great-circle-breathing-device"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bright-future",
+        "file": "indiana-jones-and-the-great-circle-bright-future"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-defeat-locus",
+        "file": "indiana-jones-and-the-great-circle-defeat-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-donation-boxes",
+        "file": "indiana-jones-and-the-great-circle-donation-boxes"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-ending",
+        "file": "indiana-jones-and-the-great-circle-ending"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fortune-s-reach",
+        "file": "indiana-jones-and-the-great-circle-fortune's-reach"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-how-long-to-beat",
+        "file": "indiana-jones-and-the-great-circle-how-long-to-beat"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jungle-bruiser-pit",
+        "file": "indiana-jones-and-the-great-circle-jungle-bruiser-pit"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-kaina",
+        "file": "indiana-jones-and-the-great-circle-kaina"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-lighter",
+        "file": "indiana-jones-and-the-great-circle-lighter"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-locus",
+        "file": "indiana-jones-and-the-great-circle-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-monkey-business",
+        "file": "indiana-jones-and-the-great-circle-monkey-business"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-game-pass",
+        "file": "Indiana-Jones-and-the-Great-Circle-game-pass"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-pc",
+        "file": "Indiana-Jones-and-the-Great-Circle-pc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps4",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps4"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-xbox",
+        "file": "Indiana-Jones-and-the-Great-Circle-xbox"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble",
+        "file": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-atonements",
+        "file": "Indiana-Jones-and-the-Great-Circle-atonements"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chest-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-chest-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles",
+        "file": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions",
+        "file": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-date-to-remember",
+        "file": "indiana-jones-and-the-great-circle-a-date-to-remember"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-game-of-wits",
+        "file": "indiana-jones-and-the-great-circle-a-game-of-wits"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-study-in-fear",
+        "file": "indiana-jones-and-the-great-circle-a-study-in-fear"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-basilica-puzzle",
+        "file": "indiana-jones-and-the-great-circle-basilica-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blackshirt-key",
+        "file": "indiana-jones-and-the-great-circle-blackshirt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bookcase-puzzle",
+        "file": "indiana-jones-and-the-great-circle-bookcase-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-cloud-atlas",
+        "file": "indiana-jones-and-the-great-circle-cloud-atlas"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-discarded-key",
+        "file": "indiana-jones-and-the-great-circle-discarded-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-dragon-puzzle",
+        "file": "indiana-jones-and-the-great-circle-dragon-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle",
+        "file": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-elephant-in-the-room",
+        "file": "indiana-jones-and-the-great-circle-elephant-in-the-room"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-equipment-room-key",
+        "file": "indiana-jones-and-the-great-circle-equipment-room-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-father-and-son",
+        "file": "indiana-jones-and-the-great-circle-father-and-son"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-forged-book",
+        "file": "indiana-jones-and-the-great-circle-forged-book"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fountain-puzzle",
+        "file": "indiana-jones-and-the-great-circle-fountain-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-grandmothers-chalice",
+        "file": "indiana-jones-and-the-great-circle-grandmothers-chalice"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-haunted-crypt-key",
+        "file": "indiana-jones-and-the-great-circle-haunted-crypt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-house-of-god-puzzle",
+        "file": "indiana-jones-and-the-great-circle-house-of-god-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jesus-puzzle",
+        "file": "indiana-jones-and-the-great-circle-jesus-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle",
+        "file": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-riddles-of-the-ancients",
+        "file": "indiana-jones-and-the-great-circle-riddles-of-the-ancients"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-royal-army-key",
+        "file": "indiana-jones-and-the-great-circle-royal-army-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-gate",
+        "file": "indiana-jones-and-the-great-circle-underworld-gate"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-puzzle",
+        "file": "indiana-jones-and-the-great-circle-underworld-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-wine-puzzle",
+        "file": "indiana-jones-and-the-great-circle-wine-puzzle"
+      }
+    ],
+    "review": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ign-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-ign-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-imdb",
+        "file": "Indiana-Jones-and-the-Great-Circle-imdb"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-is-it-good",
+        "file": "Indiana-Jones-and-the-Great-Circle-is-it-good"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-metacritic",
+        "file": "Indiana-Jones-and-the-Great-Circle-metacritic"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-reviews",
+        "file": "Indiana-Jones-and-the-Great-Circle-reviews"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-should-i-buy",
+        "file": "Indiana-Jones-and-the-Great-Circle-should-i-buy"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-worth-it",
+        "file": "Indiana-Jones-and-the-Great-Circle-worth-it"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-microtransactions",
+        "file": "indiana-jones-and-the-great-circle-microtransactions"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-optimized-settings",
+        "file": "Indiana-Jones-and-the-Great-Circle-optimized-settings"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam-deck",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam-deck"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-system-requirements",
+        "file": "Indiana-Jones-and-the-Great-Circle-system-requirements"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-change-language",
+        "file": "indiana-jones-and-the-great-circle-change-language"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-console-commands",
+        "file": "indiana-jones-and-the-great-circle-console-commands"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-engine",
+        "file": "indiana-jones-and-the-great-circle-engine"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fsr-4",
+        "file": "indiana-jones-and-the-great-circle-fsr-4"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-higher-resolution-textures",
+        "file": "indiana-jones-and-the-great-circle-higher-resolution-textures"
+      }
+    ]
+  },
+  "en": {
+    "codes": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-safe-codes",
+        "file": "Indiana-Jones-and-the-Great-Circle-safe-codes"
+      }
+    ],
+    "collectibles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-adventure-books",
+        "file": "Indiana-Jones-and-the-Great-Circle-adventure-books"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-iraq-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-iraq-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-outfits",
+        "file": "Indiana-Jones-and-the-Great-Circle-outfits"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-unlockables",
+        "file": "indiana-jones-and-the-great-circle-unlockables"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-vatican-mysteries",
+        "file": "indiana-jones-and-the-great-circle-vatican-mysteries"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-length",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-length"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants",
+        "file": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-idol-of-ra",
+        "file": "indiana-jones-and-the-great-circle-the-idol-of-ra"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-serpent-s-chest",
+        "file": "indiana-jones-and-the-great-circle-the-serpent's-chest"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-100-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-100-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-achievement-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-achievement-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-beginner-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-beginner-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-can-you-go-back",
+        "file": "Indiana-Jones-and-the-Great-Circle-can-you-go-back"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chapters",
+        "file": "Indiana-Jones-and-the-Great-Circle-chapters"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-difficulty",
+        "file": "Indiana-Jones-and-the-Great-Circle-difficulty"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-disguises",
+        "file": "Indiana-Jones-and-the-Great-Circle-disguises"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-easter-eggs",
+        "file": "Indiana-Jones-and-the-Great-Circle-easter-eggs"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-mission-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-mission-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-game-plus",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-game-plus"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-playtime",
+        "file": "Indiana-Jones-and-the-Great-Circle-playtime"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-quest-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-quest-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-secret-ending",
+        "file": "Indiana-Jones-and-the-Great-Circle-secret-ending"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tips",
+        "file": "Indiana-Jones-and-the-Great-Circle-tips"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-trophy-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-trophy-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-walkthrough"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-belongs-in-a-museum",
+        "file": "indiana-jones-and-the-great-circle-belongs-in-a-museum"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blessed-pearl",
+        "file": "indiana-jones-and-the-great-circle-blessed-pearl"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-boxing-ring",
+        "file": "indiana-jones-and-the-great-circle-boxing-ring"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-breathing-device",
+        "file": "indiana-jones-and-the-great-circle-breathing-device"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bright-future",
+        "file": "indiana-jones-and-the-great-circle-bright-future"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-defeat-locus",
+        "file": "indiana-jones-and-the-great-circle-defeat-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-donation-boxes",
+        "file": "indiana-jones-and-the-great-circle-donation-boxes"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-ending",
+        "file": "indiana-jones-and-the-great-circle-ending"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fortune-s-reach",
+        "file": "indiana-jones-and-the-great-circle-fortune's-reach"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-how-long-to-beat",
+        "file": "indiana-jones-and-the-great-circle-how-long-to-beat"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jungle-bruiser-pit",
+        "file": "indiana-jones-and-the-great-circle-jungle-bruiser-pit"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-kaina",
+        "file": "indiana-jones-and-the-great-circle-kaina"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-lighter",
+        "file": "indiana-jones-and-the-great-circle-lighter"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-locus",
+        "file": "indiana-jones-and-the-great-circle-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-monkey-business",
+        "file": "indiana-jones-and-the-great-circle-monkey-business"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-game-pass",
+        "file": "Indiana-Jones-and-the-Great-Circle-game-pass"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-pc",
+        "file": "Indiana-Jones-and-the-Great-Circle-pc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps4",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps4"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-xbox",
+        "file": "Indiana-Jones-and-the-Great-Circle-xbox"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble",
+        "file": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-atonements",
+        "file": "Indiana-Jones-and-the-Great-Circle-atonements"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chest-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-chest-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles",
+        "file": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions",
+        "file": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-date-to-remember",
+        "file": "indiana-jones-and-the-great-circle-a-date-to-remember"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-game-of-wits",
+        "file": "indiana-jones-and-the-great-circle-a-game-of-wits"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-study-in-fear",
+        "file": "indiana-jones-and-the-great-circle-a-study-in-fear"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-basilica-puzzle",
+        "file": "indiana-jones-and-the-great-circle-basilica-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blackshirt-key",
+        "file": "indiana-jones-and-the-great-circle-blackshirt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bookcase-puzzle",
+        "file": "indiana-jones-and-the-great-circle-bookcase-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-cloud-atlas",
+        "file": "indiana-jones-and-the-great-circle-cloud-atlas"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-discarded-key",
+        "file": "indiana-jones-and-the-great-circle-discarded-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-dragon-puzzle",
+        "file": "indiana-jones-and-the-great-circle-dragon-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle",
+        "file": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-elephant-in-the-room",
+        "file": "indiana-jones-and-the-great-circle-elephant-in-the-room"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-equipment-room-key",
+        "file": "indiana-jones-and-the-great-circle-equipment-room-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-father-and-son",
+        "file": "indiana-jones-and-the-great-circle-father-and-son"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-forged-book",
+        "file": "indiana-jones-and-the-great-circle-forged-book"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fountain-puzzle",
+        "file": "indiana-jones-and-the-great-circle-fountain-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-grandmothers-chalice",
+        "file": "indiana-jones-and-the-great-circle-grandmothers-chalice"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-haunted-crypt-key",
+        "file": "indiana-jones-and-the-great-circle-haunted-crypt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-house-of-god-puzzle",
+        "file": "indiana-jones-and-the-great-circle-house-of-god-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jesus-puzzle",
+        "file": "indiana-jones-and-the-great-circle-jesus-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle",
+        "file": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-riddles-of-the-ancients",
+        "file": "indiana-jones-and-the-great-circle-riddles-of-the-ancients"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-royal-army-key",
+        "file": "indiana-jones-and-the-great-circle-royal-army-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-gate",
+        "file": "indiana-jones-and-the-great-circle-underworld-gate"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-puzzle",
+        "file": "indiana-jones-and-the-great-circle-underworld-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-wine-puzzle",
+        "file": "indiana-jones-and-the-great-circle-wine-puzzle"
+      }
+    ],
+    "review": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ign-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-ign-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-imdb",
+        "file": "Indiana-Jones-and-the-Great-Circle-imdb"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-is-it-good",
+        "file": "Indiana-Jones-and-the-Great-Circle-is-it-good"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-metacritic",
+        "file": "Indiana-Jones-and-the-Great-Circle-metacritic"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-reviews",
+        "file": "Indiana-Jones-and-the-Great-Circle-reviews"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-should-i-buy",
+        "file": "Indiana-Jones-and-the-Great-Circle-should-i-buy"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-worth-it",
+        "file": "Indiana-Jones-and-the-Great-Circle-worth-it"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-microtransactions",
+        "file": "indiana-jones-and-the-great-circle-microtransactions"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-optimized-settings",
+        "file": "Indiana-Jones-and-the-Great-Circle-optimized-settings"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam-deck",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam-deck"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-system-requirements",
+        "file": "Indiana-Jones-and-the-Great-Circle-system-requirements"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-change-language",
+        "file": "indiana-jones-and-the-great-circle-change-language"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-console-commands",
+        "file": "indiana-jones-and-the-great-circle-console-commands"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-engine",
+        "file": "indiana-jones-and-the-great-circle-engine"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fsr-4",
+        "file": "indiana-jones-and-the-great-circle-fsr-4"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-higher-resolution-textures",
+        "file": "indiana-jones-and-the-great-circle-higher-resolution-textures"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-safe-codes",
+        "file": "Indiana-Jones-and-the-Great-Circle-safe-codes"
+      }
+    ],
+    "collectibles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-adventure-books",
+        "file": "Indiana-Jones-and-the-Great-Circle-adventure-books"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-iraq-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-iraq-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-outfits",
+        "file": "Indiana-Jones-and-the-Great-Circle-outfits"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-unlockables",
+        "file": "indiana-jones-and-the-great-circle-unlockables"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-vatican-mysteries",
+        "file": "indiana-jones-and-the-great-circle-vatican-mysteries"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-length",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-length"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants",
+        "file": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-idol-of-ra",
+        "file": "indiana-jones-and-the-great-circle-the-idol-of-ra"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-serpent-s-chest",
+        "file": "indiana-jones-and-the-great-circle-the-serpent's-chest"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-100-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-100-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-achievement-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-achievement-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-beginner-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-beginner-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-can-you-go-back",
+        "file": "Indiana-Jones-and-the-Great-Circle-can-you-go-back"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chapters",
+        "file": "Indiana-Jones-and-the-Great-Circle-chapters"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-difficulty",
+        "file": "Indiana-Jones-and-the-Great-Circle-difficulty"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-disguises",
+        "file": "Indiana-Jones-and-the-Great-Circle-disguises"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-easter-eggs",
+        "file": "Indiana-Jones-and-the-Great-Circle-easter-eggs"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-mission-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-mission-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-game-plus",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-game-plus"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-playtime",
+        "file": "Indiana-Jones-and-the-Great-Circle-playtime"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-quest-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-quest-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-secret-ending",
+        "file": "Indiana-Jones-and-the-Great-Circle-secret-ending"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tips",
+        "file": "Indiana-Jones-and-the-Great-Circle-tips"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-trophy-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-trophy-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-walkthrough"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-belongs-in-a-museum",
+        "file": "indiana-jones-and-the-great-circle-belongs-in-a-museum"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blessed-pearl",
+        "file": "indiana-jones-and-the-great-circle-blessed-pearl"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-boxing-ring",
+        "file": "indiana-jones-and-the-great-circle-boxing-ring"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-breathing-device",
+        "file": "indiana-jones-and-the-great-circle-breathing-device"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bright-future",
+        "file": "indiana-jones-and-the-great-circle-bright-future"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-defeat-locus",
+        "file": "indiana-jones-and-the-great-circle-defeat-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-donation-boxes",
+        "file": "indiana-jones-and-the-great-circle-donation-boxes"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-ending",
+        "file": "indiana-jones-and-the-great-circle-ending"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fortune-s-reach",
+        "file": "indiana-jones-and-the-great-circle-fortune's-reach"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-how-long-to-beat",
+        "file": "indiana-jones-and-the-great-circle-how-long-to-beat"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jungle-bruiser-pit",
+        "file": "indiana-jones-and-the-great-circle-jungle-bruiser-pit"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-kaina",
+        "file": "indiana-jones-and-the-great-circle-kaina"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-lighter",
+        "file": "indiana-jones-and-the-great-circle-lighter"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-locus",
+        "file": "indiana-jones-and-the-great-circle-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-monkey-business",
+        "file": "indiana-jones-and-the-great-circle-monkey-business"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-game-pass",
+        "file": "Indiana-Jones-and-the-Great-Circle-game-pass"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-pc",
+        "file": "Indiana-Jones-and-the-Great-Circle-pc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps4",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps4"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-xbox",
+        "file": "Indiana-Jones-and-the-Great-Circle-xbox"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble",
+        "file": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-atonements",
+        "file": "Indiana-Jones-and-the-Great-Circle-atonements"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chest-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-chest-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles",
+        "file": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions",
+        "file": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-date-to-remember",
+        "file": "indiana-jones-and-the-great-circle-a-date-to-remember"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-game-of-wits",
+        "file": "indiana-jones-and-the-great-circle-a-game-of-wits"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-study-in-fear",
+        "file": "indiana-jones-and-the-great-circle-a-study-in-fear"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-basilica-puzzle",
+        "file": "indiana-jones-and-the-great-circle-basilica-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blackshirt-key",
+        "file": "indiana-jones-and-the-great-circle-blackshirt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bookcase-puzzle",
+        "file": "indiana-jones-and-the-great-circle-bookcase-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-cloud-atlas",
+        "file": "indiana-jones-and-the-great-circle-cloud-atlas"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-discarded-key",
+        "file": "indiana-jones-and-the-great-circle-discarded-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-dragon-puzzle",
+        "file": "indiana-jones-and-the-great-circle-dragon-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle",
+        "file": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-elephant-in-the-room",
+        "file": "indiana-jones-and-the-great-circle-elephant-in-the-room"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-equipment-room-key",
+        "file": "indiana-jones-and-the-great-circle-equipment-room-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-father-and-son",
+        "file": "indiana-jones-and-the-great-circle-father-and-son"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-forged-book",
+        "file": "indiana-jones-and-the-great-circle-forged-book"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fountain-puzzle",
+        "file": "indiana-jones-and-the-great-circle-fountain-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-grandmothers-chalice",
+        "file": "indiana-jones-and-the-great-circle-grandmothers-chalice"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-haunted-crypt-key",
+        "file": "indiana-jones-and-the-great-circle-haunted-crypt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-house-of-god-puzzle",
+        "file": "indiana-jones-and-the-great-circle-house-of-god-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jesus-puzzle",
+        "file": "indiana-jones-and-the-great-circle-jesus-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle",
+        "file": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-riddles-of-the-ancients",
+        "file": "indiana-jones-and-the-great-circle-riddles-of-the-ancients"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-royal-army-key",
+        "file": "indiana-jones-and-the-great-circle-royal-army-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-gate",
+        "file": "indiana-jones-and-the-great-circle-underworld-gate"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-puzzle",
+        "file": "indiana-jones-and-the-great-circle-underworld-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-wine-puzzle",
+        "file": "indiana-jones-and-the-great-circle-wine-puzzle"
+      }
+    ],
+    "review": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ign-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-ign-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-imdb",
+        "file": "Indiana-Jones-and-the-Great-Circle-imdb"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-is-it-good",
+        "file": "Indiana-Jones-and-the-Great-Circle-is-it-good"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-metacritic",
+        "file": "Indiana-Jones-and-the-Great-Circle-metacritic"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-reviews",
+        "file": "Indiana-Jones-and-the-Great-Circle-reviews"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-should-i-buy",
+        "file": "Indiana-Jones-and-the-Great-Circle-should-i-buy"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-worth-it",
+        "file": "Indiana-Jones-and-the-Great-Circle-worth-it"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-microtransactions",
+        "file": "indiana-jones-and-the-great-circle-microtransactions"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-optimized-settings",
+        "file": "Indiana-Jones-and-the-Great-Circle-optimized-settings"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam-deck",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam-deck"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-system-requirements",
+        "file": "Indiana-Jones-and-the-Great-Circle-system-requirements"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-change-language",
+        "file": "indiana-jones-and-the-great-circle-change-language"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-console-commands",
+        "file": "indiana-jones-and-the-great-circle-console-commands"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-engine",
+        "file": "indiana-jones-and-the-great-circle-engine"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fsr-4",
+        "file": "indiana-jones-and-the-great-circle-fsr-4"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-higher-resolution-textures",
+        "file": "indiana-jones-and-the-great-circle-higher-resolution-textures"
+      }
+    ]
+  },
+  "fr": {
+    "codes": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-safe-codes",
+        "file": "Indiana-Jones-and-the-Great-Circle-safe-codes"
+      }
+    ],
+    "collectibles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-adventure-books",
+        "file": "Indiana-Jones-and-the-Great-Circle-adventure-books"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-gizeh-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-iraq-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-iraq-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-africa"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-asia"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe",
+        "file": "Indiana-Jones-and-the-Great-Circle-lost-artifacts-of-europe"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-outfits",
+        "file": "Indiana-Jones-and-the-Great-Circle-outfits"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-ancient-relics"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-field-notes"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-photo-locations"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-unlockables",
+        "file": "indiana-jones-and-the-great-circle-unlockables"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-vatican-mysteries",
+        "file": "indiana-jones-and-the-great-circle-vatican-mysteries"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-length",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-length"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-dlc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-order-of-giants-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants",
+        "file": "Indiana-Jones-and-the-Great-Circle-the-order-of-giants"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc",
+        "file": "Indiana-Jones-and-the-Great-Circle-upcoming-dlc"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-idol-of-ra",
+        "file": "indiana-jones-and-the-great-circle-the-idol-of-ra"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-the-serpent-s-chest",
+        "file": "indiana-jones-and-the-great-circle-the-serpent's-chest"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-100-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-100-walkthrough"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-achievement-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-achievement-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-beginner-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-beginner-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-can-you-go-back",
+        "file": "Indiana-Jones-and-the-Great-Circle-can-you-go-back"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chapters",
+        "file": "Indiana-Jones-and-the-Great-Circle-chapters"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-difficulty",
+        "file": "Indiana-Jones-and-the-Great-Circle-difficulty"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-disguises",
+        "file": "Indiana-Jones-and-the-Great-Circle-disguises"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-easter-eggs",
+        "file": "Indiana-Jones-and-the-Great-Circle-easter-eggs"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-mission-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-mission-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-new-game-plus",
+        "file": "Indiana-Jones-and-the-Great-Circle-new-game-plus"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-playtime",
+        "file": "Indiana-Jones-and-the-Great-Circle-playtime"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-quest-list",
+        "file": "Indiana-Jones-and-the-Great-Circle-quest-list"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-secret-ending",
+        "file": "Indiana-Jones-and-the-Great-Circle-secret-ending"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tips",
+        "file": "Indiana-Jones-and-the-Great-Circle-tips"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-trophy-guide",
+        "file": "Indiana-Jones-and-the-Great-Circle-trophy-guide"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-walkthrough",
+        "file": "Indiana-Jones-and-the-Great-Circle-walkthrough"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-belongs-in-a-museum",
+        "file": "indiana-jones-and-the-great-circle-belongs-in-a-museum"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blessed-pearl",
+        "file": "indiana-jones-and-the-great-circle-blessed-pearl"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-boxing-ring",
+        "file": "indiana-jones-and-the-great-circle-boxing-ring"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-breathing-device",
+        "file": "indiana-jones-and-the-great-circle-breathing-device"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bright-future",
+        "file": "indiana-jones-and-the-great-circle-bright-future"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-defeat-locus",
+        "file": "indiana-jones-and-the-great-circle-defeat-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-donation-boxes",
+        "file": "indiana-jones-and-the-great-circle-donation-boxes"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-ending",
+        "file": "indiana-jones-and-the-great-circle-ending"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fortune-s-reach",
+        "file": "indiana-jones-and-the-great-circle-fortune's-reach"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-how-long-to-beat",
+        "file": "indiana-jones-and-the-great-circle-how-long-to-beat"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jungle-bruiser-pit",
+        "file": "indiana-jones-and-the-great-circle-jungle-bruiser-pit"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-kaina",
+        "file": "indiana-jones-and-the-great-circle-kaina"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-lighter",
+        "file": "indiana-jones-and-the-great-circle-lighter"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-locus",
+        "file": "indiana-jones-and-the-great-circle-locus"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-monkey-business",
+        "file": "indiana-jones-and-the-great-circle-monkey-business"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-game-pass",
+        "file": "Indiana-Jones-and-the-Great-Circle-game-pass"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-pc",
+        "file": "Indiana-Jones-and-the-Great-Circle-pc"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps4",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps4"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ps5",
+        "file": "Indiana-Jones-and-the-Great-Circle-ps5"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-release-date"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-switch-2",
+        "file": "Indiana-Jones-and-the-Great-Circle-switch-2"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-xbox",
+        "file": "Indiana-Jones-and-the-Great-Circle-xbox"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble",
+        "file": "Indiana-Jones-and-the-Great-Circle-a-nun-in-trouble"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-ancient-relic-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-atonements",
+        "file": "Indiana-Jones-and-the-Great-Circle-atonements"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-chest-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-chest-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles",
+        "file": "Indiana-Jones-and-the-Great-Circle-cogwheel-puzzles"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-egyptian-numeral-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-excavation-site-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-gold-path-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions",
+        "file": "Indiana-Jones-and-the-Great-Circle-photograph-inscriptions"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-sukhothai-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-timely-arrival-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle",
+        "file": "Indiana-Jones-and-the-Great-Circle-tomb-of-gibborim-puzzle"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-vatican-safe-code"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code",
+        "file": "Indiana-Jones-and-the-Great-Circle-voss-camp-safe-code"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-date-to-remember",
+        "file": "indiana-jones-and-the-great-circle-a-date-to-remember"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-game-of-wits",
+        "file": "indiana-jones-and-the-great-circle-a-game-of-wits"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-a-study-in-fear",
+        "file": "indiana-jones-and-the-great-circle-a-study-in-fear"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-basilica-puzzle",
+        "file": "indiana-jones-and-the-great-circle-basilica-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-blackshirt-key",
+        "file": "indiana-jones-and-the-great-circle-blackshirt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-bookcase-puzzle",
+        "file": "indiana-jones-and-the-great-circle-bookcase-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-cloud-atlas",
+        "file": "indiana-jones-and-the-great-circle-cloud-atlas"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-discarded-key",
+        "file": "indiana-jones-and-the-great-circle-discarded-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-dragon-puzzle",
+        "file": "indiana-jones-and-the-great-circle-dragon-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle",
+        "file": "indiana-jones-and-the-great-circle-egyptian-statue-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-elephant-in-the-room",
+        "file": "indiana-jones-and-the-great-circle-elephant-in-the-room"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-equipment-room-key",
+        "file": "indiana-jones-and-the-great-circle-equipment-room-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-father-and-son",
+        "file": "indiana-jones-and-the-great-circle-father-and-son"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-forged-book",
+        "file": "indiana-jones-and-the-great-circle-forged-book"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fountain-puzzle",
+        "file": "indiana-jones-and-the-great-circle-fountain-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-grandmothers-chalice",
+        "file": "indiana-jones-and-the-great-circle-grandmothers-chalice"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-haunted-crypt-key",
+        "file": "indiana-jones-and-the-great-circle-haunted-crypt-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-house-of-god-puzzle",
+        "file": "indiana-jones-and-the-great-circle-house-of-god-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-jesus-puzzle",
+        "file": "indiana-jones-and-the-great-circle-jesus-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle",
+        "file": "indiana-jones-and-the-great-circle-khmer-cogwheel-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-riddles-of-the-ancients",
+        "file": "indiana-jones-and-the-great-circle-riddles-of-the-ancients"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-royal-army-key",
+        "file": "indiana-jones-and-the-great-circle-royal-army-key"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-gate",
+        "file": "indiana-jones-and-the-great-circle-underworld-gate"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-underworld-puzzle",
+        "file": "indiana-jones-and-the-great-circle-underworld-puzzle"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-wine-puzzle",
+        "file": "indiana-jones-and-the-great-circle-wine-puzzle"
+      }
+    ],
+    "review": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-ign-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-ign-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-imdb",
+        "file": "Indiana-Jones-and-the-Great-Circle-imdb"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-is-it-good",
+        "file": "Indiana-Jones-and-the-Great-Circle-is-it-good"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-metacritic",
+        "file": "Indiana-Jones-and-the-Great-Circle-metacritic"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-review",
+        "file": "Indiana-Jones-and-the-Great-Circle-review"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-reviews",
+        "file": "Indiana-Jones-and-the-Great-Circle-reviews"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-should-i-buy",
+        "file": "Indiana-Jones-and-the-Great-Circle-should-i-buy"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-worth-it",
+        "file": "Indiana-Jones-and-the-Great-Circle-worth-it"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-microtransactions",
+        "file": "indiana-jones-and-the-great-circle-microtransactions"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-optimized-settings",
+        "file": "Indiana-Jones-and-the-Great-Circle-optimized-settings"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-steam-deck",
+        "file": "Indiana-Jones-and-the-Great-Circle-steam-deck"
+      },
+      {
+        "slug": "Indiana-Jones-and-the-Great-Circle-system-requirements",
+        "file": "Indiana-Jones-and-the-Great-Circle-system-requirements"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-change-language",
+        "file": "indiana-jones-and-the-great-circle-change-language"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-console-commands",
+        "file": "indiana-jones-and-the-great-circle-console-commands"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-engine",
+        "file": "indiana-jones-and-the-great-circle-engine"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-fsr-4",
+        "file": "indiana-jones-and-the-great-circle-fsr-4"
+      },
+      {
+        "slug": "indiana-jones-and-the-great-circle-higher-resolution-textures",
+        "file": "indiana-jones-and-the-great-circle-higher-resolution-textures"
+      }
+    ]
+  }
+}
